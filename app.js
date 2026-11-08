@@ -56,11 +56,33 @@ function tokMatch(t, k) {
   }
   return false;
 }
+// Dikte kısaltmaları ve uzun terimleri bölebiliyor: "ABCD2" → "abc'deki 2", "hiperlipidemi" → "hiperli pide mi".
+// Bir anahtar parçası, 2–4 ardışık sözcüğün birleşimiyle de eşleşir; kaç sözcük tükettiğini döndürür.
+// Yanlış birleşmeleri önlemek için: ilk sözcük bağımsız bir kelime olamaz ("iki lider" ≠ "ikili") ve anahtar
+// son sözcüğün sonuna en fazla bir ek kadar (4 harf) yaklaşmalı ("atak sırasında" ≠ "ataksi").
+const NO_JOIN = new Set(['bir', 'iki', 'uc', 'dort', 'bes', 've', 'ile', 'bu', 'su', 'o', 'de', 'da', 'ki', 'mi', 'mu', 'ne', 'ya', 'ama', 'hem', 'en', 'cok', 'az', 'var', 'yok', 'her', 'gibi', 'icin']);
+function joinMatch(tt, i, k) {
+  if (NO_JOIN.has(tt[i].t)) return 0;
+  let joined = tt[i].t;
+  for (let n = 2; n <= 4 && i + n <= tt.length; n++) {
+    if (!k.startsWith(joined)) return 0;
+    joined += tt[i + n - 1].t;
+    if (k.length <= 3 ? joined === k : joined.startsWith(k) && joined.length - k.length <= 4) return n;
+  }
+  return 0;
+}
 function findKey(tt, kt) {
   const hits = [];
-  outer: for (let i = 0; i + kt.length <= tt.length; i++) {
-    for (let j = 0; j < kt.length; j++) if (!tokMatch(tt[i + j].t, kt[j])) continue outer;
-    hits.push([i, i + kt.length]);
+  outer: for (let i = 0; i < tt.length; i++) {
+    let p = i;
+    for (const k of kt) {
+      if (p >= tt.length) continue outer;
+      if (tokMatch(tt[p].t, k)) { p++; continue; }
+      const n = joinMatch(tt, p, k);
+      if (!n) continue outer;
+      p += n;
+    }
+    hits.push([i, p]);
   }
   return hits;
 }
@@ -120,13 +142,16 @@ function highlight(r) {
 /* ================================================================
    Durum
    ================================================================ */
-const DEFAULTS = { speakSec: 60, pass: 60, lang: 'tr-TR', mode: 'audio' };
+const DEFAULTS = { speakSec: 90, pass: 60, lang: 'tr-TR', mode: 'audio', v: 2 };
 const INTERVALS = [1, 3, 7, 14, 30];
 const LEVEL_BONUS = { 1: 25, 2: 50, 3: 80 };
 const RANKS = [[0, 'Stajyer'], [400, 'İntörn'], [1200, 'Asistan'], [3000, 'Uzman'], [6000, 'Doçent'], [10000, 'Profesör']];
 const LV_CANVAS = { 1: '#5CC487', 2: '#E2A94B', 3: '#E07AB5' };
 
-let settings = Object.assign({}, DEFAULTS, store.get('settings', {}));
+const savedSettings = store.get('settings', {});
+let settings = Object.assign({}, DEFAULTS, savedSettings);
+// v2: varsayılan anlatım süresi 60 sn'den 90 sn'ye çıktı. Eski varsayılanda kalanları taşı, 45 ya da 120 seçenlere dokunma.
+if (savedSettings.v !== 2) { if (settings.speakSec === 60) settings.speakSec = 90; settings.v = 2; store.set('settings', settings); }
 let prog = store.get('prog', {});
 let hist = store.get('hist', []);
 let xp = store.get('xp', 0);
@@ -139,6 +164,11 @@ let last = null;          // son sonuç
 let pending = null;       // yazıya dökülemeyen kayıt { ms, media }
 
 const speakMs = () => settings.speakSec * 1000;
+// "1,5 dakika", "45 saniye"; loc=true ise bulunma ekiyle: "1,5 dakikada", "45 saniyede".
+const speakLabel = loc => settings.speakSec < 60
+  ? `${settings.speakSec} saniye${loc ? 'de' : ''}`
+  : `${String(settings.speakSec / 60).replace('.', ',')} dakika${loc ? 'da' : ''}`;
+const renderSpeakCopy = () => document.querySelectorAll('[data-speak]').forEach(el => { el.textContent = speakLabel(el.dataset.speak === 'loc'); });
 const passT = () => settings.pass / 100;
 const saveS = () => (S ? store.set('session', S) : store.del('session'));
 function saveAll() { store.set('prog', prog); store.set('hist', hist); store.set('xp', xp); store.set('streak', streak); store.set('daily', daily); }
@@ -204,6 +234,7 @@ function renderHeader() {
 function renderHome() {
   ensureDaily();
   renderHeader();
+  renderSpeakCopy();
   renderResume();
   renderDaily();
   renderDue();
@@ -238,7 +269,7 @@ function renderDaily() {
   const doneN = d.ids.filter(id => d.done[id] != null).length;
   const leftMin = d.ids.filter(id => d.done[id] == null).reduce((s, id) => s + LEVELS[BY_ID[id].lvl].min + 5, 0);
   $('#daily-foot').innerHTML = doneN === 0
-    ? 'Araştırma 5 + 10 + 15 dakika, her soruya 1 dakika anlatım ve geri bildirim. <b>Toplam yaklaşık 45 dakika.</b>'
+    ? `Araştırma 5 + 10 + 15 dakika, her soruya ${speakLabel()} anlatım ve geri bildirim. <b>Toplam yaklaşık 45 dakika.</b>`
     : doneN < 3
       ? `<b>${doneN}/3 tamam.</b> Kalan yaklaşık ${leftMin} dakika.`
       : '<b>Bugünün 3\'lüsü tamam.</b> Üç konuyu kaynaktan okuyup anlattın. Yarın yeni set gelir.';
@@ -503,7 +534,7 @@ function renderExplain() {
   $('#rec-ring').style.strokeDashoffset = 339.3;
   $('#rec-btn').classList.remove('on'); $('#rec-btn').setAttribute('aria-label', 'Kaydı başlat');
   $('#rec-btn').disabled = false;
-  setRecStatus(`Hazır olduğunda kayda bas. ${settings.speakSec} saniyen var.`);
+  setRecStatus(`Hazır olduğunda kayda bas. ${speakLabel()}n var.`);
   pending = null;
   const w = [];
   if (!window.isSecureContext || !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) w.push('Mikrofon için siteyi http://localhost ya da https adresinden aç. Şimdilik yazarak cevaplayabilirsin.');
@@ -893,7 +924,7 @@ function tipsFor(r) {
     const top = Object.entries(r.fillers).sort((a, b) => b[1] - a[1]).slice(0, 3).map(([w, n]) => `“${w}” ×${n}`).join(', ');
     tips.push(`Dolgu kelimeler: ${top}. Yerine kısa bir sessizlik daha güçlü durur.`);
   }
-  if (r.words < 40) tips.push('Anlatım kısa kaldı. Bir dakika yaklaşık 120–140 kelime eder.');
+  if (r.words < settings.speakSec * 0.66) tips.push(`Anlatım kısa kaldı. ${speakLabel()} yaklaşık ${Math.round(settings.speakSec * 2 / 10) * 10}–${Math.round(settings.speakSec * 2.33 / 10) * 10} kelime eder.`);
   const p = prog[r.id];
   if (r.passed && p) tips.push(`Bu konu ${dayDiff(dayKey(), p.due)} gün sonra (${fmtDay(p.due)}) tekrar kuyruğuna düşecek.`);
   else tips.push('Yarın tekrar karşına çıkacak. Atladığın kavramları kaynakta bul ve kendi cümlenle not al.');
@@ -968,7 +999,7 @@ $('#r-notes').addEventListener('input', e => { if (S) store.set('notes:' + S.id,
 
 $('#mode-seg').addEventListener('click', e => { const b = e.target.closest('button'); if (b && !b.disabled) setMode(b.dataset.mode); });
 $('#rec-btn').addEventListener('click', () => { if (R.running) stopRecording(); else startRecording(); });
-$('#type-instead').addEventListener('click', () => showTyped('Anlattığını yaz. Süre tutulmaz; bir dakikada söyleyeceğin kadarını yaz:'));
+$('#type-instead').addEventListener('click', () => showTyped(`Anlattığını yaz. Süre tutulmaz; ${speakLabel(true)} söyleyeceğin kadarını yaz:`));
 $('#typed-submit').addEventListener('click', () => {
   const v = $('#typed').value.trim();
   if (!v) { toast('Önce anlattığını yaz.'); $('#typed').focus(); return; }
@@ -1000,7 +1031,11 @@ $('#btn-settings').addEventListener('click', () => {
   $('#reset-confirm').hidden = true;
   if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
 });
-$('#set-speak').addEventListener('change', e => { settings.speakSec = Number(e.target.value); store.set('settings', settings); if (view === 'explain' && !R.running) { $('#rec-time').textContent = fmtShort(speakMs()); setRecStatus(`Hazır olduğunda kayda bas. ${settings.speakSec} saniyen var.`); } });
+$('#set-speak').addEventListener('change', e => {
+  settings.speakSec = Number(e.target.value); store.set('settings', settings);
+  renderSpeakCopy(); if (view === 'home') renderDaily();
+  if (view === 'explain' && !R.running) { $('#rec-time').textContent = fmtShort(speakMs()); setRecStatus(`Hazır olduğunda kayda bas. ${speakLabel()}n var.`); }
+});
 $('#set-pass').addEventListener('change', e => { settings.pass = Number(e.target.value); store.set('settings', settings); if (view === 'home') renderHome(); renderHeader(); });
 $('#set-lang').addEventListener('change', e => { settings.lang = e.target.value; store.set('settings', settings); });
 $('#reset-ask').addEventListener('click', () => { $('#reset-confirm').hidden = false; });

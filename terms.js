@@ -41,8 +41,8 @@ window.TERMS = [
   ]},
   { id: "tia", tr: "Geçici iskemik atak (TİA)", en: "Transient ischemic attack", cat: "vas", lvl: 1, c: [
     ["!Geçici fokal defisit, kalıcı infarkt yok", "geçici|24 saat|yirmi dört saat|bir saat|kalıcı hasar|infarkt|enfarkt|difüzyon negatif|iz bırakmadan|düzel"],
-    ["!İnme habercisi: erken inme riski yüksek", "habercisi|uyarı|inme riski|erken inme|yüksek risk|ilk 48|48 saat|iki gün"],
-    ["ABCD2 risk skoru", "abcd"],
+    ["!İnme habercisi: erken inme riski yüksek", "haberci|uyarı|inme riski|erken inme|yüksek risk|ilk 48|48 saat|iki gün|önümüzdeki günler|sonraki günler|ilk günler|ilk hafta|yakın dönemde|atak geçirme|inme geçirme|inme olasılı|inme gelişme"],
+    ["ABCD2 risk skoru", "abcd|risk skor|risk skal"],
     ["Etiyoloji: karotis görüntüleme, ritim izlemi", "karotis|doppler|holter|ekg|elektrokardiyo|ekokardiyo|ritim"],
     ["!Antiplatelet tedavi (gerekirse ikili)", "aspirin|klopidogrel|antiagregan|antiplatelet|ikili|tikagrelor"],
     ["Risk faktörü kontrolü: statin, kan basıncı", "statin|hipertansiyon|tansiyon|risk faktör|kan basıncı"]
