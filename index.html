@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Unprompted Nöroloji</title>
+<meta name="description" content="Rastgele bir nöroloji konusu gelir. Yapay zekâ olmadan makalelerden araştır, notsuz bir dakikada sesli anlat, kavram bazlı geri bildirim al.">
+<meta name="theme-color" content="#EEF2F3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0C1318" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Unprompted">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="top-in">
+    <button class="brand" data-act="home" aria-label="Ana sayfa">
+      <svg class="brand-mark" viewBox="0 0 40 24" aria-hidden="true"><path d="M1 14h8l3-6 4 14 5-21 4 17 3-4h11" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <span class="brand-word">unprompted</span>
+      <span class="brand-tag">nöroloji</span>
+    </button>
+    <dl class="meters" aria-label="İlerleme">
+      <div><dt>Seri</dt><dd id="m-streak">0 gün</dd></div>
+      <div><dt>Biten konu</dt><dd id="m-done">0/42</dd></div>
+      <div><dt id="m-rank">Stajyer</dt><dd id="m-xp">0 XP</dd></div>
+    </dl>
+    <button class="icon-btn" id="btn-settings" aria-label="Ayarlar" title="Ayarlar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="7" r="2.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="17" r="2.2" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="app">
+
+  <!-- ===================== ANA SAYFA ===================== -->
+  <section id="v-home" class="view">
+    <div class="resume card" id="resume" hidden>
+      <div><p class="eyebrow">Yarım kalan</p><p class="resume-text" id="resume-text"></p></div>
+      <div class="row-actions"><button class="btn primary" id="resume-go">Devam et</button><button class="btn ghost" id="resume-drop">Bırak</button></div>
+    </div>
+
+    <div class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Yapay zekâ yok · sadece kaynaklar</p>
+        <h1>Zar at. Kaynaktan oku. Notsuz anlat.</h1>
+        <p class="lede">Rastgele bir nöroloji konusu gelir. Süre dolana kadar makalelerden araştırırsın, sonra bir dakikada sesli anlatırsın. Uygulama seni dinler, hangi kavramları yakaladığını ve neyi atladığını söyler.</p>
+        <ul class="pitch">
+          <li><b>Günde 3 soru</b><span>yaklaşık 45 dakika</span></li>
+          <li><b>1 soru</b><span>= 1 konu bitti</span></li>
+          <li><b id="pitch-count">42 konu</b><span>8 başlık</span></li>
+        </ul>
+      </div>
+
+      <div class="daily card" id="daily">
+        <div class="card-head">
+          <h2>Günün 3'lüsü</h2>
+          <span class="mono muted" id="daily-date"></span>
+        </div>
+        <ol class="daily-slots" id="daily-slots"></ol>
+        <p class="daily-foot" id="daily-foot"></p>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card roll" id="roll-card">
+        <div class="card-head"><h2>Serbest zar</h2><span class="mono muted">tek konu, tek soru</span></div>
+        <div class="seg" role="radiogroup" aria-label="Zorluk" id="lvl-seg">
+          <button role="radio" aria-checked="true" data-lvl="0">Karışık</button>
+          <button role="radio" aria-checked="false" data-lvl="1">Kolay <small>5 dk</small></button>
+          <button role="radio" aria-checked="false" data-lvl="2">Orta <small>10 dk</small></button>
+          <button role="radio" aria-checked="false" data-lvl="3">Zor <small>15 dk</small></button>
+        </div>
+        <label class="field"><span>Başlık</span>
+          <select id="cat-sel"><option value="">Tüm başlıklar</option></select>
+        </label>
+        <div class="reel" id="reel" aria-live="polite">
+          <span class="reel-text" id="reel-text">?</span>
+          <span class="reel-meta mono" id="reel-meta">Konu zarla belirlenir</span>
+        </div>
+        <div class="row-actions">
+          <button class="btn primary" id="btn-roll">Zar at</button>
+          <button class="btn" id="btn-go" hidden>Araştırmaya başla</button>
+        </div>
+      </div>
+
+      <div class="card review">
+        <div class="card-head"><h2>Tekrar kuyruğu</h2><span class="mono muted" id="due-count"></span></div>
+        <ul class="due-list" id="due-list"></ul>
+      </div>
+    </div>
+
+    <section class="howto" aria-labelledby="howto-h">
+      <h2 id="howto-h">Nasıl çalışır</h2>
+      <ol class="steps">
+        <li><b>Zar at</b><span>Konu rastgele gelir. Kolay 5, orta 10, zor 15 dakika araştırma süresi.</span></li>
+        <li><b>Kaynaktan oku</b><span>PubMed, StatPearls, Radiopaedia. Yapay zekâya sorma; okuduğunu kendi cümlenle not al.</span></li>
+        <li><b>Notsuz anlat</b><span>Notlar kapanır, 1 dakikan var. İstersen kamerayla 9:16 video çek.</span></li>
+        <li><b>Geri bildirim al</b><span>Yakaladığın ve atladığın kavramlar, konuşma hızı, dolgu kelimeler. Geçtiğin konu 1, 3, 7, 14 ve 30 gün sonra tekrar gelir.</span></li>
+      </ol>
+    </section>
+
+    <section class="map" aria-labelledby="map-h">
+      <div class="section-head">
+        <h2 id="map-h">Konu haritası</h2>
+        <div class="legend mono">
+          <span><i class="dot s-new"></i>yeni</span>
+          <span><i class="dot s-try"></i>denendi</span>
+          <span><i class="dot s-pass"></i>geçti</span>
+          <span><i class="dot s-master"></i>oturdu</span>
+        </div>
+      </div>
+      <div id="map" class="map-grid"></div>
+    </section>
+
+    <section class="history" aria-labelledby="hist-h">
+      <h2 id="hist-h">Son anlatımlar</h2>
+      <ol id="hist" class="hist-list"></ol>
+    </section>
+  </section>
+
+  <!-- ===================== ARAŞTIRMA ===================== -->
+  <section id="v-research" class="view" hidden>
+    <div class="stage-head">
+      <button class="btn ghost small" data-act="home">← Ana sayfa</button>
+      <div class="chips"><span class="chip" id="r-lvl"></span><span class="chip plain" id="r-cat"></span></div>
+    </div>
+    <div class="term-block">
+      <p class="eyebrow">Araştırma</p>
+      <h1 class="term" id="r-term"></h1>
+      <p class="term-en mono" id="r-en"></p>
+    </div>
+
+    <div class="timer-panel card">
+      <div class="timer mono" id="r-timer" aria-live="off">05:00</div>
+      <div class="timer-track" aria-hidden="true"><i id="r-bar"></i></div>
+      <div class="row-actions">
+        <button class="btn" id="r-pause">Duraklat</button>
+        <button class="btn" id="r-add">+2 dk</button>
+        <button class="btn primary" id="r-done">Hazırım, anlatmaya geç</button>
+      </div>
+      <p class="hint">Linkler yeni sekmede açılır. Sayaç arka planda da işler, süre bitince sesli uyarı gelir.</p>
+    </div>
+
+    <div class="research-grid">
+      <div class="card sources">
+        <h2>Kaynaklar</h2>
+        <ul class="source-list" id="r-sources"></ul>
+      </div>
+      <div class="card notes">
+        <div class="card-head"><h2>Notların</h2><span class="mono muted" id="r-notes-count">0 kelime</span></div>
+        <textarea id="r-notes" rows="10" placeholder="Kendi cümlelerinle yaz. Anlatırken bu alan kapanacak."></textarea>
+      </div>
+      <div class="card skeleton">
+        <h2>Bir dakikalık iskelet</h2>
+        <ol class="skel">
+          <li><b>Tanım</b> Tek cümle: ne bu?</li>
+          <li><b>Mekanizma</b> Neden olur, nerede bozulur?</li>
+          <li><b>Klinik</b> Hasta nasıl gelir, hangi bulgu?</li>
+          <li><b>Tanı</b> Hangi test, hangi görüntü?</li>
+          <li><b>Tedavi</b> İlk seçenek ve acil adım.</li>
+          <li><b>İnci</b> Akılda kalacak tek ayrıntı.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ANLATIM ===================== -->
+  <section id="v-explain" class="view" hidden>
+    <div class="stage-head">
+      <button class="btn ghost small" data-act="home">← Ana sayfa</button>
+      <div class="chips"><span class="chip" id="e-lvl"></span><span class="chip plain" id="e-cat"></span></div>
+    </div>
+    <div class="banner" id="e-banner" hidden>Süre doldu. Notların kapandı, şimdi anlatma zamanı.</div>
+    <div class="term-block">
+      <p class="eyebrow">Anlatım · notlar gizli</p>
+      <h1 class="term" id="e-term"></h1>
+      <p class="term-en mono" id="e-en"></p>
+    </div>
+
+    <div class="explain-grid">
+      <div class="card recorder">
+        <div class="seg small" role="radiogroup" aria-label="Kayıt türü" id="mode-seg">
+          <button role="radio" aria-checked="true" data-mode="audio">Sadece ses</button>
+          <button role="radio" aria-checked="false" data-mode="video">Kamera + ses (9:16)</button>
+        </div>
+
+        <div class="cam-wrap" id="cam-wrap" hidden>
+          <canvas id="cam-canvas" width="720" height="1280" aria-label="Kamera önizlemesi"></canvas>
+          <video id="cam-video" playsinline muted hidden></video>
+        </div>
+
+        <div class="eeg">
+          <canvas id="eeg" aria-hidden="true"></canvas>
+          <span class="eeg-label mono">Fp1–F3 · mikrofon</span>
+        </div>
+
+        <div class="rec-row">
+          <button class="rec-btn" id="rec-btn" aria-label="Kaydı başlat">
+            <svg viewBox="0 0 120 120" aria-hidden="true">
+              <circle class="rec-ring-bg" cx="60" cy="60" r="54"/>
+              <circle class="rec-ring" id="rec-ring" cx="60" cy="60" r="54"/>
+            </svg>
+            <span class="rec-core"></span>
+          </button>
+          <div>
+            <div class="rec-time mono" id="rec-time">1:00</div>
+            <p class="rec-status" id="rec-status">Hazır olduğunda kayda bas.</p>
+          </div>
+        </div>
+        <p class="warn" id="sr-warn" hidden></p>
+        <button class="btn ghost small" id="type-instead">Sesli anlatamıyorum, yazarak cevaplayacağım</button>
+      </div>
+
+      <div class="card live">
+        <div class="card-head"><h2>Canlı döküm</h2><span class="mono muted" id="live-count">0 kelime</span></div>
+        <div class="live-text" id="live" aria-live="polite"><span class="muted">Konuştukça burada yazıya dökülecek.</span></div>
+        <div class="typed" id="typed-wrap" hidden>
+          <label class="field"><span id="typed-label">Anlattığını yaz</span>
+            <textarea id="typed" rows="8" placeholder="Bir dakikada anlatacağın gibi yaz."></textarea>
+          </label>
+          <button class="btn primary" id="typed-submit">Değerlendir</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SONUÇ ===================== -->
+  <section id="v-result" class="view" hidden>
+    <div class="stage-head">
+      <button class="btn ghost small" data-act="home">← Ana sayfa</button>
+      <div class="chips"><span class="chip" id="s-lvl"></span><span class="chip plain" id="s-cat"></span></div>
+    </div>
+    <div class="term-block">
+      <p class="eyebrow">Geri bildirim</p>
+      <h1 class="term" id="s-term"></h1>
+    </div>
+
+    <div class="result-top">
+      <div class="card score">
+        <div class="score-ring">
+          <svg viewBox="0 0 160 160" aria-hidden="true">
+            <circle class="ring-bg" cx="80" cy="80" r="68"/>
+            <circle class="ring-fg" id="s-ring" cx="80" cy="80" r="68"/>
+            <line class="ring-mark" id="s-mark" x1="80" y1="6" x2="80" y2="22"/>
+          </svg>
+          <div class="score-num mono"><span id="s-num">0</span><small>%</small></div>
+        </div>
+        <div class="stamp" id="s-stamp">—</div>
+        <p class="score-sum" id="s-sum"></p>
+        <p class="xp mono" id="s-xp"></p>
+      </div>
+
+      <div class="card concepts">
+        <div class="card-head"><h2>Yakaladıkların</h2><span class="mono muted" id="c-hit-n"></span></div>
+        <ul class="c-list hit" id="c-hit"></ul>
+        <div class="card-head"><h2>Atladıkların</h2><span class="mono muted" id="c-miss-n"></span></div>
+        <ul class="c-list miss masked" id="c-miss"></ul>
+        <button class="btn small" id="reveal-miss">Eksikleri göster</button>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card transcript">
+        <h2>Anlattığın</h2>
+        <div class="t-out" id="t-out"></div>
+        <details class="t-fix">
+          <summary>Döküm yanlış mı? Düzelt ve yeniden puanla</summary>
+          <textarea id="t-edit" rows="6"></textarea>
+          <button class="btn small" id="t-rescore">Yeniden puanla</button>
+        </details>
+      </div>
+      <div class="card delivery">
+        <h2>Anlatım</h2>
+        <dl class="stats" id="stats"></dl>
+        <ul class="tips" id="tips"></ul>
+        <div class="media-out" id="media-out"></div>
+      </div>
+    </div>
+
+    <div class="next-actions" id="next-actions"></div>
+  </section>
+</main>
+
+<dialog id="settings" aria-labelledby="set-h">
+  <form method="dialog" class="settings-form" id="settings-form">
+    <h2 id="set-h">Ayarlar</h2>
+    <label class="field"><span>Anlatım süresi</span>
+      <select id="set-speak"><option value="45">45 saniye</option><option value="60">60 saniye</option><option value="90">90 saniye</option><option value="120">2 dakika</option></select>
+    </label>
+    <label class="field"><span>Geçme eşiği</span>
+      <select id="set-pass"><option value="50">%50</option><option value="60">%60</option><option value="70">%70</option><option value="80">%80</option></select>
+    </label>
+    <label class="field"><span>Konuşma tanıma dili</span>
+      <select id="set-lang"><option value="tr-TR">Türkçe</option><option value="en-US">İngilizce</option></select>
+    </label>
+    <div class="danger">
+      <button type="button" class="btn ghost small" id="reset-ask">İlerlemeyi sıfırla</button>
+      <div class="confirm" id="reset-confirm" hidden>
+        <span>Tüm skorlar, seri ve XP silinsin mi?</span>
+        <button type="button" class="btn small bad" id="reset-yes">Evet, sil</button>
+        <button type="button" class="btn ghost small" id="reset-no">Vazgeç</button>
+      </div>
+    </div>
+    <div class="row-actions end"><button class="btn primary" value="ok">Kapat</button></div>
+  </form>
+</dialog>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script src="terms.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
