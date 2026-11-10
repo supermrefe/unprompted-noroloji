@@ -1,33 +1,15 @@
-/*
-  Unprompted Nöroloji — konu havuzu
-  -----------------------------------
-  Her konu: id, tr (Türkçe ad), en (İngilizce ad: kaynak aramaları için), cat (başlık), lvl (1 Kolay · 2 Orta · 3 Zor)
-  c: [ ["Kavram etiketi", "anahtar1|anahtar2|çok kelimeli anahtar"], ... ]
-     Etiket "!" ile başlıyorsa temel kavramdır (puanda 2 kat ağırlık).
-  Eşleştirme kuralları (app.js):
-     - Türkçe karakterler ve büyük/küçük harf yok sayılır (ş=s, ı=i ...).
-     - 3 harf ve altı anahtar: kelimenin tam kendisi olmalı (ms, bt, eeg).
-     - 4 harf: kelime bu harflerle başlamalı (ivig, aura).
-     - 5+ harf: kelimenin içinde geçmesi yeterli; 7+ harfte 1-2 harf hata tolere edilir.
-*/
-window.LEVELS = {
-  1: { name: "Kolay", min: 5 },
-  2: { name: "Orta", min: 10 },
-  3: { name: "Zor", min: 15 }
-};
-
-window.CATS = {
-  vas: "Vasküler",
-  epi: "Epilepsi",
-  har: "Hareket bozuklukları",
-  nmh: "Nöromüsküler ve periferik",
-  imm: "Nöroimmün ve enfeksiyon",
-  bil: "Bilişsel ve demans",
-  agr: "Baş ve yüz ağrısı",
-  lok: "Lokalizasyon ve muayene"
-};
-
-window.TERMS = [
+/* Nöroloji — Unprompted Tıp konu paketi. Konu id'leri ilk sürümden (Unprompted Nöroloji) beri aynı; değiştirme. */
+UP.add({ id: "noroloji", subs: {
+    vas: "Vasküler",
+    epi: "Epilepsi",
+    har: "Hareket bozuklukları",
+    nmh: "Nöromüsküler ve periferik",
+    imm: "Nöroimmün ve enfeksiyon",
+    bil: "Bilişsel ve demans",
+    agr: "Baş ve yüz ağrısı",
+    lok: "Lokalizasyon ve muayene"
+  },
+terms: [
   /* ====================== KOLAY ====================== */
   { id: "iskemik-inme", tr: "İskemik inme", en: "Ischemic stroke", cat: "vas", lvl: 1, c: [
     ["!Damar tıkanmasıyla kan akımının kesilmesi", "tıkan|oklüzyon|kan akım|kan akış|kanlanma|pıhtı|trombüs|trombus|tromboz|emboli"],
@@ -406,4 +388,5 @@ window.TERMS = [
     ["MR: dev panda yüzü", "panda|t2"],
     ["Tedavi: şelatörler (penisilamin, trientin), çinko; gerekirse nakil", "penisilamin|trientin|çinko|şelat|nakil|transplant"]
   ]}
-];
+]
+});
