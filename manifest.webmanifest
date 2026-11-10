@@ -1,7 +1,7 @@
 {
-  "name": "Unprompted Nöroloji",
-  "short_name": "Unprompted",
-  "description": "Rastgele nöroloji konusu: yapay zekâ olmadan makalelerden araştır, notsuz bir dakikada anlat, kavram bazlı geri bildirim al.",
+  "name": "Unprompted Tıp",
+  "short_name": "Unprompted Tıp",
+  "description": "Rastgele tıp konusu: yapay zekâ olmadan kitap ve makalelerden araştır, notsuz 1,5 dakikada anlat, kavram bazlı geri bildirim al.",
   "lang": "tr",
   "start_url": "./",
   "scope": "./",

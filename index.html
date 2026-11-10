@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Unprompted Nöroloji</title>
-<meta name="description" content="Rastgele bir nöroloji konusu gelir. Yapay zekâ olmadan makalelerden araştır, notsuz 1,5 dakikada sesli anlat, kavram bazlı geri bildirim al.">
+<title>Unprompted Tıp</title>
+<meta name="description" content="Rastgele bir tıp konusu gelir. Yapay zekâ olmadan makalelerden araştır, notsuz 1,5 dakikada sesli anlat, kavram bazlı geri bildirim al.">
 <meta name="theme-color" content="#EEF2F3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0C1318" media="(prefers-color-scheme: dark)">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Unprompted">
+<meta name="apple-mobile-web-app-title" content="Unprompted Tıp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
@@ -24,11 +24,11 @@
     <button class="brand" data-act="home" aria-label="Ana sayfa">
       <svg class="brand-mark" viewBox="0 0 40 24" aria-hidden="true"><path d="M1 14h8l3-6 4 14 5-21 4 17 3-4h11" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></svg>
       <span class="brand-word">unprompted</span>
-      <span class="brand-tag">nöroloji</span>
+      <span class="brand-tag">tıp</span>
     </button>
     <dl class="meters" aria-label="İlerleme">
       <div><dt>Seri</dt><dd id="m-streak">0 gün</dd></div>
-      <div><dt>Biten konu</dt><dd id="m-done">0/42</dd></div>
+      <div><dt>Biten konu</dt><dd id="m-done">0</dd></div>
       <div><dt id="m-rank">Stajyer</dt><dd id="m-xp">0 XP</dd></div>
     </dl>
     <button class="icon-btn" id="btn-settings" aria-label="Ayarlar" title="Ayarlar">
@@ -46,15 +46,24 @@
       <div class="row-actions"><button class="btn primary" id="resume-go">Devam et</button><button class="btn ghost" id="resume-drop">Bırak</button></div>
     </div>
 
+    <div class="card scope" id="scope">
+      <div class="scope-main">
+        <p class="eyebrow">Çalışma alanı</p>
+        <p class="scope-text" id="scope-text">Tüm tıp karışık</p>
+        <p class="scope-sub mono muted" id="scope-sub"></p>
+      </div>
+      <button class="btn" id="scope-edit">Branş seç</button>
+    </div>
+
     <div class="hero">
       <div class="hero-copy">
         <p class="eyebrow">Yapay zekâ yok · sadece kaynaklar</p>
         <h1>Zar at. Kaynaktan oku. Notsuz anlat.</h1>
-        <p class="lede">Rastgele bir nöroloji konusu gelir. Süre dolana kadar makalelerden araştırırsın, sonra <span data-speak="loc">1,5 dakikada</span> sesli anlatırsın. Uygulama seni dinler, hangi kavramları yakaladığını ve neyi atladığını söyler.</p>
+        <p class="lede">Rastgele bir tıp konusu gelir. Süre dolana kadar makalelerden araştırırsın, sonra <span data-speak="loc">1,5 dakikada</span> sesli anlatırsın. Uygulama seni dinler, hangi kavramları yakaladığını ve neyi atladığını söyler.</p>
         <ul class="pitch">
           <li><b>Günde 3 soru</b><span>yaklaşık 45 dakika</span></li>
           <li><b>1 soru</b><span>= 1 konu bitti</span></li>
-          <li><b id="pitch-count">42 konu</b><span>8 başlık</span></li>
+          <li><b id="pitch-count">konu</b><span id="pitch-br">branş</span></li>
         </ul>
       </div>
 
@@ -100,7 +109,7 @@
       <h2 id="howto-h">Nasıl çalışır</h2>
       <ol class="steps">
         <li><b>Zar at</b><span>Konu rastgele gelir. Kolay 5, orta 10, zor 15 dakika araştırma süresi.</span></li>
-        <li><b>Kaynaktan oku</b><span>PubMed, StatPearls, Radiopaedia. Yapay zekâya sorma; okuduğunu kendi cümlenle not al.</span></li>
+        <li><b>Kaynaktan oku</b><span>Her konunun 2 temel kitabı ve 2 makalesi/kılavuzu araştırma ekranında. Yapay zekâya sorma; okuduğunu kendi cümlenle not al.</span></li>
         <li><b>Notsuz anlat</b><span>Notlar kapanır, <span data-speak>1,5 dakika</span>n var. İstersen kamerayla 9:16 video çek.</span></li>
         <li><b>Geri bildirim al</b><span>Yakaladığın ve atladığın kavramlar, konuşma hızı, dolgu kelimeler. Geçtiğin konu 1, 3, 7, 14 ve 30 gün sonra tekrar gelir.</span></li>
       </ol>
@@ -151,6 +160,7 @@
     <div class="research-grid">
       <div class="card sources">
         <h2>Kaynaklar</h2>
+        <p class="hint" id="r-src-hint">Bu konu için 2 temel kitap ve 2 makale. İngilizce adla ara: <b class="mono" id="r-en2"></b></p>
         <ul class="source-list" id="r-sources"></ul>
       </div>
       <div class="card notes">
@@ -312,9 +322,23 @@
   </form>
 </dialog>
 
+<dialog id="branches" aria-labelledby="br-h">
+  <form method="dialog" class="branch-form">
+    <div class="card-head"><h2 id="br-h">Branş seç</h2><span class="mono muted" id="br-count"></span></div>
+    <p class="hint">Tek branş, birkaç branş ya da tüm tıp. Günün 3'lüsü, zar, harita, tekrar kuyruğu ve geçmiş bu seçime göre gelir. Yüzde: geçtiğin konu oranı.</p>
+    <div class="row-actions">
+      <button type="button" class="btn small" id="br-all">Tüm tıp karışık</button>
+      <button type="button" class="btn ghost small" id="br-none">Seçimi temizle</button>
+    </div>
+    <div class="branch-groups" id="br-groups"></div>
+    <div class="row-actions end"><button class="btn primary" value="ok" id="br-ok">Tamam</button></div>
+  </form>
+</dialog>
+
 <div class="toast" id="toast" role="status" hidden></div>
 
-<script src="terms.js"></script>
+<script src="scoring.js"></script>
+<script src="terms/index.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

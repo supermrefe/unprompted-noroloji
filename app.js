@@ -1,5 +1,5 @@
-/* Unprompted Nöroloji — uygulama mantığı (bağımlılık yok) */
-(() => {
+/* Unprompted Tıp — uygulama mantığı (bağımlılık yok) */
+(async () => {
 'use strict';
 
 /* ================================================================
@@ -27,102 +27,21 @@ const fmtClock = ms => { const s = Math.max(0, Math.ceil(ms / 1000)); return `${
 const fmtShort = ms => { const s = Math.max(0, Math.ceil(ms / 1000)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; };
 
 /* ================================================================
-   Metin eşleştirme
+   Konu havuzu ve metin eşleştirme (scoring.js)
    ================================================================ */
-const norm = s => s.toLocaleLowerCase('tr-TR').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ı/g, 'i');
-function tokenize(s) {
-  const out = [], re = /[\p{L}\p{N}]+/gu; let m;
-  while ((m = re.exec(s))) out.push({ t: norm(m[0]), s: m.index, e: m.index + m[0].length });
-  return out;
-}
-function lev(a, b) {
-  if (a === b) return 0;
-  const m = a.length, n = b.length; if (!m) return n; if (!n) return m;
-  let prev = Array.from({ length: n + 1 }, (_, j) => j);
-  for (let i = 1; i <= m; i++) {
-    const cur = [i];
-    for (let j = 1; j <= n; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
-    prev = cur;
-  }
-  return prev[n];
-}
-function tokMatch(t, k) {
-  if (k.length <= 3) return t === k;
-  if (k.length === 4) return t.startsWith(k);
-  if (t.includes(k)) return true;
-  if (k.length >= 7 && t.length >= k.length - 1) {
-    const tol = k.length >= 10 ? 2 : 1;
-    for (let L = k.length - 1; L <= k.length + 1; L++) if (lev(t.slice(0, L), k) <= tol) return true;
-  }
-  return false;
-}
-// Dikte kısaltmaları ve uzun terimleri bölebiliyor: "ABCD2" → "abc'deki 2", "hiperlipidemi" → "hiperli pide mi".
-// Bir anahtar parçası, 2–4 ardışık sözcüğün birleşimiyle de eşleşir; kaç sözcük tükettiğini döndürür.
-// Yanlış birleşmeleri önlemek için: ilk sözcük bağımsız bir kelime olamaz ("iki lider" ≠ "ikili") ve anahtar
-// son sözcüğün sonuna en fazla bir ek kadar (4 harf) yaklaşmalı ("atak sırasında" ≠ "ataksi").
-const NO_JOIN = new Set(['bir', 'iki', 'uc', 'dort', 'bes', 've', 'ile', 'bu', 'su', 'o', 'de', 'da', 'ki', 'mi', 'mu', 'ne', 'ya', 'ama', 'hem', 'en', 'cok', 'az', 'var', 'yok', 'her', 'gibi', 'icin']);
-function joinMatch(tt, i, k) {
-  if (NO_JOIN.has(tt[i].t)) return 0;
-  let joined = tt[i].t;
-  for (let n = 2; n <= 4 && i + n <= tt.length; n++) {
-    if (!k.startsWith(joined)) return 0;
-    joined += tt[i + n - 1].t;
-    if (k.length <= 3 ? joined === k : joined.startsWith(k) && joined.length - k.length <= 4) return n;
-  }
-  return 0;
-}
-function findKey(tt, kt) {
-  const hits = [];
-  outer: for (let i = 0; i < tt.length; i++) {
-    let p = i;
-    for (const k of kt) {
-      if (p >= tt.length) continue outer;
-      if (tokMatch(tt[p].t, k)) { p++; continue; }
-      const n = joinMatch(tt, p, k);
-      if (!n) continue outer;
-      p += n;
-    }
-    hits.push([i, p]);
-  }
-  return hits;
-}
-const FILLERS = { yani: 'yani', iste: 'işte', sey: 'şey', hani: 'hani', falan: 'falan', filan: 'filan', ee: 'ee', eee: 'eee', eeee: 'eee', hmm: 'hmm', mmm: 'mmm' };
+const { tokenize, compile, evaluate } = window.UPScore;
+// Branş dosyalarını yükle (terms/<id>.js). Eksik ya da bozuk dosya atlanır, uygulama yine açılır.
+const loadScript = src => new Promise(res => { const el = document.createElement('script'); el.src = src; el.onload = () => res(true); el.onerror = () => res(false); document.head.appendChild(el); });
+await Promise.all(window.BRANCHES.map(b => loadScript(`terms/${b.id}.js`)));
 
-const LEVELS = window.LEVELS, CATS = window.CATS;
-const TERMS = window.TERMS.map(t => ({
-  ...t,
-  _c: t.c.map(([label, keys]) => {
-    const core = label.startsWith('!');
-    return { label: core ? label.slice(1) : label, core, w: core ? 2 : 1, keys: keys.split('|').map(k => tokenize(k).map(x => x.t)).filter(a => a.length) };
-  })
-}));
+const LEVELS = window.LEVELS, GROUPS = window.GROUPS;
+const BRS = window.BRANCHES.filter(b => window.UP.data[b.id] && window.UP.data[b.id].terms.length)
+  .map(b => ({ ...b, subs: window.UP.data[b.id].subs || {} }));
+const BR_BY = Object.fromEntries(BRS.map(b => [b.id, b]));
+const TERMS = BRS.flatMap(b => window.UP.data[b.id].terms.map(t => compile({ ...t, br: b.id })));
 const BY_ID = Object.fromEntries(TERMS.map(t => [t.id, t]));
+const catName = t => { const b = BR_BY[t.br], sub = b.subs[t.cat]; return sub ? `${b.name} · ${sub}` : b.name; };
 
-function evaluate(term, rawText) {
-  const text = rawText.normalize('NFC');
-  const toks = tokenize(text);
-  const marks = new Array(toks.length).fill(-1);
-  let got = 0, total = 0;
-  const concepts = term._c.map((c, ci) => {
-    total += c.w;
-    let hit = false, ev = '';
-    for (const k of c.keys) {
-      const h = findKey(toks, k);
-      if (!h.length) continue;
-      hit = true;
-      for (const [a, b] of h) for (let x = a; x < b; x++) if (marks[x] < 0) marks[x] = ci;
-      if (!ev) {
-        const a = Math.max(0, h[0][0] - 3), b = Math.min(toks.length, h[0][1] + 3);
-        ev = (a > 0 ? '…' : '') + text.slice(toks[a].s, toks[b - 1].e) + (b < toks.length ? '…' : '');
-      }
-    }
-    if (hit) got += c.w;
-    return { label: c.label, core: c.core, w: c.w, hit, ev };
-  });
-  const fillers = {}; let fillerN = 0;
-  toks.forEach((tk, i) => { const f = FILLERS[tk.t]; if (f && marks[i] < 0) { marks[i] = -2; fillers[f] = (fillers[f] || 0) + 1; fillerN++; } });
-  return { toks, marks, concepts, score: total ? got / total : 0, words: toks.length, fillers, fillerN, text };
-}
 function highlight(r) {
   const { text, toks, marks, concepts } = r;
   let out = '', pos = 0, i = 0;
@@ -157,6 +76,10 @@ let hist = store.get('hist', []);
 let xp = store.get('xp', 0);
 let streak = store.get('streak', { last: null, count: 0 });
 let daily = null;
+// Branş seçimi: boş dizi = tüm tıp karışık.
+let sel = store.get('branches', []).filter(id => BR_BY[id]);
+const inSel = t => !!t && (!sel.length || sel.includes(t.br));
+let POOL = TERMS.filter(inSel);
 let S = store.get('session', null);
 if (S && !BY_ID[S.id]) S = null;
 let view = 'home';
@@ -186,7 +109,8 @@ function streakNow() { const today = dayKey(); return streak.last && dayDiff(str
 /* ---------- günün 3'lüsü ---------- */
 function pickForDaily(lvl, exclude) {
   const today = dayKey();
-  const pool = TERMS.filter(t => t.lvl === lvl && !exclude.includes(t.id));
+  let pool = POOL.filter(t => t.lvl === lvl && !exclude.includes(t.id));
+  if (!pool.length) pool = TERMS.filter(t => t.lvl === lvl && !exclude.includes(t.id));
   const due = pool.filter(t => prog[t.id] && prog[t.id].due <= today).sort((a, b) => prog[a.id].due.localeCompare(prog[b.id].due));
   if (due.length) return due[0].id;
   const fresh = pool.filter(t => !prog[t.id]);
@@ -196,10 +120,12 @@ function pickForDaily(lvl, exclude) {
 function ensureDaily() {
   const today = dayKey();
   let d = store.get('daily', null);
-  if (!d || d.date !== today || !Array.isArray(d.ids) || d.ids.length !== 3 || d.ids.some(id => !BY_ID[id])) {
+  const selKey = sel.join(',');
+  const untouched = d && d.done && d.revealed && !Object.keys(d.done).length && !Object.keys(d.revealed).length;
+  if (!d || d.date !== today || !Array.isArray(d.ids) || d.ids.length !== 3 || d.ids.some(id => !BY_ID[id]) || (untouched && (d.sel ?? '') !== selKey)) {
     const ids = [];
     for (const l of [1, 2, 3]) ids.push(pickForDaily(l, ids));
-    d = { date: today, ids, revealed: {}, done: {} };
+    d = { date: today, ids, revealed: {}, done: {}, sel: selKey };
     store.set('daily', d);
   }
   daily = d;
@@ -213,7 +139,7 @@ function show(v) {
   $$('.view').forEach(el => { el.hidden = el.id !== 'v-' + v; });
   window.scrollTo({ top: 0 });
   if (v === 'explain') startExplainLoop(); else stopExplainLoop();
-  if (v !== 'research') document.title = 'Unprompted Nöroloji';
+  if (v !== 'research') document.title = 'Unprompted Tıp';
 }
 function toast(msg, ms = 2600) {
   const t = $('#toast'); t.textContent = msg; t.hidden = false;
@@ -224,8 +150,8 @@ function lvlChip(el, t) { el.className = 'chip lv-' + t.lvl; el.textContent = `$
 /* ---------- başlık ---------- */
 function renderHeader() {
   $('#m-streak').textContent = `${streakNow()} gün`;
-  const doneN = TERMS.filter(t => (prog[t.id]?.best ?? 0) >= passT()).length;
-  $('#m-done').textContent = `${doneN}/${TERMS.length}`;
+  const doneN = POOL.filter(t => (prog[t.id]?.best ?? 0) >= passT()).length;
+  $('#m-done').textContent = `${doneN}/${POOL.length}`;
   $('#m-xp').textContent = `${xp.toLocaleString('tr-TR')} XP`;
   $('#m-rank').textContent = rankOf(xp);
 }
@@ -240,7 +166,10 @@ function renderHome() {
   renderDue();
   renderMap();
   renderHist();
-  $('#pitch-count').textContent = `${TERMS.length} konu`;
+  renderScope();
+  renderCatSel();
+  $('#pitch-count').textContent = `${POOL.length} konu`;
+  $('#pitch-br').textContent = sel.length ? `${sel.length} branş seçili` : `${BRS.length} branş`;
 }
 function renderResume() {
   const el = $('#resume');
@@ -263,7 +192,7 @@ function renderDaily() {
       : `<button class="btn small ${firstOpen === i ? 'primary' : ''}" data-daily="${i}">${rev ? 'Devam et' : 'Zar at'}</button>`;
     return `<li class="slot ${done ? 'done' : ''}" data-slot="${i}">
       <div class="slot-lvl lv-${t.lvl}"><b>${lv.name}</b><span>${lv.min} dk</span></div>
-      <div class="slot-term ${rev ? '' : 'hidden-term'}"><span class="st">${rev ? esc(t.tr) : '? ? ?'}</span><span class="slot-sub">${rev ? esc(CATS[t.cat]) : 'zar atınca belli olur'}</span></div>
+      <div class="slot-term ${rev ? '' : 'hidden-term'}"><span class="st">${rev ? esc(t.tr) : '? ? ?'}</span><span class="slot-sub">${rev ? esc(catName(t)) : 'zar atınca belli olur'}</span></div>
       ${right}</li>`;
   }).join('');
   const doneN = d.ids.filter(id => d.done[id] != null).length;
@@ -276,7 +205,7 @@ function renderDaily() {
 }
 function renderDue() {
   const today = dayKey();
-  const due = TERMS.filter(t => prog[t.id] && prog[t.id].due <= today).sort((a, b) => prog[a.id].due.localeCompare(prog[b.id].due));
+  const due = POOL.filter(t => prog[t.id] && prog[t.id].due <= today).sort((a, b) => prog[a.id].due.localeCompare(prog[b.id].due));
   $('#due-count').textContent = due.length ? `${due.length} konu bekliyor` : '';
   if (due.length) {
     $('#due-list').innerHTML = due.slice(0, 8).map(t => {
@@ -285,32 +214,73 @@ function renderDue() {
     }).join('');
     return;
   }
-  const soon = TERMS.filter(t => prog[t.id]).sort((a, b) => prog[a.id].due.localeCompare(prog[b.id].due)).slice(0, 4);
+  const soon = POOL.filter(t => prog[t.id]).sort((a, b) => prog[a.id].due.localeCompare(prog[b.id].due)).slice(0, 4);
   $('#due-list').innerHTML = `<li class="empty" style="border:0;padding:0">Bugün tekrar bekleyen konu yok. Anlattığın konular 1, 3, 7, 14 ve 30 gün sonra buraya düşer.</li>` +
     soon.map(t => `<li><span class="t">${esc(t.tr)}<span class="s">${dayDiff(today, prog[t.id].due)} gün sonra · ${fmtDay(prog[t.id].due)}</span></span><span class="dot ${statusOf(t.id)}"></span></li>`).join('');
 }
+function branchStats(bid) {
+  const ts = TERMS.filter(t => t.br === bid), p = passT();
+  const done = ts.filter(t => (prog[t.id]?.best ?? 0) >= p).length;
+  return { n: ts.length, done, tried: ts.filter(t => prog[t.id]).length, pct: ts.length ? Math.round((done / ts.length) * 100) : 0 };
+}
 function renderMap() {
   const p = passT();
-  $('#map').innerHTML = Object.entries(CATS).map(([k, name]) => {
-    const ts = TERMS.filter(t => t.cat === k).sort((a, b) => a.lvl - b.lvl);
-    const doneN = ts.filter(t => (prog[t.id]?.best ?? 0) >= p).length;
-    return `<div class="cat-block">
-      <div class="cat-head"><h3>${esc(name)}</h3><span class="mono">${doneN}/${ts.length}</span></div>
-      <div class="cat-bar"><i style="width:${(doneN / ts.length) * 100}%"></i></div>
-      <div class="term-chips">${ts.map(t => `<button class="term-chip" data-term="${t.id}" title="${esc(t.en)} · ${LEVELS[t.lvl].name} · ${LEVELS[t.lvl].min} dk"><i class="dot ${statusOf(t.id)}"></i>${esc(t.tr)}<sup>${LEVELS[t.lvl].name[0]}</sup></button>`).join('')}</div>
+  const shown = BRS.filter(b => !sel.length || sel.includes(b.id));
+  $('#map').innerHTML = shown.map(b => {
+    const st = branchStats(b.id);
+    const ts = TERMS.filter(t => t.br === b.id);
+    const keys = [...Object.keys(b.subs).filter(k => ts.some(t => t.cat === k)), ...(ts.some(t => !b.subs[t.cat]) ? [''] : [])];
+    const blocks = keys.map(k => {
+      const group = ts.filter(t => (k ? t.cat === k : !b.subs[t.cat])).sort((x, y) => x.lvl - y.lvl);
+      const doneN = group.filter(t => (prog[t.id]?.best ?? 0) >= p).length;
+      return `<div class="cat-block">
+      <div class="cat-head"><h3>${esc(k ? b.subs[k] : b.name)}</h3><span class="mono">${doneN}/${group.length}</span></div>
+      <div class="cat-bar"><i style="width:${(doneN / group.length) * 100}%"></i></div>
+      <div class="term-chips">${group.map(t => `<button class="term-chip" data-term="${t.id}" title="${esc(t.en)} · ${LEVELS[t.lvl].name} · ${LEVELS[t.lvl].min} dk"><i class="dot ${statusOf(t.id)}"></i>${esc(t.tr)}<sup>${LEVELS[t.lvl].name[0]}</sup></button>`).join('')}</div>
     </div>`;
+    }).join('');
+    return `<details class="br-block"${shown.length <= 3 ? ' open' : ''}>
+      <summary><span class="br-name">${esc(b.name)}</span><span class="br-pct mono">${st.done}/${st.n} · %${st.pct}</span><span class="cat-bar br-bar"><i style="width:${st.pct}%"></i></span></summary>
+      <div class="map-grid">${blocks}</div>
+    </details>`;
   }).join('');
+}
+function renderScope() {
+  const names = sel.map(id => BR_BY[id].name);
+  $('#scope-text').textContent = !sel.length ? 'Tüm tıp karışık' : names.length <= 3 ? names.join(', ') : `${names.length} branş: ${names.slice(0, 2).join(', ')} ve ${names.length - 2} branş daha`;
+  const p = passT(), done = POOL.filter(t => (prog[t.id]?.best ?? 0) >= p).length;
+  $('#scope-sub').textContent = `${POOL.length} konu · %${POOL.length ? Math.round((done / POOL.length) * 100) : 0} geçildi`;
+}
+function renderCatSel() {
+  const cs = $('#cat-sel'), prev = cs.value;
+  const shown = BRS.filter(b => !sel.length || sel.includes(b.id));
+  const opts = shown.length === 1
+    ? Object.entries(shown[0].subs).map(([k, n]) => [`c:${shown[0].id}:${k}`, n, POOL.filter(t => t.cat === k).length]).filter(o => o[2])
+    : shown.map(b => [`b:${b.id}`, b.name, TERMS.filter(t => t.br === b.id).length]);
+  cs.innerHTML = `<option value="">${shown.length === 1 ? 'Tüm alt başlıklar' : sel.length ? 'Seçili tüm branşlar' : 'Tüm tıp'}</option>` + opts.map(([v, n, c]) => `<option value="${v}">${esc(n)} (${c})</option>`).join('');
+  cs.value = opts.some(o => o[0] === prev) ? prev : '';
+}
+function setSel(ids) {
+  sel = BRS.map(b => b.id).filter(id => ids.includes(id));
+  if (sel.length === BRS.length) sel = [];
+  store.set('branches', sel);
+  POOL = TERMS.filter(inSel);
 }
 function renderHist() {
   if (!hist.length) {
     $('#hist').innerHTML = '<li class="empty" style="background:transparent;border:0;padding:0;display:block">Henüz anlatım yok. İlk zarı at; sonuçların burada listelenir.</li>';
     return;
   }
-  $('#hist').innerHTML = hist.slice(0, 12).map(h => {
-    const t = BY_ID[h.id]; if (!t) return '';
+  const hs = hist.filter(h => inSel(BY_ID[h.id]));
+  if (!hs.length) {
+    $('#hist').innerHTML = '<li class="empty" style="background:transparent;border:0;padding:0;display:block">Seçili branşlarda henüz anlatım yok. Diğer branşlardaki anlatımların için çalışma alanını değiştir.</li>';
+    return;
+  }
+  $('#hist').innerHTML = hs.slice(0, 12).map(h => {
+    const t = BY_ID[h.id];
     const d = new Date(h.d);
     return `<li><span class="d">${d.toLocaleDateString('tr-TR', { day: '2-digit', month: 'short' })} ${d.toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' })}</span>
-      <span class="n">${esc(t.tr)}</span><span class="chip lv-${t.lvl}">${LEVELS[t.lvl].name}</span>
+      <span class="n">${esc(t.tr)}<small class="hist-br">${esc(BR_BY[t.br].name)}</small></span><span class="chip lv-${t.lvl}">${LEVELS[t.lvl].name}</span>
       <span class="score-pill ${h.p ? 'pass' : 'fail'} mono">%${Math.round(h.s * 100)}</span></li>`;
   }).join('');
 }
@@ -331,8 +301,8 @@ function spinReel(box, textEl, pool, pick, done) {
   step();
 }
 function doRoll() {
-  const cat = $('#cat-sel').value;
-  const pool = TERMS.filter(t => (!rollLvl || t.lvl === rollLvl) && (!cat || t.cat === cat));
+  const [kind, a, b] = $('#cat-sel').value.split(':');
+  const pool = POOL.filter(t => (!rollLvl || t.lvl === rollLvl) && (kind === 'b' ? t.br === a : kind === 'c' ? t.br === a && t.cat === b : true));
   if (!pool.length) { toast('Bu zorluk ve başlıkta konu yok. Filtreyi değiştir.'); return; }
   const choices = pool.length > 1 && rolled ? pool.filter(t => t.id !== rolled) : pool;
   const pick = rand(choices);
@@ -340,7 +310,7 @@ function doRoll() {
   $('#reel-meta').textContent = 'zar dönüyor…';
   spinReel($('#reel'), $('#reel-text'), pool, pick, () => {
     rolled = pick.id;
-    $('#reel-meta').textContent = `${LEVELS[pick.lvl].name} · ${LEVELS[pick.lvl].min} dk araştırma · ${CATS[pick.cat]}`;
+    $('#reel-meta').textContent = `${LEVELS[pick.lvl].name} · ${LEVELS[pick.lvl].min} dk araştırma · ${catName(pick)}`;
     const go = $('#btn-go'); go.hidden = false; go.className = 'btn primary'; go.textContent = `Araştırmaya başla · ${LEVELS[pick.lvl].min}:00`;
     const rb = $('#btn-roll'); rb.disabled = false; rb.className = 'btn'; rb.textContent = 'Yeniden zar at';
   });
@@ -353,8 +323,8 @@ function revealDaily(i) {
   const btn = li.querySelector('button'); if (btn) btn.disabled = true;
   const termBox = li.querySelector('.slot-term'); termBox.classList.remove('hidden-term');
   li.querySelector('.slot-sub').textContent = 'zar dönüyor…';
-  spinReel(null, li.querySelector('.st'), TERMS.filter(x => x.lvl === t.lvl), t, () => {
-    li.querySelector('.slot-sub').textContent = CATS[t.cat];
+  spinReel(null, li.querySelector('.st'), POOL.filter(x => x.lvl === t.lvl), t, () => {
+    li.querySelector('.slot-sub').textContent = catName(t);
     daily.revealed[id] = true; store.set('daily', daily);
     setTimeout(() => startResearch(id, 'daily'), reduceMotion ? 0 : 750);
   });
@@ -379,18 +349,18 @@ function startResearch(id, src, minutes) {
 function renderResearch() {
   const t = BY_ID[S.id];
   lvlChip($('#r-lvl'), t);
-  $('#r-cat').textContent = CATS[t.cat];
+  $('#r-cat').textContent = catName(t);
   $('#r-term').textContent = t.tr;
   $('#r-en').textContent = t.en;
-  const enQ = encodeURIComponent(t.en), trQ = encodeURIComponent(t.tr.replace(/\s*\(.*?\)/g, ''));
+  $('#r-en2').textContent = t.en;
+  const enQ = encodeURIComponent(t.en);
+  const books = (t.src && t.src.k) || [], papers = (t.src && t.src.m) || [];
   const src = [
-    ['PubMed', 'Derleme (review) makaleler', `https://pubmed.ncbi.nlm.nih.gov/?term=${enQ}&filter=pubt.review`],
-    ['StatPearls', 'NCBI Bookshelf · klinik özet', `https://www.ncbi.nlm.nih.gov/books/?term=${encodeURIComponent(t.en + ' StatPearls')}`],
-    ['Radiopaedia', 'Görüntüleme bulguları ve olgular', `https://radiopaedia.org/search?q=${enQ}`],
-    ['Google Akademik', 'Güncel derlemeler', `https://scholar.google.com/scholar?q=${encodeURIComponent(t.en + ' review')}`],
-    ['DergiPark', 'Türkçe makaleler', `https://dergipark.org.tr/tr/search?q=${trQ}&section=articles`],
-    ['Wikipedia (EN)', 'Hızlı bakış; asıl değer kaynakçada', `https://en.wikipedia.org/w/index.php?search=${enQ}`]
+    ...books.map((k, i) => [`Kitap ${i + 1}`, k, `https://www.google.com/search?tbm=bks&q=${encodeURIComponent(k.replace(/,.*$/, '') + ' ' + t.en)}`]),
+    ...papers.map(([title, url], i) => [`Makale ${i + 1}`, title, url || `https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(title)}`])
   ];
+  // Kaynak kaydı olmayan konu için yedek: derleme araması
+  if (!src.length) src.push(['PubMed', 'Derleme (review) makaleler', `https://pubmed.ncbi.nlm.nih.gov/?term=${enQ}&filter=pubt.review`]);
   $('#r-sources').innerHTML = src.map(([n, sub, url]) => `<li><a href="${url}" target="_blank" rel="noopener noreferrer"><b>${n}</b><small>${sub}</small><span class="arr">↗</span></a></li>`).join('');
   const notes = $('#r-notes');
   notes.value = store.get('notes:' + S.id, '');
@@ -522,7 +492,7 @@ const R = { stream: null, hasVideo: false, ac: null, an: null, tbuf: null, rec: 
 function renderExplain() {
   const t = BY_ID[S.id];
   lvlChip($('#e-lvl'), t);
-  $('#e-cat').textContent = CATS[t.cat];
+  $('#e-cat').textContent = catName(t);
   $('#e-term').textContent = t.tr;
   $('#e-en').textContent = t.en;
   $('#e-banner').hidden = !S.timeUp;
@@ -838,7 +808,7 @@ function finish(text, ms, media) {
 function renderResult(r) {
   const t = BY_ID[r.id];
   lvlChip($('#s-lvl'), t);
-  $('#s-cat').textContent = CATS[t.cat];
+  $('#s-cat').textContent = catName(t);
   $('#s-term').textContent = t.tr;
 
   const pct = Math.round(r.score * 100), C = 427.3;
@@ -971,7 +941,48 @@ $('#lvl-seg').addEventListener('click', e => {
   rollLvl = Number(b.dataset.lvl);
   $$('#lvl-seg button').forEach(x => x.setAttribute('aria-checked', String(x === b)));
 });
-$('#cat-sel').innerHTML = '<option value="">Tüm başlıklar</option>' + Object.entries(CATS).map(([k, n]) => `<option value="${k}">${esc(n)} (${TERMS.filter(t => t.cat === k).length})</option>`).join('');
+
+/* ---------- branş seçimi ---------- */
+const brDlg = $('#branches');
+function renderBranchDialog() {
+  const on = id => !sel.length || sel.includes(id);
+  $('#br-groups').innerHTML = Object.entries(GROUPS).map(([g, gname]) => {
+    const bs = BRS.filter(b => b.group === g);
+    if (!bs.length) return '';
+    return `<fieldset class="br-group"><legend><button type="button" class="btn ghost small" data-brgroup="${g}">${esc(gname)}</button></legend>${bs.map(b => {
+      const st = branchStats(b.id);
+      return `<label class="br-row"><input type="checkbox" value="${b.id}"${on(b.id) ? ' checked' : ''}><span class="br-n">${esc(b.name)}</span><span class="br-s mono">${st.done}/${st.n} · %${st.pct}</span><span class="cat-bar"><i style="width:${st.pct}%"></i></span></label>`;
+    }).join('')}</fieldset>`;
+  }).join('');
+  updateBranchCount();
+}
+const checkedBranches = () => $$('#br-groups input:checked').map(x => x.value);
+function updateBranchCount() {
+  const ids = checkedBranches();
+  const n = TERMS.filter(t => ids.includes(t.br)).length;
+  $('#br-count').textContent = ids.length === BRS.length ? `Tüm tıp · ${n} konu` : ids.length ? `${ids.length} branş · ${n} konu` : 'Seçim yok';
+}
+$('#scope-edit').addEventListener('click', () => { renderBranchDialog(); if (brDlg.showModal) brDlg.showModal(); else brDlg.setAttribute('open', ''); });
+$('#br-groups').addEventListener('change', updateBranchCount);
+$('#br-groups').addEventListener('click', e => {
+  const g = e.target.closest('[data-brgroup]'); if (!g) return;
+  const boxes = $$(`#br-groups input`).filter(x => BR_BY[x.value].group === g.dataset.brgroup);
+  const all = boxes.every(x => x.checked);
+  // Grup adına basmak: yalnız bu grubu seç; grup zaten tek başına seçiliyse grubu kaldır
+  const onlyThis = all && $$('#br-groups input:checked').length === boxes.length;
+  $$('#br-groups input').forEach(x => { x.checked = onlyThis ? false : boxes.includes(x); });
+  updateBranchCount();
+});
+$('#br-all').addEventListener('click', () => { $$('#br-groups input').forEach(x => { x.checked = true; }); updateBranchCount(); });
+$('#br-none').addEventListener('click', () => { $$('#br-groups input').forEach(x => { x.checked = false; }); updateBranchCount(); });
+brDlg.addEventListener('close', () => {
+  const ids = checkedBranches();
+  const before = sel.join(',');
+  setSel(ids.length ? ids : []);
+  if (!ids.length) toast('Branş seçilmedi; tüm tıp karışık geliyor.');
+  if (sel.join(',') !== before) { rolled = null; $('#reel-text').textContent = '?'; $('#reel-meta').textContent = 'Konu zarla belirlenir'; $('#btn-go').hidden = true; }
+  if (view === 'home') renderHome();
+});
 $('#btn-roll').addEventListener('click', doRoll);
 $('#btn-go').addEventListener('click', () => { if (rolled) startResearch(rolled, 'free'); });
 $('#resume-go').addEventListener('click', () => {
@@ -1068,5 +1079,5 @@ if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
 }
 
 // Konsoldan test için
-window.__upn = { evaluate: (id, text) => { const r = evaluate(BY_ID[id], text); return { score: Math.round(r.score * 100), hit: r.concepts.filter(c => c.hit).map(c => c.label), miss: r.concepts.filter(c => !c.hit).map(c => c.label), fillers: r.fillers }; }, terms: TERMS.length };
+window.__upn = { evaluate: (id, text) => { const r = evaluate(BY_ID[id], text); return { score: Math.round(r.score * 100), hit: r.concepts.filter(c => c.hit).map(c => c.label), miss: r.concepts.filter(c => !c.hit).map(c => c.label), fillers: r.fillers }; }, terms: TERMS.length, pool: () => POOL.length, branches: BRS.map(b => b.id), stats: branchStats, ready: true };
 })();
