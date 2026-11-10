@@ -361,6 +361,7 @@ function renderResearch() {
   ];
   // Kaynak kaydı olmayan konu için yedek: derleme araması
   if (!src.length) src.push(['PubMed', 'Derleme (review) makaleler', `https://pubmed.ncbi.nlm.nih.gov/?term=${enQ}&filter=pubt.review`]);
+  $('#r-src-hint').firstChild.textContent = books.length || papers.length ? 'Bu konu için 2 temel kitap ve 2 makale. İngilizce adla ara: ' : 'Bu konunun kaynak listesi hazırlanıyor. İngilizce adla ara: ';
   $('#r-sources').innerHTML = src.map(([n, sub, url]) => `<li><a href="${url}" target="_blank" rel="noopener noreferrer"><b>${n}</b><small>${sub}</small><span class="arr">↗</span></a></li>`).join('');
   const notes = $('#r-notes');
   notes.value = store.get('notes:' + S.id, '');
