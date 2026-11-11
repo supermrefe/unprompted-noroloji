@@ -23,3 +23,32 @@
 | gas-pbc | EASL'in 2025 güncel PBC kılavuzu aramada bulunamadı; 2017 kılavuzu kullanıldı. AGA/AASLD 2026 PBC kılavuzu (Levy, Gastroenterology) ikincil özette görüldü, DOI doğrulanmadı, kullanılmadı. Obetikolik asidin AB'de koşullu ruhsatı 2024'te geri çekildiği için anahtar sözcükten çıkarıldı (bellekten). "Bir yılda yanıt değerlendirme" EASL 2017'den bellekten. | EASL web sitesi; Gastroenterology 2026 AGA/AASLD PBC |
 | gas-psk | "Yüksek doz UDCA zararlı" bilgisi anahtar/anlatımda kullanılmadı. Kolonoskopi aralığı (yıllık) yazılmadı. AASLD 2023 rehberi resmi "guideline" değil "guidance"tır. | EASL 2022; AASLD 2023 |
 | gas-akut-karaciger-yetmezligi | INR ≥1,5 tanım eşiği bellekten (AASLD/ACG tanımı). Parasetamol dışı ALF'de NAC önerisinin derecesi (koşullu?) doğrulanmadı. Hepatit E'nin Türkiye'deki payı ve parasetamolün Türkiye'de en sık neden olup olmadığı bilinmiyor; anlatımda sıralama verilmedi. Acil tıp paketindeki parasetamol zehirlenmesi konusuyla kısmen ilişkili (çapraz skor %45). | ACG 2023; EASL 2017 |
+| gas-ulseratif-kolit | Denetim: ACG 2025 UC DOI'sinin 10.14309/ajg.0000000000003463 olabileceği bildirildi; kayıtta ...3616 duruyor, doğrulanamadı. | Crossref/PubMed |
+| gas-pbc | Denetim: EASL 2025 PBC kılavuzu (J Hepatol 2025) 2017 kılavuzunun yerini almış olabilir; DOI doğrulanamadığı için kaynak değiştirilmedi. Yanıt değerlendirme zamanı (6–12. ay) kontrol edilmeli. | EASL 2025 PBC CPG |
+| gas-masld | Denetim: AASLD 2023 T2D'li MASH'te pioglitazonu düşünülebilir sayıyor, EASL 2024 MASH tedavisi olarak önermiyor; anahtardan çıkarıldı. NAFLD/NASH eski adları anahtarda bırakıldı (hekim kararı). | AASLD 2023; EASL-EASD-EASO 2024 |
+| gas-akut-pankreatit | Denetim: zayıf anlatımdaki "aç bırakılarak izlenir" eskimiş (erken oral beslenme önerilir); zayıf anlatım bilinçli kötü örnek olduğu için değiştirilmedi. | ACG 2024 |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| gas-gerd | Etiket LA B–D, uzun segment Barrett ve peptik darlık (Lyon 2.0/ACG 2022) olarak güncellendi; "la b" anahtarı eklendi; iyi anlatımda "LA B, C ve D". | Lyon 2.0 LA B'yi kesin kanıt sayıyor; C–D eşiği Lyon 1.0'a ait |
+| gas-peptik-ulser-hp | "üreaz" anahtarı çıkarıldı; "dörtlü tedavi/dörtlü rejim/quadruple" yerine "bizmutlu dörtlü/bismuth quadruple". | Hızlı üreaz testi invaziv; bizmutsuz dörtlü ilk seçenek değil |
+| gas-peptik-ulser-hp | İyi anlatımda ülser tanımı "muskularis mukozayı aşan" yapıldı; zayıf anlatımdan baharat kısıtlaması ve "bazen bir mikrop" çıkarıldı. | Tanım belirsizliği; eskimiş diyet öğüdü |
+| gas-ust-gis-kanama | Transfüzyon etiketi ESGE 2021'e atfedildi (Hb ≤7; KVH'de ≤8); iyi anlatımda "ESGE kılavuzu". | ACG 2021'de ayrı eşik önerisi yok |
+| gas-ust-gis-kanama | Yalın epinefrin/adrenalin enjeksiyon anahtarları yerine kombinasyon anahtarları; yalın "infüzyon", pantoprazol, esomeprazol çıkarıldı, "hemostaz sonrası ppi" eklendi. | Adrenalin monoterapisi önerilmez; sıvı infüzyonu ve endoskopi öncesi PPI'yi ödüllendirmesin |
+| gas-akut-pankreatit | "agresif sıvı" çıkarıldı, "ılımlı sıvı/aşırı sıvıdan kaçın" eklendi; yalın ercp/kolesistektomi yerine bağlamlı anahtarlar; BT kavramında olumsuz/bağlamlı anahtarlar. | WATERFALL; rutin erken ERCP önerilmez; ters ifadeyi ödüllendirmesin |
+| gas-hepatit-b | "nükleoz" çıkarıldı, "tdf/taf/tenofovir alafenamid" eklendi. | Lamivudin gibi düşük bariyerli ilaçları ödüllendirmesin |
+| gas-irritabl-bagirsak | "lifli" çıkarıldı, "çözünebilir lif" eklendi. | Çözünmeyen lif (kepek) önerilmez |
+| gas-crohn | Cerrahi kavramında yalın "rezeksiyon/kısa bağırsak" yerine "iyileştirmez/küratif değil/nüks" kalıpları; budesonid anahtarı bağlama bağlandı. | Ters ifadeyi ve mesalazin-ilk-basamak anlatımını ödüllendirmesin |
+| gas-masld | "pioglitazon" anahtarı çıkarıldı. | Etiketle tutarsız, kılavuzlar arası fark |
+| gas-asit-sbp | Etiket ve iyi anlatım toplum kökenli SBP'yle sınırlandı; nozokomiyal/dirençli olguda piperasilin-tazobaktam/karbapenem eklendi. | EASL 2018, AASLD 2021 |
+| gas-varis-kanamasi | İyi anlatımda preemptif TIPS ölçütü Child-Pugh C 10–13 ya da aktif kanamalı Child-Pugh B 8–9 olarak yazıldı. | Baveno VII (Child C <14) |
+| gas-hepatik-ensefalopati | AASLD/EASL 2014 bağlantısı PubMed 25015420 yerine DOI 10.1002/hep.27210. | PMID yanlış kayda gidiyor olabilir |
+| gas-psk | Yalın "etkinliği kanıtlanmış" ve "ercp/erkp" anahtarları çıkarıldı; olumsuz kalıplar eklendi. | Doğrulanmış hata: olumlu ifadeyi ödüllendiriyordu; tanısal ERCP eskimiş |
+| gas-akut-karaciger-yetmezligi | "rutin düzelt/rutin plazma" anahtarları çıkarıldı, olumsuz kalıplar kaldı; iyi anlatımda "kanama yoksa ve girişim planlanmıyorsa"; kaynak başlığı "Acute Liver Failure Guidelines (ACG)". | Doğrulanmış hata: ters ifade doğru sayılıyordu; mantık bağlacı |
+| gas-akut-pankreatit | BT kavramında 'rutin değil' BT/tomografiye, ERCP kavramında 'kolanjit' 'kolanjitte ERCP'ye bağlandı | Bağlamsız anahtarlar başka cümlelerle eşleşiyordu |
+| gas-akut-karaciger-yetmezligi | Yalın 'düzeltilmez' INR/koagülopati/plazma bağlamına bağlandı | Bağlamsız eşleşme |
+| gas-crohn | Cerrahi kavramında 'iyileştirmez', 'nüks sık' cerrahi/rezeksiyona bağlandı | Bağlamsız eşleşme |
+| gas-psk | Yalın 'kanıtlanmamış' tedavi/UDCA'ya bağlandı | Bağlamsız eşleşme |
+| gas-ust-gis-kanama | 'kombine tedavi' adrenalin/endoskopik bağlama bağlandı | Bağlamsız eşleşme |

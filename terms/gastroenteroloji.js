@@ -30,7 +30,7 @@ terms: [
       ["!Tipik belirtiler: göğüste yanma (pirozis) ve regürjitasyon", "pirozis|mide yanması|göğüste yanma|göğüs kemiğinin arkasında yanma|retrosternal yanma|regürjitasyon|ağza acı su|ağza ekşi su|ağzına acı su|ekşi su|heartburn"],
       ["!Alarm bulgusu yoksa ampirik PPI denemesi", "ampirik|empirik|ppi dene|ppi denemesi|deneme amaçlı ppi|deneme amaçlı proton|deneme tedavisi"],
       ["!Alarm bulgularında ve PPI yanıtsızlığında endoskopi", "alarm bulgu|alarm belirti|alarm semptom|alarm işaret"],
-      ["Endoskopi: Los Angeles sınıflaması (ACG 2022: LA C–D özofajit kesin tanı koydurur)", "los angeles|la sınıf|la c|la d|eroziv özofajit"],
+      ["Endoskopi: Los Angeles sınıflaması (Lyon 2.0/ACG 2022: LA B–D özofajit, uzun segment Barrett ve peptik darlık kesin tanı koydurur; LA A koydurmaz)", "los angeles|la sınıf|la b|la c|la d|eroziv özofajit"],
       ["PPI kesilerek pH monitörizasyonu (Lyon 2.0: asit maruziyet süresi)", "ph monitör|ph ölç|ph metre|phmetri|empedans|asit maruziyet|lyon"],
       ["Komplikasyonlar: Barrett özofagusu, peptik darlık, adenokarsinom", "barrett|peptik darlık|striktür|adenokarsinom"],
       ["Yaşam tarzı: kilo verme, yatak başını yükseltme, geç yemekten kaçınma", "kilo ver|yatak başı|başucunu yükselt|yatağın başını|yatmadan önce|geç saatte yemek|gece geç"],
@@ -42,9 +42,9 @@ terms: [
       ["ACG Clinical Guideline: Treatment of Helicobacter pylori Infection. Am J Gastroenterol 2024", "https://doi.org/10.14309/ajg.0000000000002968"]] },
     c: [
       ["!İki ana neden: H. pylori ve NSAİİ/aspirin", "pylori|pilori|nsaid|nsai|nonsteroid|steroid olmayan antiinflamatuvar|aspirin"],
-      ["!Non-invaziv tanı: üre nefes testi ya da dışkıda antijen", "üre nefes|nefes testi|dışkıda antijen|gaitada antijen|dışkı antijen|gaita antijen|üreaz"],
+      ["!Non-invaziv tanı: üre nefes testi ya da dışkıda antijen", "üre nefes|nefes testi|dışkıda antijen|gaitada antijen|dışkı antijen|gaita antijen"],
       ["Testten önce PPI'ın kesilmesi (yalancı negatiflik)", "iki hafta önce|2 hafta önce|ppi kes|ppi ı kes|ppiyı kes|ppi yi kes|yalancı negatif|yanlış negatif"],
-      ["!İlk seçenek: 14 günlük bizmutlu dörtlü tedavi", "bizmut|bismut|dörtlü tedavi|dörtlü rejim|quadruple"],
+      ["!İlk seçenek: 14 günlük bizmutlu dörtlü tedavi", "bizmut|bismut|bizmutlu dörtlü|bismuth quadruple"],
       ["Klaritromisin direnci: duyarlılık bilinmeden klaritromisinli üçlü tedavi önerilmez", "klaritromisin direnc|klaritromisine direnç|direnç oranı|antibiyotik direnc|duyarlılık test|antibiyogram"],
       ["Tedavi sonrası eradikasyonun doğrulanması", "eradikasyon kontrol|eradikasyonu kontrol|eradikasyonu doğrula|eradikasyonun doğrulan|kontrol test|tedaviden sonra test|başarısını kontrol"],
       ["Komplikasyonlar: kanama, perforasyon, çıkış obstrüksiyonu", "perforasyon|delinme|obstrüksiyon|çıkış darlığı|pilor darlığı"],
@@ -57,10 +57,10 @@ terms: [
     c: [
       ["!İlk iş hemodinamik resüsitasyon", "resüsitasyon|damar yolu|geniş damar|sıvı replas|hemodinamiyi stabil|hemodinamik stabil|kristalloid"],
       ["!Glasgow-Blatchford skoru: 0–1 ise ayaktan izlenebilir", "blatchford|gbs|ayaktan izlen|ayaktan takip|yatırılmadan|yatırmadan"],
-      ["Kısıtlayıcı eritrosit transfüzyonu (ACG: Hb 7 g/dL eşiği)", "kısıtlayıcı|restriktif|hemoglobin 7|hemoglobin yedi|yedinin altı|7 nin altı|yedi gram"],
-      ["!24 saat içinde endoskopi ve endoskopik hemostaz", "24 saat içinde endoskopi|yirmi dört saat içinde endoskopi|endoskopik hemostaz|klip|termal|epinefrin enjeksiyon|adrenalin enjeksiyon"],
+      ["Kısıtlayıcı eritrosit transfüzyonu (ESGE 2021: Hb ≤7 g/dL; kardiyovasküler hastalıkta ≤8 g/dL)", "kısıtlayıcı|restriktif|hemoglobin 7|hemoglobin yedi|yedinin altı|7 nin altı|yedi gram"],
+      ["!24 saat içinde endoskopi ve endoskopik hemostaz", "24 saat içinde endoskopi|yirmi dört saat içinde endoskopi|endoskopik hemostaz|klip|termal|adrenalinle kombine|epinefrinle kombine|adrenalinle kombine tedavi|kombine endoskopik tedavi|endoskopik kombine tedavi"],
       ["Forrest sınıflaması: yeniden kanama riski", "forrest|görünür damar|fışkır|yapışık pıhtı|visible vessel"],
-      ["Hemostaz sonrası yüksek doz PPI", "yüksek doz ppi|yüksek doz proton|ppi infüzyon|infüzyon|intravenöz ppi|damardan ppi|pantoprazol|esomeprazol"],
+      ["Hemostaz sonrası yüksek doz PPI", "yüksek doz ppi|yüksek doz proton|ppi infüzyon|pantoprazol infüzyon|esomeprazol infüzyon|intravenöz ppi|damardan ppi|hemostaz sonrası ppi"],
       ["Endoskopi öncesi IV eritromisin", "eritromisin"],
       ["Başarısızlıkta tekrar endoskopi, anjiyografik embolizasyon, cerrahi", "embolizasyon|tekrar endoskopi|ikinci endoskopi"],
       ["Ülser kanamasında H. pylori araştırılması", "pylori|pilori"]
@@ -73,11 +73,11 @@ terms: [
       ["!Tanı: 3 ölçütten 2'si (tipik ağrı, lipaz/amilaz ≥3 kat, görüntüleme)", "üç kat|3 kat|üçten ikisi|3 ten 2|ölçütten ikisi|kriterden ikisi|iki kriter|iki ölçüt|ikisinin olması|ikisi gerek"],
       ["!En sık nedenler: safra taşı ve alkol; hipertrigliseridemi", "safra taşı|biliyer|kolelitiyazis|alkol|trigliserid"],
       ["Revize Atlanta: hafif, orta ağır, ağır (48 saatten uzun organ yetmezliği)", "atlanta|48 saat|kırk sekiz saat|organ yetmezliği|kalıcı organ|orta ağır|persistan organ"],
-      ["!Erken sıvı: laktatlı Ringer, orta düzeyde agresif", "ringer|laktatlı|sıvı resüsitasyon|hidrasyon|agresif sıvı|orta düzeyde"],
+      ["!Erken sıvı: laktatlı Ringer, orta düzeyde agresif", "ringer|laktatlı|sıvı resüsitasyon|hidrasyon|orta düzeyde|ılımlı sıvı|aşırı sıvıdan kaçın"],
       ["Erken oral beslenme (hafif olguda 24–48 saat içinde)", "erken oral|ağızdan beslen|oral beslen|erken besle|enteral|nazogastrik|nazojejunal"],
       ["Profilaktik antibiyotik yok; antibiyotik yalnız enfekte nekrozda", "antibiyotik verilmez|antibiyotik vermeyiz|antibiyotik vermiyoruz|antibiyotik önerilmez|antibiyotik kullanmıyoruz|antibiyotik kullanılmaz|antibiyotik gerekmez|enfekte nekroz|infekte nekroz"],
-      ["Kolanjitte ERCP; biliyer pankreatitte aynı yatışta kolesistektomi", "kolanjit|ercp|erkp|kolesistektomi"],
-      ["BT ilk günlerde rutin değil; tanı belirsizse ya da kötüleşmede", "rutin bt|rutin tomografi|bt rutin|tomografi rutin|rutin bete|bete rutin|kontrastlı bt|kontrastlı tomografi|kontrastlı bete|ilk günlerde tomografi"]
+      ["Kolanjitte ERCP; biliyer pankreatitte aynı yatışta kolesistektomi", "kolanjitte ercp|kolanjit varlığında ercp|kolanjitte acil ercp|kolanjit varsa ercp|aynı yatışta kolesistektomi|aynı yatış|indeks yatış"],
+      ["BT ilk günlerde rutin değil; tanı belirsizse ya da kötüleşmede", "bt rutin değil|tomografi rutin değil|bt rutin çekilmez|tomografi rutin çekilmez|bt rutin önerilmez|tomografi rutin önerilmez|bt rutin olarak çekilmez|tomografi rutin olarak çekilmez|kötüleşirse bt|kötüleşiyorsa çekilir|tanı belirsizse"]
     ]},
   { id: "gas-hepatit-b", tr: "Kronik hepatit B", en: "Chronic hepatitis B", cat: "hep", lvl: 1,
     src: { k: [SH, HA], m: [
@@ -86,7 +86,7 @@ terms: [
     c: [
       ["!Serolojik belirteçler: HBsAg, anti-HBs, anti-HBc, HBeAg", "hbsag|hbs ag|hbs antijen|yüzey antijen|anti hbs|antihbs|anti hbc|antihbc|hbeag|hbe ag|core antikor"],
       ["!Tedavi kararı: HBV DNA, ALT ve fibroz birlikte değerlendirilir", "hbv dna|viral yük|virüs yükü|alt yüksek|alt düzey|elastografi|fibroscan"],
-      ["!İlk seçenek: tenofovir ya da entekavir (uzun süreli)", "tenofovir|entekavir|entecavir|nükleoz"],
+      ["!İlk seçenek: tenofovir ya da entekavir (uzun süreli)", "tenofovir|entekavir|entecavir|tdf|taf|tenofovir alafenamid"],
       ["İdeal hedef: HBsAg kaybı (fonksiyonel kür)", "fonksiyonel kür|fonksiyonel iyileş|hbsag kaybı|hbsag negatifleş|hbsag in kaybı|yüzey antijeninin kaybı|functional cure"],
       ["Hepatosellüler karsinom taraması (ultrasonografi)", "hepatosellüler|hepatoselüler|hcc|karaciğer kanser|ultrason"],
       ["HBsAg pozitiflerde hepatit D (delta) testi", "delta|hepatit d|hdv|anti hdv"],
@@ -103,7 +103,7 @@ terms: [
       ["Alt tipler (kabızlık/ishal baskın, karışık) ve Bristol dışkı skalası", "bristol|kabızlık baskın|ishal baskın|karışık tip|alt tip|ibs c|ibs d"],
       ["!Alarm bulgusu yoksa pozitif tanı (dışlama tanısı değil)", "alarm|pozitif tanı|dışlama tanısı değil|dışlama tanısı olarak değil"],
       ["İshal baskında çölyak serolojisi ve fekal kalprotektin", "çölyak|kalprotektin|calprotectin"],
-      ["Diyet: düşük FODMAP, çözünür lif (psyllium)", "fodmap|fotmap|psyllium|çözünür lif|lifli"],
+      ["Diyet: düşük FODMAP, çözünür lif (psyllium)", "fodmap|fotmap|psyllium|çözünür lif|çözünebilir lif"],
       ["İlaçlar: trisiklik antidepresan (nöromodülatör), linaklotid, rifaksimin (antispazmodik tartışmalı)", "trisiklik|amitriptilin|nöromodülatör|linaklotid|rifaksimin|lubiproston"],
       ["Beyin–bağırsak etkileşimi; bağırsağa yönelik psikoterapi", "beyin bağırsak|bağırsak beyin|psikoterapi|bilişsel davranış|hipnoterapi|viseral hiper|visseral hiper"]
     ]},
@@ -134,10 +134,10 @@ terms: [
       ["Kazeifiye olmayan granülom", "granülom"],
       ["!Komplikasyon: fistül, apse, darlık; perianal hastalık", "fistül|apse|darlık|striktür|perianal|stenoz"],
       ["Sigara riski artırır ve seyri kötüleştirir", "sigara kötüleş|sigara seyri|sigara riski|sigara içenlerde daha|sigarayı mutlaka bırak|sigara içilmemeli|sigara hastalığı kötüleş"],
-      ["Hafif ileoçekal hastalıkta budesonid; mesalazin Crohn'da önerilmez", "budesonid|mesalazin önerilmez|mesalazinin yeri yok|5 asa önerilmez|5 asanın yeri yok|mesalazin etkisiz|mesalazin etkili değil"],
+      ["Hafif ileoçekal hastalıkta budesonid; mesalazin Crohn'da önerilmez", "ileoçekal hastalıkta budesonid|hafif hastalıkta budesonid|ileoçekal budesonid|mesalazin önerilmez|mesalazinin yeri yok|5 asa önerilmez|5 asanın yeri yok|mesalazin etkisiz|mesalazin etkili değil"],
       ["!Orta-ağır hastalıkta erken biyolojik tedavi (anti-TNF ± tiyopürin, ustekinumab, vedolizumab, risankizumab, JAK)", "anti tnf|antitnf|infliksimab|adalimumab|ustekinumab|vedolizumab|risankizumab|upadasitinib|biyolojik|azatiyopr|tiyopürin"],
       ["Malabsorpsiyon: B12 eksikliği, safra asidi kaybı, oksalat taşı", "b12|b on iki|safra asidi|oksalat|malabsorbsiyon|malabsorpsiyon"],
-      ["Cerrahi iyileştirici değil; bağırsak koruyucu yaklaşım", "rezeksiyon|striktüroplasti|bağırsak koruyucu|kısa bağırsak"]
+      ["Cerrahi iyileştirici değil; bağırsak koruyucu yaklaşım", "cerrahi iyileştirmez|cerrahi küratif değil|rezeksiyon iyileştirmez|küratif değil|şifa sağlamaz|ameliyat sonrası nüks|postoperatif nüks|anastomoz nüksü|rezeksiyon sonrası nüks|cerrahi sonrası nüks|striktüroplasti|bağırsak koruyucu"]
     ]},
   { id: "gas-colyak", tr: "Çölyak hastalığı", en: "Celiac disease", cat: "bag", lvl: 2,
     src: { k: [SF, YA], m: [
@@ -178,7 +178,7 @@ terms: [
       ["!Basamaklı fibroz değerlendirmesi: FIB-4, ardından elastografi", "fib 4|fib4|fib dört|elastografi|fibroscan|sertlik ölç|transient"],
       ["Prognozu fibroz belirler; en sık ölüm nedeni kardiyovasküler", "kardiyovasküler|kalp damar|fibroz evre|fibrozun derece"],
       ["!Yaşam tarzı: kilo verme, Akdeniz diyeti, egzersiz, alkolden kaçınma", "kilo ver|kilo kaybı|akdeniz|egzersiz|fiziksel aktivite"],
-      ["İlaç: anlamlı fibrozlu MASH'te resmetirom; diyabet/obezitede GLP-1 agonisti", "resmetirom|glp 1|glp1|semaglutid|tirzepatid|inkretin|pioglitazon"],
+      ["İlaç: anlamlı fibrozlu MASH'te resmetirom; diyabet/obezitede GLP-1 agonisti", "resmetirom|glp 1|glp1|semaglutid|tirzepatid|inkretin"],
       ["Obezitede bariyatrik (metabolik) cerrahi", "bariyatrik|metabolik cerrahi|obezite cerrahi"]
     ]},
   { id: "gas-asit-sbp", tr: "Sirozda asit ve spontan bakteriyel peritonit", en: "Ascites and spontaneous bacterial peritonitis in cirrhosis", cat: "sir", lvl: 2,
@@ -189,7 +189,7 @@ terms: [
       ["!SBP tanısı: asit sıvısında nötrofil >250/mm³", "250|iki yüz elli|nötrofil sayı|pmn|polimorf"],
       ["Sodyum kısıtlaması ve diüretik (spironolakton ± furosemid)", "spironolakton|aldakton|furosemid|tuz kısıt|sodyum kısıt|diüretik"],
       ["Büyük hacimli parasentezde albümin (≥5 L'de litre başına 8 g)", "litre başına|büyük hacim|5 litre|beş litre"],
-      ["!SBP tedavisi: 3. kuşak sefalosporin + albümin (1. gün 1,5 g/kg, 3. gün 1 g/kg)", "sefotaksim|seftriakson|üçüncü kuşak|3 kuşak|1,5 gram|bir buçuk gram"],
+      ["!SBP tedavisi: toplum kökenli SBP'de 3. kuşak sefalosporin (nozokomiyal SBP'de ya da direnç yüksekse piperasilin-tazobaktam/karbapenem) + albümin (1. gün 1,5 g/kg, 3. gün 1 g/kg)", "sefotaksim|seftriakson|üçüncü kuşak|3 kuşak|1,5 gram|bir buçuk gram"],
       ["SBP sonrası sekonder profilaksi (norfloksasin/siprofloksasin)", "norfloksasin|siprofloksasin|kinolon|sekonder profilaksi|ikincil profilaksi"],
       ["Hepatorenal sendrom: terlipressin + albümin", "hepatorenal|hrs|terlipressin"],
       ["Dirençli asit: tekrarlayan parasentez, TIPS, nakil değerlendirmesi", "dirençli asit|refrakter asit|diüretiğe dirençli|diüretiğe yanıtsız"]
@@ -212,7 +212,7 @@ terms: [
   { id: "gas-hepatik-ensefalopati", tr: "Hepatik ensefalopati", en: "Hepatic encephalopathy", cat: "sir", lvl: 3,
     src: { k: [SH, SF], m: [
       ["EASL Clinical Practice Guidelines on the management of hepatic encephalopathy. J Hepatol 2022", "https://doi.org/10.1016/j.jhep.2022.06.001"],
-      ["Hepatic encephalopathy in chronic liver disease: 2014 Practice Guideline by AASLD and EASL. Hepatology 2014", "https://pubmed.ncbi.nlm.nih.gov/25015420/"]] },
+      ["Hepatic encephalopathy in chronic liver disease: 2014 Practice Guideline by AASLD and EASL. Hepatology 2014", "https://doi.org/10.1002/hep.27210"]] },
     c: [
       ["!Sirozda/portosistemik şantta nöropsikiyatrik sendrom; amonyak merkezde", "amonyak|nöropsikiyatrik|portosistemik"],
       ["West Haven evreleri; minimal/örtük HE", "west haven|minimal hepatik|minimal ensefalopati|minimal ya da örtük|örtük|covert|gizli ensefalopati"],
@@ -275,15 +275,15 @@ terms: [
       ["!Ülseratif kolitle güçlü ilişki; çoğunlukla genç erkek", "ülseratif|inflamatuvar bağırsak|iltihabi bağırsak"],
       ["!Tanı: MRKP'de boncuk dizisi görünümü", "mrcp|mrkp|boncuk|tespih|beaded|manyetik rezonans kolanjiyo"],
       ["AMA negatif; p-ANCA görülebilir; IgG4 ilişkili kolanjit dışlanmalı", "panca|p anca|anca|igg4|igg 4|ig g4"],
-      ["Etkinliği kanıtlanmış ilaç tedavisi yok", "kanıtlanmış ilaç tedavisi yok|kanıtlanmış tedavi yok|etkili ilaç yok|etkinliği kanıtlanmış|yararı kanıtlanmamış|kanıtlanmamış"],
+      ["Etkinliği kanıtlanmış ilaç tedavisi yok", "kanıtlanmış ilaç tedavisi yok|kanıtlanmış bir ilaç tedavisi yok|kanıtlanmış tedavi yok|etkili ilaç yok|yararı kanıtlanmamış|etkinliği kanıtlanmamış|tedavisi kanıtlanmamış|udca etkinliği kanıtlanmamış|udca yararı kanıtlanmamış"],
       ["!Kolanjiyokarsinom ve kolorektal kanser riski; kolonoskopik izlem, safra kesesi polibi", "kolanjiyokarsinom|kolanjiokarsinom|safra yolu kanser|kolorektal kanser|kolonoskopi|safra kesesi polip"],
-      ["Dominant darlıkta ERCP ve fırça sitolojisi; bakteriyel kolanjit", "dominant|fırça sitoloji|brushing|ercp|erkp|bakteriyel kolanjit|akut kolanjit"],
+      ["Dominant darlıkta ERCP ve fırça sitolojisi; bakteriyel kolanjit", "dominant|fırça sitoloji|brushing|bakteriyel kolanjit|akut kolanjit"],
       ["Tek kesin tedavi karaciğer nakli", "karaciğer nakl|nakil|transplant"]
     ]},
   { id: "gas-akut-karaciger-yetmezligi", tr: "Akut karaciğer yetmezliği", en: "Acute liver failure", cat: "sir", lvl: 3,
     src: { k: [SH, HA], m: [
       ["EASL Clinical Practical Guidelines on the management of acute (fulminant) liver failure. J Hepatol 2017", "https://doi.org/10.1016/j.jhep.2016.12.003"],
-      ["ACG Clinical Guideline: Acute Liver Failure. Am J Gastroenterol 2023", "https://doi.org/10.14309/ajg.0000000000002340"]] },
+      ["Acute Liver Failure Guidelines (ACG). Am J Gastroenterol 2023", "https://doi.org/10.14309/ajg.0000000000002340"]] },
     c: [
       ["!Tanım: önceden karaciğer hastalığı olmayan kişide koagülopati (INR ≥1,5) + ensefalopati", "inr|koagülopati|pıhtılaşma bozukluğu|karaciğer hastalığı olmayan|karaciğer hastalığı bulunmayan"],
       ["Zamanlama: hiperakut, akut, subakut (sarılıktan ensefalopatiye süre)", "hiperakut|subakut|sarılıktan ensefalopati|sarılık ile ensefalopati|sarılıktan sonra ensefalopati"],
@@ -291,7 +291,7 @@ terms: [
       ["!N-asetilsistein (parasetamol ve parasetamol dışı nedenlerde)", "asetilsistein|nac|n asetil"],
       ["Erken nakil merkezine sevk; King's College ölçütleri", "king|nakil merkez|transplant merkez|sevk"],
       ["Serebral ödem/kafa içi basınç artışı; yüksek amonyak", "serebral ödem|beyin ödem|kafa içi basınç|intrakraniyal|amonyak"],
-      ["Kanama yoksa koagülopati rutin olarak düzeltilmez", "rutin düzelt|rutin olarak düzelt|koagülopati düzeltilmez|plazmayla düzeltilmez|plazma ile düzeltilmez|plazma verilmez|plazma vermiyoruz|rutin plazma|rutin olarak plazma"],
+      ["Kanama yoksa koagülopati rutin olarak düzeltilmez", "inr düzeltilmez|inr rutin olarak düzeltilmez|koagülopati rutin olarak düzeltilmez|koagülopati düzeltilmez|plazmayla düzeltilmez|plazma ile düzeltilmez|plazma verilmez|rutin plazma verilmez|plazma vermiyoruz"],
       ["Hipoglisemi, enfeksiyon, böbrek yetmezliği takibi; yoğun bakım", "hipoglisemi|yoğun bakım|renal replasman|crrt|hemodiyafiltrasyon"]
     ]}
 ]
