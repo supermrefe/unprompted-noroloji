@@ -1,0 +1,20 @@
+## Onkoloji
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | DeVita 12. baskı: yayıncı 2022 (Eylül), bazı kataloglar 2023 diyor; 2022 yazıldı. Abeloff 6. baskı (2020) doğrulandı. Kitapların ilgili bölümleri tek tek açılmadı. | LWW / Elsevier yayıncı sayfaları |
+| onk-kanser-taramalari | Kolorektal tarama yaş aralığı kaynaklarda 50–70 ve 50–75 olarak farklı; etikette "50 yaş üstü" yazıldı. Ek-6 PDF'in güncel sürüm olup olmadığı ve 2025 SMS davet uygulaması yalnız haberlerden görüldü. Serviks taramasında smear'in HPV ile birlikte rutin olup olmadığı (yalnız HPV pozitifte mi) netleştirilmeli. | HSGM Kanser Daire Başkanlığı güncel tarama standartları |
+| onk-tnm-evreleme | UICC 9. baskının 2026'dan itibaren kullanım önerisi UICC duyurusundan; Türkiye'de geçiş tarihi bilinmiyor. AJCC 9. baskı bölüm bölüm yayımlanıyor, ayrıntı verilmedi. AJCC 8 kitabı yıl 2017 (basım 2016 sonu) olarak yazıldı. | UICC; AJCC |
+| onk-febril-notropeni | "<500/mm³" ve ateş eşikleri (tek ölçüm ≥38,3 °C ya da ≥38,0 °C sürekli) klasik IDSA tanımı; kılavuz tam metni açılmadı, ateş sayıları yazılmadı. MASCC ≥21 ve "ilk saat" doğrulandı. | Taplitz 2018 JCO tam metni; Freifeld IDSA 2011 |
+| onk-tumor-lizis-sendromu | Rasburikazın G6PD eksikliğinde kontrendikasyonu ve risk sınıflamasına göre allopürinol/rasburikaz seçimi klasik bilgi, makale tam metninde görülmedi. Howard 2011 NEJM için 2018 düzeltmesi var. | Howard NEJM 2011; Cairo-Bishop 2004 |
+| onk-kanser-agrisi | DSÖ 2018 kılavuzu klasik "merdiven"i katı bir algoritma olarak sunmuyor; merdiven ESMO 2018 ve ders kitabından alındı. ESMO'nun 2. basamakta düşük doz güçlü opioid önerisi özet bilgisinden. | ESMO 2018 (Fallon) tam metni; WHO 2018 |
+| onk-spinal-kord-basisi | Deksametazon 16 mg NICE NG234'ten (2023); diğer kılavuzlar farklı doz kullanabilir. NICE sayfasının kendisi açılmadı (bağlantı arama sonucundaki metinden). Radyoterapinin 24 saat içinde başlaması yalnız ikincil kaynakta görüldü, yazılmadı. | NICE NG234 |
+| onk-vena-kava-superior-sendromu | Kaynak listesinde ilk makalenin yazarı Yahalom (sorgudaki "Mortenson" yanlıştı). Akciğer kanseri/lenfoma oranları yazılmadı. | Wilson NEJM 2007 |
+| onk-meme-kanseri-sistemik | ESMO metastatik meme kılavuzunun 2026 güncellemesi (de Azambuja) yayında olabilir; 2021 sürümü kullanıldı. Erken evre üçlü negatifte pembrolizumab (KEYNOTE-522) ve HER2-düşük kavramı Türkiye geri ödeme koşullarına göre değişir. | ESMO MBC güncel; SGK geri ödeme |
+| onk-tumor-belirtecleri | Belirteç–tümör eşleşmeleri klasik bilgi; PSA taraması tartışması ayrıntılandırılmadı. | Sturgeon 2008; Gilligan 2010 |
+| onk-kemoterapi-toksisiteleri | İlaçlara özgü toksisiteler klasik ders kitabı bilgisi; antrasiklin kümülatif doz eşiği bilerek yazılmadı. Olanzapin eklenmesi ASCO 2020'de yüksek emetojenik rejimde önerilir; MASCC/ESMO 2023 ayrıntısı tam metinde görülmedi. | Hesketh 2020; Herrstedt 2024 |
+| onk-immun-iliskili-yan-etkiler | Grade bazlı yönetim ASCO 2021 özetinden; organ özgü steroid dozları yazılmadı. Vedolizumab ve infliksimab seçimi ESMO 2022 tam metninde kontrol edilmeli. | Haanen 2022; Schneider 2021 |
+| onk-kolorektal-kras-msi | Sol/sağ kolon ayrımı ve BRAF V600E'de enkorafenib+setuksimab ESMO 2023 tam metninde doğrulanmadı (ders kitabı/genel bilgi). ESMO'nun yaşayan kılavuz güncellemeleri olabilir. | Cervantes 2023 ve living guideline |
+| onk-herediter-brca-lynch | Tarama başlangıç yaşları ve kolonoskopi aralığı bilerek yazılmadı (gen bazında değişir). Meme MR'ın "yıllık" olduğu anlatımda geçiyor; Sessa 2023'te doğrulanmalı. | Sessa 2023; Stjepanovic 2019; NCCN Genetic/Familial High-Risk |
+| onk-paraneoplastik-sendromlar | Sendrom–tümör eşleşmeleri klasik bilgi; Graus 2021 kriterlerinin ayrıntısı (yüksek/orta risk fenotip) verilmedi. Nöroloji paketinde Lambert-Eaton ile çakışma olabilir. | Pelosof 2010; Graus 2021 |
+| onk-testis-germ-hucreli | Campbell-Walsh-Wein Urology 12. baskı (2020) yılı web aramasıyla doğrulanmadı. Seminomda hCG'nin hafif yükselebileceği klasik bilgi. Üroloji paketiyle çakışma olabilir. | Elsevier; Oldenburg 2022; EAU 2023 |
