@@ -3,7 +3,7 @@
 Bir hekimin gözden geçireceği iş listesi. Her satır: konu, şüphe, kontrol edilecek kaynak. İçerik bu liste kapanmadan "hekim onaylı" sayılmaz.
 Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosya `node tools/klinik.js` ile üretilir).
 
-**Açık inceleme maddesi: 186** (değişiklik kayıtları hariç)
+**Açık inceleme maddesi: 202** (değişiklik kayıtları hariç)
 
 <!-- kardiyoloji: 24 madde -->
 ## Kardiyoloji
@@ -51,7 +51,7 @@ Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosy
 | kar-hipertrofik-kardiyomiyopati | Zayıf anlatımda "ağır spor yapmamaları söylenir" → kişisel risk değerlendirmesiyle ortak karar | 2023 ESC KMP ve 2024 AHA/ACC HCM: mutlak spor yasağı yerine ortak karar |
 | kar-senkop | İyi anlatım: Holter sık ataklarda (haftada ≥1), seyrek açıklanamayan ataklarda implante loop kaydedici | 2018 ESC senkop, EKG izlem bölümü |
 
-<!-- gogus: 17 madde -->
+<!-- gogus: 20 madde -->
 ## Göğüs hastalıkları
 
 | Konu id | Şüphe | Kontrol edilecek kaynak |
@@ -73,8 +73,38 @@ Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosy
 | gog-bronsektazi | ERS 2025 güncellemesi (Aralık 2025) ikincil kaynaktan doğrulandı; uzun süreli makrolid için alevlenme sayısı eşiği ve alevlenme antibiyotik süresi yazılmadı. Brensokatib (DPP-1 inhibitörü) pakette yok; ERS 2025 henüz öneri vermiyor. | Chalmers 2025 ERJ; Polverino 2017 ERJ |
 | gog-alfa1-antitripsin-eksikligi | "Her KOAH hastasına bir kez test" WHO/ERS 2017 ikincil kaynakla doğrulandı. Haftalık IV augmentasyonun akciğer yoğunluk kaybını yavaşlatması (RAPID) ve ANCA vaskülit ilişkisi bellekten. Türkiye'de augmentasyon tedavisine erişim/geri ödeme bilinmiyor. Serum düzeyi eşik değeri yazılmadı. | Miravitlles 2017 ERJ; Strnad 2020 NEJM |
 | gog-silikoz | Türkiye'de denim kumlama yasağının tarihi kaynaklarda Mart ya da Nisan 2009 olarak geçiyor; yalnız yıl yazıldı. Klinik formların süre sınırları (akut/hızlanmış/kronik) yazılmadı. Konu halk sağlığı (meslek hastalıkları) branşıyla çakışabilir. | Leung 2012 Lancet; Hoy 2020 Allergy; ÇSGB meslek hastalıkları mevzuatı |
+| gog-koah | GOLD 2026 rapor bağlantısı (goldcopd.org/2026-gold-report-and-pocket-guide/) oturumdan açılamadı; önceki yılların sayfa adı biçimi farklı. | goldcopd.org rapor sayfası (elle kontrol) |
+| gog-astim | GINA 2025 PDF dosya adı (GINA-2025-Update-25_11_08-WMS.pdf) aramada çıkmadı; Mayıs 2026'da GINA 2026 yayımlanmış olabilir. Kaynak güncellenmeli mi hekim/editör kararı. | ginasthma.org/reports |
+| gog-bronsektazi | ERS 2025 kılavuzunun NTM taramasıyla ilgili önerisi tam metinde kontrol edilmedi; anlatım BTS 2019 çizgisine çekildi. | Chalmers 2025 ERJ tam metni |
 
-<!-- gastroenteroloji: 21 madde -->
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| gog-koah | İKS kavram etiketi E grubu (≥300, başlangıç) ve izlem (≥100, üçlüye geçiş) bağlamıyla yeniden yazıldı | Etiket her KOAH hastasına İKS diye okunabiliyordu (GOLD algoritması) |
+| gog-koah | "abe" yerine "abe değerlendirme/grup/sınıflama..."; "55/88/elli beş/seksen sekiz" yerine "pao2 55, 55 mmhg, sao2 88, satürasyon 88..." | Çıplak sayılar ve kısa anahtar ilgisiz bağlamda eşleşiyordu |
+| gog-astim | Çıplak "formoterol" yerine "iks/budesonid/beklometazon/steroid formoterol" | İKS'siz formoterol (kontrendike) anlatımı doğru sayılıyordu |
+| gog-astim | "kısa etkili beta agonist önerilm", "tek başına/yalnız kısa etkili beta" eş anlamlıları eklendi | Kör anlatımda kısaltmasız ifade yakalanmadı |
+| gog-toplum-kokenli-pnomoni | Çıplak "kontrol grafisi" yerine "kontrol grafisi gerekmez/gerekmiyor" | Ters ifade ödüllendiriliyordu |
+| gog-toplum-kokenli-pnomoni | "influenzada steroid" yerine "influenzada steroid önerilmez/vermiyoruz", "influenza dışı"; çıplak "hidrokortizon" yerine "ağır pnömonide hidrokortizon" | Ters ifade ve ağır olmayan hastada steroid ödüllendiriliyordu (ATS 2025) |
+| gog-toplum-kokenli-pnomoni | Zayıf anlatım: "genellikle bakteriler yapar" yerine "bakteri ya da virüsler; en sık bakteriyel etken pnömokok" | EPIC çalışmasında virüsler daha sık saptandı |
+| gog-solunum-fonksiyon-testleri | Obstrüksiyon kavramından "0 70/sıfır virgül yetmiş" çıkarıldı | Etiket LLN'yi esas alıyor (ERS/ATS 2022) |
+| gog-solunum-fonksiyon-testleri | Z-skoru kavramından "beklenenin yüzde/yüzde beklenen" çıkarıldı | Eskimiş yaklaşım doğru sayılıyordu, BD cümlesiyle de çakışıyordu |
+| gog-solunum-fonksiyon-testleri | BD yanıtından çıplak "yüzde on" çıkarıldı | "yüzde on iki" (2005 kriteri) ile eşleşiyordu |
+| gog-plevral-efuzyon | Çıplak "ph 7 2/7 2/yedi virgül iki" yerine yön içeren ("7 2 ve altı", "7 2 nin altı" vb.) anahtarlar | Ters ifade doğru sayılıyordu |
+| gog-plevral-efuzyon | Malign efüzyonda çıplak "malign" yerine "malign efüzyonda plörodez" | Tedavisi anlatılmadan kavram yakalanıyordu |
+| gog-tuberkuloz | Radyoloji kavramından "miliyer/ghon/gon odağı" çıkarıldı | Primer TB/miliyer bulgu post-primer üst lob kavitesi kavramını karşılıyordu |
+| gog-idiyopatik-pulmoner-fibrozis | İyi anlatımda PPF tanımı "üç ölçütten en az ikisi" olarak düzeltildi | 2022 ATS/ERS/JRS/ALAT tanımı |
+| gog-idiyopatik-pulmoner-fibrozis | PPF anahtarlarından "progresif fibroz/ilerleyici fibroz" çıkarıldı, "progresif fibrozis kavram" eklendi | "ilerleyici fibrozan" İPF tanımıyla gevşek eşleşiyordu |
+| gog-bronsektazi | İyi anlatımda "ERS 2025 tüm hastalarda NTM araştırılmasını öneriyor" yerine "klinik şüphede ve uzun süreli makrolid öncesi" | Doğrulanamayan, büyük olasılıkla yanlış öneri |
+| gog-alfa1-antitripsin-eksikligi | Etiket ve iyi anlatım: PiZZ "ağır eksikliğin en sık nedeni"; null/null'da akciğer tutulumu daha ağır, karaciğer hastalığı yok | "En ağır PiZZ" ifadesi mutlak olarak yanlış |
+| gog-alfa1-antitripsin-eksikligi | "nakli" anahtarı eklendi | "akciğer ya da karaciğer nakli" yakalanmıyordu |
+| gog-silikoz | "ilo" yerine "ilo sınıflama/sınıflandır/standart"; çıplak "kot" yerine "kot işçi" | Kısa anahtarlar ilgisiz bağlamda eşleşebiliyordu |
+| gog-sarkoidoz | "kazeifikasyon göstermeyen", "diğer granülomatöz nedenler" eş anlamlıları eklendi | Kör anlatımda aynı kavram yakalanmadı |
+| gog-astim | SABA kavramında yönsüz anahtarlar ('önerilm', 'tek başına/yalnız kısa etkili beta') 'önerilmez/kullanılmaz' biçimlerine daraltıldı | 'önerilmektedir' gibi ters ifadeler eşleşiyordu |
+| gog-toplum-kokenli-pnomoni | Yinelenen 'ağır pnömonide hidrokortizon' anahtarı kaldırıldı | Tekrar |
+
+<!-- gastroenteroloji: 25 madde -->
 ## Gastroenteroloji ve hepatoloji
 
 | Konu id | Şüphe | Kontrol edilecek kaynak |
@@ -100,8 +130,37 @@ Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosy
 | gas-pbc | EASL'in 2025 güncel PBC kılavuzu aramada bulunamadı; 2017 kılavuzu kullanıldı. AGA/AASLD 2026 PBC kılavuzu (Levy, Gastroenterology) ikincil özette görüldü, DOI doğrulanmadı, kullanılmadı. Obetikolik asidin AB'de koşullu ruhsatı 2024'te geri çekildiği için anahtar sözcükten çıkarıldı (bellekten). "Bir yılda yanıt değerlendirme" EASL 2017'den bellekten. | EASL web sitesi; Gastroenterology 2026 AGA/AASLD PBC |
 | gas-psk | "Yüksek doz UDCA zararlı" bilgisi anahtar/anlatımda kullanılmadı. Kolonoskopi aralığı (yıllık) yazılmadı. AASLD 2023 rehberi resmi "guideline" değil "guidance"tır. | EASL 2022; AASLD 2023 |
 | gas-akut-karaciger-yetmezligi | INR ≥1,5 tanım eşiği bellekten (AASLD/ACG tanımı). Parasetamol dışı ALF'de NAC önerisinin derecesi (koşullu?) doğrulanmadı. Hepatit E'nin Türkiye'deki payı ve parasetamolün Türkiye'de en sık neden olup olmadığı bilinmiyor; anlatımda sıralama verilmedi. Acil tıp paketindeki parasetamol zehirlenmesi konusuyla kısmen ilişkili (çapraz skor %45). | ACG 2023; EASL 2017 |
+| gas-ulseratif-kolit | Denetim: ACG 2025 UC DOI'sinin 10.14309/ajg.0000000000003463 olabileceği bildirildi; kayıtta ...3616 duruyor, doğrulanamadı. | Crossref/PubMed |
+| gas-pbc | Denetim: EASL 2025 PBC kılavuzu (J Hepatol 2025) 2017 kılavuzunun yerini almış olabilir; DOI doğrulanamadığı için kaynak değiştirilmedi. Yanıt değerlendirme zamanı (6–12. ay) kontrol edilmeli. | EASL 2025 PBC CPG |
+| gas-masld | Denetim: AASLD 2023 T2D'li MASH'te pioglitazonu düşünülebilir sayıyor, EASL 2024 MASH tedavisi olarak önermiyor; anahtardan çıkarıldı. NAFLD/NASH eski adları anahtarda bırakıldı (hekim kararı). | AASLD 2023; EASL-EASD-EASO 2024 |
+| gas-akut-pankreatit | Denetim: zayıf anlatımdaki "aç bırakılarak izlenir" eskimiş (erken oral beslenme önerilir); zayıf anlatım bilinçli kötü örnek olduğu için değiştirilmedi. | ACG 2024 |
 
-<!-- nefroloji: 17 madde -->
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| gas-gerd | Etiket LA B–D, uzun segment Barrett ve peptik darlık (Lyon 2.0/ACG 2022) olarak güncellendi; "la b" anahtarı eklendi; iyi anlatımda "LA B, C ve D". | Lyon 2.0 LA B'yi kesin kanıt sayıyor; C–D eşiği Lyon 1.0'a ait |
+| gas-peptik-ulser-hp | "üreaz" anahtarı çıkarıldı; "dörtlü tedavi/dörtlü rejim/quadruple" yerine "bizmutlu dörtlü/bismuth quadruple". | Hızlı üreaz testi invaziv; bizmutsuz dörtlü ilk seçenek değil |
+| gas-peptik-ulser-hp | İyi anlatımda ülser tanımı "muskularis mukozayı aşan" yapıldı; zayıf anlatımdan baharat kısıtlaması ve "bazen bir mikrop" çıkarıldı. | Tanım belirsizliği; eskimiş diyet öğüdü |
+| gas-ust-gis-kanama | Transfüzyon etiketi ESGE 2021'e atfedildi (Hb ≤7; KVH'de ≤8); iyi anlatımda "ESGE kılavuzu". | ACG 2021'de ayrı eşik önerisi yok |
+| gas-ust-gis-kanama | Yalın epinefrin/adrenalin enjeksiyon anahtarları yerine kombinasyon anahtarları; yalın "infüzyon", pantoprazol, esomeprazol çıkarıldı, "hemostaz sonrası ppi" eklendi. | Adrenalin monoterapisi önerilmez; sıvı infüzyonu ve endoskopi öncesi PPI'yi ödüllendirmesin |
+| gas-akut-pankreatit | "agresif sıvı" çıkarıldı, "ılımlı sıvı/aşırı sıvıdan kaçın" eklendi; yalın ercp/kolesistektomi yerine bağlamlı anahtarlar; BT kavramında olumsuz/bağlamlı anahtarlar. | WATERFALL; rutin erken ERCP önerilmez; ters ifadeyi ödüllendirmesin |
+| gas-hepatit-b | "nükleoz" çıkarıldı, "tdf/taf/tenofovir alafenamid" eklendi. | Lamivudin gibi düşük bariyerli ilaçları ödüllendirmesin |
+| gas-irritabl-bagirsak | "lifli" çıkarıldı, "çözünebilir lif" eklendi. | Çözünmeyen lif (kepek) önerilmez |
+| gas-crohn | Cerrahi kavramında yalın "rezeksiyon/kısa bağırsak" yerine "iyileştirmez/küratif değil/nüks" kalıpları; budesonid anahtarı bağlama bağlandı. | Ters ifadeyi ve mesalazin-ilk-basamak anlatımını ödüllendirmesin |
+| gas-masld | "pioglitazon" anahtarı çıkarıldı. | Etiketle tutarsız, kılavuzlar arası fark |
+| gas-asit-sbp | Etiket ve iyi anlatım toplum kökenli SBP'yle sınırlandı; nozokomiyal/dirençli olguda piperasilin-tazobaktam/karbapenem eklendi. | EASL 2018, AASLD 2021 |
+| gas-varis-kanamasi | İyi anlatımda preemptif TIPS ölçütü Child-Pugh C 10–13 ya da aktif kanamalı Child-Pugh B 8–9 olarak yazıldı. | Baveno VII (Child C <14) |
+| gas-hepatik-ensefalopati | AASLD/EASL 2014 bağlantısı PubMed 25015420 yerine DOI 10.1002/hep.27210. | PMID yanlış kayda gidiyor olabilir |
+| gas-psk | Yalın "etkinliği kanıtlanmış" ve "ercp/erkp" anahtarları çıkarıldı; olumsuz kalıplar eklendi. | Doğrulanmış hata: olumlu ifadeyi ödüllendiriyordu; tanısal ERCP eskimiş |
+| gas-akut-karaciger-yetmezligi | "rutin düzelt/rutin plazma" anahtarları çıkarıldı, olumsuz kalıplar kaldı; iyi anlatımda "kanama yoksa ve girişim planlanmıyorsa"; kaynak başlığı "Acute Liver Failure Guidelines (ACG)". | Doğrulanmış hata: ters ifade doğru sayılıyordu; mantık bağlacı |
+| gas-akut-pankreatit | BT kavramında 'rutin değil' BT/tomografiye, ERCP kavramında 'kolanjit' 'kolanjitte ERCP'ye bağlandı | Bağlamsız anahtarlar başka cümlelerle eşleşiyordu |
+| gas-akut-karaciger-yetmezligi | Yalın 'düzeltilmez' INR/koagülopati/plazma bağlamına bağlandı | Bağlamsız eşleşme |
+| gas-crohn | Cerrahi kavramında 'iyileştirmez', 'nüks sık' cerrahi/rezeksiyona bağlandı | Bağlamsız eşleşme |
+| gas-psk | Yalın 'kanıtlanmamış' tedavi/UDCA'ya bağlandı | Bağlamsız eşleşme |
+| gas-ust-gis-kanama | 'kombine tedavi' adrenalin/endoskopik bağlama bağlandı | Bağlamsız eşleşme |
+
+<!-- nefroloji: 20 madde -->
 ## Nefroloji
 
 | Konu id | Şüphe | Kontrol edilecek kaynak |
@@ -123,8 +182,24 @@ Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosy
 | nef-lupus-nefriti | KDIGO 2024 başlangıç tedavisi seçenekleri (GK + MPAA / düşük doz IV CYC / belimumab + bunlardan biri / MPAA + KNİ) özetten doğrulandı; biyopsi endikasyonu için proteinüri eşiği ve idame süresi (≥3 yıl?) doğrulanamadığı için sayısız yazıldı. EULAR 2023 SLE önerileri ile küçük farklar olabilir. Türkiye'de voklosporin erişimi bilinmiyor. | KDIGO 2024 LN tam metni; EULAR 2023 |
 | nef-adpkd | KDIGO 2025 ADPKD için tam kılavuz DOI'si tek kaynakta 10.1016/j.kint.2024.07.009 görüldü (doğrulanmadı); bu yüzden doğrulanmış yönetici özeti PubMed kaydı (PMID 39848746) bağlandı. Yaşa göre kist sayısı ölçütleri (Pei/Ravine) ve Mayo sınıfları (1C–1E) sayısal olarak etikete yazılmadı. Tolvaptan endikasyon ölçütleri ve Türkiye geri ödeme koşulları kontrol edilmeli. | KDIGO 2025 ADPKD tam metni (Kidney Int 107(2S)) |
 | nef-renal-tubuler-asidoz | Distal RTA'da idrar pH >5,5 eşiği ders kitabı bilgisi; Palmer 2021 tam metninde kontrol edilmedi. Tip 3 RTA pakette yok. Fludrokortizon kullanımı (tip 4) hipertansiyon/ödem riski nedeniyle seçilmiş hastada; ayrıntı yazılmadı. | Palmer Adv Ther 2021; Brenner & Rector RTA bölümü |
+| nef-hiponatremi | Yüksek ODS riskinde (alkolizm, malnütrisyon, hipokalemi, ileri karaciğer hastalığı, Na ≤105) 24 saatte 8 mmol/L sınırı ve 4–6 mmol/L hedefi (Verbalis 2013; Adrogué JAMA 2022) denetçi bilgisine dayanıyor, doğrulanmadığı için etikete yazılmadı. | Verbalis 2013 Am J Med; Adrogué JAMA 2022 |
+| (tüm konular) | Denetçiler (web erişimi olmadan, bilgiye dayalı) Brenner & Rector 12. baskı yılını 2024/2025 olarak hatırladı; önceki araştırmada Elsevier mağazası Mart 2026 gösterdiği için 2026 korundu. Hekim/editör ISBN kaydıyla kesinleştirmeli. | Elsevier ürün sayfası / ISBN kaydı |
+| nef-renal-tubuler-asidoz | Palmer Adv Ther 2021 DOI'si (10.1007/s12325-020-01587-5) son karakteri doğrulanamadı. | doi.org |
 
-<!-- endokrinoloji: 19 madde -->
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| nef-adpkd | İyi anlatımda "herkese ACEi/ARB" → hipertansif hastada ACEi/ARB; herkese bol su ve tuz kısıtlaması. | DOĞRULANMIŞ HATA: RAS blokajı hipertansif ADPKD'de önerilir (KDIGO 2025, HALT-PKD). |
+| nef-diyaliz-endikasyonlari | CRRT kavramından "aralıklı hemodiyaliz", "hemodinamik instab", "hemodinamisi bozuk" anahtarları kaldırıldı. | Ters ifadeyi (instabilde IHD) ve modalitesiz anlatımı doğru sayıyordu. |
+| nef-iga-nefropatisi | İyi anlatım: sparsentan yalnız ACEi/ARB'nin yerine, SGLT2i ek olarak. Etiket ve anlatım: budesonid "ilerleme riski sürüyorsa" yerine "varsa, destekleyici tedaviyle eş zamanlı". | KDIGO 2025: sparsentan DEARA olarak RAS blokajının yerine geçer; sıralı yaklaşım terk edildi. |
+| nef-hiponatremi | İyi anlatıma Avrupa kılavuzunun vaptan yerine üre tercihi ve tolvaptanın hastanede başlanması/karaciğer toksisitesi uyarısı eklendi. | Kaynaktaki Spasovski 2014 vaptanlara karşı öneri veriyor; FDA güvenlik uyarısı. |
+| nef-fsgs | Nakil nüksü kavramına "naklinden sonra", "nakilden sonra" eklendi. | Kör anlatımda eş anlamlı ifade yakalanmadı. |
+| nef-hiperkalemi, nef-diyabetik-bobrek | "arb" anahtarı değiştirilmedi. | ≤3 harfli anahtarlar yalnız tam sözcük olarak eşleşir (scoring.js); "bikarbonat"/"karbonhidrat" ile eşleşmez. |
+| (tüm konular) | Brenner & Rector yılı değiştirilmedi; şüphe tablosuna eklendi. | Denetçi iddiası doğrulanmamış bilgi; önceki kaynak kontrolü 2026 gösteriyor. |
+| nef-iga-nefropatisi | Destekleyici tedavi etiketi: sparsentan ACEi/ARB yerine geçer, SGLT2i eklenir | KDIGO 2025 ile uyum |
+
+<!-- endokrinoloji: 21 madde -->
 ## Endokrinoloji
 
 | Konu id | Şüphe | Kontrol edilecek kaynak |
@@ -148,8 +223,28 @@ Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosy
 | end-prolaktinoma | Tek serum prolaktin ölçümü, ilaç nedenli hiperprolaktineminin öncelikli dışlanması ve seçilmiş hastada cerrahi seçeneği doğrulandı. Kabergolinin bromokriptine üstünlüğü bellekten yazıldı. Pituitary Society'nin cerrahi önerisi tartışmalı (2024 yazışması). | Petersenn 2023; Melmed 2011 |
 | end-men-sendromlari | RET taşıyıcılarında profilaktik tiroidektominin yaş/risk zamanlaması (ATA en yüksek / yüksek / orta) doğrulanmadı; yaş yazılmadı. Thakker 2012'den daha yeni bir MEN1 Delphi uzlaşısı (Lancet Diabetes Endocrinol 2025) var ve kaynak olarak eklenmedi. MEN1'de hipofizde en sık prolaktinoma görülmesi bellekten yazıldı. | Thakker 2012; MEN1 Delphi 2025; ATA MTK 2015 |
 | end-akromegali | OGTT'de GH'nin ≤1 µg/L'ye baskılanmaması (ES 2014) ile 2024 uzlaşısındaki tipik klinikle IGF-1 >1,3×ÜSN'nin tanıyı doğrulaması aramada görüldü. Narratifte 1,3 katsayısı yazılmadı. Kolonoskopi taramasının zamanlaması yazılmadı. | Katznelson 2014; Giustina 2024 |
+| end-adrenal-yetmezlik | ACTH uyarı testinde 18 µg/dL (500 nmol/L) eşiği eski poliklonal immünoassaylara dayanır; ESE/ES 2024 yeni monoklonal assay ve LC-MS/MS için daha düşük, yönteme özgü eşik öneriyor (denetimde ~400–450 nmol/L bildirildi, doğrulanmadığı için sayı yazılmadı). | Beuschlein 2024 Eur J Endocrinol |
+| end-dka-hhs | Kör anlatımda atlanan "subkutan insüline geçişte IV insülinle örtüşme" kavramı olduğu gibi bırakıldı; ağırlığı hekimce değerlendirilmeli. | Umpierrez 2024 |
 
-<!-- hematoloji: 20 madde -->
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| end-tip2-diyabet | ASKVH/KY/KBH kavramından "inkretin" çıkarıldı, "inkretin mimetik" eklendi | DPP-4 inhibitörleri de inkretin bazlı; KV/böbrek yararı yok |
+| end-tip1-diyabet | Zayıf anlatım "sıklıkla çocukluk ve gençlikte başlar, her yaşta görülür" yapıldı; evre 3 etiketi ve iyi anlatımı "tanı ölçütlerini karşılayan klinik (genellikle semptomatik) hiperglisemi" oldu | Yeni tanıların önemli kısmı erişkin; evre 3 asemptomatik olabilir |
+| end-hipotiroidi | Tanı kavramından yönsüz "serbest t4/st4/free t4/subklinik" çıkarıldı, "st4 düşük/serbest t4 düşük/düşük serbest t4/t4 düşük/düşük t4" eklendi | Hipertiroidi tablosunu doğru sayıyordu |
+| end-hipertiroidi-graves | RAİ etiketi ve iyi anlatım: "aktif orta-ağır ya da görmeyi tehdit eden oftalmopatide kaçınılır; hafif aktifte steroid profilaksisiyle" | ATA 2016, EUGOGO 2021 |
+| end-osteoporoz | Tanı etiketi kalça/vertebra kırığı (KMY'den bağımsız) ve osteopenide diğer frajilite kırıkları olarak ayrıldı; anahtarlardan t skor, 2,5, dxa, kemik yoğunluğu, dansitometri çıkarıldı, "-2,5", "frajilite kırığı", "düşük enerjili kırık" eklendi | Eşiksiz/yanlış eşikli anlatım ödüllendiriliyordu; AACE 2020 |
+| end-dka-hhs | Komplikasyon kavramından yönsüz "hızlı düşür" çıkarıldı; "yavaş düşür", "hızlı düşürmekten kaçın" vb. eklendi | Ters ifadeyi doğru sayıyordu |
+| end-hipoglisemi | İyi anlatımda yüksek riskli sülfonilüre örneği gliburid yapıldı, gliklazid/glimepiridde riskin düşük olduğu eklendi | Glimepirid risk açısından yanıltıcı örnekti |
+| end-tiroid-nodulu | "malign nodül", "nodüllerin çoğu", "soğuk nodül" ve çıplak "sintigrafi" çıkarıldı; "tsh düşükse sintigrafi" eklendi; iyi anlatımda her nodülde ultrason yapıldığı yazıldı | Ters/eskimiş ifadeleri doğru sayıyordu; ATA 2015 Öneri 6 |
+| end-cushing-sendromu | Ayırt ettirici bulgu etiketi düzeltildi (aydede yüzü, buffalo hörgücü, santral obezite ayırt ettirici değil); bu anahtarlar ve çıplak "stria" çıkarıldı, "kırmızı mor stria", "pletor" eklendi. Tarama kavramında "deksametazon supresyon/baskılama", "dexamethasone", "gece yarısı" yerine "düşük doz deksametazon", "gece deksametazon", "gece yarısı tükürük". ACTH bağımsız etiket ve iyi anlatıma bilateral adrenal hiperplazi eklendi | DOĞRULANMIŞ HATA; Nieman 2008; yüksek doz DST tarama değil |
+| end-adrenal-yetmezlik | Tanı etiketi ve iyi anlatıma eşiğin yönteme özgü olduğu, yeni assaylarda daha düşük olduğu eklendi (sayı eklenmedi) | ESE/ES 2024 |
+| end-primer-hiperparatiroidi | En sık neden kavramı yön taşıyan çok kelimeli anahtarlara daraltıldı (malignite, pthrp, hastanede yatan çıkarıldı); tanı kavramından "pth normal" ve çıplak "parathormon" çıkarıldı; iyi anlatımda hiperplazinin sporadik olabileceği yazıldı | Ters ifadeleri doğru sayıyordu |
+| end-primer-aldosteronizm | "hipokalemi her zaman" yerine "hipokalemi her zaman olmaz/görülmez"; tedavi kavramından "finerenon" çıkarıldı | DOĞRULANMIŞ HATA; finerenon PA'da kılavuzda yok |
+| end-osteoporoz | '-2,5' anahtarı kaldırıldı ('eksi 2,5' biçimleri korundu) | Noktalama düşünce '2 5'e dönüşüp yönü kaybediyordu |
+
+<!-- hematoloji: 24 madde -->
 ## Hematoloji
 
 | Konu id | Şüphe | Kontrol edilecek kaynak |
@@ -174,6 +269,33 @@ Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosy
 | hem-akut-miyeloid-losemi | Blast eşikleri (WHO 2022: tanımlayıcı genetik anomalilerin çoğunda eşik yok; ICC: %10; diğerlerinde %20) yazılmadı; WHO 2022 ile ICC farklı. ELN 2022 risk sınıflamasının ayrıntıları (FLT3-ITD'nin artık risk belirlemede kullanılmaması vb.) anlatıma girmedi. "Erişkinde en sık akut lösemi" bellekten. | ELN 2022; WHO 2022; ICC 2022 |
 | hem-kronik-miyeloid-losemi | WHO 2022'nin akselere fazı kaldırması ve ICC'nin sürdürmesi bellekten. ELN 2020 kilometre taşları (3, 6, 12. ay BCR::ABL1 hedefleri) ve tedavisiz remisyon ölçütleri sayısal yazılmadı. Asiminib onay kapsamı (2021 sonrası) kontrol edilmeli. | ELN 2020; WHO 2022; ICC 2022 |
 | (kapsam) | Bu ilk teslimde ALL, KLL (iwCLL 2018), Hodgkin dışı lenfomalar, polisitemia vera/MPN (WHO 2022/ICC), aplastik anemi ve G6PD eksikliği alınmadı; sonraki genişletmede eklenmeli. | — |
+| hem-hodgkin-lenfoma | Kaynak olarak ESMO 2018 kılavuzu duruyor; 2020–2026 aralığında daha yeni ESMO/EHA Hodgkin kılavuzu olup olmadığı doğrulanamadı. Varsa değiştirilmeli. | ESMO/EHA kılavuz listesi |
+| (tüm konular) | Hoffman Hematology 8. baskının yılı: yayın 2022 sonu, telif yılı 2023 olarak geçiyor; yayınevi kaydına göre doğrulanmalı. | Elsevier katalog kaydı |
+| hem-otoimmun-hemolitik-anemi | "direkt coombs" anahtarı eşleştirmede alt dize olduğu için "indirekt coombs" ifadesinde de geçer; bu ancak puanlayıcıda ön-ek kontrolüyle çözülebilir. | scoring.js |
+| hem-multipl-miyelom | "Destek" kavramı bisfosfonat/denosumab ile ISS evrelemeyi birleştiriyor; yalnızca birini söyleyen anlatım tam puan alıyor. Kavramın ikiye bölünmesi hekim kararına bırakıldı. | — |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| hem-demir-eksikligi-anemisi | Etiket "Karakteristik (özgül olmayan) bulgular: pika/pagofaji, koilonişi, glossit, angüler keilit" oldu | Glossit/keilit B12, folat ve riboflavin eksikliğinde de görülür |
+| hem-demir-eksikligi-anemisi | Ferritin kavramına "ilk düşen ferritin", "ferritin en duyarlı" vb. eklendi | Kör anlatımda söylenen kavram yakalanmadı |
+| hem-b12-folat-eksikligi | Tedavi kavramına "parenteral b12" vb. eklendi | "B12 parenteral verilir" yakalanmadı |
+| hem-beta-talasemi | Transfüzyon kavramına "düzenli eritrosit"; kardiyak kavrama "kalpte demir", "kalp yetmezliği" eklendi | Kör anlatımda söylenen kavramlar yakalanmadı |
+| hem-itp | Gözlem kavramına "kanama yoksa izlem/gözlem" eklendi | Eş anlamlı ifade yakalanmadı |
+| hem-transfuzyon-reaksiyonlari | Kimlik/etiket kavramında tek sözcüklü "kimlik", "etiket", "torba", "kan bankası" yerine kontrol/gönderme bildiren çok kelimeli anahtarlar konuldu | Yalnızca nedeni anlatırken "etiket hatası" demek kavramı geçiriyordu |
+| hem-hodgkin-lenfoma | Tedavi etiketi ileri evrede nivolumab-AVD ve BrECADD'yi içerecek biçimde güncellendi; "brecadd", "nivolumab avd" anahtarları eklendi; iyi anlatım cümlesi güncellendi | S1826 (NEJM 2024), HD21 (Lancet 2024) sonrası kılavuz değişikliği |
+| hem-otoimmun-hemolitik-anemi | DAT kavramından tek başına "coombs" çıkarıldı | "İndirekt Coombs" diyen anlatım DAT kavramını geçiyordu |
+| hem-otoimmun-hemolitik-anemi | Sıcak tip tedavi kavramından genel "steroid/kortikosteroid/rituksimab" çıkarıldı; "sıcak tipte steroid", "ilk basamak kortikosteroid", "erken rituksimab" vb. kondu | "Soğuk tipte steroid etkisiz" cümlesi temel kavramı geçiriyordu |
+| hem-hemofili | aPTT kavramına "karışım testi" eklendi | Eş anlamlı ifade yakalanmadı |
+| hem-dik | Heparin kavramına "tromboz ağır bas", "heparin düşünül" vb.; organ yetmezliği kavramına "organ iskemisi", "böbrek yetmezliği", "ARDS" eklendi | Kör anlatımda söylenen kavramlar yakalanmadı |
+| hem-multipl-miyelom | SLiM kavramından "serbest hafif zincir oranı" çıkarıldı, eşik bildiren çok kelimeli anahtarlar kondu | Tanı kavramındaki serbest hafif zincirden söz etmek SLiM'i geçiriyordu |
+| hem-ttp-hus | Klinik kavramından yalın "beşli/pentad" çıkarıldı; "beşli tam değil", "beşli nadir" vb. kondu | Ters ifade ("beşli çoğunda tam") doğru sayılıyordu |
+| hem-von-willebrand | Kan grubu kavramına "o kan grubu" eklendi | "O kan grubunda düzeyi düşük" yakalanmadı |
+| hem-akut-miyeloid-losemi | İndüksiyon anahtarından "gilteritinib" ve genel "flt3" çıkarıldı, "quizartinib" eklendi; etiket güncellendi | Gilteritinib relaps/refrakter FLT3+ AML'de onaylı (ADMIRAL); indüksiyonda midostaurin/quizartinib (QuANTUM-First) |
+| hem-ttp-hus | 'beşli çoğu hastada', 'beşli nadir', 'pentad nadir' yerine 'beşli nadiren tam', 'tam beşli nadir' vb. | Ters ifadelerle eşleşiyordu |
+| hem-dik | 'heparin düşünül' yerine 'heparin düşünülebilir/düşünülür' | 'düşünülmez' ile eşleşiyordu |
+| hem-multipl-miyelom | 'oranı 100' yerine 'serbest hafif zincir oranı' | Bağlamsız sayı eşleşmesi |
 
 <!-- noroloji: 38 madde -->
 ## Nöroloji
