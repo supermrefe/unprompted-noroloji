@@ -53,7 +53,7 @@ terms: [
     c: [
     ["!Tekrarlayan ataklarla seyreden primer baş ağrısı", "migren|primer baş ağrı"],
     ["!Tek taraflı, zonklayıcı, 4–72 saat", "zonkla|pulsatil|72 saat|yetmiş iki saat|dört ile yetmiş|4 ile 72"],
-    ["!Bulantı-kusma, fotofobi, fonofobi", "fotofobi|fonofobi|ışığa hassas|sese hassas|ışıktan rahatsız|sesten rahatsız"],
+    ["!Bulantı-kusma, fotofobi, fonofobi", "fotofobi|fonofobi|ışığa hassas|sese hassas|ışıktan rahatsız|sesten rahatsız|ışık hassas|ses hassas|ışığa duyarl|sese duyarl|ışık ve ses|karanlık sessiz|karanlık ve sessiz|bulantı kusma|bulantı ve kusma"],
     ["Aura (görsel, skintilan skotom)", "aura|skotom|zigzag|skintilan"],
     ["Trigeminovasküler sistem, CGRP, yayılan kortikal depresyon", "trigeminovasküler|cgrp|kalsitonin gen|kortikal yayılan|yayılan kortikal|yayılan depresyon|spreading"],
     ["Akut tedavi: triptan, NSAİİ; gepant, lasmiditan", "triptan|gepant|lasmiditan|ubrojepant|rimejepant"],
@@ -69,7 +69,7 @@ terms: [
     ["!En sık primer baş ağrısı", "gerilim tipi|gerilim baş|tansiyon tipi|en sık görülen primer|en sık primer|en yaygın primer"],
     ["!İki taraflı, bant gibi saran, baskı tarzı", "bant gibi|mengene|baskı tarzı|sıkıştırıcı|sıkıştırır gibi|başını saran|şapka gibi"],
     ["!Hafif-orta şiddet, fiziksel aktiviteyle artmaz", "aktiviteyle artmaz|aktivite ile artmaz|aktiviteyle artmayan|fiziksel aktiviteyle artmaz|rutin fiziksel aktivite"],
-    ["Bulantı yok; fotofobi ya da fonofobiden en fazla biri", "bulantı olmaz|bulantı yok|bulantı ya da kusma olmaz|bulantı veya kusma olmaz|en fazla biri"],
+    ["Epizodik formda bulantı-kusma yok (kronikte hafif bulantı olabilir); fotofobi ya da fonofobiden en fazla biri", "bulantı olmaz|bulantı yok|bulantı ya da kusma olmaz|bulantı veya kusma olmaz|bulantı kusma olmaz|bulantı kusma yok|bulantısız|en fazla biri|yalnızca biri|sadece biri|ışık ya da ses hassas|ışık veya ses hassas"],
     ["Perikraniyal kas hassasiyeti, stres", "perikraniyal|perikranial|kas hassasiyet|boyun kaslar"],
     ["Tedavi: basit analjezik; kronikte amitriptilin", "amitriptilin"],
     ["İlaç aşırı kullanımı baş ağrısı uyarısı", "aşırı kullanım|medication overuse|ilaç aşırı"]
@@ -81,7 +81,7 @@ terms: [
           ["Updated classification of epileptic seizures: Position paper of the ILAE. Epilepsia 2025", "https://doi.org/10.1111/epi.18338"]]
     },
     c: [
-    ["!Provoke olmayan en az iki nöbet (ya da yüksek tekrar riski)", "provoke olmayan|provoke edilmemiş|nedensiz nöbet|en az iki nöbet|iki provoke|tekrar riski"],
+    ["!Provoke olmayan en az iki nöbet (ya da yüksek tekrar riski)", "provoke olmayan|provoke edilmemiş|nedensiz nöbet|en az iki nöbet|tekrar riski"],
     ["!Nöbet: aşırı ve senkron nöronal deşarj", "senkron|nöronal deşarj|aşırı deşarj|anormal elektrik|elektriksel deşarj"],
     ["Sınıflama (ILAE 2025): fokal, jeneralize, bilinmeyen", "sınıflandırılamayan|fokal nöbet|jeneralize nöbet|fokal jeneralize|bilinmeyen başlangıç|bilinmeyen"],
     ["Tanı: EEG ve MR", "eeg|elektroensefalo"],
@@ -130,7 +130,7 @@ terms: [
     ["!Erken epizodik bellek kaybı, hipokampus", "epizodik bellek|hipokamp|yakın bellek|yakın zamanda olanları|bellek kaybı|unutkanlık"],
     ["!Amiloid-beta plakları ve tau yumakları", "amiloid beta|amiloid plak|nörofibriler|yumak"],
     ["Risk: yaş, APOE ε4", "apoe|apolipoprotein"],
-    ["Tanı: bilişsel test, MR atrofisi, amiloid/tau biyobelirteçleri (PET, BOS, plazma p-tau217)", "mmse|moca|mini mental|p tau|ptau|amiloid pet|biyobelirteç|biyomarker"],
+    ["Tanı: bilişsel test, MR atrofisi, amiloid/tau biyobelirteçleri (PET, BOS, plazma p-tau217)", "mmse|moca|mini mental|p tau|ptau|amiloid pet|tau pet|fdg pet|biyobelirteç|biyomarker|hipokampal atrofi|hipokampus atrofi|temporal atrofi|mr da atrofi|bos ta amiloid|amiloid düşük|tau yüksek|hipometabolizma"],
     ["Tedavi: kolinesteraz inhibitörü, memantin; erken evrede anti-amiloid antikorlar (ARIA riski)", "donepezil|galantamin|memantin|lekanemab|lecanemab|donanemab|anti amiloid|aria"]
   ]},
   { id: "glasgow-koma-skalasi", tr: "Glasgow Koma Skalası", en: "Glasgow Coma Scale", cat: "lok", lvl: 1,
@@ -143,8 +143,8 @@ terms: [
     ["!Bilinç düzeyini puanlayan ölçek", "glasgow|bilinç düzey"],
     ["!Göz açma (4), sözel yanıt (5), motor yanıt (6)", "göz açma|sözel yanıt|verbal yanıt|motor yanıt"],
     ["!Puan aralığı 3–15", "3 ile 15|üç ile on beş|3 15|on beş|en düşük üç|en düşük 3"],
-    ["8 ve altı: ağır, hava yolu koruması/entübasyon", "sekiz ve altı|8 ve altı|sekizin altı|sekiz ve altında|8 ve altında|sekiz ve altındaki|entübasyon düşün|entübe edilir"],
-    ["Hafif 13–15, orta 9–12", "on üç ile on beş|13 ile 15|dokuz ile on iki|9 ile 12"],
+    ["8 ve altı: ağır, hava yolu koruması/entübasyon", "sekiz ve altı|8 ve altı|sekiz veya altı|8 veya altı|sekiz ya da altı|sekiz ve altında|8 ve altında|sekiz ve altındaki|entübasyon düşün|entübe edilir"],
+    ["Hafif 13–15, orta 9–12", "on üç ile on beş|13 ile 15|dokuz ile on iki|9 ile 12|on üç on beş|13 15|dokuz on iki|9 12"],
     ["Kafa travmasında ve seri izlemde kullanım", "seri izlem|kafa travma|travmada|seri takip"]
   ]},
   { id: "bakteriyel-menenjit", tr: "Bakteriyel menenjit", en: "Bacterial meningitis", cat: "imm", lvl: 1,
@@ -173,7 +173,7 @@ terms: [
     ["!İlk üç parmakta uyuşma-karıncalanma, gece artar", "ilk üç|başparmak işaret|işaret parmağı|orta parmak|üç buçuk parmak|gece artar|geceleri art|elini salla"],
     ["Tenar atrofi, abduktor pollicis brevis zayıflığı", "tenar|abduktor pollicis"],
     ["Tinel ve Phalen testleri", "tinel|phalen|falen"],
-    ["!Tanı: sinir iletim çalışması / EMG", "sinir iletim|emg|elektromiyo"],
+    ["!Tanı klinik; sinir iletim çalışması / EMG ile doğrulama ve şiddet", "sinir ileti|emg|elektromiyo"],
     ["Risk: gebelik, hipotiroidi, diyabet, tekrarlayıcı el kullanımı", "gebelik|hipotiroid|akromegali|romatoid artrit"],
     ["Tedavi: gece ateli, steroid enjeksiyonu (kısa süreli yarar), cerrahi gevşetme", "gece ateli|atel|splint|transvers karpal|cerrahi gevşet|karpal tünel gevşet"]
   ]},
@@ -186,7 +186,7 @@ terms: [
     c: [
     ["!Postüral ve kinetik (aksiyon) tremor", "postüral|kinetik|aksiyon tremor|kollar öne|bardak|yazı yaz"],
     ["!En sık hareket bozukluğu, iki taraflı eller", "en sık hareket bozuk|en sık tremor|en yaygın hareket bozuk|ellerde başla|iki taraflı ve el"],
-    ["Baş ve ses tremoru", "baş titre|ses titre|vokal tremor|başta titre"],
+    ["Baş ve ses tremoru", "baş titre|ses titre|vokal tremor|başta titre|ses de titre|sesi titre|titrek ses|ses titrek|evet evet|hayır hayır|başın titre"],
     ["Alkolle geçici düzelme", "alkol"],
     ["Aile öyküsü sık; ailelerde otozomal dominant geçiş", "aile öykü|ailesel|otozomal dominant"],
     ["!Parkinson tremorundan ayrımı", "parkinson tremor|parkinsondan ayır|istirahat tremor|parkinson'da istirahat"],
@@ -203,8 +203,8 @@ terms: [
     ["!Otokonyaların kanala düşmesi, en sık posterior kanal", "otokon|otolit|kristal|kanalit|posterior kanal|semisirküler|yarım daire"],
     ["!Tanı: Dix-Hallpike, torsiyonel nistagmus", "dix|hallpike|torsiyonel"],
     ["Tedavi: Epley repozisyon manevrası", "epley|repozisyon"],
-    ["En sık periferik vertigo, işitme kaybı yok", "periferik vertigo|işitme kaybı"],
-    ["Santral nedenlerden ayrım (HINTS, nörolojik bulgu)", "hints|santral neden|serebellar inme|santral vertigo"]
+    ["En sık periferik vertigo, işitme kaybı yok", "periferik vertigo|işitme kaybı yok|işitme kaybı olmaz|işitme kaybı beklenmez|işitme kaybı eşlik etmez|işitme kaybı ya da kulak çınlaması beklenmez|işitme etkilenmez|işitme normal"],
+    ["Santral nedenlerden ayrım (HINTS, nörolojik bulgu)", "hints|santral neden|serebellar inme|santral vertigo|santral lezyon|yorulmayan|latanssız|vertikal nistagmus|nörolojik bulgu yok"]
   ]},
   { id: "lomber-radikulopati", tr: "Lomber radikülopati", en: "Lumbar radiculopathy", cat: "nmh", lvl: 1,
     src: {
@@ -231,7 +231,7 @@ terms: [
     c: [
     ["!Santral sinir sisteminin kronik immün aracılı demiyelinizan hastalığı", "demiyeliniz|demyelin|miyelin"],
     ["Genç erişkin, kadınlarda daha sık", "genç erişkin|kadınlarda daha sık|genç kadın"],
-    ["!McDonald 2024: yerde yayılım (optik sinir 5. bölge); zamanda yayılım artık her durumda gerekmez", "mcdonald|mc donald|yerde yayılım|zamanda yayılım"],
+    ["!McDonald 2024: yerde yayılım (optik sinir 5. bölge); zamanda yayılım artık her durumda gerekmez", "mcdonald 2024|mc donald 2024|2024 mcdonald|2024 mc donald|2024 revizyon|optik sinir beşinci|optik sinir 5|optik sinir de bölge|beşinci bölge|5 bölge|zamanda yayılım gerekmez|zamanda yayılım şart değil|zamanda yayılım zorunlu değil|zamanda yayılım artık gerek|zamanda yayılım her durumda gerekmez|zamanda yayılım her zaman gerekmez"],
     ["Klinik: optik nörit, INO, Lhermitte, Uhthoff", "optik nörit|internükleer|lhermitte|uhthoff"],
     ["!MR: periventriküler, jukstakortikal, infratentoriyal, spinal lezyonlar", "periventrikül|jukstakortik|infratentor|dawson"],
     ["BOS'ta oligoklonal bant ya da kappa serbest hafif zincir; MR'da santral ven işareti", "oligoklonal|kappa serbest|hafif zincir|santral ven|merkezi ven|paramanyetik"],
@@ -262,7 +262,7 @@ terms: [
     },
     c: [
     ["!Postsinaptik asetilkolin reseptörüne karşı otoantikor", "asetilkolin reseptör|achr|musk|postsinaptik"],
-    ["!Yorulabilen, gün içinde artan güçsüzlük", "yorulabilen|yorulabilir|gün sonunda|akşam art|dinlenince düzel|egzersizle art|fluktu"],
+    ["!Yorulabilen, gün içinde artan güçsüzlük", "yorulabilen|yorulabilir|gün sonunda|akşam art|akşama doğru|dinlenince düzel|dinlenmeyle düzel|istirahatle düzel|egzersizle art|kullanıldıkça|kullandıkça zayıfla|yorgunluk art|dalgalanan|fluktu"],
     ["!Oküler bulgular: pitoz, diplopi", "pitoz|göz kapağı düş|diplopi|çift görme"],
     ["Bulber tutulum ve miyastenik kriz", "miyastenik kriz|bulber"],
     ["Timoma / timus hiperplazisi", "timus|timoma|timektomi"],
@@ -276,7 +276,7 @@ terms: [
           ["Evidence-based guideline: Treatment of convulsive status epilepticus in children and adults (AES). Epilepsy Curr 2016", "https://doi.org/10.5698/1535-7597-16.1.48"]]
     },
     c: [
-    ["!5 dakikayı aşan nöbet ya da arada bilinç düzelmeden tekrarlayan nöbetler", "5 dakika|beş dakika|bilinç düzelmeden|bilinç açılmadan|arasında bilinç"],
+    ["!Tonik-klonik nöbette 5 dakikayı aşan nöbet (fokal bilinç bozukluğu olan nöbette 10 dakika) ya da arada bilinç düzelmeden tekrarlayan nöbetler", "5 dakika|beş dakika|bilinç düzelmeden|bilinç açılmadan|arasında bilinç"],
     ["!Nörolojik acil: süre uzadıkça kalıcı hasar ve mortalite", "30 dakika|otuz dakika|kalıcı nöron hasar|nöron hasarı"],
     ["İlk adımlar: hava yolu, glukoz, tiamin", "kan şekeri|glukoz|tiamin|hava yolu"],
     ["!Birinci basamak: benzodiazepin", "benzodiazepin|lorazepam|midazolam|diazepam"],
@@ -322,7 +322,7 @@ terms: [
           ["Adult Horner's syndrome: a combined clinical, pharmacological, and imaging algorithm. Eye 2013", "https://doi.org/10.1038/eye.2012.281"]]
     },
     c: [
-    ["!Okülosempatik yolun kesintisi", "okülosempatik|sempatik yol|sempatik lif"],
+    ["!Okülosempatik yolun kesintisi", "okülosempatik|sempatik yol|sempatik lif|sempatik innervasyon|sempatik inervasyon|sempatik zincir|sempatik sinir"],
     ["!Pitoz, miyozis, anhidroz", "miyozis|myozis|anhidroz|terleme kayb"],
     ["!Üç nöronlu yol: hipotalamus → C8–T2 → süperior servikal ganglion", "hipotalamus|siliospinal|budge|servikal ganglion|üç nöron|preganglion|postganglion"],
     ["Nedenler: Pancoast tümörü, karotis diseksiyonu, Wallenberg", "pancoast|karotis diseksiyon|wallenberg|lateral medüller"],
@@ -379,7 +379,7 @@ terms: [
           ["The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia 2018", "https://doi.org/10.1177/0333102417738202"]]
     },
     c: [
-    ["!Trigeminal otonomik sefalji", "trigeminal otonomik|otonomik sefalji"],
+    ["!Trigeminal otonomik sefalji", "trigeminal otonom|otonom sefalji|otonomik sefalji"],
     ["!Tek taraflı orbital/temporal çok şiddetli ağrı, 15–180 dk", "göz çevresi|göz arkası|orbital|yüz seksen|180 dakika"],
     ["!Aynı tarafta otonomik bulgular: gözyaşı, burun akıntısı, kızarıklık", "lakrimasyon|gözyaşı|burun akıntı|rinore|konjonktival"],
     ["Huzursuzluk, ajitasyon (migrenden farkı)", "huzursuz|ajitasyon|yerinde duramaz|volta"],
@@ -488,7 +488,7 @@ terms: [
     ["!Alfa-sinüklein, oligodendroglial sitoplazmik inklüzyonlar", "oligodendro|glial sitoplazmik|papp|lantos"],
     ["!Erken ve belirgin otonomik yetmezlik", "ortostatik hipotansiyon|otonomik yetmezlik|erektil|idrar inkontinans"],
     ["!MSA-P (parkinsonizm) ve MSA-C (serebellar ataksi)", "msa p|msa c|serebellar ataksi"],
-    ["Levodopaya zayıf yanıt", "levodopaya zayıf|levodopa yanıtı zayıf|kısa süreli yanıt"],
+    ["Levodopaya zayıf yanıt", "levodopaya zayıf|levodopa yanıtı zayıf|kısa süreli yanıt|yanıt zayıf|yanıtı zayıf|iyi cevap vermez|iyi cevap vermiyor|iyi yanıt vermez|iyi yanıt vermiyor|levodopaya yanıtsız|levodopaya dirençli"],
     ["MR: haç (hot cross bun) bulgusu, putaminal kenar", "hot cross|haç|putaminal"],
     ["Stridor, uyku apnesi, REM uyku davranış bozukluğu", "stridor|uyku apne"],
     ["Hızlı ilerleme, kötü prognoz", "hızlı ilerle|kötü prognoz|prognozu kötü"]
@@ -502,8 +502,8 @@ terms: [
     c: [
     ["!Presinaptik P/Q tipi voltaj kapılı kalsiyum kanalı antikoru", "presinaptik|kalsiyum kanal|voltaj kapılı|vgcc|p q tipi"],
     ["!Küçük hücreli akciğer kanseriyle paraneoplastik ilişki", "küçük hücreli|paraneoplastik|sclc"],
-    ["!Proksimal bacak güçsüzlüğü, hiporefleksi", "proksimal bacak|proksimal güçsüz|kalça ve uyluk|hiporefleksi"],
-    ["Kısa egzersizle geçici güç ve refleks artışı (fasilitasyon)", "fasilitasyon|egzersizden sonra güç|egzersiz sonrası güç|geçici olarak artar"],
+    ["!Proksimal bacak güçsüzlüğü, hiporefleksi", "proksimal bacak|proksimal güçsüz|proksimal kas|kalça ve uyluk|merdiven çık|oturduğu yerden kalk|hiporefleksi|arefleksi|refleksler azal|reflekslerin azal"],
+    ["Kısa egzersizle geçici güç ve refleks artışı (fasilitasyon)", "fasilitasyon|egzersizden sonra güç|egzersiz sonrası güç|geçici olarak artar|geçici olarak art|kolaylaşma|kullandıkça güçlen|efordan sonra güç art|efor sonrası güç art"],
     ["Otonomik: ağız kuruluğu, erektil disfonksiyon", "ağız kuru"],
     ["EMG: düşük CMAP, yüksek frekansta %100'ü aşan artış", "inkreman|cmap|yüksek frekans"],
     ["Tedavi: amifampridin (3,4-diaminopiridin), tümör tedavisi, immünoterapi", "diaminopiridin|amifampridin"]
@@ -552,7 +552,7 @@ terms: [
     ["Öncül enfeksiyon (Campylobacter)", "campylobacter|kampilobakter"],
     ["Bickerstaff beyin sapı ensefaliti ile aynı spektrum", "bickerstaff"],
     ["BOS'ta albüminositolojik disosiasyon", "albüminositolojik|albumino|disosiasyon|dissosiasyon"],
-    ["İyi prognoz; gerekirse IVIG/plazmaferez", "kendiliğinden iyileş|prognoz genellikle iyi|iyi prognoz|prognozu iyi"]
+    ["İyi prognoz; gerekirse IVIG/plazmaferez", "kendiliğinden iyileş|kendiliğinden düzel|prognoz genellikle iyi|prognoz genelde iyi|prognozu genelde iyi|prognoz çok iyi|iyi prognoz|prognozu iyi"]
   ]},
   { id: "nmosd", tr: "Nöromiyelitis optika spektrum bozukluğu", en: "Neuromyelitis optica spectrum disorder", cat: "imm", lvl: 3,
     src: {
@@ -626,7 +626,7 @@ terms: [
     ["Sonra miyoklonik, atipik absans ve fokal nöbetler; gelişimsel gerileme", "miyoklonik|atipik absans|gelişimsel gerileme"],
     ["!Sodyum kanal blokerlerinden kaçınılmalı", "sodyum kanal bloker|kaçın"],
     ["Tedavi: valproat, klobazam, stiripentol, fenfluramin, kannabidiol", "stiripentol|fenfluramin|kannabidiol|cannabidiol|klobazam"],
-    ["SUDEP riski", "sudep|beklenmedik ani ölüm|beklenmedik ölüm"]
+    ["SUDEP riski", "sudep|beklenmedik ani ölüm|beklenmedik ölüm|ani beklenmedik|epileptik ölüm"]
   ]},
   { id: "wilson", tr: "Wilson hastalığı", en: "Wilson disease", cat: "har", lvl: 3,
     src: {
