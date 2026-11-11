@@ -18,4 +18,18 @@
 | der-dress | "2–8 hafta" latent dönem ikincil kaynaklardan/bellekten; Kardaun 2013'te ortanca 22 gün (ÇAA 17–31) doğrulandı. Kortikosteroid dozu ve azaltma süresi bilinçli olarak yazılmadı; ulusal/uluslararası tek bir DRESS kılavuzu kullanılmadı. | RegiSCAR yayınları; Mizukawa & Shiohara 2025 güncellemesi |
 | der-hidradenitis-suppurativa | Avrupa S1 kılavuzu 2015 tarihli ve güncel değil; sekukinumab (2023) ve bimekizumab (2024) onayları bellekten, kılavuzlarda yok. Hurley evre tanımları ders kitabından. | EHSF/EADV güncel HS kılavuzu; EMA/FDA onay kayıtları |
 | der-kutanoz-lupus | EDF/EADV 2017 kılavuzu esas alındı; "sigara antimalaryal yanıtını azaltır" bilgisi bellekten. Anifrolumab kutanöz lupus için ruhsatlı değil, yalnızca anahtar olarak eklendi. Hidroksiklorokin dozu (EULAR 2023: 5 mg/kg/gün) bilinçli olarak yazılmadı. | Kuhn 2017 EDF kılavuzu; EULAR 2023 SLE |
+| der-akne-vulgaris | Denetim: Avrupa S3 2016 kaynağının yerini EADV/EDF 2023/2024 "living" akne kılavuzu (Nast ve ark., JEADV 2024) aldı; DOI doğrulanamadığı için kaynak değiştirilmedi. | JEADV yayıncı sayfası |
 | (çakışma) | rom-sle iyi anlatımı der-kutanoz-lupus'ta %58 aldı (eşiğe yakın); sistemik lupus romatolojiye bırakıldı. Psoriatik artrit (rom-psoriatik-artrit) ve selülit (enf-selulit-nyde) ayrı branşlarda. | — |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| der-psoriazis | Klinik tipler: "damla" yerine "damla şeklinde/damlacık/damla psoriazis"; tek başına "püstüler" yerine "püstüler psoriazis/püstüler tip/jeneralize püstüler" | "yağ damlası" (tırnak) ve "steroid püstüler alevlenme yapar" kavramı yanlışlıkla karşılıyordu |
+| der-urtiker | "24 saat" anahtarı "24 saatten kısa / 24 saat içinde" biçimine daraltıldı | Ürtikeryal vaskülitteki ">24 saat" ters ifadesi temel kavramı karşılıyordu |
+| der-melanom | Tek başına "mitoz" kaldırıldı, "mitoz kullanılmıyor / mitoz T ölçütü değil" eklendi; çirkin ördek yavrusu kavramından tek başına "dermoskop" çıkarıldı, "benlerinden farklı" eklendi | Eski AJCC 7 ifadesini ödüllendiriyordu; çirkin ördek yavrusu söylenmeden kavram yakalanıyordu |
+| der-keratinosit-kanserleri | "metastaz yapmaz" ve "keratoakantom" anahtarları çıkarıldı | BHK nadiren de olsa metastaz yapar; keratoakantom SHK öncülü sayılmaz |
+| der-kutanoz-leishmaniasis | Doğrulanamayan 2003 tarihli Sağlık Bakanlığı genelge bağlantısı yerine WHO leishmaniasis bilgi notu | Bağlantı/başlık doğrulanamadı, güncel değildi |
+| der-rosasea | "Fenotip yaklaşımı (ROSCO)" ve "Fimatöz değişiklik, rinofima" ayrı kavramlara bölündü | ROSCO söylenmeden yalnız "rinofima" ile kavram yakalanıyordu |
+| der-hidradenitis-suppurativa | Zayıf anlatımdaki "hijyene dikkat" cümlesi "hijyen eksikliğinden kaynaklanmaz; sigara bırakma, kilo verme" ile değiştirildi | HS'yi hijyen hastalığı gibi gösteren yanlış kanı |
+| der-melanom | Kavram etiketi "Çirkin ördek yavrusu bulgusu ve dermoskopi" → "Çirkin ördek yavrusu bulgusu" | Dermoskopi anahtarları kaldırılmıştı; etiket-anahtar uyumsuzluğu |

@@ -30,7 +30,7 @@ terms: [
       ["Şiddet: PASI, vücut yüzey alanı, DLQI", "pasi|vücut yüzey|yüzey alan|dlqi|yaşam kalitesi|şiddet skor"],
       ["!Hafifte topikal: kortikosteroid + D vitamini analoğu", "kalsipotriol|kalsipotriyol|d vitamini analo|vitamin d analo|topikal kortiko|topikal steroid|kortikosteroidli krem"],
       ["!Orta-ağırda fototerapi, metotreksat/siklosporin/asitretin ve biyolojikler (TNF, IL-17, IL-23)", "fototerapi|dar bant|nb uvb|puva|metotreksat|siklosporin|asitretin|biyolojik|anti tnf|tnf alfa|adalimumab|sekukinumab|iksekizumab|ustekinumab|guselkumab|risankizumab|apremilast"],
-      ["Klinik tipler: guttat (streptokok sonrası), püstüler, eritrodermik", "guttat|damla|streptokok|püstüler|eritroderm|inversa|invers"]
+      ["Klinik tipler: guttat (streptokok sonrası), püstüler, eritrodermik", "guttat|damla şeklinde|damlacık|damla psoriazis|streptokok|püstüler psoriazis|püstüler tip|jeneralize püstüler|eritroderm|inversa|invers"]
     ]},
   { id: "der-atopik-dermatit", tr: "Atopik dermatit (atopik egzama)", en: "Atopic dermatitis", cat: "inf", lvl: 1,
     src: { k: [BO, RO], m: [
@@ -65,7 +65,7 @@ terms: [
       ["Zuberbier T, et al. The international EAACI/GA²LEN/EuroGuiDerm/APAAACI guideline for the definition, classification, diagnosis, and management of urticaria. Allergy 2022", "https://doi.org/10.1111/all.15090"],
       ["Kolkhir P, et al. Urticaria. Nat Rev Dis Primers 2022", "https://doi.org/10.1038/s41572-022-00389-z"]] },
     c: [
-      ["!Mast hücresi aracılı; 24 saatten kısa süren, iz bırakmayan kabarıklık (ürtika) ve/veya anjiyoödem", "mast hücre|histamin|kabarıklık|ürtika|wheal|24 saat|yirmi dört saat|iz bırakmadan|iz bırakmaz|anjiyoödem|anjioödem"],
+      ["!Mast hücresi aracılı; 24 saatten kısa süren, iz bırakmayan kabarıklık (ürtika) ve/veya anjiyoödem", "mast hücre|histamin|kabarıklık|ürtika|wheal|24 saatten kısa|yirmi dört saatten kısa|24 saat içinde|yirmi dört saat içinde|iz bırakmadan|iz bırakmaz|anjiyoödem|anjioödem"],
       ["!Akut (<6 hafta) / kronik (≥6 hafta) ayrımı", "altı hafta|6 hafta|akut ürtiker|kronik ürtiker"],
       ["Kronik spontan ve kronik indüklenebilir (fiziksel) ürtiker", "spontan|indüklenebilir|indüklen|fiziksel ürtiker|dermografizm|kolinerjik|soğuk ürtiker|basınç ürtiker"],
       ["Kronik spontan ürtikerde sınırlı tetkik: hemogram, CRP/sedim, total IgE, anti-TPO", "hemogram|tam kan|crp|sedim|total ige|anti tpo|tiroid otoantikor|tiroid peroksidaz|sınırlı tetkik"],
@@ -94,11 +94,11 @@ terms: [
       ["Garbe C, et al. European consensus-based interdisciplinary guideline for melanoma. Part 1: Diagnostics – Update 2024. Eur J Cancer 2025", "https://doi.org/10.1016/j.ejca.2024.115152"]] },
     c: [
       ["!ABCDE: asimetri, düzensiz sınır, renk çeşitliliği, çap >6 mm, değişim", "abcde|asimetri|sınır düzensiz|düzensiz sınır|renk çeşitli|renk farklı|çok renkli|altı milimetre|6 mm|evrim|zaman içinde değiş|boyut değiş|renk değiş|lezyonun değiş"],
-      ["Çirkin ördek yavrusu bulgusu ve dermoskopi", "çirkin ördek|ugly duckling|dermoskop"],
+      ["Çirkin ördek yavrusu bulgusu", "çirkin ördek|ugly duckling|benlerinden farklı|diğer benlerden farklı"],
       ["Risk: UV (aralıklı yoğun güneş, yanık), çok sayıda/atipik nevüs, aile öyküsü", "güneş yanığı|ultraviyole|uv|atipik nevüs|displastik nevüs|çok sayıda nevüs|aile öykü|açık ten|solaryum"],
       ["Alt tipler: yüzeyel yayılan (en sık), nodüler, lentigo maligna, akral lentiginöz", "yüzeyel yayılan|yüzeysel yayılan|nodüler melanom|lentigo maligna|akral|lentiginöz"],
       ["!Tanı: tam eksizyonel biyopsi; Breslow kalınlığı en önemli prognostik faktör", "eksizyonel|eksizyon biyopsi|breslow|tümör kalınlığı"],
-      ["!AJCC 8: T1a <0,8 mm ve ülsersiz; mitoz T ölçütü değil, ülserasyon önemli", "ajcc|0 8|sıfır virgül sekiz|ülserasyon|ülsere|mitoz"],
+      ["!AJCC 8: T1a <0,8 mm ve ülsersiz; mitoz T ölçütü değil, ülserasyon önemli", "ajcc|0 8|sıfır virgül sekiz|ülserasyon|ülsere|mitoz kullanılmıyor|mitoz artık|mitoz t ölçütü değil|mitoz t kategorisinde kullanılmıyor"],
       ["Sentinel lenf nodu biyopsisi ve geniş cerrahi sınır", "sentinel|bekçi|geniş eksizyon|cerrahi sınır|güvenlik sınır"],
       ["İleri evre: BRAF V600 mutasyonu; anti-PD-1 immünoterapi, BRAF/MEK inhibitörü", "braf|v600|mek inhibit|anti pd 1|pd 1|pd1|nivolumab|pembrolizumab|ipilimumab|immünoterapi|kontrol noktası"]
     ]},
@@ -108,9 +108,9 @@ terms: [
       ["Stratigos AJ, et al. European consensus-based interdisciplinary guideline for invasive cutaneous squamous cell carcinoma. Part 1: Diagnostics and prevention – Update 2023. Eur J Cancer 2023", "https://doi.org/10.1016/j.ejca.2023.113251"]] },
     c: [
       ["!BHK en sık deri kanseri; inci gibi parlak papül, telenjiektazi, yuvarlak kenar", "en sık deri kanser|en sık görülen deri|en yaygın deri|inci|parlak papül|telenjiektazi|telanjiektazi|yuvarlak kenar|kabarık kenar|rodent"],
-      ["!BHK lokal invaziv, metastaz çok nadir", "lokal invaziv|lokal yıkıcı|metastaz nadir|nadiren metastaz|metastaz yapmaz|metastaz çok nadir|nadir metastaz"],
+      ["!BHK lokal invaziv, metastaz çok nadir", "lokal invaziv|lokal yıkıcı|metastaz nadir|nadiren metastaz|metastaz çok nadir|nadir metastaz"],
       ["BHK: Hedgehog yolağı (PTCH1), Gorlin sendromu", "hedgehog|ptch|gorlin|bazal hücreli nevüs sendrom"],
-      ["!SHK öncülleri: aktinik keratoz, Bowen hastalığı; kronik UV", "aktinik keratoz|solar keratoz|bowen|in situ|keratoakantom|kümülatif|kronik güneş|kronik uv"],
+      ["!SHK öncülleri: aktinik keratoz, Bowen hastalığı; kronik UV", "aktinik keratoz|solar keratoz|bowen|in situ|kümülatif|kronik güneş|kronik uv"],
       ["SHK'de metastaz riski daha yüksek; dudak, kulak, organ nakli/immünsüpresyon", "dudak|kulak|organ nakli|transplant|immünsüpres|bağışıklığı bask|perinöral|lenf nodu metastaz"],
       ["Tedavi: cerrahi eksizyon, yüksek riskte Mohs cerrahisi", "cerrahi eksizyon|eksizyon|mohs|mikrografik"],
       ["İleri evre: Hedgehog inhibitörü (BHK), anti-PD-1 sesiplimab (SHK)", "vismodegib|sonidegib|hedgehog inhibit|sesiplimab|cemiplimab|anti pd 1|pd 1|pd1"],
@@ -133,7 +133,7 @@ terms: [
   { id: "der-kutanoz-leishmaniasis", tr: "Kutanöz leishmaniasis (şark çıbanı)", en: "Cutaneous leishmaniasis", cat: "enf", lvl: 2,
     src: { k: [BO, RO], m: [
       ["Burza S, Croft SL, Boelaert M. Leishmaniasis. Lancet 2018", "https://doi.org/10.1016/S0140-6736(18)31204-2"],
-      ["T.C. Sağlık Bakanlığı. Kutanöz Leishmaniasis Genelgesi ve ekindeki tanı-tedavi yaklaşımı. 2003", "https://hsgm.saglik.gov.tr/depo/Mevzuat/Genelgeler/Kutanoz_Leishmaniasis_Genelgesi.pdf"]] },
+      ["World Health Organization. Leishmaniasis – fact sheet", "https://www.who.int/news-room/fact-sheets/detail/leishmaniasis"]] },
     c: [
       ["!Etken Leishmania (Türkiye'de çoğunlukla L. tropica, ayrıca L. major); vektör dişi tatarcık (Phlebotomus)", "leishmania|leişmanya|leyşmanya|tropica|tropika|tatarcık|phlebotomus|flebotomus|kum sinek|sand fly"],
       ["Türkiye'de endemik: Güneydoğu ve Akdeniz (Şanlıurfa, Adana, Hatay); göçle artış", "şanlıurfa|urfa|adana|hatay|osmaniye|güneydoğu anadolu|suriyeli göç|göçle birlikte"],
@@ -150,7 +150,8 @@ terms: [
     c: [
       ["!Santrofasiyal kalıcı eritem, flushing (kızarma atakları), telenjiektazi", "santrofasiyal|yüzün orta|yanak ve burun|kalıcı eritem|kalıcı kızarıklık|flushing|kızarma atak|telenjiektazi|telanjiektazi"],
       ["!Papül ve püstüller var, komedon yok (akneden farkı)", "komedon yok|komedon olmaz|komedon görülmez|komedonun olmaması|komedonsuz"],
-      ["Fenotip yaklaşımı (ROSCO); fimatöz değişiklik, rinofima", "fenotip|rosco|fima|rinofima|burun kalınlaş"],
+      ["Fenotip yaklaşımı (ROSCO)", "fenotip|rosco"],
+      ["Fimatöz değişiklik, rinofima", "fima|rinofima|burun kalınlaş"],
       ["Oküler rosasea: blefarit, konjonktivit", "oküler|göz tutulum|blefarit|konjonktivit|göz kuruluğ"],
       ["Tetikleyiciler: güneş, sıcak, alkol, baharat; Demodex", "tetikle|güneş|sıcak içecek|alkol|baharat|acı yiyecek|demodeks|demodex"],
       ["!Topikal: ivermektin, metronidazol, azelaik asit; eritemde brimonidin/oksimetazolin", "ivermektin|metronidazol|azelaik|brimonidin|oksimetazolin"],
