@@ -56,9 +56,9 @@ terms: [
       ["!Duyarlılık: hastaları doğru pozitif saptama oranı", "duyarlılık|sensitivite|sensitivity|gerçek pozitif|doğru pozitif"],
       ["!Özgüllük: sağlamları doğru negatif saptama oranı", "özgüllük|spesifite|specificity|gerçek negatif|doğru negatif"],
       ["!Pozitif ve negatif prediktif değer", "pozitif prediktif|negatif prediktif|prediktif değer|kestirim değer|ppd|npd|ppv|npv|pozitif kestirim|negatif kestirim|pozitif öngörü|negatif öngörü"],
-      ["!Prediktif değerler prevalansa bağlıdır; prevalans düşükse PPD düşer", "prevalans düş|prevalansı düşük|prevalansa bağlı|prevalansla değiş|prevalansa göre|nadir hastalıkta pozitif|prevalans arttıkça"],
+      ["!Prediktif değerler prevalansa bağlıdır; prevalans düşükse PPD düşer", "prevalansa bağlı|prevalansla değiş|prevalans düşükse pozitif prediktif değer düşer|prevalans düşük olan bir toplumda pozitif prediktif değer düşer|prevalans arttıkça pozitif prediktif değer artar|prevalans arttıkça ppd artar|nadir hastalıkta pozitif prediktif değer düşük"],
       ["Dörtlü tablo: yanlış pozitif ve yanlış negatif", "yanlış pozitif|yanlış negatif|false positive|false negative|dört gözlü|dörtlü tablo|iki çarpı iki"],
-      ["Duyarlı test dışlamada, özgül test doğrulamada", "dışlama|ekarte|snout|spin|rule out|rule in|tanıyı doğrula|doğrulamada"],
+      ["Duyarlı test dışlamada, özgül test doğrulamada", "duyarlı test dışla|duyarlı testle dışla|ekarte|snout|spin|rule out|rule in|tanıyı doğrula|doğrulamada"],
       ["Eşik değiştirilince duyarlılık-özgüllük ters yönde değişir; ROC eğrisi", "roc|eşik değer|cut off|kesim noktası|ters yönde|eğri altında"],
       ["Wilson-Jungner tarama ölçütleri", "wilson|jungner|tarama ölçüt|tarama kriter|önemli bir sağlık sorun|latent dönem|belirtisiz dönem|asemptomatik dönem"]
     ]},
@@ -83,7 +83,7 @@ terms: [
     src: {
       k: [OX, "CURRENT Occupational & Environmental Medicine (LaDou, Harrison), 6. baskı (2021)"],
       m: [["WHO. Guidelines for drinking-water quality: fourth edition incorporating the first and second addenda. 2022", "https://www.who.int/publications/i/item/9789240045064"],
-          ["WHO. Guidelines for drinking-water quality, 4th ed. Annex 5: Treatment methods and performance", "https://cdn.who.int/media/docs/default-source/wash-documents/water-safety-and-quality/dwq-guidelines-4/gdwq_4ed_with_third-addenda_ann-5-treatment-methods.pdf"]]
+          ["WHO. Guidelines for drinking-water quality, 4th ed. Annex 5: Treatment methods and performance", null]]
     },
     c: [
       ["!Amaç: dezenfeksiyon; su kaynaklı fekal-oral hastalıkları önlemek", "dezenfeksiyon|dezenfekte|kolera|tifo|fekal oral|su kaynaklı|su ile bulaşan|suyla bulaşan"],
@@ -143,7 +143,7 @@ terms: [
       ["!Standart vaka tanımı: şüpheli, olası, kesin vaka", "vaka tanım|olgu tanım|şüpheli vaka|olası vaka|kesin vaka|kesinleşmiş vaka"],
       ["Pasif ve aktif sürveyans", "pasif sürveyans|aktif sürveyans|aktif vaka arama|pasif bildirim|rutin bildirim"],
       ["Sentinel (gözcü) sürveyans", "sentinel|gözcü|nöbetçi"],
-      ["D grubu: laboratuvardan etken bildirimi", "laboratuvar|laboratuar|etken bildirim|etken bazlı"],
+      ["D grubu: laboratuvardan etken bildirimi", "laboratuvardan bildir|laboratuardan bildir|laboratuvar bildirim|laboratuvar sonucu bildir|etken bildirim|etken bazlı"],
       ["Hekimin yasal bildirim yükümlülüğü (Umumi Hıfzıssıhha Kanunu)", "hıfzıssıhha|1593|yasal yükümlü|yasal zorunlu|bildirmek zorunda|bildirim zorunlu"],
       ["Uluslararası Sağlık Tüzüğü (2005): uluslararası önemdeki olayların DSÖ'ye bildirimi", "uluslararası sağlık tüzüğü|ihr|international health regulations|dsö ye bildir|dünya sağlık örgütüne bildir|uluslararası önem"],
       ["Bildirim akışı: il/ilçe sağlık müdürlüğü, elektronik sistem", "il sağlık müdürlüğü|ilçe sağlık|toplum sağlığı merkezi|elektronik bildirim|halk sağlığı müdürlüğü"]
@@ -168,10 +168,10 @@ terms: [
     src: {
       k: ["CURRENT Occupational & Environmental Medicine (LaDou, Harrison), 6. baskı (2021)", OX],
       m: [["ILO. List of Occupational Diseases (revised 2010)", "https://webapps.ilo.org/wcmsp5/groups/public/@ed_protect/@protrav/@safework/documents/publication/wcms_125137.pdf"],
-          ["T.C. Çalışma ve Sosyal Güvenlik Bakanlığı. Meslek hastalıkları bildirimi", "https://csgb.gov.tr/Media/mkqf0m5r/meslek-hastalıkları-bildirimi.pdf"]]
+          ["T.C. Çalışma ve Sosyal Güvenlik Bakanlığı. Meslek hastalıkları bildirimi", null]]
     },
     c: [
-      ["!Tanım: işin niteliği ya da yürütüm koşulları nedeniyle oluşan hastalık (5510/md. 14)", "işin niteliğ|çalışma koşul|yürütüm koşul|mesleki maruz|iş nedeniyle|işle ilgili|5510"],
+      ["!Tanım: işin niteliği ya da yürütüm koşulları nedeniyle oluşan hastalık (5510/md. 14)", "işin niteliğ|çalışma koşul|yürütüm koşul|mesleki maruz|iş nedeniyle|5510"],
       ["!Tanının anahtarı: ayrıntılı meslek öyküsü", "meslek öykü|iş öykü|mesleki anamnez|mesleki öykü|çalışma öykü|ne iş yaptığ|mesleği sorul"],
       ["!Bildirim ve tanı: SGK, yetkili hastaneler", "sgk|sosyal güvenlik|yetkili hastane|meslek hastalıkları hastane|meslek hastalığı bildir|tazminat"],
       ["Gürültüye bağlı işitme kaybı (odyometride 4000 Hz çentiği)", "gürültü|odyometri|4000|dört bin hertz|akustik travma"],
@@ -196,7 +196,7 @@ terms: [
       ["Karıştırıcının kontrolü: randomizasyon, kısıtlama, eşleştirme, tabakalama, çok değişkenli analiz", "eşleştirme|matching|kısıtlama|tabakalama|stratifik|çok değişkenli|multivariate|regresyon|randomizasyon"],
       ["Etki değiştirici (etkileşim) karıştırıcıdan farklıdır", "etki değiştir|effect modification|etkileşim|interaction"],
       ["Nedensel yol üzerindeki ara değişken karıştırıcı sayılmaz", "nedensel yol|ara değişken|aracı değişken|mediator|nedensel zincir"],
-      ["Sistematik hata örneklem büyütülerek düzelmez (rastgele hatadan farkı)", "sistematik hata|rastgele hata|random error|örneklem büyü|örneklemi büyüt"],
+      ["Sistematik hata örneklem büyütülerek düzelmez (rastgele hatadan farkı)", "sistematik hata|örneklemi büyütmekle düzelmez|örneklem büyütmekle düzelmez|örneklem büyütülerek düzelmez|örneklem büyüklüğünden bağımsız|örneklem artırılarak düzelmez"],
       ["Körleme bilgi yanlılığını azaltır", "körleme|kör yöntem|blind|maskeleme"],
       ["Bradford Hill nedensellik ölçütleri", "bradford|hill ölçüt|nedensellik ölçüt|doz yanıt|zamansallık|temporal"]
     ]},
@@ -241,21 +241,21 @@ terms: [
           ["UN IGME. Levels and trends in child mortality: Report 2024. UNICEF 2025", "https://data.unicef.org/resources/levels-and-trends-in-child-mortality-2024/"]]
     },
     c: [
-      ["!Anne ölüm oranı: 100.000 canlı doğumda", "anne ölüm|maternal mortal|maternal ölüm|yüz bin canlı|100 bin canlı|100000 canlı|100.000 canlı"],
+      ["!Anne ölüm oranı: 100.000 canlı doğumda", "yüz bin canlı|100 bin canlı|100000 canlı|100.000 canlı"],
       ["!Gebelikte ya da gebeliğin bitiminden sonraki 42 gün içinde; kaza/rastlantısal nedenler hariç", "42 gün|kırk iki gün|kazara|rastlantı|tesadüfi|kaza ve rastlantı|kaza sonucu"],
-      ["!Bebek ölüm hızı: 1 yaş altı ölümler / 1000 canlı doğum", "bebek ölüm|infant mortal|bir yaş altı|1 yaş altı|1 yaşından önce|bir yaşından önce|bin canlı doğum|1000 canlı"],
+      ["!Bebek ölüm hızı: 1 yaş altı ölümler / 1000 canlı doğum", "bir yaş altı|1 yaş altı|1 yaşından önce|bir yaşından önce|bin canlı doğum|1000 canlı"],
       ["Yenidoğan (neonatal) ölüm: ilk 28 gün", "yenidoğan ölüm|neonatal ölüm|neonatal mortal|28 gün|yirmi sekiz gün|ilk dört hafta"],
       ["Postneonatal dönem ölümleri çevresel etkenlere (enfeksiyon, beslenme) duyarlı", "postneonatal|post neonatal|neonatal sonrası|28 gün ile 1 yaş|28 gün ile bir yaş"],
       ["Perinatal ölüm: ölü doğum + erken neonatal ölüm", "perinatal|ölü doğum|stillbirth|erken neonatal|ilk hafta|ilk 7 gün|ilk yedi gün"],
       ["5 yaş altı ölüm hızı", "beş yaş altı|5 yaş altı|under five|under 5"],
       ["Toplumun gelişmişliğinin ve sağlık hizmetinin duyarlı göstergeleri", "gelişmişlik|kalkınmışlık|sosyoekonomik|duyarlı gösterge|en iyi gösterge|sağlık düzeyinin gösterge"],
-      ["SKH hedefi: 2030'a kadar küresel anne ölüm oranı 70/100.000'in altı", "sürdürülebilir kalkınma|skh|sdg|2030|yetmişin altı|70 in altı"]
+      ["SKH hedefi: 2030'a kadar küresel anne ölüm oranı 70/100.000'in altı", "yetmişin altı|70 in altı|yetmişin altına|70 100 000"]
     ]},
   { id: "hs-malnutrisyon", tr: "Çocukluk çağı malnütrisyon göstergeleri", en: "Indicators of child malnutrition", cat: "gos", lvl: 3,
     src: {
       k: [OX, "Nelson Textbook of Pediatrics, 22. baskı (2024)"],
       m: [["WHO. Guideline on the prevention and management of wasting and nutritional oedema (acute malnutrition) in infants and children under 5 years. 2023", "https://www.who.int/news/item/20-11-2023-who-issues-new-guideline-to-tackle-acute-malnutrition-in-children-under-five"],
-          ["WHO, UNICEF. WHO child growth standards and the identification of severe acute malnutrition in infants and children: joint statement. 2009", "https://fctc.who.int/resources/publications/i/item/9789241598163"]]
+          ["WHO, UNICEF. WHO child growth standards and the identification of severe acute malnutrition in infants and children: joint statement. 2009", "https://www.who.int/publications/i/item/9789241598163"]]
     },
     c: [
       ["!Bodurluk (stunting): yaşa göre boy düşük — kronik yetersiz beslenme", "bodurluk|bodur|stunting|yaşa göre boy|boy yaş|kronik malnütrisyon|kronik yetersiz beslen"],

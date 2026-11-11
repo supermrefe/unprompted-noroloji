@@ -16,3 +16,23 @@
 | hs-malnutrisyon | Bodurluk ve düşük kiloda -2 SD eşiği standart DSÖ tanımı ama aramada doğrudan görülmedi (SAM/MAM eşikleri 2023 kılavuz özetinden doğrulandı). İlk kaynak bağlantısı kılavuzun kendisi değil DSÖ duyuru sayfası. Nelson 22. baskı yılı doğrulanmadı. | WHO Child Growth Standards 2006; WHO 2023 wasting kılavuzu PDF |
 | hs-kanit-duzeyleri | Users' Guides to the Medical Literature 3. baskı (2015) web ile doğrulanmadı. | JAMAevidence katalog |
 | hs-asi-takvimi | Plotkin's Vaccines 8. baskı (2023) web ile doğrulanmadı. | Elsevier katalog |
+| hs-asi-takvimi | Altılı karmanın hangi dozlarda kullanıldığı, 18. ay rapelinin bileşimi, hepatit B şemasının geri kalanı ve suçiçeği ikinci dozu (ör. 48. ay) güncel takvimle doğrulanmadı. Kaynak 1 (2020 takvimi) 2025 altılı karma bilgisini desteklemiyor; bağlantı doğrulanmadı. | asi.saglik.gov.tr / HSGM 2025-2026 aşı takvimi |
+| hs-bildirimi-zorunlu | Yönetmeliğin RG tarih/sayısı (2007, 26537) ve genelge numarası (2015/18) doğrulanmadı; lexpera bağlantıları tahmini olabilir. | mevzuat.gov.tr; hsgm.saglik.gov.tr |
+| hs-meslek-hastaliklari | ÇSGB PDF bağlantısı doğrulanamadığı için null yapıldı; birincil kaynak olarak 5510 md. 13-14 (mevzuat.gov.tr) bağlantısı eklenmeli. | mevzuat.gov.tr 5510 sayılı Kanun |
+| hs-su-klorlama | Annex 5 PDF bağlantısı doğrulanamadı (dosya adı "third addenda", başlık 2022 sürümü); null yapıldı. | who.int GDWQ sayfası |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| hs-onleme-duzeyleri | İyi anlatımda önleme paradoksu Rose'un tanımıyla düzeltildi (toplum için büyük yarar, birey için az yarar; vakaların çoğu orta riskli gruptan). | Paradoks yerine toplum stratejisinin üstünlüğü anlatılıyordu. |
+| hs-tarama-testi | Prevalans kavramından yönsüz anahtarlar (prevalans düş, prevalansı düşük, prevalansa göre, prevalans arttıkça) çıkarıldı, yönlü çok kelimeli anahtarlar eklendi; "dışlar" eş anlamlısı eklendi. | Ters ifadeyi doğru sayıyordu; "dışlarız" yakalanmıyordu. |
+| hs-su-klorlama | Annex 5 bağlantısı null yapıldı. | Bağlantı doğrulanamadı, sürüm başlıkla tutarsız. |
+| hs-iliski-olcutleri | Zayıf anlatımda "ne kadar yüksekse" yerine "1'den ne kadar uzaksa". | RR<1 de güçlü (koruyucu) ilişkidir. |
+| hs-bildirimi-zorunlu | D grubu anahtarı tek başına "laboratuvar" yerine laboratuvardan/etken bildirimine daraltıldı. | Laboratuvarı başka gruba bağlayan anlatım da eşleşiyordu. |
+| hs-meslek-hastaliklari | İyi anlatımda tanı süreci düzeltildi (yetkili hastane sağlık kurulu raporu, karar SGK Sağlık Kurulu); "işle ilgili" anahtarı çıkarıldı; ÇSGB bağlantısı null. | 5510 md. 14 süreci; işle ilgili hastalık meslek hastalığından ayrı kavram; bağlantı doğrulanamadı. |
+| hs-yanlilik-karistirici | "örneklem büyü", "rastgele hata", "random error" anahtarları çıkarıldı; yönlü "örneklem büyütmekle düzelmez" vb. eklendi. | Ters ifadeyi (yanlılık örneklemle azalır) doğru sayıyordu. |
+| hs-anne-bebek-olum | Payda kavramlarından "anne ölüm", "maternal mortal/ölüm", "bebek ölüm", "infant mortal" çıkarıldı; SKH kavramından "2030", "skh", "sdg", "sürdürülebilir kalkınma" çıkarıldı, 70 eşiği zorunlu kılındı. | Payda/eşik söylenmeden eşleşiyordu. |
+| hs-malnutrisyon | Ortak bildiri bağlantısı fctc.who.int'ten who.int/publications'a taşındı. | Yanlış alan adı (Tütün Kontrolü sitesi). |
+| hs-tarama-testi | "dışlama", "dışlar" → "duyarlı test dışla", "duyarlı testle dışla" | Yönsüz; "özgül test tanıyı dışlar" eşleşiyordu |
+| hs-anne-bebek-olum | SKH kavramından "70/100" çıkarıldı | [70,100] olarak her "70/100.000" ifadesini (ters yön dahil) eşliyordu |
