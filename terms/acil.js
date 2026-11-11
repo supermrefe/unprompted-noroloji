@@ -34,11 +34,11 @@ terms: [
     c: [
       ["!Ani başlayan, yaşamı tehdit eden sistemik aşırı duyarlılık reaksiyonu", "sistemik alerj|sistemik aşırı duyarlı|aşırı duyarlılık|hayatı tehdit|yaşamı tehdit|ige|mast hücre|histamin|alerjik reaksiyon"],
       ["Tetikleyiciler: besin, ilaç, arı-böcek sokması", "besin|fıstık|yiyecek|antibiyot|penisilin|arı|böcek sokma|kontrast|lateks"],
-      ["!Deri-mukoza bulgusuna solunum ya da dolaşım tutulumunun eşlik etmesi", "ürtiker|kurdeşen|anjiyoödem|anjioödem|stridor|hırıltı|wheezing|bronkospazm|dudak şiş|dil şiş|tansiyon düş|hipotansiyon"],
+      ["!Deri-mukoza bulgusuna solunum ya da dolaşım tutulumunun eşlik etmesi", "ürtiker|kurdeşen|anjiyoödem|anjioödem|stridor|hırıltı|wheezing|bronkospazm|dudak şiş|dil şiş"],
       ["!İlk ve en önemli tedavi: IM adrenalin (erişkin 0,5 mg), uyluk ön-yan yüz", "adrenalin|epinefrin|intramüsküler|im|uyluk|vastus"],
       ["Yanıt yoksa 5 dakika sonra adrenalin tekrarı", "5 dakika sonra|beş dakika sonra|ikinci doz|tekrar doz|dozu tekrar|adrenalin tekrar|tekrar adrenalin|adrenalini tekrar|adrenalin dozu tekrar|adrenalin yinelen"],
       ["Pozisyon (sırtüstü, bacaklar yukarı), oksijen, IV sıvı", "sırtüstü|sırt üstü|bacaklarını kaldır|bacakları kaldır|bacaklar yukarı|sıvı yükle|kristaloid"],
-      ["Antihistaminik ve steroid ikinci planda; bifazik reaksiyon için gözlem, otoenjektör", "antihistamin|feniramin|steroid|metilprednizolon|hidrokortizon|bifazik|otoenjektör|oto enjektör|kalem"],
+      ["Antihistaminik ve steroid ikinci planda; bifazik reaksiyon için gözlem, otoenjektör", "antihistamin|feniramin|metilprednizolon|bifazik|otoenjektör|oto enjektör|kalem"],
       ["Dirençli anafilakside IV adrenalin infüzyonu (uzman); beta bloker kullananda glukagon", "dirençli anafilaksi|refrakter anafilaksi|adrenalin infüzyon|glukagon"]
     ]},
   { id: "acil-sok-tipleri", tr: "Şok tipleri ve ilk yaklaşım", en: "Types of shock", cat: "res", lvl: 1,
