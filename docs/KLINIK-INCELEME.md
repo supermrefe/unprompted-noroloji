@@ -3,9 +3,9 @@
 Bir hekimin gözden geçireceği iş listesi. Her satır: konu, şüphe, kontrol edilecek kaynak. İçerik bu liste kapanmadan "hekim onaylı" sayılmaz.
 Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosya `node tools/klinik.js` ile üretilir).
 
-**Açık inceleme maddesi: 80** (değişiklik kayıtları hariç)
+**Açık inceleme maddesi: 92** (değişiklik kayıtları hariç)
 
-<!-- kardiyoloji: 18 madde -->
+<!-- kardiyoloji: 24 madde -->
 ## Kardiyoloji
 
 | Konu id | Şüphe | Kontrol edilecek kaynak |
@@ -28,8 +28,30 @@ Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosy
 | kar-uzun-qt | QTc ≥480 ms / skor >3 ikincil kaynaktan (İspanyolca özet) doğrulandı. 2013 HRS/EHRA/APHRS DOI'si (10.1016/j.hrthm.2013.05.014) DrugBank/PubMed kaydında görüldü; HRS sayfası yönetici özeti için farklı DOI veriyor — kontrol edilmeli. | Heart Rhythm 2013;10:1932; 2022 ESC VA |
 | kar-senkop | Sınıflama ve yüksek risk özellikleri ESC 2018 bellekten; karotis sinüs masajı yaş eşiği (>40) yazılmadı. | 2018 ESC senkop kılavuzu |
 | kar-wpw | Preeksite AF'de stabil hastada prokainamid/ibutilid (ve flekainid/propafenon) önerisi ESC 2019'dan bellekten; Türkiye'de prokainamid ve ibutilid erişimi sınırlı olabilir. | 2019 ESC SVT kılavuzu |
+| kar-pulmoner-emboli | Denetim (kör anlatım): "Risk sınıflaması: sPESI…" ve "DOAK tercih, en az 3 ay" kavramları sPESI ya da süre söylenmeden genel anahtarlarla (troponin, sağ ventrikül, antikoagül) eşleşiyor. Etiket bileşik; daraltmak doğru anlatımları da düşürebilir, değiştirilmedi. | Hekim kararı: kavram bölünmeli mi |
+| kar-brugada | Denetim: "Kinidin ve kateter ablasyon" yalnız kinidinle, "Tetikleyici ilaçlardan kaçınma ve aile taraması" aile taraması söylenmeden eşleşiyor. Bileşik etiketler; değiştirilmedi. | Hekim kararı: etiket bölünmeli mi |
+| kar-uzun-qt | Denetim: tanı kavramı QTc ≥480 eşiği söylenmeden "qtc/bazett/schwartz" ile eşleşiyor; ICD kavramı SKSD söylenmeden eşleşiyor. QTc ve Schwartz tanının özü sayıldı, değiştirilmedi. | Hekim kararı |
+| kar-wpw | Denetim: "AVRT: ortodromik ve antidromik" yalnız ortodromik söylenince de eşleşiyor. Bileşik etiket; değiştirilmedi. | Hekim kararı |
+| kar-aort-darligi | Denetim: "TAVI ya da cerrahi: kalp takımı, yaş eşiği 70" yalnız "TAVI" ile eşleşiyor; kalp takımı/yaş eşiği zorunlu tutulmadı. Vazodilatör etiketi güncellendi (aşağıda); ESC 2025 AS medikal tedavi bölümü tam metinde kontrol edilmeli. | 2025 ESC/EACTS VHD; 2020 ACC/AHA VHD 3.2.3 |
+| kar-dislipidemi | Bempedoik asit (2025 güncellemesi) pakette yer almıyor; ayrı kavram olarak eklenmesi düşünülebilir. | 2025 ESC/EAS Focused Update |
 
-<!-- noroloji: 35 madde -->
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| kar-stemi | Etiket "Troponin yükselmesi beklenmez…" → "Troponin sonucu beklenmez; EKG ile STEMI tanısı konunca reperfüzyon geciktirilmez"; anahtara "troponin sonucu bekle" eklendi | Eski ifade "STEMI'de troponin yükselmez" diye okunabiliyordu (4. UDMI) |
+| kar-stemi | İkili antiplatelet etiketi ve iyi anlatım: primer PCI'da tikagrelor/prasugrel, fibrinoliz alanlarda klopidogrel | 2023 ESC ACS: fibrinolizle birlikte P2Y12 olarak klopidogrel |
+| kar-atriyal-fibrilasyon | DOAK kavramından "varfarin" ve genel "antikoagül" anahtarları çıkarıldı; "varfarin yerine", "vka yerine", "direkt oral antikoagül" eklendi | Ters ifade ("varfarin verilir") ya da DOAK'sız anlatım ödüllendiriliyordu |
+| kar-atriyal-fibrilasyon | CHA2DS2-VA kavramından yalın "chads" çıkarıldı; "chads2 va", "chads vasc" biçimleri eklendi | Eskimiş CHADS2 skoru doğru sayılıyordu |
+| kar-atriyal-fibrilasyon | Sınıflama kavramında yalın "en sık" yerine "en sık sürekli", "sürekli aritmi" | Kör anlatım: sınıflama söylenmeden "en sık" ile eşleşiyordu |
+| kar-dislipidemi | Ezetimib/PCSK9 kavramından "bempedoik" çıkarıldı | Bempedoik asit ne ezetimib ne PCSK9 inhibitörü; etiket kapsamıyor |
+| kar-aort-darligi | Ciddi darlık kavramında eşiksiz anahtarlar (gradiyent, kapak alanı, ava) çıkarıldı; sayısal biçimler ve "ciddi darlık ölçüt" kaldı | Kör anlatım: eşik söylenmeden eşleşiyordu |
+| kar-aort-darligi | Etiket "vazodilatörden kaçın" → "HT tedavi edilir, vazodilatörler (özellikle nitrat) dikkatle, düşük dozla" | Mutlak kaçınma eskimiş; ACC/AHA 2020 ve ESC 2025 HT tedavisini önerir |
+| kar-infektif-endokardit | İyi anlatım: TEE yalnız TTE yetersizse değil, TTE pozitif olsa bile çoğu hastada perivalvüler komplikasyon için | 2023 ESC endokardit, görüntüleme (Sınıf I) |
+| kar-hipertrofik-kardiyomiyopati | Zayıf anlatımda "ağır spor yapmamaları söylenir" → kişisel risk değerlendirmesiyle ortak karar | 2023 ESC KMP ve 2024 AHA/ACC HCM: mutlak spor yasağı yerine ortak karar |
+| kar-senkop | İyi anlatım: Holter sık ataklarda (haftada ≥1), seyrek açıklanamayan ataklarda implante loop kaydedici | 2018 ESC senkop, EKG izlem bölümü |
+
+<!-- noroloji: 38 madde -->
 ## Nöroloji
 
 ### İçerik değişiklikleri (bu gözden geçirmede yapılanlar)
@@ -58,17 +80,17 @@ Konu id'leri, `subs`, seviyeler ve konu sayısı (42) değişmedi. Tüm konulara
 | (tümü) | Bradley and Daroff's 8. baskı: yayın tarihi 2021, telif/katalog yılı 2022; `src`'de 2022 yazıldı | Elsevier ürün sayfası (ISBN 9780323642613) |
 | iskemik-inme | 2026 AHA/ASA kılavuzunun tenekteplaz önerisinin sınıfı ve trombektomi zaman penceresi ayrıntıları tam metinden doğrulanmadı; anlatımda sayı verilmedi ("pencere uzayabilir") | Prabhakaran ve ark., Stroke 2026, doi:10.1161/STR.0000000000000513 |
 | iskemik-inme | Türkiye'de tenekteplazın inme endikasyonuyla ruhsat/geri ödeme durumu bilinmiyor | TİTCK, SGK SUT |
-| tia | ABCD2 skorunun güncel kılavuzlardaki yeri (AHA 2021 risk sınıflamasında sınırlı değer); ikili antiplatelet süresi (21 gün) metinde sayı olarak verilmedi | Kleindorfer 2021 AHA/ASA; POINT/CHANCE |
+| tia | ABCD2: iyi anlatım denetim sonrası "yüksek riskli TİA tanımı / ikili antiplatelet kararı için kullanılır, triyajda tek başına yeterli değil, her şüpheli TİA 24 saat içinde değerlendirilir" oldu (NICE NG128 risk skoru kullanmayı önermiyor; AHA 2021 DAPT için ABCD2 ≥4). Eşik (≥4) metinde sayı olarak verilmedi; ikili antiplatelet süresi (21 gün) de verilmedi | Kleindorfer 2021 AHA/ASA; NICE NG128; POINT/CHANCE |
 | alzheimer | Lekanemab/donanemab Türkiye'de ruhsatlı değil (doğrulanmadı); donanemab yalnızca anahtar kelimede | TİTCK; EMA kararları |
 | alzheimer | Plazma p-tau217'nin rutin klinik kullanımı ülkeye/laboratuvara göre değişir | Jack ve ark. 2024 |
 | epilepsi | ILAE 2025 sınıflamasının Türkçe terminolojisi (ör. "bilinmeyen") Türk Epilepsi Derneği çevirisiyle karşılaştırılmadı | TND / ILAE Türkiye şubesi |
 | bakteriyel-menenjit | WHO 2025 menenjit kılavuzu doğrulandı ama `src`'de ESCMID 2016 ve Lancet 2021 seçildi; deksametazonun antibiyotikle eş zamanlı/hemen önce verilmesi ESCMID'e göre yazıldı | WHO Guidelines on meningitis diagnosis, treatment and care (2025) |
-| karpal-tunel | AAOS 2024 CPG'de CTS-6 klinik ölçeğinin elektrodiagnostik testin yerine kullanılabileceği belirtiliyor; anlatımda "sinir iletim çalışmasıyla doğrulanır" dendi (nöroloji pratiği). AAOS bağlantısı (aaos.org/cts2cpg) DOI değil, kurum sayfası | AAOS CPG 2024 |
+| karpal-tunel | AAOS 2024 CPG'de CTS-6 klinik ölçeğinin elektrodiagnostik testin yerine kullanılabileceği belirtiliyor; temel kavram etiketi denetim sonrası "Tanı klinik; sinir iletim çalışması / EMG ile doğrulama ve şiddet" oldu (nöroloji pratiği). AAOS bağlantısı (aaos.org/cts2cpg) DOI değil, kurum sayfası | AAOS CPG 2024 |
 | esansiyel-tremor | "En sık hareket bozukluğu" ifadesi yaygın ama kaynaklar arasında "en sık tremor bozukluğu" olarak da geçiyor | Bhatia 2018 MDS tremor konsensusu |
 | glasgow-koma-skalasi | Anlatımda motor yanıt alt puanları (6–1) ayrıntılı verildi; kaynak Teasdale 1974/2014, ancak GCS-P (pupil) eklentisi işlenmedi | Teasdale 2014 Lancet Neurol |
 | multipl-skleroz | 2024 McDonald ayrıntıları (hangi durumlarda zamanda yayılım gerekmez, 50 yaş üstü kuralları) tam metinden doğrulanmadı; etiket genel ifade edildi | Montalban ve ark., Lancet Neurol 2025;24:850–865 |
 | miyastenia-gravis | Edrofonyum (Tensilon) testi birçok ülkede artık yok; yalnız anahtar kelime olarak tutuldu. Yeni ajanlar (rozanoliksizumab, zilukoplan, nipokalimab) Türkiye'de erişim durumu bilinmiyor | Narayanaswami 2021; TİTCK |
-| status-epileptikus | Fokal bilinç bozukluklu status için t1=10 dk; etikette yalnız konvülzif (5/30 dk) eşik var | Trinka 2015 ILAE |
+| status-epileptikus | Temel kavram etiketine fokal bilinç bozukluklu status için t1=10 dk eklendi (denetim sonrası); absans statusu (10–15 dk) etikette yok. "Arada bilinç düzelmeden tekrarlayan nöbetler" ILAE 2015'te değil, klinik/operasyonel tanımlarda (NCS 2012, AES 2016) | Trinka 2015 ILAE; Glauser 2016 AES |
 | subaraknoid-kanama | "İlk saatlerde BT duyarlılığı çok yüksek" (6 saat kuralı) sayı verilmeden yazıldı | AHA/ASA 2023 aSAH kılavuzu |
 | brown-sequard | İkinci makale StatPearls (NCBI Bookshelf) — kılavuz değil, derleme | — |
 | horner | Budge merkezi kaynaklarda C8–T1 ya da C8–T2 olarak geçiyor; etiket C8–T2 | Brazis 8. baskı |
@@ -90,15 +112,44 @@ Konu id'leri, `subs`, seviyeler ve konu sayısı (42) değişmedi. Tüm konulara
 | dravet | ILAE 2022 neonatal/infantil epilepsi sendromları makalesi (Zuberi ve ark., Epilepsia 2022) bağlantısı doğrulanamadı → null | Epilepsia 2022;63:1349– (kontrol) |
 | wilson | AASLD 2022 Practice Guidance (Hepatology 2023) ve EASL-ERN 2025 Wilson kılavuzu bağlantıları web aramasıyla doğrulanamadı (arama kotası doldu) → null; başlıklar da tam metinden kontrol edilmeli | AASLD ve EASL resmi sayfaları |
 | wilson | 24 saatlik idrar bakırı eşiği (AASLD >40 µg vs klasik >100 µg) metinde sayı olarak verilmedi | AASLD 2022; EASL-ERN 2025 |
+| iskemik-inme | Kör anlatım denetimi: "IV trombolitik ... ilk 4,5 saatte" kavramı süre söylenmeden yalnız ilaç adıyla (alteplaz/tenekteplaz) eşleşiyor; risk faktörleri kavramı tek bir risk faktörüyle eşleşiyor. Anahtar yapısı (her anahtar tek başına yeterli) gereği bilinçli bırakıldı; zaman penceresini zorunlu kılmak için kavramı ikiye bölmek konu kavram düzenini değiştirir, hekim/editör kararı | — |
+| huntington | Kör anlatım denetimi: "Semptomatik tedavi: tetrabenazin, antipsikotik; genetik danışmanlık" kavramı genetik danışmanlık söylenmeden tetrabenazinle eşleşiyor. Bileşik etiket; genetik danışmanlığın ayrı kavram olup olmayacağı editör kararı | — |
+| multipl-skleroz | Kör anlatım denetimi: BOS kavramı yalnız "oligoklonal bant" ile eşleşiyor (etiket "ya da" içerdiği için bırakıldı); santral ven işaretinin ayrı kavram olması düşünülebilir | Montalban ve ark., Lancet Neurol 2025 |
 
-<!-- acil: 27 madde -->
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| tia | İyi anlatımda ABCD2 cümlesi: yüksek riskli TİA tanımı / ikili antiplatelet kararında kullanılır; triyajda tek başına yeterli değil, her şüpheli TİA 24 saat içinde değerlendirilir | NICE NG128 risk skoru ile triyajı önermiyor; AHA/ASA 2021 DAPT için ABCD2'yi kullanıyor |
+| migren | "Bulantı-kusma, fotofobi, fonofobi" anahtarlarına ışık/ses hassasiyeti, ışığa/sese duyarlılık, karanlık sessiz oda, "bulantı kusma" eklendi | Kör anlatım: eş anlamlı ifadeler yakalanmıyordu |
+| gerilim-bas-agrisi | Etiket "Epizodik formda bulantı-kusma yok (kronikte hafif bulantı olabilir); fotofobi ya da fonofobiden en fazla biri"; iyi anlatım epizodik/kronik ayrımıyla düzeltildi; anahtarlara "bulantı kusma olmaz", "bulantısız", "yalnızca/sadece biri", "ışık ya da ses hassasiyeti" eklendi | ICHD-3 2.3 (kronik GTBA) hafif bulantıya izin veriyor; kör anlatım eş anlamlıları |
+| epilepsi | "iki provoke" anahtarı çıkarıldı | "iki provoke nöbet" gibi ters anlamlı ifadeyi ödüllendiriyordu (ILAE 2014 provoke olmayan nöbet ister) |
+| alzheimer | Tanı kavramına hipokampal/temporal atrofi, "MR'da atrofi", "BOS'ta amiloid", "amiloid düşük", "tau yüksek", FDG/tau PET, hipometabolizma eklendi | Kör anlatım: MR atrofisi, PET, BOS bulguları başka kelimelerle söylendi |
+| glasgow-koma-skalasi | "sekizin altı" anahtarı çıkarıldı; "sekiz veya/ya da altı" eklendi; hafif/orta kavramına "on üç on beş", "13 15", "dokuz on iki", "9 12" eklendi | "Sekizin altı" eşiği ≤7'ye kaydırıyor (ağır/entübasyon ≤8); kör anlatımda tireli aralıklar yakalanmıyordu |
+| karpal-tunel | Temel kavram etiketi "Tanı klinik; sinir iletim çalışması / EMG ile doğrulama ve şiddet"; "sinir iletim" anahtarı "sinir ileti" oldu; zayıf anlatımdaki "bilgisayar kullananlarda" cümlesi "elde uyuşma ve ağrı; tekrarlayıcı el kullanımı gerektiren işlerde daha sık" oldu | AAOS 2024 CPG (klinik tanı, CTS-6); bilgisayar kullanımı ile nedensel ilişki gösterilmedi (Padua, Lancet Neurol 2016) |
+| esansiyel-tremor | Baş/ses tremoru kavramına "ses de titrek", "sesi titrer", "titrek ses", "evet-evet / hayır-hayır", "başın titremesi" eklendi | Kör anlatım eş anlamlıları |
+| bppv | "işitme kaybı" tek başına anahtarı çıkarıldı; yerine olumsuz kalıplar ("işitme kaybı yok/olmaz/beklenmez/eşlik etmez", "işitme etkilenmez/normal"); santral ayrım kavramına "santral lezyon", "yorulmayan", "latanssız", "vertikal nistagmus", "nörolojik bulgu yok" eklendi | Ters anlamlı ifadeyi ("işitme kaybı yapar") ödüllendiriyordu; kör anlatım eş anlamlıları |
+| lomber-radikulopati | Zayıf anlatımda "İstirahat ve ağrı kesici" → "Hareketli kalmak ve ağrı kesici" | Yatak istirahati önerilmiyor, aktif kalma öneriliyor (NICE NG59; Ropper & Zafonte NEJM 2015) |
+| multipl-skleroz | McDonald 2024 temel kavramının anahtarları daraltıldı: tek başına "mcdonald", "yerde yayılım", "zamanda yayılım" çıkarıldı; "McDonald 2024", "2024 revizyon", "optik sinir", "beşinci bölge", "zamanda yayılım gerekmez/şart değil/zorunlu değil/artık" kaldı | Kör anlatım: yalnız eski kural (zaman ve yerde yayılım) söylendiği hâlde 2024 güncellemesi kavramı yakalanıyordu |
+| miyastenia-gravis | Yorulabilirlik kavramına "akşama doğru", "dinlenmeyle/istirahatle düzelir", "kullanıldıkça", "yorgunluk artar", "dalgalanan" eklendi; zayıf anlatımda "genç kadınlarda daha sık" → erken başlangıçta genç kadın, geç başlangıçta ileri yaş erkek | Kör anlatım eş anlamlıları; iki yaş zirvesi (Gilhus NEJM 2016) |
+| status-epileptikus | Temel kavram etiketi "Tonik-klonik nöbette 5 dakikayı aşan nöbet (fokal bilinç bozukluğu olan nöbette 10 dakika) ya da arada bilinç düzelmeden tekrarlayan nöbetler"; iyi anlatımda ILAE tanımı (5 dk tonik-klonik, 10 dk fokal bilinç bozukluklu) ile klinik pratikteki tekrarlayan nöbet ölçütü ayrıldı | Trinka 2015 ILAE t1 değerleri; tekrarlayan nöbet ölçütü operasyonel tanımlardan |
+| als | İyi anlatımda NIV ve multidisipliner bakım sağkalımı uzatır; PEG beslenmeyi/kiloyu korur ama sağkalım etkisi kesin değil | EAN 2024 (gastrostomi kanıtı düşük kesinlik); Bourke 2006 NIV RCT |
+| lewy-demans | İyi anlatımda DaTscan ve miyokardiyal MIBG "destekleyici" yerine "gösterge (indicative) biyobelirteç; bir temel özellikle olası DLB tanısı" | McKeith 2017 4. konsensus, Tablo 1 |
+| horner | Okülosempatik kavrama "sempatik innervasyon/inervasyon", "sempatik zincir", "sempatik sinir" eklendi | Kör anlatım eş anlamlıları |
+| kume-bas-agrisi | "trigeminal otonomik" → "trigeminal otonom"; "otonom sefalji" eklendi | "otonom sefaljiler" biçimi yakalanmıyordu |
+| msa | Levodopa yanıtı kavramına "yanıt zayıf", "iyi cevap/yanıt vermez/vermiyor", "levodopaya yanıtsız/dirençli" eklendi | Kör anlatım eş anlamlıları ("iyi yanıt verm" gibi olumluyu da yakalayacak kök bilinçli olarak kullanılmadı) |
+| lambert-eaton | Proksimal güçsüzlük kavramına "proksimal kas", "merdiven çıkma", "oturduğu yerden kalkma", "arefleksi", "refleksler azalmış"; fasilitasyon kavramına "kolaylaşma", "kullandıkça güçlenir", "efordan sonra / efor sonrası", "geçici olarak art" eklendi | Kör anlatım eş anlamlıları |
+| miller-fisher | Prognoz kavramına "prognoz genelde", "prognoz çok iyi", "kendiliğinden düzelir" eklendi (IVIG/plazmaferez GBS ile çapraz eşleşmeyi önlemek için eklenmedi) | Kör anlatım eş anlamlıları |
+| dravet | SUDEP kavramına "ani beklenmedik", "epileptik ölüm" eklendi | Türkçe açılım yakalanmıyordu |
+
+<!-- acil: 30 madde -->
 ## Acil tıp
 
 Not: Bu oturumda WebFetch ağ kısıtı nedeniyle hiçbir sayfa açılamadı (resus.org.uk, mheducation.com, hsgm.saglik.gov.tr erişilemedi); doğrulamalar yalnız web arama sonuç özetleriyle yapıldı. Kılavuz tam metinleri tek tek okunmadı. Arama kotası dolduğu için aşağıdaki bazı maddeler ikinci kez kontrol edilemedi.
 
 | Konu id | Şüphe | Kontrol edilecek kaynak |
 |---|---|---|
-| (tüm konular) | Tintinalli 9. baskı: perakende kayıtları Ekim/Kasım 2019 yayın tarihi veriyor (telif yılı 2020 olabilir); "9. baskı (2019)" yazıldı. 10. baskı aramalarda bulunamadı; çıkmışsa güncellenmeli. | McGraw Hill ürün sayfası |
+| (tüm konular) | Tintinalli 9. baskı: basım Ekim 2019, telif yılı 2020; denetim sonrası alışılmış atıf biçimine göre "9. baskı (2020)" yazıldı. 10. baskı aramalarda bulunamadı; çıkmışsa güncellenmeli. | McGraw Hill ürün sayfası |
 | (zehirlenme konuları) | Goldfrank's Toxicologic Emergencies 12. baskının varlığı McGraw Hill sayfasında doğrulandı, ancak yayın yılı bulunamadı; yıl yazılmadı. | McGraw Hill ürün sayfası / WorldCat |
 | (travma konuları) | ATLS 11. baskı (Ağustos 2025, xABCDE) ACS sayfalarından doğrulandı; kitap içeriği (iğne dekompresyon yeri, yanık sıvı formülü, kanama sınıfları) 11. baskı metniyle karşılaştırılamadı. ACS "ATLS 11" web sayfası makale yerine kullanıldı. | ATLS 11 Student Course Manual |
 | (resüsitasyon konuları) | ERC 2025 ile AHA 2025 ana noktalarda uyumlu kabul edildi; ERC 2025 ALS için RCUK "2021'den büyük değişiklik yok" diyor. Dozlar (adrenalin 1 mg, amiodaron 300 mg) ERC 2025 algoritma metninde görülmedi, yalnız zamanlama görüldü; dozlar AHA/Red Cross 2025 kartlarından ve klasik bilgiden. | ERC 2025 ALS (doi 10.1016/j.resuscitation.2025.110769) tam metni |
@@ -117,7 +168,7 @@ Not: Bu oturumda WebFetch ağ kısıtı nedeniyle hiçbir sayfa açılamadı (re
 | acil-pelvis-kirigi | WSES 2017 önerilerinin içeriği (binder, preperitoneal paketleme, REBOA endikasyonları) yalnız anahtar sözcük/başlık düzeyinde görüldü. Binder'in trokanter hizası ikincil derlemelerden. Young-Burgess ayrıntısı doğrulanmadı (klasik bilgi). | WSES 2017 tam metni |
 | acil-yanik | Parkland 4 mL/kg/% ve "yarısı ilk 8 saatte" kurumsal protokollerden; ABA 2023 kılavuzunun 2 mL/kg/% ile başlama önerisi ve 0,5 mL/kg/saat idrar hedefi (AAFP özeti) doğrulandı. ATLS'nin güncel formülü doğrulanmadı. Soğutma süresi doğrulanamadığı için yazılmadı. Avuç içi ≈ %1 klasik bilgi. | ABA 2023 (doi 10.1093/jbcr/irad125); ATLS 11 |
 | acil-parasetamol | 4. saatte 150 mg/L tedavi çizgisi ikincil kaynaklardan (NSW, Hollanda derlemesi) doğrulandı; İngiltere'nin 2012'den beri 100 mg/L tek çizgi kullandığı bilgisi doğrulanamadı, yazılmadı. NAC dozlama şeması (21 saatlik / iki torba) etikete yazılmadı. "8 saat" kuralı NSW rehberinden. Dart 2023'ün yeni nomogram çizgisi ayrıntısı görülmedi. | Dart 2023 JAMA Netw Open; Chiew 2020 MJA |
-| acil-karbonmonoksit | Türkiye'de soba/şofben/kış yoğunluğu tek merkezli Türk çalışmalarından. Hiperbarik oksijen endikasyonları (bilinç kaybı, gebelik vb.) kılavuzda net değil; ACEP 2025 politikası yalnız özetten görüldü, başlığı yaklaşık yazıldı. COHb yarı ömür sayıları kaynaklar arasında farklı olduğu için yazılmadı. | ACEP 2025 (doi 10.1016/j.annemergmed.2024.12.005) |
+| acil-karbonmonoksit | Türkiye'de soba/şofben/kış yoğunluğu tek merkezli Türk çalışmalarından. Hiperbarik oksijen endikasyonları (bilinç kaybı, gebelik vb.) kılavuzda net değil; ACEP 2025 politikası yalnız özetten görüldü; başlık denetim sonrası 2025 güncellemesinin başlığıyla ("A Critical Issue in the Management…", yalnız HBO sorusu) düzeltildi. COHb yarı ömür sayıları kaynaklar arasında farklı olduğu için yazılmadı. | ACEP 2025 (doi 10.1016/j.annemergmed.2024.12.005) |
 | acil-opioid | Nalokson başlangıç dozları ve gözlem süresi doğrulanamadığı için yazılmadı. AHA 2025 Part 10 bağlantısı cpr.heart.org özet sayfası; Circulation DOI'si görülmedi. | Boyer 2012 (PMC3739053); AHA 2025 Part 10 |
 | acil-organofosfat | Atropin hedefleri (akciğer temiz, kalp hızı/kan basıncı, kuru aksilla) doğrulandı; "dozu ikiye katlayarak" şeması yalnız ikincil kaynakta görüldü, kesin şema (başlangıç dozu, aralık) yazılmadı. HSGM 2025 Zehirlenme Tanı ve Tedavi Rehberi'nin içeriği açılamadı (ağ kısıtı); organofosfat bölümünün varlığı doğrulanmadı. Pralidoksim etkinliği tartışmalı. | HSGM rehberi PDF; Eddleston 2008 |
 | acil-trisiklik | QRS >100 ms doğrulandı; aVR R dalga eşikleri (≥3 mm, R/S >0,7) sayısal yazılmadı. Bikarbonat 1–2 mEq/kg yalnız BC Emergency Care sayfasından. Fenitoinden kaçınma ikincil özetten. | Lavonas 2023 AHA; Goldfrank |
@@ -125,3 +176,29 @@ Not: Bu oturumda WebFetch ağ kısıtı nedeniyle hiçbir sayfa açılamadı (re
 | acil-mantar | Latent dönem 6–24 saat doğrulandı. Silibinin, NAC, penisilin G kanıtı olgu serilerine dayanır; Türkiye'de silibinin bulunabilirliği doğrulanmadı. "Köygöçüren" Türkçe adı ve Karadeniz'de sıklığı (Rize/Samsun çalışmaları) kontrol edilmeli. IJMS 2024 derlemesinin yazarları görülmedi. | Tan 2022 Clin Toxicol; Türk acil tıp serileri |
 | acil-akrep-yilan | WHO kılavuzu Güneydoğu Asya içindir; Türkiye türleri (engerekler) için genellenebilirlik sınırlı. İlk yardımda yapılmayacaklar listesi ve 20WBCT yorumu WHO metninde doğrulanmadı (ikincil kaynaklar). Türkiye'de yılan antivenomunun üretim/temin durumu ve akrep serumunun Mesobuthus'a etkinliği tartışmalı. | WHO SEARO 2016; UZEM; Emek 2025 |
 | acil-digoksin | Fab endikasyonlarındaki potasyum eşiği (>5–6 mmol/L) kaynaklar arasında farklı, sayısal yazılmadı. Dağılım sonrası düzey ölçüm zamanı (saat) yazılmadı. Hiperkalemide kalsiyum verilmesi tartışması anlatılmadı. | Chan & Buckley 2014; Goldfrank |
+| acil-metanol, acil-organofosfat | HSGM "Zehirlenme Tanı ve Tedavi Rehberi" dosyasının 2025 tarihi yalnız yükleme tarihi olabilir; içerik Refik Saydam Hıfzıssıhha (2011'de kapandı) verilerine dayanıyor, akademik atıflarda 2006 baskısı geçiyor. PDF açılamadığı için künye değiştirilmedi. | PDF kapağındaki yayın yılı; gerekirse güncel bir Türkiye kaynağıyla değiştirilmeli |
+| acil-iyd-ritimler | Denetim: AHA 2025 algoritmasında şoklanabilir ritimde adrenalin ilk şoklar başarısız olunca (pratikte 2. şoktan sonra), ERC 2025'te 3. şoktan sonra. Etikete "(ERC 2025; AHA'da daha erken)" eklendi, iyi anlatım düzeltildi; AHA 2025 algoritma metni doğrudan görülmedi, şok sayısı yazılmadı. | AHA 2025 Part 9 Adult Cardiac Arrest Algorithm |
+| acil-akrep-yilan | Emek ve ark. 2025 (il verileri) akrep sokması hızının en yüksek olduğu illeri Iğdır, Van, Niğde olarak veriyor (arama özeti); Güneydoğu ağır vaka ve mutlak sayıda öne çıkıyor. İyi anlatımdaki "en çok bu üç ilde" ifadesi "sık ve ağır seyirli" diye yumuşatıldı; hız bilgisi tam metin görülmediği için eklenmedi. | Emek M ve ark. Turk Hij Den Biyol Derg 2025;82(3):427-440 tam metni |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| (Tintinalli kullanan tüm konular) | Kitap künyesi "9. baskı (2019)" → "9. baskı (2020)" | Telif yılı 2020, kaynakçalarda alışılmış biçim |
+| acil-temel-yasam-destegi | "Hayatta kalma zinciri…" anahtarına zincir, olay yerindeki, çevredeki kişi, seyirci, telefonda eklendi | Kör anlatım notu: eş anlamlılar yakalanmıyordu |
+| acil-anafilaksi | Adrenalin tekrarı anahtarına tekrarlan, adrenalin tekrar, tekrar adrenalin, yinelen eklendi; dirençli anafilaksi etiketine "beta bloker kullananda glukagon" eklendi | Kör anlatım notu: "gerekirse tekrarlanır" yakalanmıyordu; glukagon anahtarı etiketsiz eşleşiyordu (glukagon doğru bilgi, etikete taşındı) |
+| acil-sok-tipleri | Zayıf anlatımda şok tanımı hipotansiyon yerine yetersiz doku kanlanması olarak düzeltildi | Şok perfüzyonla tanımlanır; kompanse şokta tansiyon normal olabilir |
+| acil-tansiyon-pnomotoraks | Parmak torakostomisi anahtarından "pozitif basınç", "mekanik ventil", tek başına "parmak" çıkarıldı; "parmak torakostom", "parmakla", "parmak ile" eklendi | Kör anlatım notu: parmak torakostomisi söylenmeden eşleşiyordu |
+| acil-parasetamol | Zayıf anlatımdan "gerekirse mide yıkanır" çıkarıldı | Güncel kılavuzlarda mide yıkama rutin değil (Dart 2023, Chiew 2020) |
+| acil-karbonmonoksit | ACEP 2025 makale başlığı DOI'nin gittiği 2025 güncellemesinin başlığıyla düzeltildi; Rose 2017 PMC bağlantısına "PMC" öneki eklendi; siyanür/miyokard kavramından "yangın" anahtarı çıkarıldı | Başlık 2017 politikasınındı; standart PMC URL biçimi; kör anlatım notu: siyanür söylenmeden "yangın" ile eşleşiyordu |
+| acil-opioid | Boyer 2012 bağlantısı PMID 23034040 (okuyucu mektubu) → 22784117 (derleme) | Doğrulanmış hata |
+| acil-iyd-ritimler | Adrenalin etiketine "(ERC 2025; AHA'da daha erken)" eklendi; iyi anlatımdaki "Bu temel noktalarda ERC ve AHA uyumlu" cümlesi amiodaron/lidokainle sınırlandırıldı, adrenalin zamanlamasındaki fark belirtildi | Şoklanabilir ritimde adrenalin zamanlaması ERC ile AHA arasında farklı |
+| acil-hemorajik-sok-masif-transfuzyon | Permisif hipotansiyon kavramından tek başına "kristaloid" çıkarıldı; kısıtlama anlamlı ifadeler (kristaloidi sınırla, kristaloid kısıt, az/sınırlı kristaloid, kısıtlı sıvı) eklendi | "2 L kristaloid bolus" gibi eskimiş anlatımı ödüllendiriyordu |
+| acil-servikal-omurga-goruntuleme | Duyarlılık kavramından "özgüllü" anahtarı çıkarıldı; hareket kısıtlaması anahtarına "korse" eklendi; zayıf anlatımda "film çekilir… ağrı kesiciyle taburcu" yerine "gerekirse görüntüleme yapılır" | Kurallar özgüllüğü düşük; kör anlatım notu ("boyun korsesi"); erişkinde direkt grafi ile taburculuk eskimiş |
+| acil-organofosfat | Dekontaminasyon anahtarında "yıka" yerine cilde özgü ifadeler (cilt/cildi/deri/deriyi/vücudu yıka, sabun); zayıf anlatımda "Mide yıkanır" yerine "damar yolu açılır" | "mide yıkanır" temel kavramı karşılıyordu; rutin gastrik lavaj önerilmez |
+| acil-trisiklik | Nöbet kavramının anahtarından fenitoin, fizostigmin, flumazenil çıkarıldı (yalnız benzodiazepinler); zayıf anlatımda "Mide yıkanır" yerine "damar yolu açılır" | Doğrulanmış hata: kaçınılacak ilaçları söyleyen yanlış anlatım ödüllendiriliyordu; rutin gastrik lavaj önerilmez |
+| acil-metanol | Formik asit kavramından "formaldehit" anahtarı çıkarıldı | Asıl toksik metabolit formik asit/format |
+| acil-arrest-sonrasi-bakim | Sıcaklık kontrolü anahtarına hedefli/hedeflenen sıcaklık, sıcaklık yönetim, ateşi aktif, "otuz yedi buçu" (buçuğun) eklendi | Kör anlatım notu: eş anlamlılar yakalanmıyordu |
+| acil-pelvis-kirigi | WSES karar kavramına "stabil olmayan", "stabilse", "stabil hasta" eklendi | Kör anlatım notu: hemodinamik stabiliteye göre karar başka kelimelerle söylenmişti |
+| acil-mantar | Türkiye kavramından "köygöçüren" çıkarıldı, etiketteki UZEM 114 için "uzem", "114", "zehir danışma" eklendi | Kör anlatım notu: yalnız mantarın Türkçe adı Türkiye/toplayıcı kavramını karşılıyordu |
+| acil-akrep-yilan | İyi anlatımda "ateller… çıkarılır" → "uzuv atelle hareketsiz hâle getirilir"; "en çok Şanlıurfa, Diyarbakır, Mardin'de görülür" → "özellikle Güneydoğu'da sık ve ağır seyirlidir" | Yanlış ilk yardım okuması; kaynak (Emek 2025) hız bakımından başka illeri veriyor |
