@@ -40,13 +40,13 @@ terms: [
   { id: "psi-bipolar", tr: "Bipolar bozukluk", en: "Bipolar disorder", cat: "duygu", lvl: 1,
     src: { k: [DSM, SY], m: [CANMAT_BP, NICE_BP] },
     c: [
-      ["!Bipolar I: en az bir manik epizot (en az 1 hafta ya da hastaneye yatış)", "manik epizot|mani atağ|mani dönem|bir hafta|1 hafta|bipolar 1|bipolar bir|tip 1"],
-      ["Bipolar II: hipomani + majör depresyon (en az 4 gün hipomani)", "hipomani|bipolar 2|bipolar iki|tip 2|dört gün|4 gün"],
+      ["!Bipolar I: en az bir manik epizot (en az 1 hafta ya da hastaneye yatış)", "manik epizot|mani atağ|mani dönem|bir hafta|1 hafta|bipolar 1|bipolar bir|bipolar tip 1"],
+      ["Bipolar II: hipomani + majör depresyon (en az 4 gün hipomani)", "hipomani|bipolar 2|bipolar iki|bipolar tip 2|dört gün|4 gün"],
       ["!Mani belirtileri: yükselmiş/irritabl duygudurum, uyku ihtiyacında azalma, fikir uçuşması, grandiyözite", "uyku ihtiyac|az uyu|fikir uçuşma|grandiyöz|büyüklük|basınçlı konuşma|konuşma baskı|irritabl|taşkın|riskli davran|dürtüsel harcama|para harca"],
       ["!Duygudurum düzenleyici: lityum (idamede altın standart), valproat", "lityum|valproat|valproik|duygudurum düzenley|duygudurum dengeley|mood stabil"],
       ["Akut manide atipik antipsikotik (ketiapin, aripiprazol, risperidon)", "antipsikotik|ketiapin|aripiprazol|risperidon|olanzapin|asenapin"],
-      ["Tek başına antidepresan verilmez (maniye kayma riski)", "tek başına antidepresan|antidepresan monoterapi|maniye kay|manik kayma|mani tetikle|switch"],
-      ["Bipolar depresyonda ketiapin, lurasidon, lamotrijin", "lamotrijin|lurasidon|bipolar depresyon"]
+      ["Tek başına antidepresan verilmez (maniye kayma riski)", "tek başına antidepresan verilmez|antidepresan tek başına verilmez|antidepresan monoterapisinden kaçın|antidepresan monoterapiden kaçın|maniye kay|manik kayma|mani tetikle"],
+      ["Bipolar depresyonda ketiapin, lurasidon, lamotrijin", "lamotrijin|lurasidon|bipolar depresyonda ketiapin|bipolar depresyonda kuetiapin"]
     ]},
   { id: "psi-sizofreni", tr: "Şizofreni", en: "Schizophrenia", cat: "psikoz", lvl: 1,
     src: { k: [DSM, SY], m: [
@@ -65,7 +65,7 @@ terms: [
   { id: "psi-yaygin-anksiyete", tr: "Yaygın anksiyete bozukluğu", en: "Generalized anxiety disorder", cat: "anks", lvl: 1,
     src: { k: [DSM, SY], m: [NICE_ANX, ANX_LANCET] },
     c: [
-      ["!Birçok konuda aşırı, kontrol edilemeyen kaygı (endişe)", "aşırı kaygı|aşırı endişe|kontrol edilemeyen|kontrol edemedi|her şey için endişe|birçok konu|pek çok konu|günlük olaylar"],
+      ["!Birçok konuda aşırı, kontrol edilemeyen kaygı (endişe)", "aşırı kaygı|aşırı endişe|aşırı ve kontrol|kontrol edilmesi güç|serbestçe dolaşan|kontrol edilemeyen|kontrol edemedi|her şey için endişe|birçok konu|pek çok konu|günlük olaylar"],
       ["!DSM-5-TR: en az 6 ay süre", "altı ay|6 ay"],
       ["Bedensel belirtiler: huzursuzluk, kas gerginliği, uyku bozukluğu, yorgunluk, irritabilite", "kas gerginli|huzursuzluk|gerginlik|uyku bozukluğu|kolay yorul|yorgunluk|irritabil|konsantrasyon güçlü"],
       ["Tıbbi nedenler dışlanır: hipertiroidi, kafein/madde", "hipertiroid|tiroid|kafein|organik neden"],
@@ -93,7 +93,7 @@ terms: [
     c: [
       ["!Obsesyon: istenmeyen, yineleyici, sıkıntı veren düşünce/dürtü/imge", "obsesyon|takıntı|istemsiz düşünce|istenmeyen düşünce|zorlayıcı düşünce|bulaşma|kirlenme|şüphe"],
       ["!Kompulsiyon: kaygıyı azaltmak için yapılan yineleyici davranış/zihinsel eylem", "kompulsiyon|zorlantı|el yıkama|kontrol etme|sayma|ritüel|tekrar tekrar"],
-      ["Zaman alır (günde 1 saatten fazla) ya da işlevselliği bozar", "bir saatten fazla|1 saatten fazla|saatlerini alır|zaman alıcı|işlevsellik|işlevselliğini boz"],
+      ["Zaman alır (örneğin günde 1 saatten fazla) ya da belirgin sıkıntıya veya işlevsellikte bozulmaya yol açar", "bir saatten fazla|belirgin sıkıntı|1 saatten fazla|saatlerini alır|zaman alıcı|işlevsellik|işlevselliğini boz"],
       ["İçgörü belirteci (iyi / zayıf / içgörüsüz)", "içgörü|insight|ego distonik|egodistonik|saçma olduğunu bil"],
       ["!Tedavi: maruz bırakma ve tepki önleme (ERP) içeren BDT", "tepki önleme|yanıt önleme|maruz bırakma|maruziyet|erp|bdt|bilişsel davranışçı|cbt"],
       ["SSRI (çoğu zaman depresyondan yüksek doz, yanıt geç)", "ssri|fluoksetin|fluvoksamin|sertralin|paroksetin|essitalopram|yüksek doz|yanıt geç|geç yanıt"],
@@ -102,7 +102,7 @@ terms: [
     ]},
   { id: "psi-tssb", tr: "Travma sonrası stres bozukluğu", en: "Post-traumatic stress disorder", cat: "anks", lvl: 2,
     src: { k: [DSM, SY], m: [
-      ["Post-traumatic stress disorder (NG116). NICE 2018", "https://www.nice.org.uk/guidance/ng116/resources/resource-impact-report-pdf-6602766157"],
+      ["Post-traumatic stress disorder (NG116). NICE 2018", "https://www.nice.org.uk/guidance/ng116"],
       ["Bisson JI ve ark. Post-traumatic stress disorder. BMJ 2015", null]] },
     c: [
       ["!Ölüm tehdidi, ağır yaralanma ya da cinsel şiddete maruz kalma (travmatik olay)", "travmatik olay|travmaya maruz|ölüm tehdid|ağır yaralan|cinsel şiddet|tecavüz|savaş|deprem|kaza"],
@@ -124,7 +124,7 @@ terms: [
       ["Hiperaktif, hipoaktif (sık atlanan) ve karışık tipler", "hipoaktif|hiperaktif|karışık tip|mikst|ajitasyon|ajite"],
       ["Tarama: CAM (Confusion Assessment Method) ya da 4AT", "cam yöntem|cam ölçe|confusion assessment|4at|dört a t|tarama ölçe"],
       ["!Altta yatan nedeni bul ve tedavi et (enfeksiyon, ilaç, metabolik, hipoksi, idrar retansiyonu)", "altta yatan|enfeksiyon|idrar yolu|ilaç yan etki|antikolinerjik|elektrolit|hiponatremi|hipoksi|metabolik|retansiyon|konstipasyon|kabızlık"],
-      ["Demanstan farkı: demans sinsi başlar, dikkat erken dönemde korunur; demans deliryum riskini artırır", "demans|sinsi başla|yavaş ilerle"],
+      ["Demanstan farkı: demans sinsi başlar, dikkat erken dönemde korunur; demans deliryum riskini artırır", "demans sinsi|demansta dikkat korun|demansta bilinç berrak|demans riski art|sinsi başla|yavaş ilerle"],
       ["Önce ilaç dışı yöntemler: oryantasyon, gözlük/işitme cihazı, uyku düzeni, mobilizasyon", "ilaç dışı|non farmakolojik|nonfarmakolojik|yeniden oryant|gözlük|işitme cihaz|uyku düzen|mobiliz|aile yanında|saat ve takvim"],
       ["Gerekirse kısa süreli düşük doz haloperidol; benzodiazepin (alkol yoksunluğu dışında) kötüleştirir", "düşük doz haloperidol|kısa süreli haloperidol|kısa süreli antipsikotik|düşük doz antipsikotik|benzodiazepin kötüleş|benzodiazepinden kaçın|benzodiazepin verilmez"]
     ]},
@@ -153,7 +153,7 @@ terms: [
       ["Bulgular: Russell işareti, parotis büyümesi, diş minesi erozyonu, hipokalemi", "russell|parotis|diş mine|hipokalemi|potasyum düşük|metabolik alkaloz"],
       ["Yeniden beslenme sendromu: hipofosfatemi (yavaş ve izlemli besleme)", "yeniden beslenme|refeeding|hipofosfatemi|fosfor düş|fosfat düş"],
       ["Tedavi: yeme bozukluğuna yönelik psikoterapi; ergenlerde aile temelli tedavi", "aile temelli|aile odaklı|maudsley|bdt|bilişsel davranışçı|cbt|psikoterapi"],
-      ["Bulimiyada fluoksetin kullanılabilir; bupropion nöbet riski nedeniyle verilmez", "fluoksetin|bupropion verilmez|bupropiondan kaçın|bupropion kontrendike"]
+      ["Bulimiyada fluoksetin kullanılabilir; bupropion nöbet riski nedeniyle verilmez", "fluoksetin kullanıl|fluoksetin verilebil|fluoksetin etkili|fluoksetin onaylı|bupropion verilmez|bupropiondan kaçın|bupropion kontrendike"]
     ]},
 
   /* ====================== ZOR ====================== */
@@ -162,13 +162,13 @@ terms: [
       ["Turecki G, Brent DA. Suicide and suicidal behaviour. Lancet 2016", "https://doi.org/10.1016/S0140-6736(15)00234-2"],
       ["Self-harm: assessment, management and preventing recurrence (NG225). NICE 2022", null]] },
     c: [
-      ["!İntihar düşüncesini doğrudan sormak riski artırmaz", "doğrudan sor|açıkça sor|direkt sor|sormak riski artırmaz|sormak artırmaz|fikir vermez"],
-      ["!En güçlü risk etkeni: önceki intihar girişimi", "önceki girişim|önceki intihar|daha önce intihar|geçmiş girişim|girişim öykü"],
+      ["!İntihar düşüncesini doğrudan sormak riski artırmaz", "doğrudan sor|açıkça sor|direkt sor|sormak riski artırmaz|sormak artırmaz|fikir vermez|sormaktan çekinme|sorgulanmalı|intihar düşüncesi sorulmalı|intihar düşüncesini sor|sormak tetiklemez|aklına sokmaz"],
+      ["!En güçlü risk etkeni: önceki intihar girişimi", "önceki girişim|önceki intihar|daha önce intihar|geçmiş girişim|girişim öykü|geçirilmiş girişim|önceden girişim|daha önceki girişim|eski girişim"],
       ["Diğer risk etkenleri: psikiyatrik bozukluk, madde, erkek cinsiyet, yaşlılık, yalnızlık, aile öyküsü, umutsuzluk", "depresyon|madde kullan|alkol|erkek cinsiyet|yaşlı|yalnız|bekar|aile öykü|umutsuz|kronik ağrı|işsiz"],
-      ["Plan, niyet, hazırlık ve araca erişim sorgulanır", "intihar plan|planı var|plan yap|niyet|hazırlık|araca erişim|veda mektub"],
-      ["Risk ölçekleri tek başına intiharı öngörmek için kullanılmaz (NICE)", "ölçek tek başına|risk ölçek|tahmin et|öngörmek|öngörü değeri|düşük risk paradoks"],
-      ["!Güvenlik planı ve ölümcül araçların kısıtlanması", "güvenlik plan|araç kısıtla|araçları kısıtla|ilaçları kaldır|silah|ölümcül araç|ortamı güvenli"],
-      ["Yüksek riskte hastaneye yatış/gözetim; taburculuk sonrası erken izlem", "hastaneye yatır|yatırılarak|yakın gözetim|gözlem altında|taburcu|erken izlem|erken kontrol"],
+      ["Plan, niyet, hazırlık ve araca erişim sorgulanır", "intihar plan|planı var|plan yap|planı olup|planı sor|somut plan|niyet|yöntem|hazırlık|araca erişim|veda mektub"],
+      ["Risk ölçekleri tek başına intiharı öngörmek için kullanılmaz (NICE)", "ölçek tek başına|ölçekler tek başına|ölçek kullanılmaz|tek başına karar verdirmez|öngörü değeri düşük|öngörü değeri sınırlı|risk sınıflaması kullanılmaz|klinik yargı esas|düşük risk paradoks"],
+      ["!Güvenlik planı ve ölümcül araçların kısıtlanması", "güvenlik plan|araç kısıtla|araçları kısıtla|ilaçları kaldır|ilaçları uzaklaştır|silah|ateşli silah|araçlara erişimi kısıtla|erişimin kısıtlan|kriz plan|ölümcül araç|ortamı güvenli"],
+      ["Yüksek riskte hastaneye yatış/gözetim; taburculuk sonrası erken izlem", "hastaneye yatır|yatırılarak|yakın gözetim|gözlem altında|taburcu|erken izlem|erken kontrol|yatarak tedavi|hastaneye yatış|yatış endikasyon|sürekli gözetim|psikiyatri servis"],
       ["İntihar riskini azaltan ilaçlar: lityum (duygudurum), klozapin (şizofreni)", "lityum|klozapin"]
     ]},
   { id: "psi-nms-serotonin", tr: "Nöroleptik malign sendrom ve serotonin sendromu", en: "Neuroleptic malignant syndrome vs serotonin syndrome", cat: "ilac", lvl: 3,
@@ -189,9 +189,9 @@ terms: [
       ["Gitlin M. Lithium side effects and toxicity: prevalence and management strategies. Int J Bipolar Disord 2016", "https://doi.org/10.1186/s40345-016-0068-y"]] },
     c: [
       ["!Dar terapötik aralık; kan düzeyi dozdan 12 saat sonra ölçülür", "dar terapötik|terapötik aralık|terapötik pencere|12 saat|on iki saat|serum lityum düzey|kan düzey"],
-      ["NICE: idamede hedef düzey çoğunlukla 0,6–0,8 mmol/L", "0 6 ile 0 8|0 6 0 8|sıfır virgül altı|mmol"],
+      ["NICE: idamede hedef düzey çoğunlukla 0,6–0,8 mmol/L", "0 6 ile 0 8|0 6 0 8|sıfır virgül altı ile sıfır virgül sekiz"],
       ["!Toksisite: kaba tremor, ataksi, dizartri, konfüzyon, kusma-ishal, nöbet", "kaba tremor|ataksi|dizartri|konfüzyon|bilinç bulanık|kusma|ishal|nöbet"],
-      ["!Düzeyi artıranlar: dehidratasyon, NSAİİ, ACE inhibitörü/ARB, tiyazid", "dehidrat|sıvı kaybı|nsaii|nsaid|steroid olmayan|ace inhibit|arb|anjiyotensin|tiyazid|tiazid|hiponatremi"],
+      ["!Düzeyi artıranlar: dehidratasyon, NSAİİ, ACE inhibitörü/ARB, tiyazid", "dehidrat|sıvı kaybı|nsaii|nsaid|steroid olmayan|ace inhibit|arb ler|arb leri|anjiyotensin|tiyazid|tiazid|hiponatremi"],
       ["Ağır toksisitede hemodiyaliz", "hemodiyaliz|diyaliz"],
       ["Uzun dönem: hipotiroidi, nefrojenik diyabet insipidus, böbrek işlevinde azalma, hiperkalsemi/hiperparatiroidi", "hipotiroid|nefrojenik|diyabet insipidus|poliüri|polidipsi|egfr|kreatinin|böbrek işlev|hiperkalsemi|paratiroid|kalsiyum"],
       ["Başlamadan ve düzenli aralıklarla böbrek, tiroid, kalsiyum, kilo izlemi", "böbrek fonksiyon|tiroid fonksiyon|tsh|düzenli izlem|altı ayda|6 ayda|üç ayda|3 ayda"],
@@ -208,7 +208,7 @@ terms: [
       ["Metadon: tam agonist, uzun yarı ömür; QT uzaması", "tam agonist|uzun yarı ömür|qt uzama|qt uza"],
       ["Naltrekson: antagonist, detoksifikasyon sonrası", "naltrekson|detoksifikasyon sonra"],
       ["Doz aşımına karşı eve nalokson kiti", "nalokson kit|eve nalokson|evde nalokson|nalokson reçete|doz aşımı"],
-      ["Tedavi süresi önceden kısıtlanmaz; psikososyal destek eşlik eder, yalnızca detoks önerilmez", "süre sınırı|süresiz|uzun süreli|psikososyal destek|yalnızca detoks|sadece detoks|tek başına detoks"]
+      ["Tedavi süresi önceden kısıtlanmaz; psikososyal destek eşlik eder, yalnızca detoks önerilmez", "süre sınırı yok|süre sınırı konmaz|süre sınırlanmaz|süresiz sürdürülebilir|uzun süreli idame|psikososyal destek|yalnızca detoks önerilmez|sadece detoks önerilmez|tek başına detoks önerilmez|detoks tek başına önerilmez|detoks tek başına yetersiz|sadece detoks yetersiz"]
     ]},
   { id: "psi-borderline", tr: "Sınırda (borderline) kişilik bozukluğu", en: "Borderline personality disorder", cat: "diger", lvl: 3,
     src: { k: [DSM, SY], m: [

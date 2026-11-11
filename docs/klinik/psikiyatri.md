@@ -19,3 +19,26 @@
 | psi-opioid-kullanim-bozuklugu | ASAM 2020 tam kılavuzun DOI'si bulunamadı; ASAM resmi sayfası kullanıldı. Türkiye'de metadon erişimi sınırlı; buprenorfin-nalokson AMATEM'lerde kullanılır — kontrol edilmeli. Eve nalokson kiti Türkiye'de yaygın değil. | ASAM 2020; Sağlık Bakanlığı/AMATEM uygulaması |
 | psi-borderline | APA 2024 öneri ayrıntıları basın bülteni/ikincil özetlerden; bir katalog 2025 2. baskıdan söz ediyor. | APA 2024 kılavuzu tam metni |
 | psi-opioid-kullanim-bozuklugu | Acil tıp paketindeki "acil-opioid" (zehirlenme/nalokson) ile kısmi örtüşme; bu konu yalnızca uzun dönem bağımlılık tedavisine odaklandı. | — |
+| psi-opioid-kullanim-bozuklugu | ASAM 2020 Executive Summary DOI'si (…0635) ile tam kılavuz DOI'si (…0633) karışmış olabilir; bağlantı doğrulanamadı, değiştirilmedi. Buprenorfin başlangıcı için COWS eşiği sayısı doğrulanmadığından yazılmadı. | doi.org; ASAM 2020 Focused Update |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| psi-bipolar | Bipolar I/II anahtarlarında "tip 1/tip 2" → "bipolar tip 1/bipolar tip 2" | "tip 2 diyabet" gibi bağlamlarla çakışma |
+| psi-bipolar | Tek başına antidepresan kavramından "switch" ve yönsüz "tek başına antidepresan" çıkarıldı; olumsuz kalıplar eklendi | Ters ifadeyi ödüllendirmemek |
+| psi-bipolar | Bipolar depresyon kavramından "bipolar depresyon" çıkarıldı; ketiapin/kuetiapin eklendi | Kavramın özü ilaçlar |
+| psi-yaygin-anksiyete | Temel kaygı kavramına "aşırı ve kontrol", "kontrol edilmesi güç", "serbestçe dolaşan" eklendi | Kör anlatımda eş anlamlı ifade yakalanmadı |
+| psi-okb | C ölçütü etiketi ve iyi anlatım: zaman alma (örneğin >1 saat/gün) ya da belirgin sıkıntı/işlevsellikte bozulma; "belirgin sıkıntı" anahtarı | DSM-5-TR ölçütü daha geniş; 1 saat örnek, eşik değil |
+| psi-tssb | NG116 bağlantısı kılavuz ana sayfasına çevrildi | Eski bağlantı kaynak etki raporuna gidiyordu |
+| psi-deliryum | Yönsüz "demans" anahtarı yönlü kalıplarla değiştirildi | Ters ayrımı doğru saymamak |
+| psi-yeme-bozukluklari | Çıplak "fluoksetin" yerine yönlü kalıplar (kullanıl/verilebil/etkili/onaylı) | "fluoksetin verilmez" gibi ters ifadeyi ödüllendirmemek |
+| psi-intihar-riski | Ölçek kavramında "risk ölçek/tahmin et/öngörmek/öngörü değeri" çıkarıldı; olumsuzlama içeren kalıplar eklendi | NICE NG225 özünü yansıtmak, ters ifadeyi elemek |
+| psi-lityum | Hedef düzey kavramından yönsüz "mmol" çıkarıldı | Herhangi bir değeri doğru sayıyordu |
+| psi-lityum | "arb" → "arb ler/arb leri" | Açıklık için (3 harfli anahtar zaten tam kelime eşleşir) |
+| psi-opioid-kullanim-bozuklugu | Süre/detoks kavramı anahtarları olumsuzlama içeren kalıplara çevrildi | "sadece detoks yeterlidir" gibi ters ifadeyi elemek |
+| psi-opioid-kullanim-bozuklugu | İyi anlatımda buprenorfin başlangıcı "hafif ya da orta" → "objektif orta düzey yoksunluk bulguları" | ASAM 2020 standart indüksiyon; presipite yoksunluk riski |
+| psi-bipolar | Bipolar depresyon kavramında tek başına "ketiapin/kuetiapin" → "bipolar depresyonda ketiapin/kuetiapin" | Akut manide ketiapin söylemek iki kavramı da karşılıyordu |
+| psi-opioid-kullanim-bozuklugu | "süresiz", "uzun süreli" → "süresiz sürdürülebilir", "uzun süreli idame" | "uzun süreli detoks" ile eşleşiyordu |
+| psi-intihar-riski | Ölçek kavramında "tek başına kullanılmaz" → "ölçek kullanılmaz"; sorma, önceki girişim, plan, güvenlik planı, yatış kavramlarına doğal eş anlamlılar eklendi | Ölçeğe bağlı değildi; kör anlatım %45 alıyordu |
+| psi-alkol-yoksunlugu | İyi anlatımdan Korsakoff cümlesi çıkarıldı | noroloji/wernicke konusuyla çapraz eşleşme (%60) |
