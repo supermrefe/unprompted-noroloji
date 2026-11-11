@@ -19,11 +19,11 @@ terms: [
     c: [
       ["!Tarama: belirtisiz kişide erken tanı; yalnız kanıtlı programlar (meme, serviks, kolorektal)", "belirtisiz|asemptomatik|yakınması olmayan|şikayeti olmayan|erken tanı|erken teşhis|nüfus tabanlı|toplum tabanlı|populasyon"],
       ["!Meme: 40–69 yaş kadında iki yılda bir mamografi", "mamografi|mamogra"],
-      ["!Serviks: 30–65 yaş kadında beş yılda bir HPV-DNA testi (smear ile)", "hpv dna|hpv testi|hpv-dna|smear|pap test|papanicolaou|servikal sitoloji"],
-      ["!Kolorektal: 50 yaş üstünde iki yılda bir gaitada gizli kan, on yılda bir kolonoskopi", "gaitada gizli kan|dışkıda gizli kan|gizli kan testi|ggk|fit testi|immünokimyasal|kolonoskopi"],
+      ["!Serviks: 30–65 yaş kadında beş yılda bir HPV-DNA testi (birincil test; sitoloji yardımcı)", "hpv dna|hpv testi|hpv-dna|hpv taraması|hpv ile tara|human papilloma"],
+      ["!Kolorektal: 50–70 yaş kadın ve erkekte iki yılda bir gaitada gizli kan (FIT), on yılda bir kolonoskopi", "gaitada gizli kan|dışkıda gizli kan|gizli kan testi|ggk|fit testi|immünokimyasal|kolonoskopi"],
       ["Taramalar KETEM ve aile hekimliğinde ücretsiz; SMS ile davet", "ketem|kanser erken teşhis|aile hekim|ücretsiz|sms|kısa mesaj|davet"],
-      ["Pozitif test tanı değildir; ileri inceleme (biyopsi, kolposkopi, kolonoskopi) gerekir", "biyopsi|kolposkopi|ileri tetkik|ileri inceleme|doğrulayıcı"],
-      ["Prostat (PSA) için ulusal toplum taraması yok", "psa ile toplum|psa taraması yok|psa ile tarama yapılmı|ulusal programda yok|programda yok|prostat için tarama yok"]
+      ["Pozitif test tanı değildir; ileri inceleme (biyopsi, kolposkopi, kolonoskopi) gerekir", "kolposkopi|ileri tetkik|ileri inceleme|doğrulayıcı|tanı değil|tanı olmama|tanı koydurmaz"],
+      ["Prostat (PSA) için ulusal toplum taraması yok", "psa ile toplum|psa taraması yok|psa ile tarama yapılmı|ulusal programda yok|programda yok|prostat için tarama yok|prostat taraması yok"]
     ]},
   { id: "onk-tnm-evreleme", tr: "TNM evreleme ilkeleri", en: "Principles of TNM staging", cat: "tem", lvl: 1,
     src: {
@@ -38,7 +38,7 @@ terms: [
       ["Klinik (cTNM) ve patolojik (pTNM) evre; neoadjuvan sonrası ypTNM", "klinik evre|patolojik evre|ctnm|ptnm|yptnm|neoadjuvan|ameliyat sonrası evre|cerrahi materyal"],
       ["TNM kategorileri evre I–IV gruplarına toplanır; evre prognozu ve tedaviyi belirler", "evre 1|evre 4|evre i|evre iv|evre grup|dört evre|prognoz|sağkalım"],
       ["AJCC 8. baskı ile grade ve biyobelirteçler (ör. memede ER, PR, HER2) prognostik evreye girdi", "biyobelirte|biomarker|prognostik evre|östrojen reseptör|her2|grade|derece"],
-      ["Güncel sistem: UICC 9. baskı (2025, 2026'dan itibaren kullanım)", "uicc|ajcc|dokuzuncu baskı|9. baskı|sekizinci baskı|8. baskı"]
+      ["Güncel sistem: UICC 9. baskı (2025, 2026'dan itibaren kullanım)", "dokuzuncu baskı|9. baskı|9 baskı|uicc 9|uicc dokuz"]
     ]},
   { id: "onk-febril-notropeni", tr: "Febril nötropeni", en: "Febrile neutropenia", cat: "acl", lvl: 1,
     src: {
@@ -78,8 +78,8 @@ terms: [
     },
     c: [
       ["!Basamaklı yaklaşım: hafif ağrıda opioid olmayan (parasetamol, NSAİİ), orta ağrıda zayıf opioid, şiddetli ağrıda güçlü opioid", "merdiven|basamak|parasetamol|nsaii|nsaid|steroid olmayan|zayıf opioid|tramadol|kodein"],
-      ["!Şiddetli ağrıda güçlü opioid: morfin ilk seçenek", "morfin|güçlü opioid|oksikodon|fentanil|hidromorfon"],
-      ["!Saatli düzenli doz + atılım (breakthrough) ağrısı için kurtarma dozu", "düzenli doz|düzenli aralık|saatli|ağrı olmadan önce|kurtarma doz|atılım ağrı|breakthrough|ek doz"],
+      ["!Şiddetli ağrıda güçlü opioid: oral morfin, oksikodon ya da hidromorfon birinci basamakta eşdeğer (morfin klasik referans)", "morfin|güçlü opioid|oksikodon|fentanil|hidromorfon"],
+      ["!Saatli düzenli doz + atılım (breakthrough) ağrısı için kurtarma dozu", "düzenli doz|düzenli aralık|saatli|saat düzen|kırıcı ağrı için|ağrı olmadan önce|kurtarma doz|atılım ağrı|breakthrough|ek doz"],
       ["Mümkünse ağızdan; ağrı skalasıyla değerlendirme (VAS/NRS)", "ağızdan|oral yol|ağrı skala|vas|nrs|sayısal skala|görsel analog"],
       ["Opioid yan etkileri: kabızlık için profilaktik laksatif, bulantı, sedasyon", "kabızlık|konstipasyon|laksatif|bulantı|sedasyon|uyku hali"],
       ["Adjuvanlar: nöropatik ağrıda gabapentinoid/antidepresan; kemik metastazında radyoterapi, bisfosfonat", "adjuvan|nöropatik|gabapentin|pregabalin|duloksetin|amitriptilin|radyoterapi|bisfosfonat|zoledron|denosumab"],
@@ -94,11 +94,11 @@ terms: [
           ["Patchell RA ve ark. Direct decompressive surgical resection in the treatment of spinal cord compression caused by metastatic cancer: a randomised trial. Lancet 2005", "https://pubmed.ncbi.nlm.nih.gov/16112300/"]]
     },
     c: [
-      ["!Kanserli hastada yeni sırt ağrısı en erken bulgu; nörolojik defisit gelişmeden tanı", "yeni başlayan sırt ağrı|yeni başlayan bel ağrı|sırt ağrısı en erken|gece artan sırt|gece artan bel|nörolojik defisit gelişmeden|defisit gelişmeden"],
+      ["!Kanserli hastada yeni sırt ağrısı en erken bulgu; nörolojik defisit gelişmeden tanı", "yeni başlayan sırt ağrı|yeni sırt ağrı|yeni gelişen sırt ağrı|sırt ağrısı kırmızı bayrak|yeni başlayan bel ağrı|sırt ağrısı en erken|gece artan sırt|gece artan bel|nörolojik defisit gelişmeden|defisit gelişmeden"],
       ["Sık kaynak: meme, prostat, akciğer kanseri, miyelom; en sık torakal bölge", "torakal omurga|torakal bölge|torakal vertebra|omurga metastaz|vertebra metastaz|epidural"],
       ["Bulgular: alt ekstremite güçsüzlüğü, duyu seviyesi, idrar-gaita inkontinansı/retansiyonu", "bacaklarda güçsüz|bacak güçsüz|parapleji|paraparezi|duyu seviye|inkontinans|idrar retansiyon|sfinkter"],
       ["!Tanı: acil tüm omurga MR", "tüm omurga|tüm spinal|spinal mr|omurga mr|bütün omurga"],
-      ["!Hemen deksametazon (NICE: 16 mg/gün)", "deksametazon|dexamethasone"],
+      ["!Nörolojik bulgu varsa hemen deksametazon (NICE: 16 mg); yalnız ağrıda rutin önerilmez", "deksametazon|dexamethasone"],
       ["!Kesin tedavi: radyoterapi ya da cerrahi dekompresyon + radyoterapi (Patchell)", "dekompresyon|stabilizasyon|patchell|spinal radyoterapi|omurgaya radyoterapi|radyoterapi ya da cerrahi"],
       ["Prognozu belirleyen tanı anındaki yürüme durumu", "yürüme yeti|yürüyebil|ambulasyon|ambulatuvar|tedavi öncesi nörolojik"]
     ]},
@@ -110,10 +110,10 @@ terms: [
     },
     c: [
       ["!VCS'nin dış bası, invazyon ya da trombozla tıkanması; en sık nedeni malignite", "vcs|svc|dış bası|tümör invazyon|kateter|tromboz|tıkanma"],
-      ["!En sık akciğer kanseri (özellikle küçük hücreli), sonra lenfoma", "akciğer kanseri ve lenfoma|ardından lenfoma|sonra lenfoma|mediasten kitle|mediastinal kitle|mediasten metastaz"],
+      ["!En sık akciğer kanseri (sayıca KHDAK; VKS eğilimi KHAK'ta yüksek), sonra lenfoma", "akciğer kanseri ve lenfoma|ardından lenfoma|sonra lenfoma|sonra non hodgkin|ardından non hodgkin|sonra nhl|mediasten kitle|mediastinal kitle|mediasten metastaz"],
       ["!Bulgular: yüzde ve boyunda ödem, pletore, göğüs duvarında venöz dolgunluk, dispne", "yüzde ödem|yüz ödem|yüzde şişlik|boyun ven|venöz dolgun|kollateral|pletor|kollarda şiş|dispne|nefes darlı"],
       ["Tanı: kontrastlı toraks BT", "kontrastlı toraks|kontrastlı bt|kontrastlı bete|kontrastlı tomografi"],
-      ["!Doku tanısı tedaviden önce: ampirik steroid/radyoterapi lenfoma tanısını bozabilir", "histolojiyi boz|tanıyı boz|önce doku|ampirik steroid|steroid ya da radyoterapi"],
+      ["!Doku tanısı tedaviden önce: ampirik steroid/radyoterapi lenfoma tanısını bozabilir", "histolojiyi boz|tanıyı boz|önce doku|biyopsiden önce steroid verilmez|önce tanı konmalı|ampirik steroid|steroid ya da radyoterapi"],
       ["Hayatı tehdit eden durum: stridor, larenks/beyin ödemi → acil endovasküler stent", "stridor|larenks ödem|beyin ödem|serebral ödem|stent|endovasküler"],
       ["Tümöre göre tedavi: kemoterapi (SCLC, lenfoma), radyoterapi; baş yukarı pozisyon", "baş yukarı|başı yüksel|altta yatan tümöre göre|tümöre göre tedavi"]
     ]},
@@ -125,10 +125,10 @@ terms: [
     },
     c: [
       ["!Moleküler alt tipler: hormon reseptörü pozitif (luminal), HER2 pozitif, üçlü negatif", "luminal|alt tip|üçlü negatif|triple negatif|her2 pozitif|her 2 pozitif|reseptör durum"],
-      ["!HR pozitifte endokrin tedavi: premenopozda tamoksifen, postmenopozda aromataz inhibitörü", "endokrin tedavi|hormonal tedavi|hormon tedavi|tamoksifen|aromataz|letrozol|anastrozol|eksemestan"],
+      ["!HR pozitifte endokrin tedavi: premenopozda tamoksifen (yüksek riskte over supresyonu + tamoksifen/AI), postmenopozda aromataz inhibitörü", "endokrin tedavi|hormonal tedavi|hormon tedavi|tamoksifen|aromataz|letrozol|anastrozol|eksemestan"],
       ["!HER2 pozitifte anti-HER2 tedavi: trastuzumab (± pertuzumab) kemoterapiyle", "trastuzumab|pertuzumab|anti her2|anti-her2|herceptin|t dxd|trastuzumab deruks"],
       ["Trastuzumab kardiyotoksisitesi: tedavi boyunca EF (eko) izlemi", "kardiyotoks|ejeksiyon fraksiyon|ef izle|eko ile izle|ekokardiyo|kalp fonksiyon"],
-      ["Neoadjuvan tedavi (HER2+, üçlü negatif): patolojik tam yanıt prognostik", "neoadjuvan|ameliyat öncesi|patolojik tam yanıt|pcr|tam yanıt"],
+      ["Neoadjuvan tedavi (HER2+, üçlü negatif): patolojik tam yanıt prognostik", "patolojik tam yanıt|pcr|tam yanıt|rezidü|rezidüel"],
       ["Üçlü negatifte kemoterapi (erken evrede pembrolizumab ile); BRCA mutasyonunda PARP inhibitörü", "pembrolizumab|immünoterapi|parp|olaparib|antrasiklin|taksan"],
       ["Metastatik HR+ hastada endokrin tedavi + CDK4/6 inhibitörü", "cdk4|cdk 4|palbosiklib|ribosiklib|abemasiklib|siklin"],
       ["Ki-67 ve grade ile risk; reseptör tayini immünohistokimya (HER2 2+ ise ISH)", "ki 67|ki67|immünohistokim|ihk|fish|ish|in situ hibrid"]
@@ -178,10 +178,10 @@ terms: [
       ["Sık tutulumlar: deri, kolit/ishal, hepatit, tiroidit, pnömonit", "kolit|ishal|hepatit|transaminaz|tiroidit|pnömonit|döküntü|kaşıntı|dermatit"],
       ["Endokrinopatiler (hipofizit, tiroidit, adrenal yetmezlik, tip 1 DM) kalıcı olabilir → hormon replasmanı", "hipofizit|hipotiroid|adrenal yetmez|tip 1 diyabet|hormon replas|levotiroksin|hidrokortizon"],
       ["!Derecelendirme (CTCAE grade 1–4) yönetimi belirler: grade 1'de genellikle devam, grade 2'de ara ver", "grade|derece|ctcae|derecelendir|evrelendir"],
-      ["!Grade 3–4'te immünoterapi kesilir ve yüksek doz kortikosteroid başlanır; grade 4'te genelde kalıcı bırakılır", "yüksek doz steroid|yüksek doz kortikosteroid|metilprednizolon|prednizolon|kortikosteroid|kalıcı olarak kes|kalıcı bırak"],
+      ["!Grade 3–4'te immünoterapi kesilir ve yüksek doz kortikosteroid başlanır; grade 4'te genelde kalıcı bırakılır", "yüksek doz steroid|yüksek doz kortikosteroid|metilprednizolon|immünoterapi kesil|immünoterapiyi kes|kalıcı olarak kes|kalıcı bırak|kalıcı kes"],
       ["Steroide dirençli kolitte infliksimab ya da vedolizumab", "infliksimab|infliximab|vedolizumab|steroide dirençli|steroid dirençli|tnf"],
       ["Nadir ama ölümcül: miyokardit (miyozit, myasteni ile birlikte olabilir)", "miyokardit|troponin|miyozit|myasteni|ölümcül"],
-      ["Endokrinopati hormonla kontrol altındaysa immünoterapiye devam edilebilir", "hormonla kontrol|devam edilebil|tedaviye devam|sürdürüle"]
+      ["Endokrinopati hormonla kontrol altındaysa immünoterapiye devam edilebilir", "hormonla kontrol|immünoterapiye devam|tedaviye devam|sürdürüle"]
     ]},
   { id: "onk-kolorektal-kras-msi", tr: "Kolorektal kanserde moleküler belirteçler (RAS, BRAF, MSI)", en: "Molecular markers in colorectal cancer (RAS, BRAF, MSI)", cat: "sis", lvl: 3,
     src: {
@@ -194,9 +194,9 @@ terms: [
       ["!RAS yabanıl tipte anti-EGFR (setuksimab, panitumumab) — RAS mutantta etkisiz", "ras yabanıl|ras vahşi|wild type|yabanıl tip|mutant olmayan|anti egfr|anti-egfr|egfr antikor"],
       ["Anti-EGFR yararı sol kolon yerleşimli tümörde belirgin; sağ kolonda bevasizumab tercih", "sol kolon|sol taraf|sağ kolon|sağ taraf|primer yerleşim|bevasizumab|anti vegf"],
       ["!dMMR/MSI-H: ilk sırada immün kontrol noktası inhibitörü (pembrolizumab)", "msi h|msi-h|msi yüksek|mikrosatellit instabil|dmmr|immünoterapi|pembrolizumab|nivolumab|kontrol noktası"],
-      ["BRAF V600E: kötü prognoz; enkorafenib + setuksimab", "v600|braf mutasyon|enkorafenib|encorafenib|kötü prognoz"],
-      ["MSI/dMMR saptanan hastada Lynch sendromu araştırılır", "lynch|kalıtsal|herediter|germline|germ hattı|genetik danış"],
-      ["Kemoterapi omurgası: FOLFOX, FOLFIRI, kapesitabin", "folfox|folfiri|oksaliplatin|irinotekan|kapesitabin|fluorourasil|5 fu"],
+      ["BRAF V600E: kötü prognoz; ikinci sırada enkorafenib + setuksimab (BEACON), birinci sırada + mFOLFOX6 (BREAKWATER)", "v600|braf mutasyon|enkorafenib|encorafenib|kötü prognoz"],
+      ["MSI/dMMR'de (MLH1 kaybında BRAF/MLH1 metilasyonu ile sporadik olgu dışlandıktan sonra) Lynch araştırılır", "lynch|kalıtsal|herediter|germline|germ hattı|genetik danış"],
+      ["Kemoterapi omurgası: FOLFOX, FOLFIRI, kapesitabin", "folfox|folfiri|oksaliplatin|irinotekan|kapesitabin"],
       ["HER2 amplifikasyonu nadir hedef (RAS yabanıl hastada)", "her2 amplif|her 2 amplif|her2 hedef"]
     ]},
   { id: "onk-herediter-brca-lynch", tr: "Kalıtsal kanser sendromları: BRCA ve Lynch", en: "Hereditary cancer syndromes: BRCA and Lynch", cat: "sis", lvl: 3,
@@ -208,11 +208,11 @@ terms: [
     c: [
       ["!Otozomal dominant kalıtım; erken yaşta, çok sayıda ya da bilateral kanser, güçlü aile öyküsü şüphelendirir", "otozomal dominant|aile öykü|ailede|erken yaş|genç yaşta|bilateral|birinci derece"],
       ["!BRCA1/BRCA2: homolog rekombinasyon onarım geni; meme, over, prostat, pankreas kanseri riski", "brca|homolog rekombinasyon|dna onarım|meme over|herediter meme"],
-      ["BRCA taşıyıcıda meme MR ile tarama; risk azaltıcı mastektomi ve salpingo-ooferektomi", "meme mr|mr ile tara|manyetik rezonans|mastektomi|salpingo|ooferektomi|overlerin alın|profilaktik cerrahi|risk azaltıcı"],
+      ["BRCA taşıyıcıda meme MR ile tarama; risk azaltıcı salpingo-ooferektomi önerilir, mastektomi seçenek olarak tartışılır", "meme mr|mr ile tara|manyetik rezonans|mastektomi|salpingo|ooferektomi|overlerin alın|profilaktik cerrahi|risk azaltıcı"],
       ["BRCA mutasyonlu tümörde PARP inhibitörü (sentetik letalite)", "parp|olaparib|niraparib|sentetik letal"],
       ["!Lynch sendromu: DNA uyumsuzluk onarım genleri (MLH1, MSH2, MSH6, PMS2, EPCAM)", "lynch|mlh1|msh2|msh6|pms2|epcam|uyumsuzluk onarım|mismatch|herediter nonpolipozis|hnpcc"],
       ["Lynch: kolorektal ve endometriyum kanseri başta; over, mide, üriner sistem", "endometri|rahim kanser|üriner|üreter|ince bağırsak"],
-      ["Lynch tanısında tüm kolorektal/endometriyum tümörlerinde MMR-IHK ya da MSI ile evrensel tarama; Amsterdam ve Bethesda kriterleri", "evrensel tara|universal|immünohistokim|ihk|msi|amsterdam|bethesda"],
+      ["Lynch tanısında tüm kolorektal/endometriyum tümörlerinde MMR-IHK ya da MSI ile evrensel tarama; Amsterdam/Bethesda tek başına yetersiz", "evrensel tara|universal|tüm kolorektal|tüm endometri|tüm tümörlerde|her kolorektal"],
       ["Lynch taşıyıcıda erken başlayan ve sık aralıklı kolonoskopi; genetik danışmanlık ve kaskad test", "kolonoskopi|genetik danış|kaskad|akrabalar|aile bireyleri"]
     ]},
   { id: "onk-paraneoplastik-sendromlar", tr: "Paraneoplastik sendromlar", en: "Paraneoplastic syndromes", cat: "tem", lvl: 3,
@@ -242,7 +242,7 @@ terms: [
       ["Ağrısız testiküler kitle; skrotal USG ile değerlendirme", "ağrısız|testiste kitle|testis kitle|skrotal usg|skrotal ultra|ultrason|usg"],
       ["!Seminom ve nonseminom (embriyonal, yolk sak, koryokarsinom, teratom) ayrımı", "seminom|nonseminom|non seminom|embriyonal|yolk sak|yolk kesesi|endodermal sinüs|teratom|koryokarsinom"],
       ["!Belirteçler AFP, beta-hCG, LDH: orşiektomi öncesi ve sonrası; saf seminomda AFP yükselmez", "afp|alfa feto|hcg|ldh|laktat dehidrogenaz|seminomda afp|afp yükselmez|afp yüksekse"],
-      ["!Tanı ve tedavi: inguinal radikal orşiektomi (skrotal biyopsi yapılmaz)", "inguinal|radikal orşiektomi|orşiektomi|orşiyektomi|skrotal yoldan|skrotal biyopsi"],
+      ["!Tanı ve tedavi: inguinal radikal orşiektomi (skrotal biyopsi yapılmaz)", "inguinal|radikal orşiektomi|radikal orşiyektomi|skrotal biyopsi yapılmaz|skrotal yoldan biyopsi yapılmı|skrotal girişimden kaçın|skrotal girişim yapılmaz"],
       ["Evreleme: toraks-abdomen-pelvis BT; belirteç düzeyleri (S) evreye girer", "toraks abdomen|abdomen bt|retroperiton|bete|evreleme|s kategori"],
       ["Sisplatin bazlı kemoterapi (BEP) ile ileri evrede bile yüksek kür", "sisplatin|bep|bleomisin|etoposid|kür|yüksek kür|iyileşme oranı"],
       ["Evre I'de aktif izlem ya da adjuvan tedavi; fertilite için sperm dondurma", "aktif izlem|sürveyans|surveillance|sperm|fertilite|dondur|kriyoprezerv"]
