@@ -22,3 +22,30 @@
 | hem-akut-miyeloid-losemi | Blast eşikleri (WHO 2022: tanımlayıcı genetik anomalilerin çoğunda eşik yok; ICC: %10; diğerlerinde %20) yazılmadı; WHO 2022 ile ICC farklı. ELN 2022 risk sınıflamasının ayrıntıları (FLT3-ITD'nin artık risk belirlemede kullanılmaması vb.) anlatıma girmedi. "Erişkinde en sık akut lösemi" bellekten. | ELN 2022; WHO 2022; ICC 2022 |
 | hem-kronik-miyeloid-losemi | WHO 2022'nin akselere fazı kaldırması ve ICC'nin sürdürmesi bellekten. ELN 2020 kilometre taşları (3, 6, 12. ay BCR::ABL1 hedefleri) ve tedavisiz remisyon ölçütleri sayısal yazılmadı. Asiminib onay kapsamı (2021 sonrası) kontrol edilmeli. | ELN 2020; WHO 2022; ICC 2022 |
 | (kapsam) | Bu ilk teslimde ALL, KLL (iwCLL 2018), Hodgkin dışı lenfomalar, polisitemia vera/MPN (WHO 2022/ICC), aplastik anemi ve G6PD eksikliği alınmadı; sonraki genişletmede eklenmeli. | — |
+| hem-hodgkin-lenfoma | Kaynak olarak ESMO 2018 kılavuzu duruyor; 2020–2026 aralığında daha yeni ESMO/EHA Hodgkin kılavuzu olup olmadığı doğrulanamadı. Varsa değiştirilmeli. | ESMO/EHA kılavuz listesi |
+| (tüm konular) | Hoffman Hematology 8. baskının yılı: yayın 2022 sonu, telif yılı 2023 olarak geçiyor; yayınevi kaydına göre doğrulanmalı. | Elsevier katalog kaydı |
+| hem-otoimmun-hemolitik-anemi | "direkt coombs" anahtarı eşleştirmede alt dize olduğu için "indirekt coombs" ifadesinde de geçer; bu ancak puanlayıcıda ön-ek kontrolüyle çözülebilir. | scoring.js |
+| hem-multipl-miyelom | "Destek" kavramı bisfosfonat/denosumab ile ISS evrelemeyi birleştiriyor; yalnızca birini söyleyen anlatım tam puan alıyor. Kavramın ikiye bölünmesi hekim kararına bırakıldı. | — |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| hem-demir-eksikligi-anemisi | Etiket "Karakteristik (özgül olmayan) bulgular: pika/pagofaji, koilonişi, glossit, angüler keilit" oldu | Glossit/keilit B12, folat ve riboflavin eksikliğinde de görülür |
+| hem-demir-eksikligi-anemisi | Ferritin kavramına "ilk düşen ferritin", "ferritin en duyarlı" vb. eklendi | Kör anlatımda söylenen kavram yakalanmadı |
+| hem-b12-folat-eksikligi | Tedavi kavramına "parenteral b12" vb. eklendi | "B12 parenteral verilir" yakalanmadı |
+| hem-beta-talasemi | Transfüzyon kavramına "düzenli eritrosit"; kardiyak kavrama "kalpte demir", "kalp yetmezliği" eklendi | Kör anlatımda söylenen kavramlar yakalanmadı |
+| hem-itp | Gözlem kavramına "kanama yoksa izlem/gözlem" eklendi | Eş anlamlı ifade yakalanmadı |
+| hem-transfuzyon-reaksiyonlari | Kimlik/etiket kavramında tek sözcüklü "kimlik", "etiket", "torba", "kan bankası" yerine kontrol/gönderme bildiren çok kelimeli anahtarlar konuldu | Yalnızca nedeni anlatırken "etiket hatası" demek kavramı geçiriyordu |
+| hem-hodgkin-lenfoma | Tedavi etiketi ileri evrede nivolumab-AVD ve BrECADD'yi içerecek biçimde güncellendi; "brecadd", "nivolumab avd" anahtarları eklendi; iyi anlatım cümlesi güncellendi | S1826 (NEJM 2024), HD21 (Lancet 2024) sonrası kılavuz değişikliği |
+| hem-otoimmun-hemolitik-anemi | DAT kavramından tek başına "coombs" çıkarıldı | "İndirekt Coombs" diyen anlatım DAT kavramını geçiyordu |
+| hem-otoimmun-hemolitik-anemi | Sıcak tip tedavi kavramından genel "steroid/kortikosteroid/rituksimab" çıkarıldı; "sıcak tipte steroid", "ilk basamak kortikosteroid", "erken rituksimab" vb. kondu | "Soğuk tipte steroid etkisiz" cümlesi temel kavramı geçiriyordu |
+| hem-hemofili | aPTT kavramına "karışım testi" eklendi | Eş anlamlı ifade yakalanmadı |
+| hem-dik | Heparin kavramına "tromboz ağır bas", "heparin düşünül" vb.; organ yetmezliği kavramına "organ iskemisi", "böbrek yetmezliği", "ARDS" eklendi | Kör anlatımda söylenen kavramlar yakalanmadı |
+| hem-multipl-miyelom | SLiM kavramından "serbest hafif zincir oranı" çıkarıldı, eşik bildiren çok kelimeli anahtarlar kondu | Tanı kavramındaki serbest hafif zincirden söz etmek SLiM'i geçiriyordu |
+| hem-ttp-hus | Klinik kavramından yalın "beşli/pentad" çıkarıldı; "beşli tam değil", "beşli nadir" vb. kondu | Ters ifade ("beşli çoğunda tam") doğru sayılıyordu |
+| hem-von-willebrand | Kan grubu kavramına "o kan grubu" eklendi | "O kan grubunda düzeyi düşük" yakalanmadı |
+| hem-akut-miyeloid-losemi | İndüksiyon anahtarından "gilteritinib" ve genel "flt3" çıkarıldı, "quizartinib" eklendi; etiket güncellendi | Gilteritinib relaps/refrakter FLT3+ AML'de onaylı (ADMIRAL); indüksiyonda midostaurin/quizartinib (QuANTUM-First) |
+| hem-ttp-hus | 'beşli çoğu hastada', 'beşli nadir', 'pentad nadir' yerine 'beşli nadiren tam', 'tam beşli nadir' vb. | Ters ifadelerle eşleşiyordu |
+| hem-dik | 'heparin düşünül' yerine 'heparin düşünülebilir/düşünülür' | 'düşünülmez' ile eşleşiyordu |
+| hem-multipl-miyelom | 'oranı 100' yerine 'serbest hafif zincir oranı' | Bağlamsız sayı eşleşmesi |

@@ -21,14 +21,14 @@ terms: [
       ["Pasricha SR, et al. Iron deficiency. Lancet 2021", "https://doi.org/10.1016/S0140-6736(20)32594-0"]] },
     c: [
       ["!Mikrositer hipokrom anemi (düşük MCV, yüksek RDW)", "mikrosit|hipokrom|düşük mcv|mcv düşük|mcv si düşük|ortalama eritrosit hacmi|rdw|kalem hücre"],
-      ["!Tanıda en değerli tek test: düşük serum ferritini", "ferritin düşük|düşük ferritin|ferritini düşük|ferritinin düşük|ferritin düzeyi düşük|düşük serum ferritin"],
+      ["!Tanıda en değerli tek test: düşük serum ferritini", "ferritin düşük|düşük ferritin|ferritini düşük|ferritinin düşük|ferritin düzeyi düşük|düşük serum ferritin|ilk düşen ferritin|ferritin ilk düş|ferritin en duyarlı|ferritinin düşmesi"],
       ["Düşük serum demiri ve transferrin satürasyonu, yüksek demir bağlama kapasitesi", "transferrin satürasyon|transferrin doygunluğu|tdbk|demir bağlama kapasitesi|tibc|serum demiri düş|serum demiri de düş"],
       ["Nedenler: kronik kan kaybı (menstrüasyon, GİS), emilim bozukluğu, gebelik", "menstrü|adet kanama|menoraji|gastrointestinal kan|gis kanama|gizli kan|emilim bozuk|malabsorpsiyon|gebelikte demir ihtiyac"],
       ["!Erkek ve postmenopozal kadında GİS kaynağı araştırılır: üst-alt endoskopi, çölyak serolojisi", "endoskopi|kolonoskopi|gastroskopi|kolon kanser|gis malignite|çölyak seroloji|doku transglutaminaz|ttg"],
       ["!Oral demir: günde bir kez 50–100 mg elementer demir (BSG 2021)", "oral demir|ağızdan demir|demir sülfat|ferröz|elementer demir|gün aşırı"],
       ["Yanıt ilk 4 haftada Hb ile değerlendirilir; Hb normale döndükten sonra yaklaşık 3 ay sürdürülür", "dört hafta|4 hafta|retikülosit|üç ay daha|3 ay daha|depoları doldur|depolar dol|depoların dol"],
       ["IV demir: oral intolerans/yanıtsızlık, malabsorpsiyon ya da hızlı yanıt gerekiyorsa", "intravenöz demir|iv demir|damar yoluyla demir|damardan demir|ferrik karboksimaltoz|demir sukroz|parenteral demir|ferrik derisomaltoz"],
-      ["Özgül bulgular: pika, koilonişi, glossit, angüler keilit", "pika|pagofaji|buz yeme|koiloniş|kaşık tırnak|angüler|angular|keilit|glossit|plummer"]
+      ["Karakteristik (özgül olmayan) bulgular: pika/pagofaji, koilonişi, glossit, angüler keilit", "pika|pagofaji|buz yeme|koiloniş|kaşık tırnak|angüler|angular|keilit|glossit|plummer"]
     ]},
   { id: "hem-b12-folat-eksikligi", tr: "B12 vitamini ve folat eksikliği (megaloblastik anemi)", en: "Vitamin B12 and folate deficiency", cat: "anemi", lvl: 1,
     src: { k: [WH, HO], m: [
@@ -43,7 +43,7 @@ terms: [
       ["!Ayrım: metilmalonik asit B12 eksikliğinde artar, folat eksikliğinde normal; homosistein ikisinde de artar", "metilmalonik|mma|homosistein|holotranskobalamin"],
       ["B12 eksikliğinde nörolojik tutulum (subakut kombine dejenerasyon), anemi olmadan da", "subakut kombine|arka kordon|dorsal kolon|nöropati|parestezi|vibrasyon|demans"],
       ["!B12 eksikliği dışlanmadan tek başına folat verilmez (nörolojik hasar ilerleyebilir)", "önce b12|b12 yi önce|b12 den önce|tek başına folat|folat tek başına|folik asidi tek başına|folik asit tek başına|nörolojik tabloyu kötüleş|nörolojik hasarı ağırlaş|nörolojik hasar ilerle"],
-      ["Tedavi: kas içi B12 (hidroksokobalamin/siyanokobalamin), yüksek doz oral seçenek; folatta oral folik asit", "kas içi|intramüsküler|hidroksokobalamin|siyanokobalamin|b12 enjeksiyon|b12 iğne|yüksek doz oral|oral folik asit"]
+      ["Tedavi: kas içi B12 (hidroksokobalamin/siyanokobalamin), yüksek doz oral seçenek; folatta oral folik asit", "kas içi|intramüsküler|hidroksokobalamin|siyanokobalamin|b12 enjeksiyon|b12 iğne|yüksek doz oral|oral folik asit|parenteral b12|b12 parenteral|b12 vitamini parenteral|kas içine"]
     ]},
   { id: "hem-beta-talasemi", tr: "Beta-talasemi (taşıyıcılık ve talasemi major)", en: "Beta-thalassaemia", cat: "anemi", lvl: 1,
     src: { k: [WH, HO], m: [
@@ -53,11 +53,11 @@ terms: [
       ["!Beta-globin zincir sentezinde azalma ya da yokluk; otozomal resesif kalıtım", "beta globin|beta zincir|globin zincir|otozomal resesif|resesif kalıt"],
       ["!Taşıyıcılık (minör): hafif mikrositoz, HbA2 artışı; demir eksikliğinden ayrılmalı", "hba2|hemoglobin a2|a2 yüksek|a2 artışı|a2 artar|mentzer|hemoglobin elektroforez|hplc"],
       ["Talasemi major: ilk yıllarda ağır anemi, hepatosplenomegali, kemik deformiteleri", "hepatosplenomegali|splenomegali|saç fırçası|sincap|maksiller|kemik deformite|ekstramedüller"],
-      ["!Transfüzyona bağımlı talasemide düzenli eritrosit transfüzyonu", "düzenli transfüzyon|düzenli kan|transfüzyona bağımlı|transfüzyon bağımlı|ömür boyu transfüzyon|transfüzyon programı"],
+      ["!Transfüzyona bağımlı talasemide düzenli eritrosit transfüzyonu", "düzenli transfüzyon|düzenli eritrosit|düzenli kan|transfüzyona bağımlı|transfüzyon bağımlı|ömür boyu transfüzyon|transfüzyon programı"],
       ["!Demir yükü ve şelasyon (desferoksamin, deferasiroks, deferipron); kardiyak T2* MR", "şelasyon|şelatör|şelat|desferal|desferoksamin|deferoksamin|deferasiroks|deferipron|demir yükü|demir birikim|t2 yıldız|kardiyak t2|kardiyak mr"],
       ["Küratif: allojenik kök hücre nakli; yeni seçenekler luspatersept ve gen tedavisi", "kök hücre nakli|kemik iliği nakli|allojenik|luspatersept|luspatercept|gen tedavi"],
       ["Türkiye: taşıyıcılık yaklaşık %2,1; evlilik öncesi hemoglobinopati taraması", "evlilik öncesi|evlenmeden önce|evlilik taraması|premarital|yüzde 2 1|yüzde iki virgül bir"],
-      ["Komplikasyonlar: kardiyak (en önemli ölüm nedeni), endokrinopatiler", "kalp yetersiz|aritmi|kardiyak komplikasyon|endokrinopati|hipogonad|diyabet|osteoporoz"]
+      ["Komplikasyonlar: kardiyak (en önemli ölüm nedeni), endokrinopatiler", "kalp yetersiz|kalp yetmezliğ|kalpte demir|kardiyak demir|kalbe demir|aritmi|kardiyak komplikasyon|endokrinopati|hipogonad|diyabet|osteoporoz"]
     ]},
   { id: "hem-itp", tr: "İmmün trombositopeni (ITP)", en: "Immune thrombocytopenia", cat: "hemostaz", lvl: 1,
     src: { k: [WH, HO], m: [
@@ -68,7 +68,7 @@ terms: [
       ["Periferik yayma: psödotrombositopeni ve diğer nedenlerin dışlanması", "periferik yayma|psödotrombositopeni|edta|kümeleş|psödo trombositopeni"],
       ["Sekonder nedenler: HIV, HCV, H. pylori, SLE, ilaçlar", "hiv|hcv|hepatit c|pylori|sekonder itp|ikincil itp"],
       ["Çocukta viral enfeksiyon sonrası akut ve çoğu kendiliğinden düzelir; erişkinde kronikleşme eğilimi", "viral enfeksiyon sonrası|enfeksiyondan sonra|kendiliğinden düzel|kendi kendine düzel|spontan düzel|kronikleş|kronik seyir"],
-      ["Çocukta hafif kanamada ve erişkinde trombosit ≥30 bin ise gözlem (ASH 2019)", "gözlem öner|gözlemle izle|gözlemle takip|sadece gözlem|yalnızca gözlem|gözlem yapılır|30 bin|30 000|otuz bin"],
+      ["Çocukta hafif kanamada ve erişkinde trombosit ≥30 bin ise gözlem (ASH 2019)", "gözlem öner|gözlemle izle|gözlemle takip|sadece gözlem|yalnızca gözlem|gözlem yapılır|30 bin|30 000|otuz bin|kanama yoksa izlem|kanama yoksa izlen|kanama yoksa gözlem"],
       ["!Birinci basamak: kısa süreli kortikosteroid (prednizon ≤6 hafta ya da deksametazon)", "kortikosteroid|prednizon|prednizolon|deksametazon|steroid"],
       ["Hızlı yükseltme gerektiğinde IVIG (ya da anti-D)", "ivig|immünglobulin|immünoglobulin|anti d"],
       ["!İkinci basamak: TPO reseptör agonisti, rituksimab, splenektomi", "tpo|trombopoetin|eltrombopag|romiplostim|avatrombopag|rituksimab|splenektomi|fostamatinib"],
@@ -80,7 +80,7 @@ terms: [
       ["Wiersum-Osselton JC, et al. Revised international surveillance case definition of transfusion-associated circulatory overload. Lancet Haematol 2019", "https://doi.org/10.1016/S2352-3026(19)30080-8"]] },
     c: [
       ["!İlk adım: transfüzyonu durdur, damar yolunu serum fizyolojikle açık tut", "transfüzyonu durdur|transfüzyonu kes|transfüzyon durdurul|transfüzyon kesil|damar yolu açık|damar yolunu açık|serum fizyolojik|izotonik"],
-      ["!Hasta kimliği ve torba etiketinin yeniden kontrolü; torba kan bankasına gönderilir", "kimlik|etiket|yatak başı|torba|kan bankası|kan bankasına"],
+      ["!Hasta kimliği ve torba etiketinin yeniden kontrolü; torba kan bankasına gönderilir", "kimliği kontrol|kimlik kontrol|kimliğin kontrol|kimliği yeniden|kimlik doğrula|kimliğini doğrula|etiketi kontrol|etiket kontrol|etiketin kontrol|etiketini kontrol|yatak başı kontrol|torba kan bankasına|torbayı kan bankasına|torba kan bankasına gönder|kan bankasına gönder|kan bankasına iade|kan bankasına bildir"],
       ["!Akut hemolitik reaksiyon: ABO uyumsuzluğu (çoğunlukla kimlik hatası), DAT, hemoglobinüri", "abo uyumsuz|abo uygunsuz|akut hemolitik|hemoglobinüri|direkt antiglobulin|direkt coombs|dat|yanlış kan|yanlış hasta"],
       ["Febril non-hemolitik reaksiyon: en sık; lökosit azaltma ile önlenir", "febril non|febril nonhemolitik|non hemolitik|nonhemolitik|lökosit azalt|lökositten arındır|lökodeplese|lökosit filtre"],
       ["Alerjik reaksiyon ve anafilaksi (IgA eksikliği)", "ürtiker|alerjik reaksiyon|anafilak|iga eksik"],
@@ -99,7 +99,7 @@ terms: [
       ["Ağrısız lenfadenopati, sıklıkla servikal/mediastinal; komşu lenf bölgelerine yayılım", "ağrısız|servikal|mediastin|boyunda|bitişik lenf|komşu lenf|komşu bölge"],
       ["B semptomları (ateş, gece terlemesi, kilo kaybı); kaşıntı, alkolle ağrı", "b semptom|gece terleme|kilo kayb|kaşıntı|pruritus|alkolle ağrı|alkol alınca|alkol sonrası ağrı"],
       ["!Evreleme: PET-BT ile Ann Arbor/Lugano", "ann arbor|lugano|pet|pozitron"],
-      ["!Tedavi: ABVD ya da BV-AVD / eskale BEACOPP; erken evrede kısa kemoterapi + radyoterapi", "abvd|beacopp|avd|brentuksimab|doksorubisin|bleomisin|kemoradyoterapi|kemoterapi ve radyoterapi"],
+      ["!Tedavi: erken evrede kısa kemoterapi + radyoterapi; ileri evrede ABVD, BV-AVD ya da nivolumab-AVD / eskale BEACOPP ya da BrECADD", "abvd|beacopp|brecadd|nivolumab avd|n avd|avd|brentuksimab|doksorubisin|bleomisin|kemoradyoterapi|kemoterapi ve radyoterapi"],
       ["Nüks/refrakter: yüksek doz kemoterapi + otolog kök hücre nakli; anti-PD-1 (nivolumab, pembrolizumab)", "otolog|nivolumab|pembrolizumab|pd 1|pd1|checkpoint|immün kontrol"],
       ["Geç etkiler: ikincil kanserler (meme), kardiyotoksisite, bleomisin akciğer toksisitesi", "ikincil kanser|ikincil malign|sekonder malign|meme kanser|geç etki|geç yan etki|kardiyotoksis|akciğer toksis|pulmoner toksis|infertilite"],
       ["EBV ilişkisi; iki tepeli yaş dağılımı", "ebv|epstein|iki tepe|bimodal"]
@@ -111,11 +111,11 @@ terms: [
       ["Brodsky RA. Warm autoimmune hemolytic anemia. N Engl J Med 2019", null]] },
     c: [
       ["!Hemoliz bulguları: LDH ve indirekt bilirubin yüksek, haptoglobin düşük, retikülositoz", "haptoglobin|retikülositoz|retikülosit artışı|retikülosit yüksek|retikülositler art|indirekt bilirubin"],
-      ["!Tanının anahtarı: direkt antiglobulin (Coombs) testi, monospesifik (anti-IgG, anti-C3d)", "direkt antiglobulin|direkt coombs|direk coombs|coombs|dat|anti igg|anti c3|c3d|monospesifik"],
+      ["!Tanının anahtarı: direkt antiglobulin (Coombs) testi, monospesifik (anti-IgG, anti-C3d)", "direkt antiglobulin|direkt coombs|direk coombs|direkt kumbs|dat|anti igg|anti c3|c3d|monospesifik"],
       ["Sıcak tip: IgG, dalakta ekstravasküler yıkım, sferositler", "sıcak tip|sıcak antikor|sıcak otoimmün|igg tipi|igg antikor|ekstravasküler|sferosit"],
       ["Soğuk aglütinin hastalığı: IgM ve kompleman, soğukta akrosiyanoz, aglütinasyon", "soğuk aglütinin|soğuk tip|soğuk antikor|igm|akrosiyanoz|aglütinasyon|kompleman aracılı"],
       ["Sekonder nedenler: KLL ve lenfoproliferatif hastalıklar, SLE, enfeksiyonlar (Mycoplasma, EBV), ilaçlar", "lenfoproliferatif|kll|kronik lenfositik|lupus|sle|mikoplazma|mycoplasma|ebv|ilaca bağlı hemoliz|ilaç ilişkili"],
-      ["!Sıcak tipte ilk basamak kortikosteroid; ağır ya da yanıtsızda erken rituksimab", "kortikosteroid|prednizon|prednizolon|metilprednizolon|rituksimab|steroid"],
+      ["!Sıcak tipte ilk basamak kortikosteroid; ağır ya da yanıtsızda erken rituksimab", "sıcak tipte kortikosteroid|sıcak tipte steroid|sıcak tipte ilk basamak|ilk basamak kortikosteroid|ilk basamak steroid|ilk basamakta steroid|ilk basamakta kortikosteroid|prednizon|prednizolon|metilprednizolon|erken rituksimab"],
       ["Soğuk tipte soğuktan korunma; steroid etkisiz, rituksimab ± bendamustin, sutimlimab", "soğuktan koru|soğuktan kaçın|sıcak tut|ısıtılmış|bendamustin|sutimlimab|steroide yanıt vermez|steroid etkisiz|steroidler etkisiz"],
       ["Ağır anemide transfüzyon geciktirilmez; folik asit desteği, tromboz profilaksisi", "transfüzyon geciktiril|transfüzyondan kaçınılmaz|transfüzyonu geciktirme|transfüzyon yapılabilir|folik asit|tromboz profilaksi|tromboprofilaksi"]
     ]},
@@ -139,7 +139,7 @@ terms: [
       ["Berntorp E, et al. Haemophilia. Nat Rev Dis Primers 2021", null]] },
     c: [
       ["!X'e bağlı resesif kalıtım; hemofili A faktör VIII, B faktör IX eksikliği", "x e bağlı|x kromozom|x linked|xe bağlı|hemofili a|hemofili b|faktör 8 eksik|faktör viii eksik|faktör sekiz eksik|faktör 9 eksik|faktör ix eksik|faktör dokuz eksik"],
-      ["!aPTT uzun; PT ve trombosit sayısı normal; karıştırma testi düzelir (inhibitörde düzelmez)", "aptt uza|aptt uzun|apttsi uza|aptt si uza|parsiyel tromboplastin zamanı uza|karıştırma test|mixing"],
+      ["!aPTT uzun; PT ve trombosit sayısı normal; karıştırma testi düzelir (inhibitörde düzelmez)", "aptt uza|aptt uzun|apttsi uza|aptt si uza|parsiyel tromboplastin zamanı uza|karıştırma test|karışım test|karıştırma çalışma|mixing"],
       ["Şiddet faktör düzeyine göre (hafif-orta-ağır); tanı faktör aktivitesi ölçümüyle", "faktör düzey|faktör aktivite|ağır hemofili|hafif hemofili|orta hemofili"],
       ["Klinik: hemartroz, kas içi kanama; hemofilik artropati", "hemartroz|eklem içi kanama|eklem içine kanama|ekleme kanama|hemofilik artropati|kas içi kanama|iliopsoas|kas kanama"],
       ["!Ağır hemofilide profilaksi (WFH 2020): faktör konsantresi ya da emisizumab", "düzenli profilaksi|profilaktik faktör|profilaksiyi|emisizumab|emicizumab|faktör konsantre|faktör replas|rekombinant faktör"],
@@ -158,8 +158,8 @@ terms: [
       ["!ISTH aşikar DİK skoru (trombosit, D-dimer, PT, fibrinojen); seri ölçüm", "isth|aşikar dik|aşikar dic|overt dic|overt dik|dik skor|dic skor|seri ölçüm|tekrarlayan ölçüm|seri takip"],
       ["!Tedavinin temeli altta yatan nedenin düzeltilmesi", "altta yatan neden|altta yatan hastalığ|nedeni tedavi|nedenin tedavi|nedenin düzelt|tetikleyen nedeni"],
       ["Kanayan ya da girişim yapılacak hastada trombosit, TDP, kriyopresipitat/fibrinojen replasmanı", "taze donmuş plazma|tdp|plazma replas|kriyopresipitat|kriyo|fibrinojen konsantre|trombosit süspansiyon|trombosit transfüzyon"],
-      ["Tromboz baskın DİK'te ve kanamayan hastada profilaktik heparin", "profilaktik heparin|heparin profilaksi|proflaktik heparin|düşük molekül ağırlıklı heparin|dmah|tromboz baskın"],
-      ["Purpura fulminans, akrosiyanoz ve organ yetmezliği", "purpura fulminans|akral nekroz|organ yetmezliğ|çoklu organ"]
+      ["Tromboz baskın DİK'te ve kanamayan hastada profilaktik heparin", "profilaktik heparin|heparin profilaksi|proflaktik heparin|düşük molekül ağırlıklı heparin|dmah|tromboz baskın|tromboz ağır bas|heparin düşünülebilir|heparin düşünülür|heparin verilebilir|heparin kullanılabilir"],
+      ["Purpura fulminans, akrosiyanoz ve organ yetmezliği", "purpura fulminans|akral nekroz|organ yetmezliğ|çoklu organ|organ iskemi|organ hasar|böbrek yetmezliğ|ards"]
     ]},
   { id: "hem-multipl-miyelom", tr: "Multipl miyelom", en: "Multiple myeloma", cat: "malign", lvl: 2,
     src: { k: [WH, HO], m: [
@@ -168,7 +168,7 @@ terms: [
     c: [
       ["!Kemik iliğinde klonal plazma hücresi çoğalması, monoklonal (M) protein", "plazma hücre|plazmosit|monoklonal|m protein|m komponent|m pik|m spike|paraprotein"],
       ["!Son organ hasarı CRAB: hiperkalsemi, böbrek yetmezliği, anemi, litik kemik lezyonları", "crab|hiperkalsemi|litik|osteolitik|zımba deliği|kemik lezyon|patolojik kırık"],
-      ["IMWG 2014: SLiM biyobelirteçleri de tedavi gerektiren miyelom tanımlar", "slim|serbest hafif zincir oranı|hafif zincir oranı|biyobelirteç|imwg"],
+      ["IMWG 2014: SLiM biyobelirteçleri de tedavi gerektiren miyelom tanımlar", "slim|biyobelirteç|imwg|hafif zincir oranı 100|serbest hafif zincir oranı|yüzde 60 klonal|60 klonal"],
       ["Tanı: serum protein elektroforezi, immünfiksasyon, serbest hafif zincir, kemik iliği; Bence Jones", "elektroforez|immünfiksasyon|immünofiksasyon|serbest hafif zincir|hafif zincir|bence jones|kemik iliği biyopsi|kemik iliği aspirasyon"],
       ["Görüntüleme: tüm vücut düşük doz BT, PET-BT ya da MR", "düşük doz bt|düşük doz bilgisayarlı|düşük doz tüm vücut|tüm vücut|whole body|pet bt|pet ct|pet bete"],
       ["MGUS ve içten içe (smoldering) miyelomdan ayırım", "mgus|önemi belirsiz|smoldering|içten içe|sessiz miyelom|asemptomatik miyelom"],
@@ -184,7 +184,7 @@ terms: [
     c: [
       ["!Trombotik mikroanjiyopati: mikroanjiyopatik hemolitik anemi (şistosit) + trombositopeni", "trombotik mikroanjiyopati|tma|mikroanjiyopatik|şistosit|parçalanmış eritrosit|fragmante"],
       ["!TTP: ağır ADAMTS13 eksikliği (çoğunlukla edinsel otoantikor); dev VWF multimerleri", "adamts13|adamts 13|adam ts13|dev multimer|büyük multimer|ultra büyük"],
-      ["Klinik: nörolojik bulgular, böbrek tutulumu, ateş; klasik beşli çoğu hastada tam değildir", "nörolojik bulgu|konfüzyon|nöbet|beşli|pentad|klasik beşli"],
+      ["Klinik: nörolojik bulgular, böbrek tutulumu, ateş; klasik beşli çoğu hastada tam değildir", "nörolojik bulgu|konfüzyon|nöbet|beşli tam değil|beşli nadiren tam|tam beşli nadir|beşli eksik|beşlinin tamamı nadir|tam pentad nadir|pentad nadiren tam"],
       ["Ön test olasılığı: PLASMIC skoru; ADAMTS13 sonucu beklenmeden tedavi", "plasmic|sonucu beklenmeden|sonucunu beklemeden|beklemeden tedavi|beklemeden plazma"],
       ["!Tedavi: acil terapötik plazma değişimi + kortikosteroid; kaplasizumab ve rituksimab (ISTH 2020)", "plazma değişim|plazmaferez|plazma exchange|terapötik plazma|kaplasizumab|caplacizumab"],
       ["Trombosit transfüzyonundan hayatı tehdit eden kanama yoksa kaçınılır", "trombosit transfüzyonundan kaçın|trombosit transfüzyonu yapılmaz|trombosit transfüzyonu verilmez|trombosit vermekten kaçın|trombosit süspansiyonundan kaçın"],
@@ -214,7 +214,7 @@ terms: [
       ["VWF işlevi: trombositin subendotele (GPIb) yapışması ve faktör VIII'in taşınması", "gpib|gp1b|glikoprotein ib|glikoprotein 1b|subendotel|trombosit adezyon|faktör 8 i taşı|faktör viii i taşı|faktör sekizi taşı|faktör 8 in taşı|faktör sekizi stabilize"],
       ["!Mukokutanöz kanama: burun kanaması, ağır menstrüel kanama, diş çekimi sonrası kanama", "mukokutan|burun kanama|epistaksis|menoraji|ağır menstrüel|adet kanaması|diş çekimi"],
       ["!Tanı: VWF antijeni, VWF trombosit bağlama aktivitesi, faktör VIII; tipler 1, 2 (2A, 2B, 2M, 2N), 3", "vwf antijen|vwf ag|ristosetin|vwf aktivite|trombosit bağlama|multimer|tip 2b|tip 2a|tip 2m|tip 2n|tip 3"],
-      ["Kan grubu O'da VWF düzeyleri fizyolojik olarak düşüktür", "kan grubu o|0 grubu|o grubu|sıfır kan grub"],
+      ["Kan grubu O'da VWF düzeyleri fizyolojik olarak düşüktür", "kan grubu o|o kan grub|0 kan grub|0 grubu|o grubu|sıfır kan grub"],
       ["!Tedavi: desmopressin (tip 1; test dozu ile yanıt), VWF içeren konsantreler; 2B'de desmopressine dikkat", "desmopressin|ddavp|vwf konsantre|vwf içeren|faktör konsantre|rekombinant vwf|vonikog"],
       ["Traneksamik asit ve ağır menstrüel kanamada hormonal tedavi; ağır olguda profilaksi", "traneksamik|hormonal tedavi|oral kontrasepti|levonorgestrel|uzun süreli profilaksi"],
       ["Edinsel von Willebrand sendromu (aort darlığı – Heyde, MGUS)", "edinsel von willebrand|edinsel vwh|aort darlığ|heyde"]
@@ -229,7 +229,7 @@ terms: [
       ["!WHO 2022/ICC: tanımlayıcı genetik anomalilere göre sınıflama (NPM1, CEBPA, CBF lösemiler)", "npm1|npm 1|cebpa|core binding|cbf|8 21|inv 16|runx1|genetik anomali|sitogenetik"],
       ["!ELN 2022 genetik risk sınıflaması: olumlu, orta, olumsuz (TP53, kompleks karyotip)", "eln|olumlu risk|olumsuz risk|orta risk|risk grub|tp53|kompleks karyotip"],
       ["!APL: PML::RARA, DİK ile acil; şüphede hemen ATRA, arsenik trioksit ile", "promiyelositik|apl|pml|rara|15 17|atra|tretinoin|arsenik"],
-      ["Yoğun indüksiyon: sitarabin + antrasiklin; hedefe yönelik ekler (midostaurin/FLT3, gemtuzumab/CD33)", "sitarabin|antrasiklin|daunorubisin|idarubisin|indüksiyon|midostaurin|flt3|gilteritinib|gemtuzumab"],
+      ["Yoğun indüksiyon: sitarabin + antrasiklin; hedefe yönelik ekler (midostaurin ya da FLT3-ITD'de quizartinib, gemtuzumab/CD33)", "sitarabin|antrasiklin|daunorubisin|idarubisin|indüksiyon|midostaurin|quizartinib|kizartinib|gemtuzumab"],
       ["Yoğun tedaviye uygun olmayanda venetoklaks + azasitidin", "venetoklaks|venetoclax|azasitidin|hipometile|desitabin|uygun olmayan|unfit"],
       ["Konsolidasyon; orta-olumsuz riskte ilk remisyonda allojenik kök hücre nakli; ölçülebilir kalıntı hastalık (MRD)", "allojenik|kök hücre nakli|mrd|ölçülebilir kalıntı|minimal kalıntı|konsolidasyon"],
       ["Tümör lizis sendromu önlemi", "tümör lizis|tümör liz|allopurinol|rasburikaz"]
