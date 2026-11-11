@@ -3,7 +3,7 @@
 Bir hekimin gözden geçireceği iş listesi. Her satır: konu, şüphe, kontrol edilecek kaynak. İçerik bu liste kapanmadan "hekim onaylı" sayılmaz.
 Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosya `node tools/klinik.js` ile üretilir).
 
-**Açık inceleme maddesi: 202** (değişiklik kayıtları hariç)
+**Açık inceleme maddesi: 298** (değişiklik kayıtları hariç)
 
 <!-- kardiyoloji: 24 madde -->
 ## Kardiyoloji
@@ -297,6 +297,76 @@ Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosy
 | hem-dik | 'heparin düşünül' yerine 'heparin düşünülebilir/düşünülür' | 'düşünülmez' ile eşleşiyordu |
 | hem-multipl-miyelom | 'oranı 100' yerine 'serbest hafif zincir oranı' | Bağlamsız sayı eşleşmesi |
 
+<!-- onkoloji: 16 madde -->
+## Onkoloji
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | DeVita 12. baskı: yayıncı 2022 (Eylül), bazı kataloglar 2023 diyor; 2022 yazıldı. Abeloff 6. baskı (2020) doğrulandı. Kitapların ilgili bölümleri tek tek açılmadı. | LWW / Elsevier yayıncı sayfaları |
+| onk-kanser-taramalari | Kolorektal tarama yaş aralığı kaynaklarda 50–70 ve 50–75 olarak farklı; etikette "50 yaş üstü" yazıldı. Ek-6 PDF'in güncel sürüm olup olmadığı ve 2025 SMS davet uygulaması yalnız haberlerden görüldü. Serviks taramasında smear'in HPV ile birlikte rutin olup olmadığı (yalnız HPV pozitifte mi) netleştirilmeli. | HSGM Kanser Daire Başkanlığı güncel tarama standartları |
+| onk-tnm-evreleme | UICC 9. baskının 2026'dan itibaren kullanım önerisi UICC duyurusundan; Türkiye'de geçiş tarihi bilinmiyor. AJCC 9. baskı bölüm bölüm yayımlanıyor, ayrıntı verilmedi. AJCC 8 kitabı yıl 2017 (basım 2016 sonu) olarak yazıldı. | UICC; AJCC |
+| onk-febril-notropeni | "<500/mm³" ve ateş eşikleri (tek ölçüm ≥38,3 °C ya da ≥38,0 °C sürekli) klasik IDSA tanımı; kılavuz tam metni açılmadı, ateş sayıları yazılmadı. MASCC ≥21 ve "ilk saat" doğrulandı. | Taplitz 2018 JCO tam metni; Freifeld IDSA 2011 |
+| onk-tumor-lizis-sendromu | Rasburikazın G6PD eksikliğinde kontrendikasyonu ve risk sınıflamasına göre allopürinol/rasburikaz seçimi klasik bilgi, makale tam metninde görülmedi. Howard 2011 NEJM için 2018 düzeltmesi var. | Howard NEJM 2011; Cairo-Bishop 2004 |
+| onk-kanser-agrisi | DSÖ 2018 kılavuzu klasik "merdiven"i katı bir algoritma olarak sunmuyor; merdiven ESMO 2018 ve ders kitabından alındı. ESMO'nun 2. basamakta düşük doz güçlü opioid önerisi özet bilgisinden. | ESMO 2018 (Fallon) tam metni; WHO 2018 |
+| onk-spinal-kord-basisi | Deksametazon 16 mg NICE NG234'ten (2023); diğer kılavuzlar farklı doz kullanabilir. NICE sayfasının kendisi açılmadı (bağlantı arama sonucundaki metinden). Radyoterapinin 24 saat içinde başlaması yalnız ikincil kaynakta görüldü, yazılmadı. | NICE NG234 |
+| onk-vena-kava-superior-sendromu | Kaynak listesinde ilk makalenin yazarı Yahalom (sorgudaki "Mortenson" yanlıştı). Akciğer kanseri/lenfoma oranları yazılmadı. | Wilson NEJM 2007 |
+| onk-meme-kanseri-sistemik | ESMO metastatik meme kılavuzunun 2026 güncellemesi (de Azambuja) yayında olabilir; 2021 sürümü kullanıldı. Erken evre üçlü negatifte pembrolizumab (KEYNOTE-522) ve HER2-düşük kavramı Türkiye geri ödeme koşullarına göre değişir. | ESMO MBC güncel; SGK geri ödeme |
+| onk-tumor-belirtecleri | Belirteç–tümör eşleşmeleri klasik bilgi; PSA taraması tartışması ayrıntılandırılmadı. | Sturgeon 2008; Gilligan 2010 |
+| onk-kemoterapi-toksisiteleri | İlaçlara özgü toksisiteler klasik ders kitabı bilgisi; antrasiklin kümülatif doz eşiği bilerek yazılmadı. Olanzapin eklenmesi ASCO 2020'de yüksek emetojenik rejimde önerilir; MASCC/ESMO 2023 ayrıntısı tam metinde görülmedi. | Hesketh 2020; Herrstedt 2024 |
+| onk-immun-iliskili-yan-etkiler | Grade bazlı yönetim ASCO 2021 özetinden; organ özgü steroid dozları yazılmadı. Vedolizumab ve infliksimab seçimi ESMO 2022 tam metninde kontrol edilmeli. | Haanen 2022; Schneider 2021 |
+| onk-kolorektal-kras-msi | Sol/sağ kolon ayrımı ve BRAF V600E'de enkorafenib+setuksimab ESMO 2023 tam metninde doğrulanmadı (ders kitabı/genel bilgi). ESMO'nun yaşayan kılavuz güncellemeleri olabilir. | Cervantes 2023 ve living guideline |
+| onk-herediter-brca-lynch | Tarama başlangıç yaşları ve kolonoskopi aralığı bilerek yazılmadı (gen bazında değişir). Meme MR'ın "yıllık" olduğu anlatımda geçiyor; Sessa 2023'te doğrulanmalı. | Sessa 2023; Stjepanovic 2019; NCCN Genetic/Familial High-Risk |
+| onk-paraneoplastik-sendromlar | Sendrom–tümör eşleşmeleri klasik bilgi; Graus 2021 kriterlerinin ayrıntısı (yüksek/orta risk fenotip) verilmedi. Nöroloji paketinde Lambert-Eaton ile çakışma olabilir. | Pelosof 2010; Graus 2021 |
+| onk-testis-germ-hucreli | Campbell-Walsh-Wein Urology 12. baskı (2020) yılı web aramasıyla doğrulanmadı. Seminomda hCG'nin hafif yükselebileceği klasik bilgi. Üroloji paketiyle çakışma olabilir. | Elsevier; Oldenburg 2022; EAU 2023 |
+
+<!-- romatoloji: 17 madde -->
+## Romatoloji
+
+Not: Doğrulamalar web arama özetleriyle yapıldı; kılavuz tam metinleri açılmadı. DOI/PubMed bağlantıları arama sonuçlarında görülen kimliklerdir.
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Firestein & Kelley 12. baskı: Elsevier basım tarihi Ekim 2024, telif yılı 2025; "(2025)" yazıldı. Hochberg Rheumatology 8. baskı: basım 2022, bazı listelerde telif 2023; "(2022)" yazıldı. | Elsevier ürün sayfaları |
+| rom-romatoid-artrit | "Sabah tutukluğu" süre eşiği (≥1 saat) bilerek yazılmadı. JAK inhibitörü için kardiyovasküler/malignite risk faktörü değerlendirmesi EULAR 2022 tam metninden ayrıntılı kontrol edilmedi. | EULAR RA 2022 (doi 10.1136/ard-2022-223356) |
+| rom-sle | EULAR 2023'te HCQ hedef dozu (5 mg/kg/gün) ve idame glukokortikoid eşiği (≤5 mg/gün) etikete yazılmadı; tam metinle doğrulanmalı. SLE ile lupus nefriti (nefroloji) kavramları kısmen örtüşür; çapraz skor %58. | EULAR SLE 2023 |
+| rom-gut | ACR 2020 (hedef ürik asit <6 mg/dL, profilaksi 3–6 ay) arama özetinden doğrulandı. HLA-B*58:01 taramasının hangi etnik gruplarda önerildiği anlatımda genel bırakıldı. EULAR 2016 gut önerileri ile farklar (hedef <5 mg/dL tofüslü hastada) eklenmedi. | ACR 2020 gut kılavuzu; EULAR 2016 gut |
+| rom-osteoartrit | ACR 2019 öneri gücü (güçlü/koşullu) ve glukozamin, hidroksiklorokin gibi "önerilmeyen" ilaçlar bilerek kavram yapılmadı (karşıt ifadeyle eşleşme riski). OARSI 2019 ile ACR 2019 farkları (ör. eklem içi steroid kalçada) belirtilmedi. | ACR/AF 2019; OARSI 2019 |
+| rom-septik-artrit | Sinovyal lökosit eşiği ve antibiyotik süresi bilerek yazılmadı. Ampirik antibiyotik seçimi (vankomisin, seftriakson) yalnız anlatımda örnek; yerel direnç ve Türkiye uygulaması kontrol edilmeli. Fransız 2020 önerisinin DOI'si arama sonucundan alındı. | Couderc 2020 Joint Bone Spine; SANJO 2023 |
+| rom-aksiyel-spondiloartrit | "Üç aydan uzun" bel ağrısı ve sülfasalazinin yalnız periferik tutulumda yeri ders kitabı bilgisi; ASAS-EULAR 2022 tam metniyle kontrol edilmedi. | ASAS-EULAR 2022 |
+| rom-psoriatik-artrit | EULAR 2023: IL-23/IL-17 tercihinin "belirgin deri tutulumu" koşulu ve apremilastın yeri özetten alındı. | EULAR PsA 2023 (PMID 38499325) |
+| rom-behcet | Türkiye'nin dünyadaki en yüksek prevalansa sahip olduğu bilgisi ders kitabı bilgisi; sayı verilmedi. EULAR 2018'de venöz trombozda antikoagülan önerisinin ayrıntısı alınmadı. Nöro-Behçette siklosporinden kaçınma bilgisi Ozguler 2018 sistematik derlemesinden; etikete yazılmadı. ICBD puanlaması arama özetinden. | EULAR Behçet 2018; ICBD 2014 |
+| rom-fmf | 2024 EULAR/PReS güncellemesi var; maksimum kolşisin dozu (erişkin 3 mg, çocuk 2 mg/gün) yalnız ikincil özetten görüldü, etikete yazılmadı. Türk pediatrik (Yalçınkaya) ölçütleri kaynağı ayrıca eklenmedi. | EULAR/PReS FMF 2024 (doi 10.1016/j.ard.2025.01.028) |
+| rom-dev-hucreli-arterit | 40–60 mg/gün prednizon eşdeğeri EULAR 2018 LVV özetinden. PMR için EULAR/ACR 2015 (Dejaco) önerisi kaynak listesine alınmadı (2 makale sınırı). Görme tehdidinde pulse metilprednizolon anlatımda "düşünülür" olarak geçti; dozu yazılmadı. | EULAR LVV 2018; EULAR/ACR PMR 2015 (doi 10.1136/annrheumdis-2015-207492) |
+| rom-anca-vaskulit | Plazmaferez endikasyonu EULAR 2022'de daraltıldı; anlatımda "seçilmiş hastada" denildi, ayrıntı kontrol edilmeli. EGPA'da mepolizumab yeri (relaps/dirençli, organ tehdit etmeyen) özetten. Nefroloji paketindeki nefritik sendrom konusu ile kısmi örtüşme olabilir. | EULAR AAV 2022 |
+| rom-sistemik-skleroz | EULAR 2023 önerilerinde tosilizumab/rituksimab ve nintedanib yeri ile PAH'ta başlangıç kombinasyonu özetten; Raynaud/dijital ülser ayrıntıları (bosentan önleme) tam metinle kontrol edilmeli. Yüksek doz steroid–renal kriz ilişkisi ders kitabı bilgisi. | EULAR SSc 2023 (doi 10.1136/ard-2024-226430) |
+| rom-sjogren | 2016 ölçüt puanları (biyopsi ve anti-SSA 3, diğerleri 1; ≥4) ve Schirmer/tükürük eşikleri ders kitabı bilgisi; eşik değerleri etikete yazılmadı ama puanlar yazıldı, tam metinle doğrulanmalı. Hastalık adı "Sjögren hastalığı" olarak güncel terminolojiyle verildi. | ACR/EULAR 2016 Sjögren ölçütleri |
+| rom-antifosfolipid-sendromu | "En az 12 hafta arayla" kalıcılık Sydney 2006 ölçütlerinden; 2023 ölçütlerindeki karşılığı tam metinle kontrol edilmeli. Arteriyel olayda DOAK kullanılmaması EULAR 2019 genel ifadesi; anlatımda yalınlaştırıldı. | 2023 ACR/EULAR APS; EULAR APS 2019 |
+| rom-takayasu | 2022 ACR/EULAR ölçütlerinde yaş sınırı (tanıda ≤60) klasik "40 yaş altı" ifadesinden farklı; etikette yaş sayısı verilmedi. Türkiye'de sıklık bilgisi doğrulanmadı. | Grayson 2022; EULAR LVV 2018 |
+| rom-igg4-iliskili-hastalik | Gastroenteroloji paketinde otoimmün pankreatit/sklerozan kolanjit konusu varsa örtüşme olabilir. Rituksimab idame ve inebilizumab (2025 MITIGATE) güncel verisi eklenmedi. | ACR/EULAR 2019 IgG4-RD; Lancet 2015 derleme |
+
+<!-- enfeksiyon: 15 madde -->
+## Enfeksiyon hastalıkları
+
+Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinleri tek tek okunmadı. Kitap baskıları (Mandell 10. baskı 2025, Harrison 22. baskı 2025) diğer paketlerde kullanılan doğrulanmış atıflarla aynı tutuldu.
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| enf-sepsis | 30 mL/kg kristaloid ve ilk 1 saat antibiyotik SSC 2021'den bellekten; arama özetinde tam öneri metni görülmedi. SSC 2021 PMID (34605781) PubMed'in kendisinden değil üçüncü taraf listelerden; bağlantı olarak DOI kullanıldı. | SSC 2021 tam metni (Crit Care Med 2021;49:e1063) |
+| enf-bruselloz | "En az 6 hafta" ve kombine rejimler ders kitabı bilgisi; Türkiye'de kullanılan aglütinasyon eşik titresi (ör. 1/160) doğrulanamadığı için yazılmadı. Türk Sağlık Bakanlığı bruselloz rehberi bulunamadı, uluslararası derlemeler kullanıldı. | Mandell bruselloz bölümü; HSGM bruselloz sayfası |
+| enf-kkka | Sağlık Bakanlığı KKKA rehberinin resmi bağlantısı bulunamadı (null). Endemik iller ve mevsim bilgisi ikincil Türkçe kaynaklardan. Ribavirinin yeri tartışmalı olarak yazıldı. Virüs taksonomisi güncel olarak Orthonairovirus olarak adlandırılıyor; etikette "Nairovirüs grubu" denildi. | HSGM KKKA sayfası/rehberi |
+| enf-kuduz-profilaksi | Rehber PDF'i arama sonucunda görüldü ama açılıp okunamadı. Kategori tanımları, 0-3-7-14 ve 2-1-1 şemaları, 20 IU/kg ve 10 gün gözlem ikincil Türkçe özetlerden; 4. dozun 14 mü 14–28. gün mü olduğu kaynaklar arasında farklı yazılıyor. Kategori 1'in "sağlam deriyi yalama" olarak tanımı fixture'da kullanıldı. | Kuduz Profilaksi Rehberi 2019 (HSGM) |
+| enf-idrar-yolu-enfeksiyonu | IDSA 2025 komplike İYE kılavuzunun DOI/PMID'i bulunamadı (null). Asemptomatik bakteriüri istisnaları IDSA 2019 ASB kılavuzundan bellekten (bu kılavuz kaynak listesinde yok). %20 direnç eşiği Gupta 2011'den doğrulandı ama etikete sayı olarak yazılmadı. | IDSA 2025 cUTI kılavuzu; IDSA 2019 ASB kılavuzu |
+| enf-tetanoz-profilaksi | 5/10 yıl ve "3 dozdan az/bilinmiyor" kuralı CDC/ACIP tablosundan bellekten; Türkiye Erişkin Bağışıklama rehberindeki ifade ile karşılaştırılmadı. TIG dozu yazılmadı. | CDC tetanus wound management tablosu; Türkiye erişkin aşı rehberi |
+| enf-c-difficile | McDonald 2018 için PubMed bağlantısı (29562266) kullanıldı; erken çevrimiçi DOI (cix1085) ile basılı DOI (ciy149) farklı. Johnson 2021 tam kılavuzun DOI'si (ciab549) PubMed'deki kısa kayıttan (ciab718, PMID 34492699) farklı. "24 saatte ≥3 şekilsiz dışkı" bellekten. | IDSA/SHEA 2017 ve 2021 metinleri |
+| enf-hiv-tani-art | Türkiye HIV/AIDS Tanı Tedavi Rehberi 2019'un doğrudan bağlantısı doğrulanamadı (null). CD4 <200 PCP profilaksisi ve HLA-B*5701 ders kitabı bilgisi. | HSGM HIV/AIDS rehberi; DHHS OI kılavuzu |
+| enf-selulit-nyde | Ampirik vankomisin + piperasilin-tazobaktam ve klindamisin eklenmesi IDSA 2014 özetinden; IDSA SSTI kılavuzunun 2014 sonrası güncellemesi olup olmadığı kontrol edilmedi. | IDSA SSTI kılavuzu güncel durum |
+| enf-sitma | WHO malaria guidelines 2025 (13 Ağustos 2025 sürümü) resmi sayfa bağlantısı görülmedi (null). Türkiye'de olguların çoğunlukla yurt dışı kaynaklı olduğu ifadesi güncel Bakanlık verisiyle doğrulanmadı. | WHO guidelines for malaria; HSGM sıtma sayfası |
+| enf-antimikrobiyal-direnc | IDSA AMR rehberinin 2024 sürümü kullanıldı; aramada Ağustos 2026'da yeni bir güncelleme yayımlandığına dair haber görüldü — öneriler değişmiş olabilir. OXA-48'in Türkiye'de sık olduğu genel bilgi; güncel ulusal sürveyans verisiyle doğrulanmadı. MRSA kılavuzu (2011) eski. | IDSA AMR Guidance 2026 sürümü; UKMSS raporu |
+| enf-nedeni-bilinmeyen-ates | Petersdorf-Beeson 1961 makalesinin bağlantısı doğrulanmadı (null). Tanımın "1 hafta hastanede inceleme" ya da "3 poliklinik vizitesi/3 gün yatış" biçimleri arasında fark var; etikette "uygun ilk incelemeler" denildi. | Haidar & Singh NEJM 2022 |
+| enf-hastane-kaynakli-pnomoni | 90 gün IV antibiyotik ve 7 gün süre IDSA/ATS 2016'dan bellekten; ERS 2017 kılavuzu bazı noktalarda (ör. düşük/yüksek risk ayrımı, invaziv örnekleme) farklıdır, burada IDSA/ATS kullanıldı. | IDSA/ATS 2016 tam metni; ERS 2017 |
+| enf-tularemi | WHO 2007 tularemi rehberinin bağlantısı doğrulanmadı (null). Resmi Türkiye Sağlık Bakanlığı tularemi rehberi bulunamadı; "Türkiye'de en sık orofaringeal form" bilgisi Türkçe derleme/olgu serilerinden. | WHO Guidelines on Tularaemia 2007; HSGM tularemi sayfası |
+| enf-kist-hidatik | Albendazolün girişim öncesi/sonrası süreleri yazılmadı. PAIR'in hangi evrelerde (CE1, CE3a) uygun olduğu etikete yazılmadı. | WHO-IWGE 2010 tam metni |
+
 <!-- noroloji: 38 madde -->
 ## Nöroloji
 
@@ -387,6 +457,72 @@ Konu id'leri, `subs`, seviyeler ve konu sayısı (42) değişmedi. Tüm konulara
 | lambert-eaton | Proksimal güçsüzlük kavramına "proksimal kas", "merdiven çıkma", "oturduğu yerden kalkma", "arefleksi", "refleksler azalmış"; fasilitasyon kavramına "kolaylaşma", "kullandıkça güçlenir", "efordan sonra / efor sonrası", "geçici olarak art" eklendi | Kör anlatım eş anlamlıları |
 | miller-fisher | Prognoz kavramına "prognoz genelde", "prognoz çok iyi", "kendiliğinden düzelir" eklendi (IVIG/plazmaferez GBS ile çapraz eşleşmeyi önlemek için eklenmedi) | Kör anlatım eş anlamlıları |
 | dravet | SUDEP kavramına "ani beklenmedik", "epileptik ölüm" eklendi | Türkçe açılım yakalanmıyordu |
+
+<!-- psikiyatri: 17 madde -->
+## Psikiyatri
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Kaplan & Sadock's Synopsis 12. baskı yılı kütüphane kaydında [2022]; Comprehensive Textbook 11. baskı yayıncıda 2024 (bir kütüphane kaydı 2025). DSM-5-TR 2022. Kitap bölümleri tek tek açılmadı. | Wolters Kluwer / LWW ürün sayfaları |
+| (tüm konular) | DSM-5-TR süre/sayı ölçütleri (MDB 2 hafta + 5/9; mani 1 hafta, hipomani 4 gün; şizofreni 6 ay/aktif 1 ay; YAB 6 ay; panik 1 ay; TSSB >1 ay; OKB >1 saat/gün) bellekten yazıldı, bu oturumda DSM metniyle tek tek doğrulanmadı. | DSM-5-TR ilgili tanı ölçütleri |
+| psi-major-depresyon | CANMAT 2023 idame süresinin uzatıldığı (6–12 ay) ikincil kaynaktan görüldü; pakette sayı yazılmadı. NICE NG222 ile birinci basamak tercihlerinde (NICE psikoterapiyi öne alır) fark var. | CANMAT 2023; NICE NG222 |
+| psi-bipolar | Bipolar depresyonda lurasidon/lamotrijin sıralaması CANMAT 2018'e göre bellekten; Türkiye'de lurasidon ruhsatı bilinmiyor. | CANMAT/ISBD 2018 |
+| psi-sizofreni | NICE CG178 bağlantısı doğrudan görülmedi (null). "İki antipsikotiğe yanıtsızlıkta klozapin" NICE QS80/CG178 ikincil kaynağından. Klozapin nötrofil izlem aralıkları yazılmadı; Türkiye uygulaması ayrıca kontrol edilmeli. | NICE CG178; APA 2020 |
+| psi-yaygin-anksiyete, psi-panik-bozukluk | İkinci makale Craske & Stein Lancet 2016 genel anksiyete seminer yazısıdır (konuya özgü değil). Pregabalin NICE CG113'te YAB için seçenek olarak bellekten. "Panikte benzodiazepin önerilmez" NICE CG113 ikincil özetinden. | NICE CG113 tam metni |
+| psi-okb | NICE CG31 (2005) güncel mi doğrulanmadı; bağlantı "Recommendations for research" bölümüne gidiyor, ana sayfa bağlantısı kontrol edilmeli. "Depresyondan yüksek SSRI dozu" ve antipsikotik augmentasyonu bellekten. | NICE CG31; APA OCD kılavuzu |
+| psi-tssb | NG116 bağlantısı kaynak etki raporu PDF'ine gidiyor (ana sayfa bağlantısı arama sonucunda görülmedi). Bisson ve ark. BMJ 2015 derlemesi doğrulanmadı (url null). Akut stres bozukluğu süresi (3 gün–1 ay) yazılmadı. | nice.org.uk/guidance/ng116; PubMed |
+| psi-deliryum | 4AT ve CAM tarama aracı olarak bellekten (NICE CG103 CAM'i anar). Haloperidolün "genellikle 1 hafta ya da daha kısa" süresi NICE'tan doğrulandı ama pakette sayı kullanılmadı. | NICE CG103 |
+| psi-alkol-yoksunlugu | Klordiazepoksit/diazepam tercihi, karaciğer hastalığında lorazepam/oksazepam bellekten; ASAM 2020 tam metniyle karşılaştırılmadı. NICE CG100 güncelleme sürecinde (tiamin dozu değişebilir). CIWA-Ar eşikleri yazılmadı. | ASAM 2020; NICE CG100 |
+| psi-yeme-bozukluklari | APA 2023 eating disorders kılavuzunun dergi DOI'si doğrulanamadı (url null). Bulimiyada fluoksetin ve bupropion kontrendikasyonu bellekten (prospektüs bilgisi). | APA 2023 kılavuzu; NICE NG69 |
+| psi-intihar-riski | NICE NG225 sayfası doğrudan görülmedi (url null); "risk ölçekleriyle öngörü yapılmaz" önerisi ikincil kaynaklardan (NHS England, BJPsych). Lityum ve klozapinin antisüisidal etkisi bellekten. Türkiye'de intihar girişiminde adli bildirim/yatış uygulaması ayrıca kontrol edilmeli. | NICE NG225; Turecki & Brent 2016 |
+| psi-nms-serotonin | Serotonin sendromunun "saatler içinde" başlaması ve Hunter kriterleri Boyer 2005'ten bellekle; dantrolen/bromokriptin kanıt düzeyi zayıf. | Boyer 2005; Strawn 2007 |
+| psi-lityum | Hedef 0,6–0,8 mmol/L ve 3/6 aylık izlem NICE CG185'in ikincil özetlerinden (NHS protokolleri); NICE metni doğrudan okunmadı, CG185 2025'te güncellenmiş olabilir. Ebstein anomalisi riskinin büyüklüğü tartışmalı. | NICE CG185 (güncel sürüm) |
+| psi-opioid-kullanim-bozuklugu | ASAM 2020 tam kılavuzun DOI'si bulunamadı; ASAM resmi sayfası kullanıldı. Türkiye'de metadon erişimi sınırlı; buprenorfin-nalokson AMATEM'lerde kullanılır — kontrol edilmeli. Eve nalokson kiti Türkiye'de yaygın değil. | ASAM 2020; Sağlık Bakanlığı/AMATEM uygulaması |
+| psi-borderline | APA 2024 öneri ayrıntıları basın bülteni/ikincil özetlerden; bir katalog 2025 2. baskıdan söz ediyor. | APA 2024 kılavuzu tam metni |
+| psi-opioid-kullanim-bozuklugu | Acil tıp paketindeki "acil-opioid" (zehirlenme/nalokson) ile kısmi örtüşme; bu konu yalnızca uzun dönem bağımlılık tedavisine odaklandı. | — |
+
+<!-- dermatoloji: 17 madde -->
+## Dermatoloji
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Bolognia 5. baskı: Elsevier listeleri yayın tarihini Şubat/Nisan 2024 veriyor, bazı sayfalarda telif yılı 2025; "5. baskı (2024)" yazıldı. Rook's 10. baskı: satıcılar Şubat–Mayıs 2024 arası tarih veriyor. Fitzpatrick's kullanılmadı (güncel baskı doğrulanmadı). | Elsevier ve Wiley ürün sayfaları |
+| der-psoriazis | Tedavi basamakları EuroGuiDerm 2020 (Part 1) özetinden; 2026 Alman S3 uyarlaması daha yeni olabilir. Guttat psoriazisin streptokok sonrası ilişkisi ders kitabı bilgisi, kaynak tam metninde kontrol edilmedi. | EuroGuiDerm psoriazis kılavuzu tam metni; JDDG 2026 S3 uyarlaması |
+| der-atopik-dermatit | Sistemik ilaç listesi (dupilumab, tralokinumab, lebrikizumab, JAK inhibitörleri) EuroGuiDerm 2022 özetinden; Türkiye'de geri ödeme koşulları ve ruhsat durumu kontrol edilmedi. | EuroGuiDerm 2022; SGK SUT |
+| der-akne-vulgaris | AAD 2024 ile Avrupa S3 2016 (süresi 2020'de doldu) arasında öneri güçleri farklı; AAD 2024 esas alındı. İzotretinoin gebelik önleme programının Türkiye'deki uygulama ayrıntıları doğrulanmadı. | AAD 2024; TİTCK izotretinoin risk yönetim materyali |
+| der-urtiker | "Doz dört katına kadar", altı hafta sınırı ve sınırlı tetkik listesi (hemogram, CRP/sedim, total IgE, anti-TPO) bellekten; kılavuz yalnızca özet düzeyinde görüldü, tam metinle doğrulanmalı. | EAACI/GA²LEN 2022 kılavuz tam metni |
+| der-skabiyez | "Permetrin bir hafta sonra tekrar" ve çamaşırların sıcak yıkanması/poşette bekletilmesi süreleri bellekten; Avrupa kılavuzu 2017 özetinde tekrar aralığı görülmedi. IUSTI 2026 güncellemesi (taslak) yeni sınıflama ve tedavi önerileri içeriyor, kullanılmadı. | IUSTI 2017 ve 2026 skabiyez kılavuzları |
+| der-melanom | "Çap >6 mm" (ABCDE) ve cerrahi sınırlar ders kitabı bilgisi; geniş eksizyon sınır değerleri bilinçli olarak yazılmadı. AJCC 8 T1a tanımı (<0,8 mm, ülsersiz) Gershenwald 2017 özetinden doğrulandı. Garbe 2024 Part 1 DOI'si (115152) çoğu kayıtta Part 1, bir PDF başlığında 115153 görünüyor. | AJCC 8 güncelleme/düzeltme sayfası; EJC yayıncı sayfası |
+| der-keratinosit-kanserleri | BHK ve SHK tek konuda birleştirildi. Organ nakli sonrası SHK riskindeki artışın büyüklüğü sayı verilmeden yazıldı. Sesiplimabın Türkiye ruhsat/geri ödeme durumu kontrol edilmedi. | EADO BCC 2023 ve cSCC 2023 tam metinleri |
+| der-dermatofitoz | İkinci makale (Antibiotics 2025, T. indotineae terbinafin direnci derlemesi) yalnızca PMC kaydından görüldü; yazar listesi yazılmadı. Kapitis tedavisinde terbinafin/griseofulvin tercihi etkene göre değişir (BAD 2014), ayrıntı verilmedi. | BAD tinea capitis 2014; PMC12108360 |
+| der-kutanoz-leishmaniasis | Türkiye'de baskın tür (L. tropica > L. major), endemik iller ve Suriyeli göçle artış ikincil Türk kaynaklarından/bellekten. Sağlık Bakanlığı genelgesi 2003 tarihli; daha güncel ulusal rehber ya da 2011 stratejik plan bulunamadı. Bildirimi zorunlu hastalık olduğu bellekten; güncel bulaşıcı hastalıklar bildirim listesi kontrol edilmeli. Sistemik tedavi endikasyonları (lezyon sayısı/boyutu) sayı verilmeden yazıldı. | HSGM leishmaniasis sayfası; Türkiye Parazitoloji Dergisi derlemeleri; WHO EMRO KL kılavuzu |
+| der-rosasea | "Otuz yaş sonrası başlangıç" anlatımda var, kaynakla doğrulanmadı. Düşük doz izotretinoin ve brimonidin/oksimetazolin önerileri ROSCO 2019 tam metninden kontrol edilmedi. | ROSCO 2019 (Schaller BJD 2020) tam metni |
+| der-pemfigus-pemfigoid | Pemfigus ve büllöz pemfigoid tek konuda karşılaştırmalı verildi. Pemfigoid ile DPP-4 inhibitörü ve nörolojik hastalık ilişkisi ders kitabı bilgisi; EADV 2022 özetinde görülmedi. | EADV pemfigus 2020 ve BP 2022 kılavuzları |
+| der-sjs-ten | Yüzey alanı eşikleri (<%10, %10–30, >%30) standart sınıflama, kaynak tam metninde kontrol edilmedi. HLA-B*15:02'nin özellikle Güneydoğu Asya kökenlilerde önemli olduğu, Türk popülasyonunda sıklığı düşük olabileceği belirtilmedi. Destek tedavisi dışındaki immünomodülatörler (siklosporin, IVIG, etanersept) tartışmalı olduğu için eklenmedi. | BAD 2016 SJS/TEN kılavuzu; güncel derlemeler |
+| der-dress | "2–8 hafta" latent dönem ikincil kaynaklardan/bellekten; Kardaun 2013'te ortanca 22 gün (ÇAA 17–31) doğrulandı. Kortikosteroid dozu ve azaltma süresi bilinçli olarak yazılmadı; ulusal/uluslararası tek bir DRESS kılavuzu kullanılmadı. | RegiSCAR yayınları; Mizukawa & Shiohara 2025 güncellemesi |
+| der-hidradenitis-suppurativa | Avrupa S1 kılavuzu 2015 tarihli ve güncel değil; sekukinumab (2023) ve bimekizumab (2024) onayları bellekten, kılavuzlarda yok. Hurley evre tanımları ders kitabından. | EHSF/EADV güncel HS kılavuzu; EMA/FDA onay kayıtları |
+| der-kutanoz-lupus | EDF/EADV 2017 kılavuzu esas alındı; "sigara antimalaryal yanıtını azaltır" bilgisi bellekten. Anifrolumab kutanöz lupus için ruhsatlı değil, yalnızca anahtar olarak eklendi. Hidroksiklorokin dozu (EULAR 2023: 5 mg/kg/gün) bilinçli olarak yazılmadı. | Kuhn 2017 EDF kılavuzu; EULAR 2023 SLE |
+| (çakışma) | rom-sle iyi anlatımı der-kutanoz-lupus'ta %58 aldı (eşiğe yakın); sistemik lupus romatolojiye bırakıldı. Psoriatik artrit (rom-psoriatik-artrit) ve selülit (enf-selulit-nyde) ayrı branşlarda. | — |
+
+<!-- halk-sagligi: 14 madde -->
+## Halk sağlığı
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tümü) | Oxford Textbook of Global Public Health 7. baskısı kaynaklarda 2021 olarak geçiyor (2022 değil); Gordis 7. baskı yayın tarihi 2024, bazı Elsevier listelerinde telif yılı 2025. | OUP ve Elsevier katalog sayfaları |
+| hs-onleme-duzeyleri | Rose 1985 makalesinin özgün DOI'si (10.1093/ije/14.1.32) yalnız ikincil alıntıda görüldü; bağlantı 2001 yeniden basımının PubMed kaydına veriliyor. StatPearls NBK537222 kaydının içeriği aramada kardiyovasküler odaklı/karışık göründü; doğru sürüm kontrol edilmeli. | Int J Epidemiol 1985;14:32; StatPearls "Prevention Strategies" |
+| hs-asi-takvimi | Aşı zamanları (BCG 2. ay sonu, KPA, suçiçeği 12. ay, hepatit A 18/24. ay, OPA 6/18. ay, 48. ay DaBT-İPA ve KKK, 13 yaş Td) resmi asi.saglik.gov.tr sayfasından doğrudan okunamadı (ağ erişimi yok); ikincil kaynaklar ve 2020 HSGM takvimi adıyla doğrulandı. Altılı karma aşıya 14 Nisan 2025'te geçiş haberlerden doğrulandı; 2025 sonrası resmi takvim PDF'i görülmedi. KPA doz ayları (2-4-6-12 mi, 2-4-12 mi) kaynaklar arasında net değil; etikette doz ayı yazılmadı. Kaynak 2 (broşür) başlığı tam doğrulanmadı. | asi.saglik.gov.tr güncel Çocukluk Dönemi Aşı Takvimi |
+| hs-su-klorlama | "≥0,5 mg/L serbest klor, ≥30 dk temas, pH <8" değeri eski bir WHO belgesinden (ikincil) görüldü; GDWQ 4. baskı metninde aynen geçtiği doğrulanmadı. Türkiye İnsani Tüketim Amaçlı Sular Hakkında Yönetmelik değerleri kullanılmadı. LaDou kitabının 6. baskı yılı (2021) doğrulanmadı. | WHO GDWQ 4. baskı + 1./2. ekler (2022), bölüm 8/Annex 5 |
+| hs-bildirimi-zorunlu | A/B/C/D gruplandırması 2005 tebliği ve sonrası kaynaklardan; 2015/18 genelgesiyle grup içerikleri/hasta sayısı değişmiş olabilir, bu yüzden hastalık sayısı ve örnekleri yazılmadı. Lexpera bağlantıları resmi kurum sayfası değildir. | Sağlık Bakanlığı Bulaşıcı Hastalıkların İhbar ve Bildirim Sistemi Genelgesi 2015/18; Resmî Gazete |
+| hs-meslek-hastaliklari | Gürültüye bağlı işitme kaybında 4000 Hz çentiği standart ders bilgisi ama bu oturumda web ile doğrulanmadı. ÇSGB "meslek hastalıkları bildirimi" PDF başlığı/yılı doğrulanmadı. Yetkili hastane ve bildirim akışı SGK mevzuatına göre güncel olmalı. | Sosyal Sigorta İşlemleri Yönetmeliği; SGK; LaDou 6. baskı |
+| hs-yanlilik-karistirici | Grimes & Schulz (Lancet 2002) için DOI ikincil veritabanından alındı; PubMed kaydı görülmedi. | doi.org/10.1016/S0140-6736(02)07451-2 |
+| hs-calisma-tipleri | Vaka-kontrol makalesi için DOI ikincil kaynaktan (scilit) alındı. | doi.org/10.1016/S0140-6736(02)07605-5 |
+| hs-randomize-kontrollu | Allocation concealment makalesi DOI'si Wikipedia kaynakçasından alındı. | doi.org/10.1016/S0140-6736(02)07750-4 |
+| hs-iliski-olcutleri | Szumilas 2010 makalesinde formül için 2015'te düzeltme (erratum) yayımlanmış; Cummings 2009 yazar bilgisi PubMed sayfasında doğrudan görülmedi. | PMC2938757, PMC4357335; PubMed 19414690 |
+| hs-anne-bebek-olum | Perinatal ölüm tanımında alt sınır (22/28 hafta) ülkeye göre değişir; sayı yazılmadı. SKH 70/100.000 hedefi UNICEF özetinden doğrulandı. | WHO ICD-11 tanımları; UN IGME 2024 raporu |
+| hs-malnutrisyon | Bodurluk ve düşük kiloda -2 SD eşiği standart DSÖ tanımı ama aramada doğrudan görülmedi (SAM/MAM eşikleri 2023 kılavuz özetinden doğrulandı). İlk kaynak bağlantısı kılavuzun kendisi değil DSÖ duyuru sayfası. Nelson 22. baskı yılı doğrulanmadı. | WHO Child Growth Standards 2006; WHO 2023 wasting kılavuzu PDF |
+| hs-kanit-duzeyleri | Users' Guides to the Medical Literature 3. baskı (2015) web ile doğrulanmadı. | JAMAevidence katalog |
+| hs-asi-takvimi | Plotkin's Vaccines 8. baskı (2023) web ile doğrulanmadı. | Elsevier katalog |
 
 <!-- acil: 30 madde -->
 ## Acil tıp
