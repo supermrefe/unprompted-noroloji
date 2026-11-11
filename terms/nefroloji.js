@@ -86,7 +86,7 @@ terms: [
       ["Diyalizle uzaklaştırılabilen zehirlenmeler: lityum, metanol, etilen glikol, salisilat", "lityum|etilen glikol|salisilat|toksik alkol|intoksikasyon|diyalizle uzaklaştırıl"],
       ["AEIOU akronimi", "aeiou|a e i o u"],
       ["Mutlak endikasyon yoksa erken başlamanın yararı yok (STARRT-AKI)", "starrt|erken başlamanın yararı|erken başlamanın üstünlüğü|erken başlamanın faydası|hızlandırılmış|akiki"],
-      ["Hemodinamik instabilitede sürekli böbrek replasman tedavisi (CRRT)", "sürekli renal|crrt|sürekli böbrek|sürekli venövenöz|cvvh|hemodinamik instab|hemodinamisi bozuk|aralıklı hemodiyaliz"]
+      ["Hemodinamik instabilitede sürekli böbrek replasman tedavisi (CRRT)", "sürekli renal|crrt|sürekli böbrek|sürekli venövenöz|cvvh"]
     ]},
   /* ====================== ORTA ====================== */
   { id: "nef-hiponatremi", tr: "Hiponatremi: tanısal yaklaşım ve tedavi", en: "Hyponatraemia", cat: "elek", lvl: 2,
@@ -143,8 +143,8 @@ terms: [
       ["!Tanı biyopsiyle: mezangial IgA birikimi; Oxford MEST-C skoru", "mezangial iga|mezanjiyal iga|mezangiyal iga|iga birikim|iga depozit|oxford|mest"],
       ["Patogenez: galaktozdan yoksun IgA1 ve ona karşı otoantikorlar", "galaktoz|gd iga1|gdiga1|dört vuruş|four hit|otoantikor"],
       ["KDIGO 2025 hedefi: proteinüri <0,5 g/gün, ideali <0,3 g/gün", "0,5 gram|yarım gram|0,5 g|0,3 gram|0,3 g|sıfır virgül beş|sıfır virgül üç"],
-      ["Destekleyici tedavi: maksimum RAS blokajı, SGLT2 inhibitörü, sparsentan; kan basıncı ve tuz kontrolü", "sparsentan|endotelin|sglt2|sglt 2|gliflozin|ace inhibit|arb|ras bloka|ras blokaj"],
-      ["İlerleme riski sürüyorsa hedefe yönelik salınımlı budesonid ya da sistemik glukokortikoid", "budesonid|nefecon|glukokortikoid|kortikosteroid"],
+      ["Destekleyici tedavi: maksimum RAS blokajı (ACEi/ARB) ya da onun yerine sparsentan, üzerine SGLT2 inhibitörü eklenir; kan basıncı ve tuz kontrolü", "sparsentan|endotelin|sglt2|sglt 2|gliflozin|ace inhibit|arb|ras bloka|ras blokaj"],
+      ["İlerleme riski varsa destekleyici tedaviyle eş zamanlı hedefe yönelik salınımlı budesonid ya da sistemik glukokortikoid", "budesonid|nefecon|glukokortikoid|kortikosteroid"],
       ["IgA vasküliti (Henoch-Schönlein purpurası) ile ilişkili spektrum", "henoch|schönlein|schonlein|iga vaskülit|purpura"]
     ]},
   { id: "nef-kontrast-aki", tr: "Kontrastla ilişkili akut böbrek hasarı", en: "Contrast-associated acute kidney injury", cat: "aki", lvl: 2,
@@ -200,7 +200,7 @@ terms: [
       ["Primer formda glukokortikoid; yanıtsızlıkta kalsinörin inhibitörü", "kalsinörin|takrolimus|siklosporin|yüksek doz glukokortikoid|yüksek doz steroid|yüksek doz kortikosteroid"],
       ["Sekonder ve genetik formda immünosüpresyon yerine destekleyici tedavi (RAS blokajı)", "immünosüpresyon yerine|immünsüpresyon yerine|immünosüpresyon verilmez|immünsüpresyon verilmez|immünosüpresyondan fayda|immünosüpresyondan yarar|destekleyici tedavi|ras bloka"],
       ["Steroid dirençli olguda genetik test (ör. NPHS2/podosin)", "nphs|podosin|genetik test|genetik inceleme"],
-      ["Primer FSGS nakil sonrası greftte nüks edebilir", "nakil sonrası|transplant sonrası|transplantasyon sonrası|greftte|graftta|nakledilen böbrek"]
+      ["Primer FSGS nakil sonrası greftte nüks edebilir", "nakil sonrası|naklinden sonra|nakilden sonra|transplant sonrası|transplantasyon sonrası|greftte|graftta|nakledilen böbrek"]
     ]},
   { id: "nef-lupus-nefriti", tr: "Lupus nefriti (KDIGO 2024)", en: "Lupus nephritis", cat: "glom", lvl: 3,
     src: { k: [BR, CCN], m: [

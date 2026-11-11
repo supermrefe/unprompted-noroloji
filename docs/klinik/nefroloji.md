@@ -19,3 +19,19 @@
 | nef-lupus-nefriti | KDIGO 2024 başlangıç tedavisi seçenekleri (GK + MPAA / düşük doz IV CYC / belimumab + bunlardan biri / MPAA + KNİ) özetten doğrulandı; biyopsi endikasyonu için proteinüri eşiği ve idame süresi (≥3 yıl?) doğrulanamadığı için sayısız yazıldı. EULAR 2023 SLE önerileri ile küçük farklar olabilir. Türkiye'de voklosporin erişimi bilinmiyor. | KDIGO 2024 LN tam metni; EULAR 2023 |
 | nef-adpkd | KDIGO 2025 ADPKD için tam kılavuz DOI'si tek kaynakta 10.1016/j.kint.2024.07.009 görüldü (doğrulanmadı); bu yüzden doğrulanmış yönetici özeti PubMed kaydı (PMID 39848746) bağlandı. Yaşa göre kist sayısı ölçütleri (Pei/Ravine) ve Mayo sınıfları (1C–1E) sayısal olarak etikete yazılmadı. Tolvaptan endikasyon ölçütleri ve Türkiye geri ödeme koşulları kontrol edilmeli. | KDIGO 2025 ADPKD tam metni (Kidney Int 107(2S)) |
 | nef-renal-tubuler-asidoz | Distal RTA'da idrar pH >5,5 eşiği ders kitabı bilgisi; Palmer 2021 tam metninde kontrol edilmedi. Tip 3 RTA pakette yok. Fludrokortizon kullanımı (tip 4) hipertansiyon/ödem riski nedeniyle seçilmiş hastada; ayrıntı yazılmadı. | Palmer Adv Ther 2021; Brenner & Rector RTA bölümü |
+| nef-hiponatremi | Yüksek ODS riskinde (alkolizm, malnütrisyon, hipokalemi, ileri karaciğer hastalığı, Na ≤105) 24 saatte 8 mmol/L sınırı ve 4–6 mmol/L hedefi (Verbalis 2013; Adrogué JAMA 2022) denetçi bilgisine dayanıyor, doğrulanmadığı için etikete yazılmadı. | Verbalis 2013 Am J Med; Adrogué JAMA 2022 |
+| (tüm konular) | Denetçiler (web erişimi olmadan, bilgiye dayalı) Brenner & Rector 12. baskı yılını 2024/2025 olarak hatırladı; önceki araştırmada Elsevier mağazası Mart 2026 gösterdiği için 2026 korundu. Hekim/editör ISBN kaydıyla kesinleştirmeli. | Elsevier ürün sayfası / ISBN kaydı |
+| nef-renal-tubuler-asidoz | Palmer Adv Ther 2021 DOI'si (10.1007/s12325-020-01587-5) son karakteri doğrulanamadı. | doi.org |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| nef-adpkd | İyi anlatımda "herkese ACEi/ARB" → hipertansif hastada ACEi/ARB; herkese bol su ve tuz kısıtlaması. | DOĞRULANMIŞ HATA: RAS blokajı hipertansif ADPKD'de önerilir (KDIGO 2025, HALT-PKD). |
+| nef-diyaliz-endikasyonlari | CRRT kavramından "aralıklı hemodiyaliz", "hemodinamik instab", "hemodinamisi bozuk" anahtarları kaldırıldı. | Ters ifadeyi (instabilde IHD) ve modalitesiz anlatımı doğru sayıyordu. |
+| nef-iga-nefropatisi | İyi anlatım: sparsentan yalnız ACEi/ARB'nin yerine, SGLT2i ek olarak. Etiket ve anlatım: budesonid "ilerleme riski sürüyorsa" yerine "varsa, destekleyici tedaviyle eş zamanlı". | KDIGO 2025: sparsentan DEARA olarak RAS blokajının yerine geçer; sıralı yaklaşım terk edildi. |
+| nef-hiponatremi | İyi anlatıma Avrupa kılavuzunun vaptan yerine üre tercihi ve tolvaptanın hastanede başlanması/karaciğer toksisitesi uyarısı eklendi. | Kaynaktaki Spasovski 2014 vaptanlara karşı öneri veriyor; FDA güvenlik uyarısı. |
+| nef-fsgs | Nakil nüksü kavramına "naklinden sonra", "nakilden sonra" eklendi. | Kör anlatımda eş anlamlı ifade yakalanmadı. |
+| nef-hiperkalemi, nef-diyabetik-bobrek | "arb" anahtarı değiştirilmedi. | ≤3 harfli anahtarlar yalnız tam sözcük olarak eşleşir (scoring.js); "bikarbonat"/"karbonhidrat" ile eşleşmez. |
+| (tüm konular) | Brenner & Rector yılı değiştirilmedi; şüphe tablosuna eklendi. | Denetçi iddiası doğrulanmamış bilgi; önceki kaynak kontrolü 2026 gösteriyor. |
+| nef-iga-nefropatisi | Destekleyici tedavi etiketi: sparsentan ACEi/ARB yerine geçer, SGLT2i eklenir | KDIGO 2025 ile uyum |
