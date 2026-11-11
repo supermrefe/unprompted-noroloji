@@ -19,3 +19,33 @@
 | gog-bronsektazi | ERS 2025 güncellemesi (Aralık 2025) ikincil kaynaktan doğrulandı; uzun süreli makrolid için alevlenme sayısı eşiği ve alevlenme antibiyotik süresi yazılmadı. Brensokatib (DPP-1 inhibitörü) pakette yok; ERS 2025 henüz öneri vermiyor. | Chalmers 2025 ERJ; Polverino 2017 ERJ |
 | gog-alfa1-antitripsin-eksikligi | "Her KOAH hastasına bir kez test" WHO/ERS 2017 ikincil kaynakla doğrulandı. Haftalık IV augmentasyonun akciğer yoğunluk kaybını yavaşlatması (RAPID) ve ANCA vaskülit ilişkisi bellekten. Türkiye'de augmentasyon tedavisine erişim/geri ödeme bilinmiyor. Serum düzeyi eşik değeri yazılmadı. | Miravitlles 2017 ERJ; Strnad 2020 NEJM |
 | gog-silikoz | Türkiye'de denim kumlama yasağının tarihi kaynaklarda Mart ya da Nisan 2009 olarak geçiyor; yalnız yıl yazıldı. Klinik formların süre sınırları (akut/hızlanmış/kronik) yazılmadı. Konu halk sağlığı (meslek hastalıkları) branşıyla çakışabilir. | Leung 2012 Lancet; Hoy 2020 Allergy; ÇSGB meslek hastalıkları mevzuatı |
+| gog-koah | GOLD 2026 rapor bağlantısı (goldcopd.org/2026-gold-report-and-pocket-guide/) oturumdan açılamadı; önceki yılların sayfa adı biçimi farklı. | goldcopd.org rapor sayfası (elle kontrol) |
+| gog-astim | GINA 2025 PDF dosya adı (GINA-2025-Update-25_11_08-WMS.pdf) aramada çıkmadı; Mayıs 2026'da GINA 2026 yayımlanmış olabilir. Kaynak güncellenmeli mi hekim/editör kararı. | ginasthma.org/reports |
+| gog-bronsektazi | ERS 2025 kılavuzunun NTM taramasıyla ilgili önerisi tam metinde kontrol edilmedi; anlatım BTS 2019 çizgisine çekildi. | Chalmers 2025 ERJ tam metni |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| gog-koah | İKS kavram etiketi E grubu (≥300, başlangıç) ve izlem (≥100, üçlüye geçiş) bağlamıyla yeniden yazıldı | Etiket her KOAH hastasına İKS diye okunabiliyordu (GOLD algoritması) |
+| gog-koah | "abe" yerine "abe değerlendirme/grup/sınıflama..."; "55/88/elli beş/seksen sekiz" yerine "pao2 55, 55 mmhg, sao2 88, satürasyon 88..." | Çıplak sayılar ve kısa anahtar ilgisiz bağlamda eşleşiyordu |
+| gog-astim | Çıplak "formoterol" yerine "iks/budesonid/beklometazon/steroid formoterol" | İKS'siz formoterol (kontrendike) anlatımı doğru sayılıyordu |
+| gog-astim | "kısa etkili beta agonist önerilm", "tek başına/yalnız kısa etkili beta" eş anlamlıları eklendi | Kör anlatımda kısaltmasız ifade yakalanmadı |
+| gog-toplum-kokenli-pnomoni | Çıplak "kontrol grafisi" yerine "kontrol grafisi gerekmez/gerekmiyor" | Ters ifade ödüllendiriliyordu |
+| gog-toplum-kokenli-pnomoni | "influenzada steroid" yerine "influenzada steroid önerilmez/vermiyoruz", "influenza dışı"; çıplak "hidrokortizon" yerine "ağır pnömonide hidrokortizon" | Ters ifade ve ağır olmayan hastada steroid ödüllendiriliyordu (ATS 2025) |
+| gog-toplum-kokenli-pnomoni | Zayıf anlatım: "genellikle bakteriler yapar" yerine "bakteri ya da virüsler; en sık bakteriyel etken pnömokok" | EPIC çalışmasında virüsler daha sık saptandı |
+| gog-solunum-fonksiyon-testleri | Obstrüksiyon kavramından "0 70/sıfır virgül yetmiş" çıkarıldı | Etiket LLN'yi esas alıyor (ERS/ATS 2022) |
+| gog-solunum-fonksiyon-testleri | Z-skoru kavramından "beklenenin yüzde/yüzde beklenen" çıkarıldı | Eskimiş yaklaşım doğru sayılıyordu, BD cümlesiyle de çakışıyordu |
+| gog-solunum-fonksiyon-testleri | BD yanıtından çıplak "yüzde on" çıkarıldı | "yüzde on iki" (2005 kriteri) ile eşleşiyordu |
+| gog-plevral-efuzyon | Çıplak "ph 7 2/7 2/yedi virgül iki" yerine yön içeren ("7 2 ve altı", "7 2 nin altı" vb.) anahtarlar | Ters ifade doğru sayılıyordu |
+| gog-plevral-efuzyon | Malign efüzyonda çıplak "malign" yerine "malign efüzyonda plörodez" | Tedavisi anlatılmadan kavram yakalanıyordu |
+| gog-tuberkuloz | Radyoloji kavramından "miliyer/ghon/gon odağı" çıkarıldı | Primer TB/miliyer bulgu post-primer üst lob kavitesi kavramını karşılıyordu |
+| gog-idiyopatik-pulmoner-fibrozis | İyi anlatımda PPF tanımı "üç ölçütten en az ikisi" olarak düzeltildi | 2022 ATS/ERS/JRS/ALAT tanımı |
+| gog-idiyopatik-pulmoner-fibrozis | PPF anahtarlarından "progresif fibroz/ilerleyici fibroz" çıkarıldı, "progresif fibrozis kavram" eklendi | "ilerleyici fibrozan" İPF tanımıyla gevşek eşleşiyordu |
+| gog-bronsektazi | İyi anlatımda "ERS 2025 tüm hastalarda NTM araştırılmasını öneriyor" yerine "klinik şüphede ve uzun süreli makrolid öncesi" | Doğrulanamayan, büyük olasılıkla yanlış öneri |
+| gog-alfa1-antitripsin-eksikligi | Etiket ve iyi anlatım: PiZZ "ağır eksikliğin en sık nedeni"; null/null'da akciğer tutulumu daha ağır, karaciğer hastalığı yok | "En ağır PiZZ" ifadesi mutlak olarak yanlış |
+| gog-alfa1-antitripsin-eksikligi | "nakli" anahtarı eklendi | "akciğer ya da karaciğer nakli" yakalanmıyordu |
+| gog-silikoz | "ilo" yerine "ilo sınıflama/sınıflandır/standart"; çıplak "kot" yerine "kot işçi" | Kısa anahtarlar ilgisiz bağlamda eşleşebiliyordu |
+| gog-sarkoidoz | "kazeifikasyon göstermeyen", "diğer granülomatöz nedenler" eş anlamlıları eklendi | Kör anlatımda aynı kavram yakalanmadı |
+| gog-astim | SABA kavramında yönsüz anahtarlar ('önerilm', 'tek başına/yalnız kısa etkili beta') 'önerilmez/kullanılmaz' biçimlerine daraltıldı | 'önerilmektedir' gibi ters ifadeler eşleşiyordu |
+| gog-toplum-kokenli-pnomoni | Yinelenen 'ağır pnömonide hidrokortizon' anahtarı kaldırıldı | Tekrar |

@@ -28,11 +28,11 @@ terms: [
       ["!Tanı: bronkodilatör sonrası FEV1/FVC < 0,70 (spirometri şart)", "bronkodilatör sonrası|post bronkodilatör|0 70|sıfır virgül yetmiş|yüzde yetmişin altı|yetmişin altında|fev1 fvc oranı|fev1 bölü fvc"],
       ["!Risk faktörü: sigara (paket-yıl), biyomas ve mesleki maruziyet", "sigara|tütün|paket yıl|biyomas|biomass|tezek|odun soba|mesleki maruz"],
       ["Kısıtlanma derecesi: GOLD 1–4 (FEV1 % beklenen)", "gold 1|gold 2|gold 3|gold 4|gold bir|gold iki|gold üç|gold dört|gold evre|gold derece|yüzde seksen|yüzde 80"],
-      ["!ABE değerlendirmesi: semptom (mMRC/CAT) ve alevlenme öyküsü", "abe|a b e|mmrc|m mrc|cat skor|cat test|cat puan|grup e|e grubu|b grubu|a grubu"],
+      ["!ABE değerlendirmesi: semptom (mMRC/CAT) ve alevlenme öyküsü", "abe değerlendirme|abe grup|abe sınıflama|abe sistem|abe tablo|a b e|mmrc|m mrc|cat skor|cat test|cat puan|grup e|e grubu|b grubu|a grubu"],
       ["!Başlangıç: uzun etkili bronkodilatör; B ve E'de LABA+LAMA", "laba|lama|uzun etkili bronkodilatör|uzun etkili beta|uzun etkili antimuskarinik|tiotropium|indakaterol|glikopironyum|umeklidinyum|ikili bronkodilatör"],
-      ["Kan eozinofili ≥300'de İKS eklenmesi (üçlü tedavi)", "eozinofil|eosinofil|üçlü tedavi|inhaler steroid|inhale kortikosteroid|iks|ics"],
+      ["E grubunda kan eozinofili ≥300 ise başlangıçta LABA+LAMA+İKS; izlemde LABA+LAMA altında alevlenme sürerse eozinofil ≥100 ise üçlüye geçiş", "eozinofil|eosinofil|üçlü tedavi|inhaler steroid|inhale kortikosteroid|iks|ics"],
       ["Sigarayı bıraktırma, aşılar, pulmoner rehabilitasyon", "sigarayı bırak|sigara bırak|bıraktır|rehabilit|aşıla|grip aşı|influenza aşı|pnömokok aşı|rsv aşı"],
-      ["Uzun süreli oksijen: PaO2 ≤55 mmHg ya da SaO2 ≤%88", "uzun süreli oksijen|uzun dönem oksijen|ev tipi oksijen|evde oksijen|oksijen konsantratör|ltot|55|elli beş|88|seksen sekiz"],
+      ["Uzun süreli oksijen: PaO2 ≤55 mmHg ya da SaO2 ≤%88", "uzun süreli oksijen|uzun dönem oksijen|ev tipi oksijen|evde oksijen|oksijen konsantratör|ltot|pao2 55|55 mmhg|elli beş mmhg|sao2 88|satürasyon 88|yüzde 88|yüzde seksen sekiz"],
       ["Alevlenme: kısa etkili bronkodilatör, kısa süreli sistemik steroid, gerekirse antibiyotik", "alevlenmede|alevlenme tedavi|sistemik steroid|oral steroid|prednizolon|prednizon|pürülan balgam|balgam pürülan"]
     ]},
   { id: "gog-astim", tr: "Astım", en: "Asthma", cat: "obs", lvl: 1,
@@ -43,8 +43,8 @@ terms: [
       ["!Değişken solunum semptomları: hışıltı, nefes darlığı, göğüste sıkışma, öksürük", "hışıltı|wheez|vizing|göğüste sıkış|göğüs sıkış|gece öksür|gece uyan|tetikleyici|alerjen|semptomlar değişken|değişken semptom"],
       ["!Değişken ekspiratuvar hava akımı kısıtlanması: bronkodilatör yanıtı, PEF değişkenliği", "bronkodilatör yanıt|bronkodilatöre yanıt|reversib|geri dönüşlü|pef|zirve akım|peak flow|tepe akım|metakolin|bronş provokasyon|hava akımı değişken"],
       ["Tip 2 inflamasyon belirteçleri: FeNO, kan eozinofili", "feno|fe no|nitrik oksit|tip 2|eozinofil|eosinofil|atopi"],
-      ["!Yalnız SABA önerilmez; her hastaya İKS içeren tedavi", "saba önerilmez|tek başına saba önerilmez|yalnız saba önerilmez|sadece saba önerilmez|saba tek başına önerilmez|saba tek başına kullanılmaz|tek başına saba kullanılmaz|sadece saba vermiyoruz|yalnız saba vermiyoruz|sadece salbutamol vermiyoruz|iks içeren|inhaler steroid içeren|steroid içeren"],
-      ["!Tercih edilen yol: gerektiğinde düşük doz İKS-formoterol; basamak 3–5'te MART", "formoterol|mart|idame ve rahatlatıcı|idame ve semptom giderici|birinci yol|yol 1|track 1"],
+      ["!Yalnız SABA önerilmez; her hastaya İKS içeren tedavi", "saba önerilmez|kısa etkili beta agonist önerilmez|tek başına kısa etkili beta agonist önerilmez|yalnız kısa etkili beta agonist önerilmez|kısa etkili beta agonist tek başına kullanılmaz|tek başına saba önerilmez|yalnız saba önerilmez|sadece saba önerilmez|saba tek başına önerilmez|saba tek başına kullanılmaz|tek başına saba kullanılmaz|sadece saba vermiyoruz|yalnız saba vermiyoruz|sadece salbutamol vermiyoruz|iks içeren|inhaler steroid içeren|steroid içeren"],
+      ["!Tercih edilen yol: gerektiğinde düşük doz İKS-formoterol; basamak 3–5'te MART", "iks formoterol|budesonid formoterol|beklometazon formoterol|steroid formoterol|kortikosteroid formoterol|mart|idame ve rahatlatıcı|idame ve semptom giderici|birinci yol|yol 1|track 1"],
       ["Basamaklı tedavi: kontrol düzeyine göre basamak artırma/azaltma", "basamak|step|kontrol düzey|astım kontrol|kontrol altında"],
       ["Ağır astımda fenotipe göre biyolojik ajan", "biyolojik|omalizumab|mepolizumab|benralizumab|dupilumab|tezepelumab|anti ige|anti il5|anti il 5"],
       ["İnhaler tekniği, uyum ve yazılı eylem planı", "inhaler tekni|inhaler kullanım|uyum|eylem planı|aksiyon planı|öz yönetim"],
@@ -62,18 +62,18 @@ terms: [
       ["!Ayaktan, komorbiditesiz: amoksisilin ya da doksisiklin (makrolid yalnız direnç düşükse)", "amoksisilin|amoxicillin|doksisiklin|doxycycline"],
       ["!Yatan hasta: beta-laktam + makrolid ya da solunum florokinolonu", "beta laktam|betalaktam|seftriakson|sefotaksim|ampisilin sulbaktam|makrolid|azitromisin|klaritromisin|levofloksasin|moksifloksasin|florokinolon|kinolon"],
       ["Ağır/yatan hastada kan ve balgam kültürü, idrar antijenleri", "kan kültür|balgam kültür|idrar antijen|üriner antijen|idrarda antijen|gram boya"],
-      ["Kortikosteroid yalnız ağır TKP'de (influenza dışı); ağır olmayanda önerilmez", "ağır pnömonide steroid|ağır pnömonide kortikosteroid|ağır pnömonide hidrokortizon|ağır olgularda steroid|ağır olgularda kortikosteroid|şokta hidrokortizon|hidrokortizon|rutin steroid önerilmez|rutin kortikosteroid önerilmez|rutin olarak steroid vermiyoruz|influenzada steroid"],
-      ["En az 5 gün, klinik stabiliteye göre; rutin kontrol grafisi gerekmez", "en az 5 gün|en az beş gün|klinik stabil|kontrol grafisi|rutin kontrol grafi|oral tedaviye geç|ağızdan tedaviye geç"]
+      ["Kortikosteroid yalnız ağır TKP'de (influenza dışı); ağır olmayanda önerilmez", "ağır pnömonide steroid|ağır pnömonide kortikosteroid|ağır pnömonide hidrokortizon|ağır olgularda steroid|ağır olgularda kortikosteroid|şokta hidrokortizon|rutin steroid önerilmez|rutin kortikosteroid önerilmez|rutin olarak steroid vermiyoruz|influenzada steroid önerilmez|influenzada steroid vermiyoruz|influenza dışı"],
+      ["En az 5 gün, klinik stabiliteye göre; rutin kontrol grafisi gerekmez", "en az 5 gün|en az beş gün|klinik stabil|kontrol grafisi gerekmez|kontrol grafisi gerekmiyor|kontrol grafisi çekilmesi gerekmez|oral tedaviye geç|ağızdan tedaviye geç"]
     ]},
   { id: "gog-solunum-fonksiyon-testleri", tr: "Solunum fonksiyon testlerinin yorumu", en: "Interpretation of pulmonary function tests", cat: "fiz", lvl: 1,
     src: { k: [MN, FI], m: [
       ["Stanojevic S ve ark. ERS/ATS technical standard on interpretive strategies for routine lung function tests. Eur Respir J 2022", "https://doi.org/10.1183/13993003.01499-2021"],
       ["Graham BL ve ark. Standardization of Spirometry 2019 Update. An Official ATS and ERS Technical Statement. Am J Respir Crit Care Med 2019", "https://doi.org/10.1164/rccm.201908-1590ST"]] },
     c: [
-      ["!Obstrüksiyon: FEV1/FVC oranının alt normal sınırın (LLN) altında olması", "lln|alt normal sınır|normalin alt sınır|beşinci persantil|5 persantil|oran düşük|oranı düşük|oranın düşük|oranı azal|0 70|sıfır virgül yetmiş"],
+      ["!Obstrüksiyon: FEV1/FVC oranının alt normal sınırın (LLN) altında olması", "lln|alt normal sınır|normalin alt sınır|beşinci persantil|5 persantil|oran düşük|oranı düşük|oranın düşük|oranı azal"],
       ["!Restriksiyon tanısı TLC azalmasıyla konur (spirometri yalnız şüphelendirir)", "restrikt|tlc|total akciğer kapasite|toplam akciğer kapasite|akciğer hacim|pletismograf"],
-      ["Z-skoru ve GLI referans denklemleri; ağırlık z-skoruyla derecelenir", "z skor|zskor|z değer|gli|global lung|referans denklem|beklenenin yüzde|yüzde beklenen"],
-      ["!Bronkodilatör yanıtı: FEV1 ya da FVC'de beklenen değerin %10'undan fazla artış (2022)", "bronkodilatör yanıt|bronkodilatöre yanıt|reversibilite|geri dönüşüm|salbutamol sonrası|bronkodilatör sonrası|beklenen değerin yüzde on|beklenenin yüzde on|yüzde onundan|yüzde ondan fazla|yüzde on"],
+      ["Z-skoru ve GLI referans denklemleri; ağırlık z-skoruyla derecelenir", "z skor|zskor|z değer|gli|global lung|referans denklem"],
+      ["!Bronkodilatör yanıtı: FEV1 ya da FVC'de beklenen değerin %10'undan fazla artış (2022)", "bronkodilatör yanıt|bronkodilatöre yanıt|reversibilite|geri dönüşüm|salbutamol sonrası|bronkodilatör sonrası|beklenen değerin yüzde on|beklenenin yüzde on|yüzde onundan|yüzde ondan fazla"],
       ["DLCO: difüzyon kapasitesi (amfizem, interstisyel hastalık, pulmoner vasküler hastalıkta düşer)", "dlco|dlc o|difüzyon|tlco|transfer faktör"],
       ["Akım-volüm eğrisinin şekli (obstrüksiyonda içbükey, üst hava yolu darlığında düzleşme)", "akım volüm|akım hacim|flow volume|içbükey|konkav|üst hava yolu"],
       ["Teknik kalite: kabul edilebilir ve tekrarlanabilir en az üç manevra", "kabul edilebilir|tekrarlanabilir|manevra|kalite kriter|teknik kalite"],
@@ -88,8 +88,8 @@ terms: [
       ["Tanısal torasentez ve sıvı analizi", "torasentez|plevral sıvı analiz|plevral ponksiyon|sitoloji|sıvı analiz"],
       ["Görüntüleme ve girişim ultrason eşliğinde", "ultrason|usg|ultrasonografi"],
       ["Diüretik alan KKY hastasında yanlış eksüda: albümin gradiyenti / NT-proBNP", "albümin gradiyent|albümin gradyan|albümin farkı|diüretik alan|diüretik kullanan|diüretik tedavisi alan|nt probnp|pro bnp|psödoeksüda|yalancı eksüda"],
-      ["!Plevral enfeksiyon: pH ≤7,2, pürülan sıvı ya da Gram/kültür pozitifliğinde göğüs tüpü", "ph 7 2|7 2|yedi virgül iki|ampiyem|empiyem|pürülan|göğüs tüpü|tüp torakostomi|komplike parapnömonik|komplike parapnömonik"],
-      ["Malign efüzyon: sitoloji; yineleyen sıvıda plörodez ya da tünelli plevral kateter", "malign|plörodez|plorodez|talk|tünelli|kalıcı plevral kateter|indwelling"],
+      ["!Plevral enfeksiyon: pH ≤7,2, pürülan sıvı ya da Gram/kültür pozitifliğinde göğüs tüpü", "ph 7 2 altı|ph 7 2 ve altı|7 2 ve altı|7 2 nin altı|7 2 den düşük|yedi virgül iki ve altı|yedi virgül ikinin altı|ampiyem|empiyem|pürülan|göğüs tüpü|tüp torakostomi|komplike parapnömonik|komplike parapnömonik"],
+      ["Malign efüzyon: sitoloji; yineleyen sıvıda plörodez ya da tünelli plevral kateter", "malign efüzyonda plörodez|plörodez|plorodez|talk|tünelli|kalıcı plevral kateter|indwelling"],
       ["Tanısız eksüdada torakoskopi/plevral biyopsi; TB plörezide lenfosit ve ADA", "torakoskopi|plevral biyopsi|adenozin deaminaz|ada düzey|ada yüksek|ada değer|lenfositten zengin|lenfosit ağırlıklı|lenfositik"]
     ]},
   /* ====================== ORTA ====================== */
@@ -100,7 +100,7 @@ terms: [
     c: [
       ["!Etken Mycobacterium tuberculosis; damlacık çekirdekleriyle hava yoluyla bulaş", "mycobacterium tuberculosis|tüberküloz basil|tüberküloz bakteri|koch basil|damlacık|hava yoluyla|aerosol"],
       ["Belirtiler: iki-üç haftadan uzun öksürük, ateş, gece terlemesi, kilo kaybı, hemoptizi", "gece terle|kilo kayb|zayıfla|hemoptizi|kan tükür|iki haftadan uzun|üç haftadan uzun|uzun süren öksürük"],
-      ["Grafide üst lob apikal-posterior infiltrat ve kavite", "kavite|kaviter|üst lob|apikal|apeks|miliyer|ghon|gon odağı"],
+      ["Grafide üst lob apikal-posterior infiltrat ve kavite", "kavite|kaviter|üst lob|apikal|apeks"],
       ["!Tanı: balgam yayması (ARB), kültür ve hızlı moleküler test (Xpert MTB/RIF)", "arb|aside dirençli|asido rezistan|ehrlich ziehl|ziehl neelsen|erlich|balgam yayma|mikobakteri kültür|löwenstein|xpert|gen expert|genexpert|moleküler test|pcr|rifampisin direnc|rifampisin direnç"],
       ["!Standart tedavi: 2 ay HRZE + 4 ay HR (toplam 6 ay)", "hrze|izoniazid|rifampisin|pirazinamid|etambutol|altı ay|6 ay|dörtlü|dört ilaç|başlangıç evre|idame evre|devam evre"],
       ["Doğrudan gözetimli tedavi (DGT) ve temaslı taraması; bildirim zorunlu", "doğrudan gözetim|dgt|dot|gözetimli tedavi|temaslı|temas tarama|bildirim|verem savaş|dispanser"],
@@ -113,10 +113,10 @@ terms: [
       ["Crouser ED ve ark. Diagnosis and Detection of Sarcoidosis. An Official American Thoracic Society Clinical Practice Guideline. Am J Respir Crit Care Med 2020", "https://doi.org/10.1164/rccm.202002-0251ST"],
       ["Baughman RP ve ark. ERS clinical practice guidelines on treatment of sarcoidosis. Eur Respir J 2021", "https://doi.org/10.1183/13993003.04079-2020"]] },
     c: [
-      ["!Nekrotizan olmayan (kazeifiye olmayan) granülom; çok sistemli, nedeni bilinmiyor", "nekrotizan olmayan|nekroz olmayan|kazeifiye olmayan|kazeöz olmayan|kazeifikasyon olmayan|kazeifikasyonsuz|non kazeifiye|nonkazeifiye"],
+      ["!Nekrotizan olmayan (kazeifiye olmayan) granülom; çok sistemli, nedeni bilinmiyor", "nekrotizan olmayan|kazeifikasyon göstermeyen|nekroz olmayan|kazeifiye olmayan|kazeöz olmayan|kazeifikasyon olmayan|kazeifikasyonsuz|non kazeifiye|nonkazeifiye"],
       ["!Bilateral hiler lenfadenopati; Scadding evreleri", "bilateral hiler|iki taraflı hiler|hiler lenfadenopati|hiler lap|hiler lenf|scadding|skading"],
       ["Löfgren sendromu: eritema nodozum + bilateral hiler LAP + ayak bileği artriti, iyi prognoz", "löfgren|lofgren|eritema nodozum|erythema nodosum|ayak bileği"],
-      ["!Tanı: uyumlu klinik-radyoloji + biyopside granülom + diğer nedenlerin dışlanması (EBUS)", "ebus|endobronşiyal ultrason|transbronşiyal|biyopside granülom|doku biyopsi|lenf nodu biyopsi|diğer nedenler dışla|diğer nedenlerin dışlan|tüberküloz ve mantar|tüberkülozu dışla|lenfomayı dışla"],
+      ["!Tanı: uyumlu klinik-radyoloji + biyopside granülom + diğer nedenlerin dışlanması (EBUS)", "ebus|endobronşiyal ultrason|transbronşiyal|biyopside granülom|doku biyopsi|lenf nodu biyopsi|diğer nedenler dışla|diğer nedenlerin dışlan|diğer granülomatöz nedenler|tüberküloz ve mantar|tüberkülozu dışla|lenfomayı dışla"],
       ["Hiperkalsemi (granülomda 1-alfa hidroksilaz); başlangıçta serum kalsiyumu", "hiperkalsemi|kalsiyum|1 alfa hidroksilaz|bir alfa hidroksilaz|kalsitriol|hiperkalsiüri"],
       ["ACE düzeyi tek başına tanı koydurmaz", "ace tek başına|ace tanı koydurmaz|ace düzeyi tanı koydurmaz|ace tanısal değil|ace güvenilir değil|ace özgül değil|ace özgüllüğü|ace ile tanı konmaz|ace ile tanı konamaz|ace tanıda yeterli değil"],
       ["Akciğer dışı tutulum taraması: göz (üveit), kalp (EKG), deri", "üveit|göz muayene|kardiyak sarkoid|kalp tutulum|ekg|lupus pernio|cilt tutulum|deri tutulum|nörosarkoid"],
@@ -177,7 +177,7 @@ terms: [
       ["!Antifibrotik: pirfenidon ya da nintedanib (FVC kaybını yavaşlatır)", "antifibrotik|anti fibrotik|pirfenidon|nintedanib|nerandomilast|fvc kayb|fvc düşüş"],
       ["Kortikosteroid-azatioprin-NAC kombinasyonu zararlı; immünsüpresif önerilmez", "steroid önerilmez|kortikosteroid önerilmez|steroid verilmez|steroid vermiyoruz|immünsüpresif önerilmez|immünsüpresyon önerilmez|panther|üçlü kombinasyon zararlı|azatioprin zararlı|steroid zararlı"],
       ["Akut alevlenme kötü prognoz; oksijen, rehabilitasyon, akciğer nakli", "akut alevlenme|akciğer nakl|akciğer transplant|transplantasyon|nakil"],
-      ["Progresif pulmoner fibrozis (PPF): İPF dışı fibrozan İAH'de bir yılda progresyon", "progresif pulmoner fibroz|ppf|progresif fibroz|ilerleyici fibroz|ipf dışı"]
+      ["Progresif pulmoner fibrozis (PPF): İPF dışı fibrozan İAH'de bir yılda progresyon", "progresif pulmoner fibroz|ppf|progresif fibrozis kavram|ipf dışı"]
     ]},
   { id: "gog-ards", tr: "Akut solunum sıkıntısı sendromu (ARDS)", en: "Acute respiratory distress syndrome", cat: "ybk", lvl: 3,
     src: { k: [MN, HA], m: [
@@ -212,14 +212,14 @@ terms: [
       ["Miravitlles M ve ark. European Respiratory Society statement: diagnosis and treatment of pulmonary disease in α1-antitrypsin deficiency. Eur Respir J 2017", "https://doi.org/10.1183/13993003.00610-2017"],
       ["Strnad P, McElvaney NG, Lomas DA. Alpha1-Antitrypsin Deficiency. N Engl J Med 2020", "https://doi.org/10.1056/NEJMra1910234"]] },
     c: [
-      ["!SERPINA1 geni, kodominant kalıtım; en ağır PiZZ (Z alleli)", "serpina1|serpin a1|serpina 1|kodominant|pi zz|pizz|zz genotip|z allel|zz homozigot|homozigot z"],
+      ["!SERPINA1 geni, kodominant kalıtım; ağır eksikliğe en sık yol açan PiZZ (Z alleli); null/null genotipte akciğer tutulumu daha ağır, karaciğer hastalığı yok", "serpina1|serpin a1|serpina 1|kodominant|pi zz|pizz|zz genotip|z allel|zz homozigot|homozigot z"],
       ["Mekanizma: nötrofil elastazın inhibe edilememesi, proteaz-antiproteaz dengesizliği", "nötrofil elastaz|elastaz|proteaz antiproteaz|proteaz anti proteaz|antiproteaz"],
       ["!Erken yaşta, alt lob ağırlıklı panasiner (panlobüler) amfizem; sigara hızlandırır", "panasiner|panlobüler|pan asiner|pan lobüler|alt lob|bazal amfizem|alt zon|genç yaşta amfizem|erken yaşta amfizem|genç yaşta koah|erken yaşta koah"],
       ["Karaciğer: hepatositte Z protein polimeri birikimi; yenidoğan kolestazı, siroz, HCC (PAS pozitif diastaz dirençli globüller)", "karaciğer hastalığ|karaciğer tutulum|hepatosit|siroz|kolestaz|yenidoğan sarılık|hepatoselüler|polimer|pas pozitif|diastaz"],
       ["!Tanı: serum AAT düzeyi + fenotip/genotip; her KOAH hastasına bir kez test", "serum düzey|serum alfa 1|aat düzey|alfa 1 düzey|düzeyini ölç|fenotip|genotip|izoelektrik|her koah|tüm koah|tüm koahlı|her koahlı|koah tanılı herkes"],
       ["Diğer: nekrotizan pannikülit, granülomatöz polianjiit ile ilişki", "pannikülit|panikülit|polianjiit|anca"],
       ["!Tedavi: sigarayı bıraktırma; ağır eksiklik + amfizemde IV augmentasyon (AAT replasmanı)", "augmentasyon|ogmentasyon|replasman|yerine koyma|intravenöz alfa 1|iv alfa 1|alfa 1 proteinaz|sigarayı bırak|sigara bırak"],
-      ["Aile taraması; ileri hastalıkta akciğer/karaciğer nakli", "aile tarama|kardeşlerin tara|kardeş tarama|aile bireyleri|birinci derece|nakil|transplant"]
+      ["Aile taraması; ileri hastalıkta akciğer/karaciğer nakli", "aile tarama|kardeşlerin tara|kardeş tarama|aile bireyleri|birinci derece|nakil|nakli|transplant"]
     ]},
   { id: "gog-silikoz", tr: "Silikoz", en: "Silicosis", cat: "iah", lvl: 3,
     src: { k: [MN, FI], m: [
@@ -228,9 +228,9 @@ terms: [
     c: [
       ["!Solunabilir kristalin silika (kuvars) inhalasyonu ile oluşan fibrotik pnömokonyoz", "kristalin silika|kristal silika|silika|silis|kuvars|silisyum dioksit|pnömokonyoz"],
       ["Riskli işler: madencilik, taş ocağı, kumlama, döküm, yapay taş (mutfak tezgâhı)", "madenci|maden|taş ocağ|kumlama|döküm|dökümhane|yapay taş|kuvars tezgah|mutfak tezgah|seramik|cam sanayi|taş kesme"],
-      ["Türkiye'de kot kumlama salgını (2009'da yasaklandı)", "kot kumlama|denim|kot taşlama|kot"],
+      ["Türkiye'de kot kumlama salgını (2009'da yasaklandı)", "kot kumlama|denim|kot taşlama|kot işçi"],
       ["Mekanizma: makrofajda lizozom hasarı, NALP3 inflamazom, fibrozis", "makrofaj|lizozom|nalp3|nlrp3|inflamazom"],
-      ["!Radyoloji: üst zonda küçük nodüller, yumurta kabuğu kalsifikasyonu, progresif masif fibrozis; ILO sınıflaması", "üst zon|üst lob|küçük nodül|nodüller|yumurta kabuğ|yumurtakabuğ|eggshell|progresif masif fibroz|masif fibroz|konglomer|ilo"],
+      ["!Radyoloji: üst zonda küçük nodüller, yumurta kabuğu kalsifikasyonu, progresif masif fibrozis; ILO sınıflaması", "üst zon|üst lob|küçük nodül|nodüller|yumurta kabuğ|yumurtakabuğ|eggshell|progresif masif fibroz|masif fibroz|konglomer|ilo sınıflama|ilo sınıflandır|ilo standart"],
       ["Klinik formlar: kronik, hızlanmış, akut (silikoproteinoz)", "kronik silikoz|hızlanmış|akselere|akut silikoz|silikoproteinoz|alveoler proteinoz"],
       ["!Tüberküloz riski artar; ayrıca akciğer kanseri ve otoimmün hastalık", "tüberküloz riski|tüberküloz sıklığı|tüberküloz gelişme|tüberküloz açısından|silikotüberküloz|akciğer kanseri|skleroderma|otoimmün"],
       ["!Küratif tedavi yok: maruziyetin kesilmesi, toz kontrolü/korunma, nakil; meslek hastalığı bildirimi", "küratif tedavi yok|tedavisi yok|maruziyet kesil|maruziyetin kesil|maruziyeti kes|maruziyetten uzaklaş|toz kontrol|ıslak yöntem|uygun maske|koruyucu maske|solunum koruyucu|meslek hastalığı|nakil|transplant"]
