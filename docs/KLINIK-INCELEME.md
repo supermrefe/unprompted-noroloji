@@ -3,7 +3,7 @@
 Bir hekimin gözden geçireceği iş listesi. Her satır: konu, şüphe, kontrol edilecek kaynak. İçerik bu liste kapanmadan "hekim onaylı" sayılmaz.
 Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosya `node tools/klinik.js` ile üretilir).
 
-**Açık inceleme maddesi: 298** (değişiklik kayıtları hariç)
+**Açık inceleme maddesi: 310** (değişiklik kayıtları hariç)
 
 <!-- kardiyoloji: 24 madde -->
 ## Kardiyoloji
@@ -297,7 +297,7 @@ Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosy
 | hem-dik | 'heparin düşünül' yerine 'heparin düşünülebilir/düşünülür' | 'düşünülmez' ile eşleşiyordu |
 | hem-multipl-miyelom | 'oranı 100' yerine 'serbest hafif zincir oranı' | Bağlamsız sayı eşleşmesi |
 
-<!-- onkoloji: 16 madde -->
+<!-- onkoloji: 17 madde -->
 ## Onkoloji
 
 | Konu id | Şüphe | Kontrol edilecek kaynak |
@@ -318,8 +318,29 @@ Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosy
 | onk-herediter-brca-lynch | Tarama başlangıç yaşları ve kolonoskopi aralığı bilerek yazılmadı (gen bazında değişir). Meme MR'ın "yıllık" olduğu anlatımda geçiyor; Sessa 2023'te doğrulanmalı. | Sessa 2023; Stjepanovic 2019; NCCN Genetic/Familial High-Risk |
 | onk-paraneoplastik-sendromlar | Sendrom–tümör eşleşmeleri klasik bilgi; Graus 2021 kriterlerinin ayrıntısı (yüksek/orta risk fenotip) verilmedi. Nöroloji paketinde Lambert-Eaton ile çakışma olabilir. | Pelosof 2010; Graus 2021 |
 | onk-testis-germ-hucreli | Campbell-Walsh-Wein Urology 12. baskı (2020) yılı web aramasıyla doğrulanmadı. Seminomda hCG'nin hafif yükselebileceği klasik bilgi. Üroloji paketiyle çakışma olabilir. | Elsevier; Oldenburg 2022; EAU 2023 |
+| onk-kanser-taramalari | "Ulusal Kanser Kontrol Planı 2013–2018" kaynağı eskimiş; güncel plan (2021–2026 dönemi) ya da HSGM tarama standartları sayfası web aramasıyla doğrulanıp bağlantı değiştirilmeli. Eski bağlantının çalışıp çalışmadığı doğrulanmadı. | HSGM Kanser Daire Başkanlığı |
 
-<!-- romatoloji: 17 madde -->
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| onk-kanser-taramalari | Kolorektal etiket ve iyi anlatım "50–70 yaş kadın ve erkek, iki yılda bir GGK (FIT), on yılda bir kolonoskopi" yapıldı | HSGM programında hedef yaş 50–70 |
+| onk-kanser-taramalari | Serviks kavramından smear/pap/sitoloji anahtarları çıkarıldı; etiket "HPV-DNA birincil, sitoloji yardımcı" | Birincil tarama HPV-DNA; eskimiş smear anlatımı ödüllendirilmesin |
+| onk-kanser-taramalari | PSA kavramına "akciğer ve prostat", "prostat taraması yok" vb. eklendi; "pozitif test tanı değil" kavramından tek başına "biyopsi" çıkarıldı, "tanı değil/tanı olmama" eklendi | Kör anlatım: eş anlamlı yakalanmadı; gevşek eşleşme |
+| onk-tnm-evreleme | Güncel sistem kavramının anahtarları "9. baskı/dokuzuncu baskı/uicc 9" ile sınırlandı | 8. baskıyı güncel sayan anlatım doğru sayılıyordu |
+| onk-kanser-agrisi | Güçlü opioid etiketi ve anlatım: oral morfin, oksikodon, hidromorfon birinci basamakta eşdeğer; "saat düzen", "kırıcı ağrı" anahtarları eklendi | ESMO 2018 / WHO 2018; kör anlatım eş anlamlısı |
+| onk-spinal-kord-basisi | Deksametazon etiketi ve anlatım: nörolojik bulgu varsa hemen 16 mg, yalnız ağrıda rutin değil; erken bulgu kavramına "yeni sırt ağrı" eş anlamlıları eklendi | NICE NG234; kör anlatım |
+| onk-vena-kava-superior-sendromu | Etiket/anlatım: sayıca en sık KHDAK, KHAK'ta yatkınlık yüksek; "sonra non hodgkin", "biyopsiden önce", "önce tanı" anahtarları eklendi | Wilson 2007; kör anlatım eş anlamlıları |
+| onk-meme-kanseri-sistemik | Endokrin etiket/anlatıma yüksek riskli premenopozda over supresyonu + tamoksifen/AI eklendi; neoadjuvan kavramından tek başına "neoadjuvan/ameliyat öncesi" çıkarıldı (pCR/rezidü kaldı) | ESMO 2024, SOFT/TEXT; gevşek eşleşme |
+| onk-kolorektal-kras-msi | BRAF etiket/anlatım: ikinci sırada enkorafenib+setuksimab, birinci sırada +mFOLFOX6 (BREAKWATER); Lynch etiket/anlatım: MLH1 kaybında BRAF/metilasyonla sporadik olgu dışlandıktan sonra germline test; kemoterapi kavramından "5 fu/fluorourasil" çıkarıldı | Güncel kılavuzlar; gevşek eşleşme |
+| onk-herediter-brca-lynch | Etiket/anlatım: salpingo-ooferektomi önerilir, mastektomi seçenek olarak tartışılır; evrensel tarama kavramından amsterdam/bethesda/ihk/msi çıkarıldı, "tüm kolorektal/tüm endometri" eklendi | ESMO 2023/NCCN; eskimiş kriterler ve gevşek eşleşme |
+| onk-testis-germ-hucreli | Orşiektomi kavramından tek başına "orşiektomi", "skrotal yoldan", "skrotal biyopsi" çıkarıldı; olumsuz çok kelimeli anahtarlar eklendi | Ters ifade ("skrotal biyopsi yapılır") ödüllendiriliyordu |
+| onk-immun-iliskili-yan-etkiler | Grade 3–4 kavramından tek başına "kortikosteroid/prednizolon", devam kavramından "devam edilebil" çıkarıldı; "immünoterapi kesil", "immünoterapiye devam" eklendi | der-dress anlatımıyla çapraz eşleşme (%64) giderildi; gevşek eşleşme |
+| onk-kanser-taramalari | PSA kavramından yönsüz "akciğer ve prostat", "prostat ve akciğer", "prostat kanseri ulusal" çıkarıldı; iyi anlatımda "yanında smear" → "HPV pozitifse sitoloji ile triyaj" | Ters ifade ödüllendiriliyordu; eskimiş smear anlatımı |
+| onk-vena-kava-superior-sendromu | Doku tanısı kavramında "biyopsiden önce"/"önce tanı" → "biyopsiden önce steroid verilmez"/"önce tanı konmalı" | "Biyopsiden önce ampirik steroid başlanır" gibi ters ifade eşleşiyordu |
+| onk-kanser-agrisi | "kırıcı ağrı" → "kırıcı ağrı için" | "ağrı kırıcı ağrı..." ile alt dize çakışması |
+
+<!-- romatoloji: 19 madde -->
 ## Romatoloji
 
 Not: Doğrulamalar web arama özetleriyle yapıldı; kılavuz tam metinleri açılmadı. DOI/PubMed bağlantıları arama sonuçlarında görülen kimliklerdir.
@@ -343,8 +364,30 @@ Not: Doğrulamalar web arama özetleriyle yapıldı; kılavuz tam metinleri aç�
 | rom-antifosfolipid-sendromu | "En az 12 hafta arayla" kalıcılık Sydney 2006 ölçütlerinden; 2023 ölçütlerindeki karşılığı tam metinle kontrol edilmeli. Arteriyel olayda DOAK kullanılmaması EULAR 2019 genel ifadesi; anlatımda yalınlaştırıldı. | 2023 ACR/EULAR APS; EULAR APS 2019 |
 | rom-takayasu | 2022 ACR/EULAR ölçütlerinde yaş sınırı (tanıda ≤60) klasik "40 yaş altı" ifadesinden farklı; etikette yaş sayısı verilmedi. Türkiye'de sıklık bilgisi doğrulanmadı. | Grayson 2022; EULAR LVV 2018 |
 | rom-igg4-iliskili-hastalik | Gastroenteroloji paketinde otoimmün pankreatit/sklerozan kolanjit konusu varsa örtüşme olabilir. Rituksimab idame ve inebilizumab (2025 MITIGATE) güncel verisi eklenmedi. | ACR/EULAR 2019 IgG4-RD; Lancet 2015 derleme |
+| rom-psoriatik-artrit | Denetim şüphesi: EULAR 2023 sistemik glukokortikoidi tümden dışlamıyor (köprü, en düşük doz, dikkatle). Anlatım buna göre değiştirildi; tam metinle doğrulanmalı. Apremilastın yeri (csDMARD yanıtsız hafif/oligoartiküler hastalık) ayrı kavram yapılmadı. | EULAR PsA 2023 (PMID 38499325) |
+| rom-romatoid-artrit | "Kötü prognoz faktörleri varsa biyolojik/JAK" kavramı yalnız ilaç adlarıyla yakalanıyor; kötü prognoz koşulunu anahtarla zorlamak kavram tek anahtarla eşleştiği için yapılamadı. | EULAR RA 2022 |
 
-<!-- enfeksiyon: 15 madde -->
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| rom-romatoid-artrit | c[0]: tek başına "simetrik", "poliartrit", "el bileğ" çıkarıldı; "simetrik poliartrit/simetrik küçük eklem/simetrik el/simetrik eklem", "el bileği ve parmak" eklendi | "asimetrik" alt dize eşleşmesi ve genel terimlerin kavramı tek başına karşılaması |
+| rom-romatoid-artrit | c[3]: "acr eular", "on puan", "10 puan" çıkarıldı; "2010 acr", "2010 sınıflama", "on/10 üzerinden" eklendi | Yalnız "ACR/EULAR kriterleri" demek 2010 ölçütü ve ≥6/10 eşiğini karşılamıyordu |
+| rom-romatoid-artrit | c[7]: tek başına "remisyon" çıkarıldı; "remisyon ya da/veya düşük" eklendi | Gevşek eşleşme |
+| rom-sle | c[0]: "doğurganlık yaş", "birçok organ", "çok organ" eklendi | Kör anlatımda başka kelimelerle söylenen kavram yakalanmadı |
+| rom-psoriatik-artrit | c[5]: "sistemik steroid önerilmez" anahtarı çıkarıldı; iyi anlatım "sistemik steroid ancak köprü tedavi olarak, en düşük dozda ve dikkatle kullanılabilir" diye düzeltildi | EULAR 2023 sistemik GC'yi kesin olarak dışlamıyor |
+| rom-psoriatik-artrit | c[7]: "apremilast" anahtarı çıkarıldı | Apremilast biyolojik/JAK basamağında değil |
+| rom-psoriatik-artrit | c[2]: "tırnak", "pitting", "çukurlaş" tek başına çıkarıldı; "sosis parmak", "tırnak(ta) çukurlaş", "tırnak değişik/tutulum" eklendi | der-psoriazis anlatımı bu konuda %67 alıyordu (çapraz eşleşme); "daktilit/entezit" aksiyel SpA ile çakıştığı için eklenmedi |
+| rom-fmf | Gebelik/izlem kavramından "saa", "serum amiloid a" çıkarıldı; "ataklar arası(nda) crp", "subklinik inflamasyon", "atak arası izlem" eklendi | Atakta SAA yüksekliğini söylemek izlem kavramını karşılıyordu |
+| rom-sjogren | c[1]: anti-La/SSB anahtarları çıkarıldı, etiket "Anti-Ro/SSA (sınıflamada yalnız anti-SSA puanlanır; anti-La tek başına puan almaz)" oldu | 2016 ACR/EULAR'da izole anti-La puan almaz (Shiboski 2017) |
+| rom-sjogren | c[3]: "2016" anahtarı çıkarıldı | Yılı söylemek puan eşiğini/testleri karşılamıyordu |
+| rom-antifosfolipid-sendromu | DOAK kavramına "yeni oral antikoagülan(lar) önerilmez", "noak önerilmez" eklendi; üçlü pozitiflik kavramında "üçlü pozitif" yerine "üçlü pozitiflik en yüksek", "en yüksek risk" | Eş anlamlı yakalanmadı; DOAK cümlesindeki "üçlü pozitif" risk kavramını gevşekçe karşılıyordu |
+| rom-igg4-iliskili-hastalik | 2019 ölçüt kavramında "dışlama" yerine "dışlama ölçüt/kriter" | "malignite dışlanmalı" demek puanlama yapısını karşılıyordu |
+| rom-romatoid-artrit | c[0]'dan "simetrik el/eklem/poliartrit/küçük eklem" çıkarıldı | "asimetrik ..." içinde alt dize olarak eşleşiyordu |
+| rom-antifosfolipid-sendromu | "en yüksek risk" çıkarıldı | Genel ifade; başka yüksek risk grubu cümlesini sayıyordu |
+| rom-sle | ANA, antikor/kompleman, nöropsikiyatrik ve hidroksiklorokin kavramlarına eş anlamlılar eklendi ("ana pozitifliği", "hipokomplementemi", "antimalaryal", "göz kontrol" vb.) | Kör anlatım %58 alıyordu |
+
+<!-- enfeksiyon: 18 madde -->
 ## Enfeksiyon hastalıkları
 
 Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinleri tek tek okunmadı. Kitap baskıları (Mandell 10. baskı 2025, Harrison 22. baskı 2025) diğer paketlerde kullanılan doğrulanmış atıflarla aynı tutuldu.
@@ -366,6 +409,35 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 | enf-hastane-kaynakli-pnomoni | 90 gün IV antibiyotik ve 7 gün süre IDSA/ATS 2016'dan bellekten; ERS 2017 kılavuzu bazı noktalarda (ör. düşük/yüksek risk ayrımı, invaziv örnekleme) farklıdır, burada IDSA/ATS kullanıldı. | IDSA/ATS 2016 tam metni; ERS 2017 |
 | enf-tularemi | WHO 2007 tularemi rehberinin bağlantısı doğrulanmadı (null). Resmi Türkiye Sağlık Bakanlığı tularemi rehberi bulunamadı; "Türkiye'de en sık orofaringeal form" bilgisi Türkçe derleme/olgu serilerinden. | WHO Guidelines on Tularaemia 2007; HSGM tularemi sayfası |
 | enf-kist-hidatik | Albendazolün girişim öncesi/sonrası süreleri yazılmadı. PAIR'in hangi evrelerde (CE1, CE3a) uygun olduğu etikete yazılmadı. | WHO-IWGE 2010 tam metni |
+| enf-kuduz-profilaksi | HSGM Kuduz Profilaksi Rehberi PDF yolu (hsgm.saglik.gov.tr/depo/...) doğrulanamadı; HSGM depo yolları sık değişiyor. Essen 5 doz/2-1-1 şeması bilgisine dayalı, rehber metniyle karşılaştırılmadı. | HSGM zoonotik hastalıklar sayfası, güncel PDF |
+| enf-hiv-tani-art | Mandell 10. baskının yayın yılı (2025/2026) doğrulanamadı (tüm paketlerde aynı atıf kullanılıyor). | Yayınevi baskı bilgisi |
+| enf-tetanoz-profilaksi | Sudarshan 2025 (Lancet Infect Dis) künyesi doğrulanamadığı için Yen & Thwaites Lancet 2019 ile değiştirildi; DOI web'de doğrulanmadı. | Crossref |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| enf-sepsis | Antibiyotik etiketi: şok/yüksek olasılıkta 1 saat, şoksuz olası sepsiste 3 saat; good metni buna göre değişti | SSC 2021 (doğrulanmış hata) |
+| enf-sepsis | qSOFA anahtarları kaldırıldı, "tek başına önerilmez/önermiyor" eklendi; "izotonik" kaldırıldı | Ters ifadeyi/serum fizyolojiği ödüllendiriyordu |
+| enf-bruselloz | Tedavi etiketi: doksisiklin 6 hafta + rifampisin 6 hafta ya da streptomisin 2-3 hafta / gentamisin 7-14 gün; good metni düzeltildi | Aminoglikozit süresi yanlış okunabiliyordu |
+| enf-bruselloz | Kültür kavramına "laboratuvar çalışan", "laboratuvara haber", "yavaş üre" eklendi | Kör anlatım eş anlamlısı |
+| enf-kkka | "kırım kongo", "bunya" kaldırıldı, "orthonairo/ortonairo" eklendi; tek başına "ribavirin" yerine "ribavirin tartışmalı/ribavirinin yararı" | Özgül olmayan / yanlış yönlendiren anahtar |
+| enf-kuduz-profilaksi | Şema etiketi: SB Essen 0-3-7-14-28 (5 doz) ya da 2-1-1; WHO/ACIP 4 doz kabul eder. 4 doz anahtarları kaldırıldı, 28. gün/5 doz/essen/zagreb eklendi; good düzeltildi; yara bakımına "su ve sabun" eklendi | SB rehberi (doğrulanmış hata) |
+| enf-tetanoz-profilaksi | Sudarshan 2025 kaynağı Yen & Thwaites Lancet 2019 ile değiştirildi; "kalıcı bağışıklık" yerine "kalıcı bağışıklık bırakmaz" | Doğrulanamayan künye; ters ifade |
+| enf-c-difficile | Bezlotoksumab etiketten/anahtardan çıkarıldı (2025'te piyasadan çekildi notu); pulse/azaltarak fidaksomisin-vankomisin ve mikrobiyom ürünleri eklendi; good düzeltildi | Doğrulanmış hata |
+| enf-c-difficile | "alkollü el", "alkol spor", "fulminan", tek başına "iv metronidazol" kaldırıldı; yönü belli ifadeler eklendi | Ters/eskimiş ifadeyi ödüllendiriyordu |
+| enf-hiv-tani-art | "western blot" kaldırıldı, "ayırt edici/diferansiyel" eklendi; PCP kavramı "profilaksi" içeren anahtarlara daraltıldı | Eskimiş algoritma; gevşek eşleşme |
+| enf-idrar-yolu-enfeksiyonu | Komplike İYE anahtarları "komplike idrar yolu/mesanenin ötesi/kalıcı sonda" gibi ifadelere daraltıldı | Gevşek eşleşme |
+| enf-antimikrobiyal-direnc | meropenem-vaborbaktam, imipenem-relebaktam, tek başına "avibaktam"/"aztreonam" kaldırıldı; "avibaktam ile aztreonam" eklendi | OXA-48/MBL'de etkisiz ajanları ödüllendiriyordu |
+| enf-nedeni-bilinmeyen-ates | Tanım etiketi Petersdorf 1961 ve güncel değiştirilmiş tanım olarak ayrıldı; good düzeltildi; PDC anahtarları "tanı ipucu/olası tanı" ile daraltıldı | Kaynak karışıklığı; gevşek eşleşme |
+| enf-hastane-kaynakli-pnomoni | ÇİD etiketi: VAP'ta ≥5 gün yatış ve VAP öncesi akut RRT; HAP'ta yalnız 90 gün IV antibiyotik | IDSA/ATS 2016 (doğrulanmış hata) |
+| enf-tularemi | Beta-laktam kavramına "beta laktamlar etkisiz" eklendi | Kör anlatım eş anlamlısı |
+| enf-kist-hidatik | Tanı kavramına "who sınıflama/dsö sınıflama" eklendi | Kör anlatım eş anlamlısı |
+| enf-idrar-yolu-enfeksiyonu | Komplike İYE'den "mesaneyle sınırlı" ve "mesane dışı" çıkarıldı; "mesane dışına taşan" eklendi | Ters yönlü (komplikasyonsuz sistit) eşleşme |
+| enf-sepsis | "tek başına önerilmez/önermiyor/önerilmiyor" → "qsofa tek başına", "qsofa önerilm" | qSOFA'ya bağlı olmayan genel ifade |
+| enf-nedeni-bilinmeyen-ates | "olası tanı" → "olası tanı ipuc" | Çok genel |
+| enf-kkka | "ribavirinin/ribavirin yararı" → "ribavirinin yararı tartışmalı/kanıtlanmamış" | "yararı kanıtlanmıştır" ters ifadesi eşleşiyordu |
+| enf-kuduz-profilaksi | Şema kavramına "4 doz", "dört doz" eklendi | Etiketteki WHO/ACIP 4 doz şeması puan almıyordu |
 
 <!-- noroloji: 38 madde -->
 ## Nöroloji
@@ -458,7 +530,7 @@ Konu id'leri, `subs`, seviyeler ve konu sayısı (42) değişmedi. Tüm konulara
 | miller-fisher | Prognoz kavramına "prognoz genelde", "prognoz çok iyi", "kendiliğinden düzelir" eklendi (IVIG/plazmaferez GBS ile çapraz eşleşmeyi önlemek için eklenmedi) | Kör anlatım eş anlamlıları |
 | dravet | SUDEP kavramına "ani beklenmedik", "epileptik ölüm" eklendi | Türkçe açılım yakalanmıyordu |
 
-<!-- psikiyatri: 17 madde -->
+<!-- psikiyatri: 18 madde -->
 ## Psikiyatri
 
 | Konu id | Şüphe | Kontrol edilecek kaynak |
@@ -480,8 +552,31 @@ Konu id'leri, `subs`, seviyeler ve konu sayısı (42) değişmedi. Tüm konulara
 | psi-opioid-kullanim-bozuklugu | ASAM 2020 tam kılavuzun DOI'si bulunamadı; ASAM resmi sayfası kullanıldı. Türkiye'de metadon erişimi sınırlı; buprenorfin-nalokson AMATEM'lerde kullanılır — kontrol edilmeli. Eve nalokson kiti Türkiye'de yaygın değil. | ASAM 2020; Sağlık Bakanlığı/AMATEM uygulaması |
 | psi-borderline | APA 2024 öneri ayrıntıları basın bülteni/ikincil özetlerden; bir katalog 2025 2. baskıdan söz ediyor. | APA 2024 kılavuzu tam metni |
 | psi-opioid-kullanim-bozuklugu | Acil tıp paketindeki "acil-opioid" (zehirlenme/nalokson) ile kısmi örtüşme; bu konu yalnızca uzun dönem bağımlılık tedavisine odaklandı. | — |
+| psi-opioid-kullanim-bozuklugu | ASAM 2020 Executive Summary DOI'si (…0635) ile tam kılavuz DOI'si (…0633) karışmış olabilir; bağlantı doğrulanamadı, değiştirilmedi. Buprenorfin başlangıcı için COWS eşiği sayısı doğrulanmadığından yazılmadı. | doi.org; ASAM 2020 Focused Update |
 
-<!-- dermatoloji: 17 madde -->
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| psi-bipolar | Bipolar I/II anahtarlarında "tip 1/tip 2" → "bipolar tip 1/bipolar tip 2" | "tip 2 diyabet" gibi bağlamlarla çakışma |
+| psi-bipolar | Tek başına antidepresan kavramından "switch" ve yönsüz "tek başına antidepresan" çıkarıldı; olumsuz kalıplar eklendi | Ters ifadeyi ödüllendirmemek |
+| psi-bipolar | Bipolar depresyon kavramından "bipolar depresyon" çıkarıldı; ketiapin/kuetiapin eklendi | Kavramın özü ilaçlar |
+| psi-yaygin-anksiyete | Temel kaygı kavramına "aşırı ve kontrol", "kontrol edilmesi güç", "serbestçe dolaşan" eklendi | Kör anlatımda eş anlamlı ifade yakalanmadı |
+| psi-okb | C ölçütü etiketi ve iyi anlatım: zaman alma (örneğin >1 saat/gün) ya da belirgin sıkıntı/işlevsellikte bozulma; "belirgin sıkıntı" anahtarı | DSM-5-TR ölçütü daha geniş; 1 saat örnek, eşik değil |
+| psi-tssb | NG116 bağlantısı kılavuz ana sayfasına çevrildi | Eski bağlantı kaynak etki raporuna gidiyordu |
+| psi-deliryum | Yönsüz "demans" anahtarı yönlü kalıplarla değiştirildi | Ters ayrımı doğru saymamak |
+| psi-yeme-bozukluklari | Çıplak "fluoksetin" yerine yönlü kalıplar (kullanıl/verilebil/etkili/onaylı) | "fluoksetin verilmez" gibi ters ifadeyi ödüllendirmemek |
+| psi-intihar-riski | Ölçek kavramında "risk ölçek/tahmin et/öngörmek/öngörü değeri" çıkarıldı; olumsuzlama içeren kalıplar eklendi | NICE NG225 özünü yansıtmak, ters ifadeyi elemek |
+| psi-lityum | Hedef düzey kavramından yönsüz "mmol" çıkarıldı | Herhangi bir değeri doğru sayıyordu |
+| psi-lityum | "arb" → "arb ler/arb leri" | Açıklık için (3 harfli anahtar zaten tam kelime eşleşir) |
+| psi-opioid-kullanim-bozuklugu | Süre/detoks kavramı anahtarları olumsuzlama içeren kalıplara çevrildi | "sadece detoks yeterlidir" gibi ters ifadeyi elemek |
+| psi-opioid-kullanim-bozuklugu | İyi anlatımda buprenorfin başlangıcı "hafif ya da orta" → "objektif orta düzey yoksunluk bulguları" | ASAM 2020 standart indüksiyon; presipite yoksunluk riski |
+| psi-bipolar | Bipolar depresyon kavramında tek başına "ketiapin/kuetiapin" → "bipolar depresyonda ketiapin/kuetiapin" | Akut manide ketiapin söylemek iki kavramı da karşılıyordu |
+| psi-opioid-kullanim-bozuklugu | "süresiz", "uzun süreli" → "süresiz sürdürülebilir", "uzun süreli idame" | "uzun süreli detoks" ile eşleşiyordu |
+| psi-intihar-riski | Ölçek kavramında "tek başına kullanılmaz" → "ölçek kullanılmaz"; sorma, önceki girişim, plan, güvenlik planı, yatış kavramlarına doğal eş anlamlılar eklendi | Ölçeğe bağlı değildi; kör anlatım %45 alıyordu |
+| psi-alkol-yoksunlugu | İyi anlatımdan Korsakoff cümlesi çıkarıldı | noroloji/wernicke konusuyla çapraz eşleşme (%60) |
+
+<!-- dermatoloji: 18 madde -->
 ## Dermatoloji
 
 | Konu id | Şüphe | Kontrol edilecek kaynak |
@@ -502,9 +597,23 @@ Konu id'leri, `subs`, seviyeler ve konu sayısı (42) değişmedi. Tüm konulara
 | der-dress | "2–8 hafta" latent dönem ikincil kaynaklardan/bellekten; Kardaun 2013'te ortanca 22 gün (ÇAA 17–31) doğrulandı. Kortikosteroid dozu ve azaltma süresi bilinçli olarak yazılmadı; ulusal/uluslararası tek bir DRESS kılavuzu kullanılmadı. | RegiSCAR yayınları; Mizukawa & Shiohara 2025 güncellemesi |
 | der-hidradenitis-suppurativa | Avrupa S1 kılavuzu 2015 tarihli ve güncel değil; sekukinumab (2023) ve bimekizumab (2024) onayları bellekten, kılavuzlarda yok. Hurley evre tanımları ders kitabından. | EHSF/EADV güncel HS kılavuzu; EMA/FDA onay kayıtları |
 | der-kutanoz-lupus | EDF/EADV 2017 kılavuzu esas alındı; "sigara antimalaryal yanıtını azaltır" bilgisi bellekten. Anifrolumab kutanöz lupus için ruhsatlı değil, yalnızca anahtar olarak eklendi. Hidroksiklorokin dozu (EULAR 2023: 5 mg/kg/gün) bilinçli olarak yazılmadı. | Kuhn 2017 EDF kılavuzu; EULAR 2023 SLE |
+| der-akne-vulgaris | Denetim: Avrupa S3 2016 kaynağının yerini EADV/EDF 2023/2024 "living" akne kılavuzu (Nast ve ark., JEADV 2024) aldı; DOI doğrulanamadığı için kaynak değiştirilmedi. | JEADV yayıncı sayfası |
 | (çakışma) | rom-sle iyi anlatımı der-kutanoz-lupus'ta %58 aldı (eşiğe yakın); sistemik lupus romatolojiye bırakıldı. Psoriatik artrit (rom-psoriatik-artrit) ve selülit (enf-selulit-nyde) ayrı branşlarda. | — |
 
-<!-- halk-sagligi: 14 madde -->
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| der-psoriazis | Klinik tipler: "damla" yerine "damla şeklinde/damlacık/damla psoriazis"; tek başına "püstüler" yerine "püstüler psoriazis/püstüler tip/jeneralize püstüler" | "yağ damlası" (tırnak) ve "steroid püstüler alevlenme yapar" kavramı yanlışlıkla karşılıyordu |
+| der-urtiker | "24 saat" anahtarı "24 saatten kısa / 24 saat içinde" biçimine daraltıldı | Ürtikeryal vaskülitteki ">24 saat" ters ifadesi temel kavramı karşılıyordu |
+| der-melanom | Tek başına "mitoz" kaldırıldı, "mitoz kullanılmıyor / mitoz T ölçütü değil" eklendi; çirkin ördek yavrusu kavramından tek başına "dermoskop" çıkarıldı, "benlerinden farklı" eklendi | Eski AJCC 7 ifadesini ödüllendiriyordu; çirkin ördek yavrusu söylenmeden kavram yakalanıyordu |
+| der-keratinosit-kanserleri | "metastaz yapmaz" ve "keratoakantom" anahtarları çıkarıldı | BHK nadiren de olsa metastaz yapar; keratoakantom SHK öncülü sayılmaz |
+| der-kutanoz-leishmaniasis | Doğrulanamayan 2003 tarihli Sağlık Bakanlığı genelge bağlantısı yerine WHO leishmaniasis bilgi notu | Bağlantı/başlık doğrulanamadı, güncel değildi |
+| der-rosasea | "Fenotip yaklaşımı (ROSCO)" ve "Fimatöz değişiklik, rinofima" ayrı kavramlara bölündü | ROSCO söylenmeden yalnız "rinofima" ile kavram yakalanıyordu |
+| der-hidradenitis-suppurativa | Zayıf anlatımdaki "hijyene dikkat" cümlesi "hijyen eksikliğinden kaynaklanmaz; sigara bırakma, kilo verme" ile değiştirildi | HS'yi hijyen hastalığı gibi gösteren yanlış kanı |
+| der-melanom | Kavram etiketi "Çirkin ördek yavrusu bulgusu ve dermoskopi" → "Çirkin ördek yavrusu bulgusu" | Dermoskopi anahtarları kaldırılmıştı; etiket-anahtar uyumsuzluğu |
+
+<!-- halk-sagligi: 18 madde -->
 ## Halk sağlığı
 
 | Konu id | Şüphe | Kontrol edilecek kaynak |
@@ -523,6 +632,26 @@ Konu id'leri, `subs`, seviyeler ve konu sayısı (42) değişmedi. Tüm konulara
 | hs-malnutrisyon | Bodurluk ve düşük kiloda -2 SD eşiği standart DSÖ tanımı ama aramada doğrudan görülmedi (SAM/MAM eşikleri 2023 kılavuz özetinden doğrulandı). İlk kaynak bağlantısı kılavuzun kendisi değil DSÖ duyuru sayfası. Nelson 22. baskı yılı doğrulanmadı. | WHO Child Growth Standards 2006; WHO 2023 wasting kılavuzu PDF |
 | hs-kanit-duzeyleri | Users' Guides to the Medical Literature 3. baskı (2015) web ile doğrulanmadı. | JAMAevidence katalog |
 | hs-asi-takvimi | Plotkin's Vaccines 8. baskı (2023) web ile doğrulanmadı. | Elsevier katalog |
+| hs-asi-takvimi | Altılı karmanın hangi dozlarda kullanıldığı, 18. ay rapelinin bileşimi, hepatit B şemasının geri kalanı ve suçiçeği ikinci dozu (ör. 48. ay) güncel takvimle doğrulanmadı. Kaynak 1 (2020 takvimi) 2025 altılı karma bilgisini desteklemiyor; bağlantı doğrulanmadı. | asi.saglik.gov.tr / HSGM 2025-2026 aşı takvimi |
+| hs-bildirimi-zorunlu | Yönetmeliğin RG tarih/sayısı (2007, 26537) ve genelge numarası (2015/18) doğrulanmadı; lexpera bağlantıları tahmini olabilir. | mevzuat.gov.tr; hsgm.saglik.gov.tr |
+| hs-meslek-hastaliklari | ÇSGB PDF bağlantısı doğrulanamadığı için null yapıldı; birincil kaynak olarak 5510 md. 13-14 (mevzuat.gov.tr) bağlantısı eklenmeli. | mevzuat.gov.tr 5510 sayılı Kanun |
+| hs-su-klorlama | Annex 5 PDF bağlantısı doğrulanamadı (dosya adı "third addenda", başlık 2022 sürümü); null yapıldı. | who.int GDWQ sayfası |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| hs-onleme-duzeyleri | İyi anlatımda önleme paradoksu Rose'un tanımıyla düzeltildi (toplum için büyük yarar, birey için az yarar; vakaların çoğu orta riskli gruptan). | Paradoks yerine toplum stratejisinin üstünlüğü anlatılıyordu. |
+| hs-tarama-testi | Prevalans kavramından yönsüz anahtarlar (prevalans düş, prevalansı düşük, prevalansa göre, prevalans arttıkça) çıkarıldı, yönlü çok kelimeli anahtarlar eklendi; "dışlar" eş anlamlısı eklendi. | Ters ifadeyi doğru sayıyordu; "dışlarız" yakalanmıyordu. |
+| hs-su-klorlama | Annex 5 bağlantısı null yapıldı. | Bağlantı doğrulanamadı, sürüm başlıkla tutarsız. |
+| hs-iliski-olcutleri | Zayıf anlatımda "ne kadar yüksekse" yerine "1'den ne kadar uzaksa". | RR<1 de güçlü (koruyucu) ilişkidir. |
+| hs-bildirimi-zorunlu | D grubu anahtarı tek başına "laboratuvar" yerine laboratuvardan/etken bildirimine daraltıldı. | Laboratuvarı başka gruba bağlayan anlatım da eşleşiyordu. |
+| hs-meslek-hastaliklari | İyi anlatımda tanı süreci düzeltildi (yetkili hastane sağlık kurulu raporu, karar SGK Sağlık Kurulu); "işle ilgili" anahtarı çıkarıldı; ÇSGB bağlantısı null. | 5510 md. 14 süreci; işle ilgili hastalık meslek hastalığından ayrı kavram; bağlantı doğrulanamadı. |
+| hs-yanlilik-karistirici | "örneklem büyü", "rastgele hata", "random error" anahtarları çıkarıldı; yönlü "örneklem büyütmekle düzelmez" vb. eklendi. | Ters ifadeyi (yanlılık örneklemle azalır) doğru sayıyordu. |
+| hs-anne-bebek-olum | Payda kavramlarından "anne ölüm", "maternal mortal/ölüm", "bebek ölüm", "infant mortal" çıkarıldı; SKH kavramından "2030", "skh", "sdg", "sürdürülebilir kalkınma" çıkarıldı, 70 eşiği zorunlu kılındı. | Payda/eşik söylenmeden eşleşiyordu. |
+| hs-malnutrisyon | Ortak bildiri bağlantısı fctc.who.int'ten who.int/publications'a taşındı. | Yanlış alan adı (Tütün Kontrolü sitesi). |
+| hs-tarama-testi | "dışlama", "dışlar" → "duyarlı test dışla", "duyarlı testle dışla" | Yönsüz; "özgül test tanıyı dışlar" eşleşiyordu |
+| hs-anne-bebek-olum | SKH kavramından "70/100" çıkarıldı | [70,100] olarak her "70/100.000" ifadesini (ters yön dahil) eşliyordu |
 
 <!-- acil: 30 madde -->
 ## Acil tıp
