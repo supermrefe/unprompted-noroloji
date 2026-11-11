@@ -21,3 +21,23 @@
 | end-prolaktinoma | Tek serum prolaktin ölçümü, ilaç nedenli hiperprolaktineminin öncelikli dışlanması ve seçilmiş hastada cerrahi seçeneği doğrulandı. Kabergolinin bromokriptine üstünlüğü bellekten yazıldı. Pituitary Society'nin cerrahi önerisi tartışmalı (2024 yazışması). | Petersenn 2023; Melmed 2011 |
 | end-men-sendromlari | RET taşıyıcılarında profilaktik tiroidektominin yaş/risk zamanlaması (ATA en yüksek / yüksek / orta) doğrulanmadı; yaş yazılmadı. Thakker 2012'den daha yeni bir MEN1 Delphi uzlaşısı (Lancet Diabetes Endocrinol 2025) var ve kaynak olarak eklenmedi. MEN1'de hipofizde en sık prolaktinoma görülmesi bellekten yazıldı. | Thakker 2012; MEN1 Delphi 2025; ATA MTK 2015 |
 | end-akromegali | OGTT'de GH'nin ≤1 µg/L'ye baskılanmaması (ES 2014) ile 2024 uzlaşısındaki tipik klinikle IGF-1 >1,3×ÜSN'nin tanıyı doğrulaması aramada görüldü. Narratifte 1,3 katsayısı yazılmadı. Kolonoskopi taramasının zamanlaması yazılmadı. | Katznelson 2014; Giustina 2024 |
+| end-adrenal-yetmezlik | ACTH uyarı testinde 18 µg/dL (500 nmol/L) eşiği eski poliklonal immünoassaylara dayanır; ESE/ES 2024 yeni monoklonal assay ve LC-MS/MS için daha düşük, yönteme özgü eşik öneriyor (denetimde ~400–450 nmol/L bildirildi, doğrulanmadığı için sayı yazılmadı). | Beuschlein 2024 Eur J Endocrinol |
+| end-dka-hhs | Kör anlatımda atlanan "subkutan insüline geçişte IV insülinle örtüşme" kavramı olduğu gibi bırakıldı; ağırlığı hekimce değerlendirilmeli. | Umpierrez 2024 |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| end-tip2-diyabet | ASKVH/KY/KBH kavramından "inkretin" çıkarıldı, "inkretin mimetik" eklendi | DPP-4 inhibitörleri de inkretin bazlı; KV/böbrek yararı yok |
+| end-tip1-diyabet | Zayıf anlatım "sıklıkla çocukluk ve gençlikte başlar, her yaşta görülür" yapıldı; evre 3 etiketi ve iyi anlatımı "tanı ölçütlerini karşılayan klinik (genellikle semptomatik) hiperglisemi" oldu | Yeni tanıların önemli kısmı erişkin; evre 3 asemptomatik olabilir |
+| end-hipotiroidi | Tanı kavramından yönsüz "serbest t4/st4/free t4/subklinik" çıkarıldı, "st4 düşük/serbest t4 düşük/düşük serbest t4/t4 düşük/düşük t4" eklendi | Hipertiroidi tablosunu doğru sayıyordu |
+| end-hipertiroidi-graves | RAİ etiketi ve iyi anlatım: "aktif orta-ağır ya da görmeyi tehdit eden oftalmopatide kaçınılır; hafif aktifte steroid profilaksisiyle" | ATA 2016, EUGOGO 2021 |
+| end-osteoporoz | Tanı etiketi kalça/vertebra kırığı (KMY'den bağımsız) ve osteopenide diğer frajilite kırıkları olarak ayrıldı; anahtarlardan t skor, 2,5, dxa, kemik yoğunluğu, dansitometri çıkarıldı, "-2,5", "frajilite kırığı", "düşük enerjili kırık" eklendi | Eşiksiz/yanlış eşikli anlatım ödüllendiriliyordu; AACE 2020 |
+| end-dka-hhs | Komplikasyon kavramından yönsüz "hızlı düşür" çıkarıldı; "yavaş düşür", "hızlı düşürmekten kaçın" vb. eklendi | Ters ifadeyi doğru sayıyordu |
+| end-hipoglisemi | İyi anlatımda yüksek riskli sülfonilüre örneği gliburid yapıldı, gliklazid/glimepiridde riskin düşük olduğu eklendi | Glimepirid risk açısından yanıltıcı örnekti |
+| end-tiroid-nodulu | "malign nodül", "nodüllerin çoğu", "soğuk nodül" ve çıplak "sintigrafi" çıkarıldı; "tsh düşükse sintigrafi" eklendi; iyi anlatımda her nodülde ultrason yapıldığı yazıldı | Ters/eskimiş ifadeleri doğru sayıyordu; ATA 2015 Öneri 6 |
+| end-cushing-sendromu | Ayırt ettirici bulgu etiketi düzeltildi (aydede yüzü, buffalo hörgücü, santral obezite ayırt ettirici değil); bu anahtarlar ve çıplak "stria" çıkarıldı, "kırmızı mor stria", "pletor" eklendi. Tarama kavramında "deksametazon supresyon/baskılama", "dexamethasone", "gece yarısı" yerine "düşük doz deksametazon", "gece deksametazon", "gece yarısı tükürük". ACTH bağımsız etiket ve iyi anlatıma bilateral adrenal hiperplazi eklendi | DOĞRULANMIŞ HATA; Nieman 2008; yüksek doz DST tarama değil |
+| end-adrenal-yetmezlik | Tanı etiketi ve iyi anlatıma eşiğin yönteme özgü olduğu, yeni assaylarda daha düşük olduğu eklendi (sayı eklenmedi) | ESE/ES 2024 |
+| end-primer-hiperparatiroidi | En sık neden kavramı yön taşıyan çok kelimeli anahtarlara daraltıldı (malignite, pthrp, hastanede yatan çıkarıldı); tanı kavramından "pth normal" ve çıplak "parathormon" çıkarıldı; iyi anlatımda hiperplazinin sporadik olabileceği yazıldı | Ters ifadeleri doğru sayıyordu |
+| end-primer-aldosteronizm | "hipokalemi her zaman" yerine "hipokalemi her zaman olmaz/görülmez"; tedavi kavramından "finerenon" çıkarıldı | DOĞRULANMIŞ HATA; finerenon PA'da kılavuzda yok |
+| end-osteoporoz | '-2,5' anahtarı kaldırıldı ('eksi 2,5' biçimleri korundu) | Noktalama düşünce '2 5'e dönüşüp yönü kaybediyordu |

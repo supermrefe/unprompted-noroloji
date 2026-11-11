@@ -31,7 +31,7 @@ terms: [
       ["Belirgin hiperglisemi yoksa tanı ikinci bir testle doğrulanır; prediyabet", "iki ayrı|ikinci bir test|ikinci test|tekrar ölç|tekrarlanarak|teyit|doğrulan|prediyabet|pre diyabet|bozulmuş açlık|bozulmuş glukoz tolerans"],
       ["Yaşam tarzı: tıbbi beslenme tedavisi, egzersiz, kilo verme; kilo yönetimi ayrı bir hedef", "yaşam tarzı|beslenme|diyet|egzersiz|fiziksel aktivite|kilo ver|kilo kayb|kilo yönetim|zayıfla"],
       ["!İlk basamakta çoğunlukla metformin", "metformin|biguanid"],
-      ["!ASKVH, kalp yetersizliği ya da KBH varsa HbA1c'den bağımsız SGLT2 inhibitörü veya GLP-1 agonisti", "sglt2|sglt 2|gliflozin|empagliflozin|dapagliflozin|glp 1|glp1|glp bir|semaglutid|liraglutid|dulaglutid|tirzepatid|inkretin"],
+      ["!ASKVH, kalp yetersizliği ya da KBH varsa HbA1c'den bağımsız SGLT2 inhibitörü veya GLP-1 agonisti", "sglt2|sglt 2|gliflozin|empagliflozin|dapagliflozin|glp 1|glp1|glp bir|semaglutid|liraglutid|dulaglutid|tirzepatid|inkretin mimetik"],
       ["Bireyselleştirilmiş hedef: çoğu erişkinde HbA1c <%7", "yüzde 7|yüzde yedi|%7|7 nin altı|yedinin altı|7 altı|a1c hedef|hba1c hedef|hedef hba1c|hedef a1c"],
       ["Komplikasyon taraması: retinopati, nefropati (albümin/kreatinin), nöropati ve ayak muayenesi", "retinopati|göz dibi|fundus|nefropati|albüminüri|albümin kreatinin|mikroalbümin|nöropati|ayak muayene|monofilaman|diyabetik ayak"]
     ]},
@@ -43,7 +43,7 @@ terms: [
       ["!Otoimmün beta hücre yıkımı → mutlak insülin eksikliği", "otoimmün|oto immün|beta hücre yıkım|beta hücrelerin yıkım|beta hücreleri yık|mutlak insülin|insülin eksikliği mutlak|tamamen insülin"],
       ["!Adacık otoantikorları (GAD65, IA-2, ZnT8, insülin) ve düşük C-peptid", "gad|gad65|anti gad|ia 2|ia2|znt8|znt 8|otoantikor|oto antikor|adacık antikor|c peptid|c peptit|cpeptid"],
       ["Başvuru: poliüri, polidipsi, kilo kaybı; sıklıkla DKA ile", "poliüri|polidipsi|çok su iç|çok idrar|kilo kayb|kilo kaybet|ketoasidoz|dka"],
-      ["Evreleme: otoantikor pozitif presemptomatik evre 1–2, semptomatik evre 3; riskli akrabalarda tarama", "evre 1|evre 2|evre 3|evre bir|evre iki|evre üç|presemptomatik|pre semptomatik|teplizumab"],
+      ["Evreleme: otoantikor pozitif presemptomatik evre 1–2, evre 3 tanı ölçütlerini karşılayan klinik (genellikle semptomatik) hiperglisemi; riskli akrabalarda tarama", "evre 1|evre 2|evre 3|evre bir|evre iki|evre üç|presemptomatik|pre semptomatik|teplizumab"],
       ["!Tedavi: bazal-bolus yoğun insülin ya da insülin pompası", "bazal bolus|bazal ve bolus|yoğun insülin|çoklu doz|insülin pompa|pompa|otomatik insülin|kapalı döngü|hibrit kapalı"],
       ["Sürekli glukoz izlemi (CGM) ve karbonhidrat sayımı", "sürekli glukoz|sürekli glikoz|cgm|sensör|karbonhidrat sayım|karbonhidrat say|zamanın aralıkta|time in range"],
       ["Eşlik eden otoimmün hastalık taraması: tiroid, çölyak", "çölyak|çölyak hastal|otoimmün tiroid|hashimoto|tiroid fonksiyon|tiroid hastal"],
@@ -57,7 +57,7 @@ terms: [
       ["!İyot yeterli bölgelerde en sık neden Hashimoto (kronik otoimmün) tiroiditi", "hashimoto|kronik otoimmün tiroidit|otoimmün tiroidit|lenfositik tiroidit|anti tpo|antitpo|tpo antikor|tiroid peroksidaz"],
       ["Diğer nedenler: tiroidektomi, radyoaktif iyot, ilaçlar (amiodaron, lityum), santral hipotiroidi", "tiroidektomi|radyoaktif iyot|amiodaron|lityum|santral hipotiroid|sekonder hipotiroid|hipofiz yetmez|iyot eksik"],
       ["Bulgular: yorgunluk, soğuk intoleransı, kilo alma, kabızlık, kuru cilt, bradikardi", "soğuk intolerans|soğuğa tahammül|üşüme|üşü|kabızlık|kuru cilt|cilt kuruluğu|bradikardi|kilo alma|kilo alı|saç dökül|miksödem"],
-      ["!Tanı: yüksek TSH, düşük serbest T4 (subklinikte sT4 normal)", "tsh yüksek|tsh si yüksek|yüksek tsh|tsh yükse|tsh nin yüksel|serbest t4|st4|free t4|subklinik"],
+      ["!Tanı: yüksek TSH, düşük serbest T4 (subklinikte sT4 normal)", "tsh yüksek|tsh si yüksek|yüksek tsh|tsh yükse|tsh nin yüksel|st4 düşük|serbest t4 düşük|düşük serbest t4|t4 düşük|düşük t4"],
       ["!Tedavi: levotiroksin (T4) monoterapisi", "levotiroksin|levo tiroksin|tiroksin|l tiroksin|ltiroksin|t4 replasman|t4 monoterapi"],
       ["Aç karnına alınır; yaşlı ve koroner hastada düşük dozla başlanır; doz TSH ile ayarlanır", "aç karn|kahvaltıdan önce|yaşlılarda düşük|yaşlıda düşük|koroner hasta|koroner arter|düşük dozla başla|düşük doz başla|düşük dozda başla|tsh ile ayar|tsh ye göre|tsh takip|tsh izle"],
       ["Miksödem koması: ağır, acil tablo", "miksödem koma|miksödem krizi|myxedema coma"]
@@ -74,14 +74,14 @@ terms: [
       ["!Antitiroid ilaçta ilk seçenek metimazol", "metimazol|tiamazol|karbimazol"],
       ["Gebeliğin ilk trimesterinde ve tiroid fırtınasında propiltiyourasil", "propiltiyourasil|ptu|propil tiyourasil"],
       ["İlaç yan etkisi: agranülositoz (ateş/boğaz ağrısında lökosit), hepatotoksisite", "agranülositoz|nötropeni|lökosit|boğaz ağrı|hepatotoks|karaciğer hasar"],
-      ["Kesin tedavi: radyoaktif iyot ya da total tiroidektomi; aktif/ağır oftalmopatide RAİ'den kaçınılır", "radyoaktif iyot|rai|radyoiyot|tiroidektomi|tiroidin cerrahi|cerrahi olarak|ameliyat"]
+      ["Kesin tedavi: radyoaktif iyot ya da total tiroidektomi; aktif orta-ağır ya da görmeyi tehdit eden oftalmopatide RAİ'den kaçınılır (hafif aktifte steroid profilaksisiyle)", "radyoaktif iyot|rai|radyoiyot|tiroidektomi|tiroidin cerrahi|cerrahi olarak|ameliyat"]
     ]},
   { id: "end-osteoporoz", tr: "Postmenopozal osteoporoz", en: "Postmenopausal osteoporosis", cat: "kem", lvl: 1,
     src: { k: [WI, HA], m: [
       ["Eastell R ve ark. Pharmacological Management of Osteoporosis in Postmenopausal Women: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab 2019", "https://www.endocrine.org/clinical-practice-guidelines/osteoporosis-in-postmenopausal-women"],
       ["Camacho PM ve ark. AACE/ACE Clinical Practice Guidelines for the Diagnosis and Treatment of Postmenopausal Osteoporosis—2020 Update. Endocr Pract 2020", "https://pro.aace.com/clinical-guidance/2020-clinical-practice-guidelines-diagnosis-and-treatment-postmenopausal"]] },
     c: [
-      ["!Tanı: DXA'da T skoru ≤ -2,5 ya da frajilite (düşük enerjili) kırığı", "t skor|t skoru|eksi 2,5|eksi 2 5|eksi iki buçuk|2,5|dxa|dexa|kemik mineral yoğunluğu|kemik yoğunluğu|kemik dansitometri|dansitometri"],
+      ["!Tanı: DXA'da T skoru ≤ -2,5 ya da kalça/vertebra frajilite kırığı (KMY'den bağımsız); osteopenide diğer frajilite kırıkları da tanı koydurur", "eksi 2,5|eksi 2 5|eksi iki buçuk|frajilite kırığı|düşük enerjili kırık"],
       ["!Frajilite kırıkları: vertebra, kalça, el bileği", "frajilite|frajil|düşük enerjili|vertebra kırığ|omurga kırığ|kompresyon kırığ|kalça kırığ|el bileği|distal radius"],
       ["Kırık riski hesaplama: FRAX", "frax|on yıllık kırık|10 yıllık kırık|kırık riski hesap"],
       ["Sekonder nedenler: glukokortikoid, hipertiroidi, hiperparatiroidi, hipogonadizm", "glukokortikoid|kortikosteroid|steroid kullan|hiperparatiroid|hipertiroid|hipogonad|sekonder osteoporoz|ikincil osteoporoz|sekonder neden"],
@@ -102,7 +102,7 @@ terms: [
       ["!IV insülin infüzyonu; potasyum düşükse insülin öncesi potasyum yerine konur", "insülin infüzyon|iv insülin|intravenöz insülin|damardan insülin|potasyum|hipokalemi"],
       ["Glukoz düşünce dekstrozlu sıvı eklenir, keton/asidoz düzelene kadar insülin sürer", "dekstroz|dekstrozlu|glukozlu sıvı|şekerli sıvı|asidoz düzel|keton düzel|keton temizlen|ketonemi düzel"],
       ["Çözülme sonrası subkutan insüline geçişte IV insülinle örtüşme", "subkutan|cilt altı|deri altı|örtüş|overlap|bazal insülin"],
-      ["Komplikasyonlar: hipokalemi, hipoglisemi, serebral ödem (özellikle çocukta), hızlı ozmolalite düşüşü", "serebral ödem|beyin ödem|osmotik|ozmotik demiyelin|hızlı düşür|hipoglisemi"]
+      ["Komplikasyonlar: hipokalemi, hipoglisemi, serebral ödem (özellikle çocukta), hızlı ozmolalite düşüşü", "serebral ödem|beyin ödem|osmotik|ozmotik demiyelin|yavaş düşür|yavaşça düşür|hızlı düşürmekten kaçın|hızlı düşüşten kaçın|hipoglisemi"]
     ]},
   { id: "end-hipoglisemi", tr: "Diyabette hipoglisemi", en: "Hypoglycemia in diabetes", cat: "dm", lvl: 2,
     src: { k: [WI, HA], m: [ADA_HG,
@@ -120,8 +120,8 @@ terms: [
     src: { k: [WI, HA], m: [ATA_NOD,
       ["Tessler FN ve ark. ACR Thyroid Imaging, Reporting and Data System (TI-RADS): White Paper of the ACR TI-RADS Committee. J Am Coll Radiol 2017", "https://doi.org/10.1016/j.jacr.2017.01.046"]] },
     c: [
-      ["Sık ve çoğunlukla benign; amaç kanseri ayırt etmek", "çoğu benign|çoğunluğu benign|büyük kısmı benign|iyi huylu|malign nodül|nodüllerin çoğu"],
-      ["!İlk test TSH; TSH düşükse sintigrafi (sıcak nodül nadiren malign)", "ilk test tsh|ilk olarak tsh|önce tsh|tsh bakıl|tsh ölç|sintigrafi|sıcak nodül|hiperfonksiyone|otonom nodül|soğuk nodül"],
+      ["Sık ve çoğunlukla benign; amaç kanseri ayırt etmek", "çoğu benign|çoğunluğu benign|büyük kısmı benign|iyi huylu"],
+      ["!İlk test TSH; TSH düşükse sintigrafi (sıcak nodül nadiren malign)", "ilk test tsh|ilk olarak tsh|önce tsh|tsh bakıl|tsh ölç|tsh düşükse sintigrafi|tsh düşük ise sintigrafi|sıcak nodül|hiperfonksiyone|otonom nodül"],
       ["!Ultrasonografi ile riskli özellikler: hipoekojenite, mikrokalsifikasyon, düzensiz kenar, uzunluğu genişliğinden fazla", "hipoekoj|mikrokalsifik|düzensiz kenar|düzensiz sınır|taller than wide|uzunluğu genişliğ|boyu eninden|ekstratiroidal"],
       ["Risk sınıflaması: ATA örüntüleri ya da ACR TI-RADS (TR1–TR5)", "ti rads|tirads|ti rad|tr5|tr 5|tr4|tr 4|tr3|tr 3|ata örüntü|ata risk|yüksek şüpheli"],
       ["!İİAB endikasyonu boyut ve ultrason riskine göre (ör. TI-RADS TR5'te ≥1 cm)", "ince iğne|iiab|iia b|aspirasyon biyopsi|bir santim|1 santim|1 cm|bir cm"],
@@ -134,11 +134,11 @@ terms: [
       ["Fleseriu M ve ark. Consensus on diagnosis and management of Cushing's disease: a guideline update. Lancet Diabetes Endocrinol 2021", "https://doi.org/10.1016/S2213-8587(21)00235-7"]] },
     c: [
       ["!En sık neden iyatrojenik (eksojen glukokortikoid); önce ilaç öyküsü", "iyatrojenik|eksojen|dışarıdan steroid|dışarıdan glukokortikoid|dışarıdan kortizon|ilaç öykü|steroid kullanım öykü|steroid öykü"],
-      ["Ayırt ettirici bulgular: geniş mor stria, proksimal kas güçsüzlüğü, kolay morarma, aydede yüzü, buffalo hörgücü", "mor stria|geniş stria|stria|proksimal kas|proksimal güçsüz|kolay morar|ekimoz|aydede|ay dede|moon face|buffalo|santral obezite|trunkal obezite"],
-      ["!Tarama testleri: 24 saatlik idrar serbest kortizolü, gece geç tükürük kortizolü, 1 mg deksametazon supresyon testi", "idrar serbest kortizol|serbest kortizol|24 saatlik idrar|tükürük kortizol|gece yarısı|gece geç|1 mg deksametazon|bir mg deksametazon|1 miligram deksametazon|bir miligram deksametazon|deksametazon supresyon|deksametazon baskılama|dexamethasone"],
+      ["Ayırt ettirici bulgular: geniş (>1 cm) mor stria, proksimal kas güçsüzlüğü, kolay morarma, fasiyal pletore (aydede yüzü, buffalo hörgücü, santral obezite sık ama ayırt ettirici değil)", "mor stria|geniş stria|kırmızı mor stria|proksimal kas|proksimal güçsüz|kolay morar|ekimoz|pletor"],
+      ["!Tarama testleri: 24 saatlik idrar serbest kortizolü, gece geç tükürük kortizolü, 1 mg deksametazon supresyon testi", "idrar serbest kortizol|serbest kortizol|24 saatlik idrar|tükürük kortizol|gece yarısı tükürük|gece geç|1 mg deksametazon|bir mg deksametazon|1 miligram deksametazon|bir miligram deksametazon|düşük doz deksametazon|gece deksametazon"],
       ["!Hiperkortizolizm doğrulanınca ACTH ile ayrım: ACTH bağımlı ya da bağımsız", "acth bağımlı|acth bağımsız|acth ye bağımlı|acth ye bağımsız|acth düzey|acth ölç|acth bak|plazma acth|acth yüksek|acth baskılan"],
       ["ACTH bağımlı endojen nedenlerin çoğu hipofiz adenomu (Cushing hastalığı); ektopik ACTH ayırımı için hipofiz MR ve IPSS", "cushing hastalığı|hipofiz adenom|kortikotrop|ektopik acth|ektopik|petrozal|ipss|hipofiz mr|hipofiz emar|küçük hücreli"],
-      ["ACTH bağımsız: adrenal adenom/karsinom → adrenal görüntüleme", "adrenal adenom|adrenal karsinom|adrenal kitle|adrenal tümör|adrenal bt|adrenal bete|sürrenal"],
+      ["ACTH bağımsız: çoğunlukla adrenal adenom/karsinom (nadiren bilateral adrenal hiperplazi) → adrenal görüntüleme", "adrenal adenom|adrenal karsinom|adrenal kitle|adrenal tümör|adrenal bt|adrenal bete|sürrenal"],
       ["!Tedavi: nedene yönelik cerrahi (transsfenoidal adenomektomi ya da adrenalektomi); olmazsa medikal tedavi", "transsfenoidal|trans sfenoidal|adenomektomi|adrenalektomi|ketokonazol|metirapon|osilodrostat|pasireotid|mifepriston"],
       ["Komplikasyonlar: hipertansiyon, diyabet, osteoporoz, enfeksiyon, tromboz", "osteoporoz|tromboemboli|tromboz|enfeksiyon yatkın|enfeksiyona yatkın|hiperglisemi|glukoz intolerans"]
     ]},
@@ -150,7 +150,7 @@ terms: [
       ["!Primer (Addison; çoğunlukla otoimmün, tüberküloz) ve sekonder/tersiyer (hipofiz, en sık eksojen steroidin kesilmesi) ayrımı", "addison|primer adrenal|otoimmün adrenalit|tüberküloz|sekonder adrenal|santral adrenal|tersiyer|hipofiz yetmez|steroidin kesil|steroidi kes|steroid kesil|glukokortikoid kesil|glukokortikoide bağlı|uzun süreli steroid"],
       ["Bulgular: halsizlik, kilo kaybı, hipotansiyon, bulantı; primerde hiperpigmentasyon ve tuz isteği", "hiperpigmentasyon|ciltte koyulaş|deride koyulaş|bronzlaş|tuz isteğ|tuz aşer|tuzlu yeme|hipotansiyon|ortostatik"],
       ["Laboratuvar: hiponatremi, primerde hiperkalemi (mineralokortikoid eksikliği), hipoglisemi", "hiponatremi|hiperkalemi|mineralokortikoid eksik|aldosteron eksik|hipoglisemi"],
-      ["!Tanı: düşük sabah kortizolü ve ACTH uyarı testi (250 µg; doruk kortizol <18 µg/dL yetmezlik); primerde ACTH yüksek", "acth uyarı|acth stimülasyon|kosintropin|synacthen|sinakten|250 mikrogram|250 µg|18 mikrogram|18 µg|500 nanomol|sabah kortizol|acth yüksek"],
+      ["!Tanı: düşük sabah kortizolü ve ACTH uyarı testi (250 µg; doruk kortizol <18 µg/dL yetmezlik; eşik ölçüm yöntemine özgü, yeni assaylarda daha düşük); primerde ACTH yüksek", "acth uyarı|acth stimülasyon|kosintropin|synacthen|sinakten|250 mikrogram|250 µg|18 mikrogram|18 µg|500 nanomol|sabah kortizol|acth yüksek"],
       ["!İdame: hidrokortizon (bölünmüş dozda) + primerde fludrokortizon", "hidrokortizon|fludrokortizon|prednizolon|mineralokortikoid replasman"],
       ["!Adrenal kriz: sonuç beklenmeden 100 mg IV hidrokortizon ve serum fizyolojik", "adrenal kriz|addison kriz|100 mg|yüz mg|100 miligram|yüz miligram|serum fizyolojik|izotonik"],
       ["Hasta eğitimi: hastalık günü kuralları (stres dozu), acil enjeksiyon kiti, steroid kartı", "hastalık günü|stres doz|dozu artır|dozu iki|dozunu iki|acil kit|enjeksiyon kiti|steroid kart|uyarı kart|bileklik"]
@@ -160,9 +160,9 @@ terms: [
       ["Bilezikian JP ve ark. Evaluation and Management of Primary Hyperparathyroidism: Summary Statement and Guidelines from the Fifth International Workshop. J Bone Miner Res 2022", "https://doi.org/10.1002/jbmr.4677"],
       ["Bilezikian JP, Bandeira L, Khan A, Cusano NE. Hyperparathyroidism. Lancet 2018", "https://doi.org/10.1016/S0140-6736(17)31430-7"]] },
     c: [
-      ["!Ayaktan hastada hiperkalseminin en sık nedeni (hastanede yatanda malignite)", "en sık hiperkalsemi|hiperkalseminin en sık|ayaktan hasta|ayaktan takip|malignite hiperkalsemi|malignitede hiperkalsemi|malign hiperkalsemi|malignite ilişkili|hastanede yatan|pthrp|pth ilişkili peptid"],
+      ["!Ayaktan hastada hiperkalseminin en sık nedeni (hastanede yatanda malignite)", "ayaktan hastada hiperkalseminin en sık|ayaktan hastada en sık|ayaktan hastalarda en sık|hiperkalseminin en sık nedeni primer|hiperkalseminin en sık nedeni hiperparatiroidi|en sık nedeni primer hiperparatiroidi"],
       ["Neden: çoğunlukla tek paratiroid adenomu; daha az hiperplazi (MEN), nadiren karsinom", "paratiroid adenom|tek adenom|soliter adenom|tek bir adenom|hiperplazi|dört bez|paratiroid karsinom"],
-      ["!Tanı: yüksek kalsiyumla birlikte yüksek ya da uygunsuz normal PTH", "uygunsuz normal|uygunsuz şekilde normal|baskılanmamış pth|pth yüksek|pth de yüksek|pth si yüksek|yüksek pth|pth normal|parathormon"],
+      ["!Tanı: yüksek kalsiyumla birlikte yüksek ya da uygunsuz normal PTH", "uygunsuz normal|uygunsuz şekilde normal|baskılanmamış pth|pth yüksek|pth de yüksek|pth si yüksek|yüksek pth|parathormon yüksek|yüksek parathormon"],
       ["Ayırıcı tanı: ailesel hipokalsiürik hiperkalsemi (idrar kalsiyum/kreatinin klirens oranı)", "hipokalsiürik|ailesel hipokalsiürik|fhh|kalsiyum kreatinin klirens|idrar kalsiyum|24 saatlik idrar kalsiyum"],
       ["Bulgular: taş, kemik, karın ağrısı, psikiyatrik (stones, bones, groans, moans); çoğu asemptomatik", "böbrek taş|nefrolitiyaz|nefrokalsinoz|kemik ağrı|osteitis fibroza|osteoporoz|pankreatit|peptik ülser|kabızlık|depresyon|stones|asemptomatik"],
       ["!Kesin tedavi paratiroidektomi; asemptomatikte ölçütler (kalsiyum >ÜSN+1 mg/dL, osteoporoz/vertebra kırığı, eGFR <60, taş, yaş <50)", "paratiroidektomi|paratiroid cerrahi|adenomun çıkarıl|adenomu çıkar|minimal invaziv|cerrahi endikasyon|ameliyat endikasyon"],
@@ -178,11 +178,11 @@ terms: [
     c: [
       ["!Endokrin hipertansiyonun en sık nedeni; renin bağımsız otonom aldosteron üretimi", "sekonder hipertansiyon|ikincil hipertansiyon|endokrin hipertansiyon|otonom aldosteron|aldosteron fazla|aldosteron üretim|aldosteron salgı|conn"],
       ["Nedenler: aldosteron üreten adenom (Conn) ve bilateral adrenal hiperplazi", "aldosteron üreten adenom|aldosteronoma|conn adenom|adrenal adenom|tek taraflı adenom|bilateral adrenal hiperplazi|bilateral hiperplazi|iki taraflı hiperplazi|idiyopatik hiperaldosteron"],
-      ["Hipokalemi klasik bulgu ama çoğu hastada potasyum normal; dirençli hipertansiyonda düşünülür", "normokalemi|normal potasyum|potasyum normal|hipokalemi olmayabilir|hipokalemi şart değil|hipokalemi beklemek|hipokalemiyi beklemek|hipokalemi her zaman|dirençli hipertansiyon|rezistan hipertansiyon"],
+      ["Hipokalemi klasik bulgu ama çoğu hastada potasyum normal; dirençli hipertansiyonda düşünülür", "normokalemi|normal potasyum|potasyum normal|hipokalemi olmayabilir|hipokalemi şart değil|hipokalemi beklemek|hipokalemiyi beklemek|hipokalemi her zaman olmaz|hipokalemi her zaman görülmez|dirençli hipertansiyon|rezistan hipertansiyon"],
       ["!Tarama: aldosteron/renin oranı (baskılanmış renin + uygunsuz yüksek aldosteron); ES 2025: tüm hipertansiflerde tarama önerisi", "aldosteron renin oran|aldosteron/renin|arr|renin baskıla|baskılanmış renin|renin düşük|düşük renin|plazma renin|tüm hipertansif|bütün hipertansif|tüm hipertansiyon"],
       ["Doğrulama (salin infüzyon, kaptopril, oral tuz yükleme); ES 2025'te yüksek olasılıkta atlanabilir", "salin infüzyon|serum fizyolojik infüzyon|kaptopril|tuz yükleme|oral tuz|fludrokortizon supresyon|doğrulama test|konfirmasyon"],
       ["!Lateralizasyon: adrenal BT ve cerrahi aday için adrenal ven örneklemesi", "adrenal ven|venöz örnekleme|ven örnekleme|avs|adrenal bt|adrenal bete|lateralizasyon|tek taraflı mı"],
-      ["!Tedavi: tek taraflıda laparoskopik adrenalektomi; bilateralde mineralokortikoid reseptör antagonisti", "adrenalektomi|spironolakton|eplerenon|finerenon|mineralokortikoid reseptör antagonist|mra"]
+      ["!Tedavi: tek taraflıda laparoskopik adrenalektomi; bilateralde mineralokortikoid reseptör antagonisti", "adrenalektomi|spironolakton|eplerenon|mineralokortikoid reseptör antagonist|mra"]
     ]},
   { id: "end-feokromositoma", tr: "Feokromositoma ve paraganglioma", en: "Pheochromocytoma and paraganglioma", cat: "adr", lvl: 3,
     src: { k: [WI, HA], m: [
