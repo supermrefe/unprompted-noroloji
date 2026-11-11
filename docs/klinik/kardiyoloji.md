@@ -20,3 +20,25 @@
 | kar-uzun-qt | QTc ≥480 ms / skor >3 ikincil kaynaktan (İspanyolca özet) doğrulandı. 2013 HRS/EHRA/APHRS DOI'si (10.1016/j.hrthm.2013.05.014) DrugBank/PubMed kaydında görüldü; HRS sayfası yönetici özeti için farklı DOI veriyor — kontrol edilmeli. | Heart Rhythm 2013;10:1932; 2022 ESC VA |
 | kar-senkop | Sınıflama ve yüksek risk özellikleri ESC 2018 bellekten; karotis sinüs masajı yaş eşiği (>40) yazılmadı. | 2018 ESC senkop kılavuzu |
 | kar-wpw | Preeksite AF'de stabil hastada prokainamid/ibutilid (ve flekainid/propafenon) önerisi ESC 2019'dan bellekten; Türkiye'de prokainamid ve ibutilid erişimi sınırlı olabilir. | 2019 ESC SVT kılavuzu |
+| kar-pulmoner-emboli | Denetim (kör anlatım): "Risk sınıflaması: sPESI…" ve "DOAK tercih, en az 3 ay" kavramları sPESI ya da süre söylenmeden genel anahtarlarla (troponin, sağ ventrikül, antikoagül) eşleşiyor. Etiket bileşik; daraltmak doğru anlatımları da düşürebilir, değiştirilmedi. | Hekim kararı: kavram bölünmeli mi |
+| kar-brugada | Denetim: "Kinidin ve kateter ablasyon" yalnız kinidinle, "Tetikleyici ilaçlardan kaçınma ve aile taraması" aile taraması söylenmeden eşleşiyor. Bileşik etiketler; değiştirilmedi. | Hekim kararı: etiket bölünmeli mi |
+| kar-uzun-qt | Denetim: tanı kavramı QTc ≥480 eşiği söylenmeden "qtc/bazett/schwartz" ile eşleşiyor; ICD kavramı SKSD söylenmeden eşleşiyor. QTc ve Schwartz tanının özü sayıldı, değiştirilmedi. | Hekim kararı |
+| kar-wpw | Denetim: "AVRT: ortodromik ve antidromik" yalnız ortodromik söylenince de eşleşiyor. Bileşik etiket; değiştirilmedi. | Hekim kararı |
+| kar-aort-darligi | Denetim: "TAVI ya da cerrahi: kalp takımı, yaş eşiği 70" yalnız "TAVI" ile eşleşiyor; kalp takımı/yaş eşiği zorunlu tutulmadı. Vazodilatör etiketi güncellendi (aşağıda); ESC 2025 AS medikal tedavi bölümü tam metinde kontrol edilmeli. | 2025 ESC/EACTS VHD; 2020 ACC/AHA VHD 3.2.3 |
+| kar-dislipidemi | Bempedoik asit (2025 güncellemesi) pakette yer almıyor; ayrı kavram olarak eklenmesi düşünülebilir. | 2025 ESC/EAS Focused Update |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| kar-stemi | Etiket "Troponin yükselmesi beklenmez…" → "Troponin sonucu beklenmez; EKG ile STEMI tanısı konunca reperfüzyon geciktirilmez"; anahtara "troponin sonucu bekle" eklendi | Eski ifade "STEMI'de troponin yükselmez" diye okunabiliyordu (4. UDMI) |
+| kar-stemi | İkili antiplatelet etiketi ve iyi anlatım: primer PCI'da tikagrelor/prasugrel, fibrinoliz alanlarda klopidogrel | 2023 ESC ACS: fibrinolizle birlikte P2Y12 olarak klopidogrel |
+| kar-atriyal-fibrilasyon | DOAK kavramından "varfarin" ve genel "antikoagül" anahtarları çıkarıldı; "varfarin yerine", "vka yerine", "direkt oral antikoagül" eklendi | Ters ifade ("varfarin verilir") ya da DOAK'sız anlatım ödüllendiriliyordu |
+| kar-atriyal-fibrilasyon | CHA2DS2-VA kavramından yalın "chads" çıkarıldı; "chads2 va", "chads vasc" biçimleri eklendi | Eskimiş CHADS2 skoru doğru sayılıyordu |
+| kar-atriyal-fibrilasyon | Sınıflama kavramında yalın "en sık" yerine "en sık sürekli", "sürekli aritmi" | Kör anlatım: sınıflama söylenmeden "en sık" ile eşleşiyordu |
+| kar-dislipidemi | Ezetimib/PCSK9 kavramından "bempedoik" çıkarıldı | Bempedoik asit ne ezetimib ne PCSK9 inhibitörü; etiket kapsamıyor |
+| kar-aort-darligi | Ciddi darlık kavramında eşiksiz anahtarlar (gradiyent, kapak alanı, ava) çıkarıldı; sayısal biçimler ve "ciddi darlık ölçüt" kaldı | Kör anlatım: eşik söylenmeden eşleşiyordu |
+| kar-aort-darligi | Etiket "vazodilatörden kaçın" → "HT tedavi edilir, vazodilatörler (özellikle nitrat) dikkatle, düşük dozla" | Mutlak kaçınma eskimiş; ACC/AHA 2020 ve ESC 2025 HT tedavisini önerir |
+| kar-infektif-endokardit | İyi anlatım: TEE yalnız TTE yetersizse değil, TTE pozitif olsa bile çoğu hastada perivalvüler komplikasyon için | 2023 ESC endokardit, görüntüleme (Sınıf I) |
+| kar-hipertrofik-kardiyomiyopati | Zayıf anlatımda "ağır spor yapmamaları söylenir" → kişisel risk değerlendirmesiyle ortak karar | 2023 ESC KMP ve 2024 AHA/ACC HCM: mutlak spor yasağı yerine ortak karar |
+| kar-senkop | İyi anlatım: Holter sık ataklarda (haftada ≥1), seyrek açıklanamayan ataklarda implante loop kaydedici | 2018 ESC senkop, EKG izlem bölümü |

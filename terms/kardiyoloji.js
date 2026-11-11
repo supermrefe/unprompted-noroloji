@@ -26,10 +26,10 @@ terms: [
       ["!Koroner arterin trombüsle tam tıkanması (plak rüptürü)", "koroner arter|tam tıkan|total oklüzyon|plak rüptür|plak yırtıl"],
       ["!EKG: ardışık iki derivasyonda ST yükselmesi", "st yüksel|st elevasyon|ste mi|stemi|ardışık iki|komşu iki|iki derivasyon"],
       ["Göğüs ağrısı: baskı tarzı, yayılımlı, terlemeyle", "baskı tarzı|sıkıştırıcı|sol kola|çeneye|terleme"],
-      ["Troponin yükselmesi beklenmez, tedavi geciktirilmez", "troponin bekle|beklemeden|beklenmez|geciktir"],
+      ["Troponin sonucu beklenmez; EKG ile STEMI tanısı konunca reperfüzyon geciktirilmez", "troponin bekle|troponin sonucu bekle|troponini bekle|sonucunu beklemeden|beklemeden reperfüzyon|geciktirmeden|geciktirilmez|geciktirmiyor"],
       ["!Primer PCI: 120 dakikada yapılamıyorsa fibrinolitik", "primer pci|primer perkütan|perkütan koroner|anjiyoplasti|anjioplasti|stent|120 dakika|yüz yirmi|iki saat"],
       ["Fibrinolitik (tenekteplaz) ve sonrasında anjiyografi", "fibrinoli|tenekteplaz|reteplaz|fibrin spesifik"],
-      ["İkili antiplatelet: aspirin + P2Y12 (tikagrelor/prasugrel)", "ikili antiplatelet|ikili antiagregan|p2y12|tikagrelor|prasugrel|klopidogrel|dapt"],
+      ["İkili antiplatelet: aspirin + P2Y12 (primer PCI'da tikagrelor/prasugrel, fibrinolizde klopidogrel)", "ikili antiplatelet|ikili antiagregan|p2y12|tikagrelor|prasugrel|klopidogrel|dapt"],
       ["Komplikasyonlar: aritmi, kardiyojenik şok, mekanik", "papiller kas|septal rüptür|serbest duvar|mekanik komplikasyon|ventrikül anevrizma"]
     ]},
   { id: "kar-hipertansiyon", tr: "Hipertansiyon", en: "Hypertension", cat: "risk", lvl: 1,
@@ -52,9 +52,9 @@ terms: [
       ["2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation. Circulation 2024", "https://doi.org/10.1161/CIR.0000000000001193"]] },
     c: [
       ["!EKG: düzensiz düzensiz ritim, P dalgası yok", "düzensiz düzensiz|tamamen düzensiz|p dalgası yok|p dalgası olmaz|p dalgaları kaybol|f dalga|fibrilasyon dalga|irregüler"],
-      ["En sık sürekli aritmi; sınıflama (paroksismal, persistan, kalıcı)", "en sık|paroksismal|persistan|kalıcı|permanent"],
-      ["!İnme riski: CHA2DS2-VA skoru", "cha2ds2|chads|cha2|cha 2|çadsvask|çadsva|inme riski|emboli riski|tromboemboli"],
-      ["!Antikoagülasyon: VKA yerine DOAK tercih", "doak|noak|yeni nesil oral|apiksaban|rivaroksaban|edoksaban|dabigatran|antikoagül|varfarin"],
+      ["En sık sürekli aritmi; sınıflama (paroksismal, persistan, kalıcı)", "en sık sürekli|en sık görülen sürekli|sürekli aritmi|paroksismal|persistan|kalıcı|permanent"],
+      ["!İnme riski: CHA2DS2-VA skoru", "cha2ds2|chads2 va|chads2va|chads vasc|chadsvasc|cha2|cha 2|çadsvask|çadsva|inme riski|emboli riski|tromboemboli"],
+      ["!Antikoagülasyon: VKA yerine DOAK tercih", "doak|noak|yeni nesil oral|direkt oral antikoagül|direk oral antikoagül|apiksaban|rivaroksaban|edoksaban|dabigatran|varfarin yerine|vka yerine"],
       ["Hız kontrolü: beta bloker, diltiazem/verapamil, digoksin", "hız kontrol|beta bloker|metoprolol|bisoprolol|diltiazem|verapamil|digoksin"],
       ["Ritim kontrolü: kardiyoversiyon, antiaritmik, kateter ablasyon", "ritim kontrol|kardiyoversiyon|amiodaron|flekainid|ablasyon|pulmoner ven izolasyon"],
       ["AF-CARE: komorbidite ve risk faktörü yönetimi", "af care|afcare|komorbidite|risk faktör|obezite|uyku apne|alkol"]
@@ -82,7 +82,7 @@ terms: [
       ["!Risk sınıflaması: SCORE2 / SCORE2-OP", "score2|score 2|skor 2|skor iki|score iki|risk sınıf|risk kategori|çok yüksek risk"],
       ["!Çok yüksek riskte LDL <55 mg/dL ve ≥%50 azalma", "55|elli beş|yüzde elli|50 azal|yarı yarıya"],
       ["İlk ilaç yüksek yoğunluklu statin", "statin|atorvastatin|rosuvastatin"],
-      ["Hedefe ulaşılamazsa ezetimib, sonra PCSK9 inhibitörü", "ezetimib|pcsk9|pcsk 9|evolokumab|alirokumab|inklisiran|bempedoik"],
+      ["Hedefe ulaşılamazsa ezetimib, sonra PCSK9 inhibitörü", "ezetimib|pcsk9|pcsk 9|evolokumab|alirokumab|inklisiran"],
       ["Lp(a) her erişkinde en az bir kez ölçülmeli", "lipoprotein a|lp a|lpa|lipoprotein küçük a"],
       ["Statin yan etkisi: miyopati, CK, karaciğer enzimleri", "miyopati|miyalji|kas ağrı|rabdomiyoliz|ck yüksel|kreatin kinaz|karaciğer enzim|transaminaz"],
       ["Ailesel hiperkolesterolemi", "ailesel hiperkolesterolemi|familyal|ksantom"]
@@ -124,11 +124,11 @@ terms: [
       ["!Neden: yaşlıda dejeneratif kalsifik, gençte biküspit kapak", "kalsifik|kalsifikasyon|dejeneratif|biküspit|bikuspit|romatizmal"],
       ["!Klasik triad: anjina, senkop, dispne (kalp yetersizliği)", "anjina|senkop|bayılma|bayıl"],
       ["Muayene: karotise yayılan ejeksiyon üfürümü, pulsus parvus et tardus", "ejeksiyon üfürüm|sistolik ejeksiyon|sistolik üfürüm|karotis|karotise|parvus|tardus|kreşendo"],
-      ["!Ciddi darlık: Vmax ≥4 m/s, ortalama gradiyent ≥40 mmHg, AVA <1 cm²", "4 metre|dört metre|gradiyent|gradient|40 mmhg|kırk mmhg|kırk milimetre|kapak alanı|1 santimetre|bir santimetre|ava"],
+      ["!Ciddi darlık: Vmax ≥4 m/s, ortalama gradiyent ≥40 mmHg, AVA <1 cm²", "4 metre|dört metre|4 m s|40 mmhg|kırk mmhg|kırk milimetre|1 santimetre|bir santimetre|1 cm kare|bir cm kare|1 santimetrekare|bir santimetrekare"],
       ["Tanıda ekokardiyografi (Doppler)", "ekokardiyo|doppler|eko"],
       ["Semptomatik ciddi darlıkta kapak replasmanı", "kapak replasman|kapak değişim|replasman|müdahale|girişim"],
       ["TAVI ya da cerrahi (SAVR): kalp takımı, ESC 2025'te yaş eşiği 70", "tavi|tavr|transkateter|savr|cerrahi kapak|kalp takımı|heart team|70 yaş|yetmiş"],
-      ["Medikal tedavi darlığı geriletmez; vazodilatörden kaçın", "medikal tedavi|ilaç tedavisi|vazodilatör|nitrat"]
+      ["Medikal tedavi darlığı geriletmez; HT tedavi edilir, vazodilatörler (özellikle nitrat) dikkatle, düşük dozla", "medikal tedavi|ilaç tedavisi|vazodilatör|nitrat"]
     ]},
   { id: "kar-akut-perikardit", tr: "Akut perikardit", en: "Acute pericarditis", cat: "kap", lvl: 2,
     src: { k: [BR, HA], m: [
