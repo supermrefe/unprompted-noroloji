@@ -18,14 +18,14 @@ terms: [
           ["EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological DMARDs: 2022 update. Ann Rheum Dis 2023", "https://pubmed.ncbi.nlm.nih.gov/36357155/"]]
     },
     c: [
-      ["!Simetrik, küçük eklem (MKF, PİF, el bileği) poliartriti; DİF korunur", "simetrik|küçük eklem|metakarpofalang|mkf|mcp|proksimal interfalang|pif|el bileğ|poliartrit"],
+      ["!Simetrik, küçük eklem (MKF, PİF, el bileği) poliartriti; DİF korunur", "küçük eklem|metakarpofalang|mkf|mcp|proksimal interfalang|pif|el bileği ve parmak"],
       ["Uzun süren sabah tutukluğu, sinovit", "sabah tutukluğ|sabah sertliğ|sinovit|sinovyal inflamasyon|pannus"],
       ["!Seroloji: RF ve anti-CCP (ACPA)", "romatoid faktör|rf pozitif|anti ccp|anticcp|anti-ccp|acpa|sitrülin"],
-      ["ACR/EULAR 2010 sınıflama: eklem, seroloji, akut faz, süre; 10 üzerinden ≥6 puan", "2010 kriter|2010 ölçüt|acr eular|altı puan|6 puan|on puan|10 puan"],
+      ["ACR/EULAR 2010 sınıflama: eklem, seroloji, akut faz, süre; 10 üzerinden ≥6 puan", "2010 kriter|2010 ölçüt|2010 acr|2010 sınıflama|altı puan|6 puan|on üzerinden|10 üzerinden"],
       ["Eklem dışı: romatoid nodül, interstisyel akciğer hastalığı, kardiyovasküler risk", "nodül|interstisyel akciğer|akciğer tutulum|eklem dışı|ekstraartiküler|kardiyovasküler risk"],
       ["Radyoloji: periartiküler osteopeni, eklem aralığı daralması, erozyon", "erozyon|eroziv|periartiküler osteopeni|jukstaartiküler"],
       ["!İlk tercih metotreksat (+ kısa süreli glukokortikoid köprü)", "metotreksat|methotrexate|mtx"],
-      ["!Hedefe yönelik tedavi (treat-to-target): remisyon ya da düşük aktivite", "hedefe yönelik|treat to target|hedef remisyon|remisyon|düşük hastalık aktivite|das28|cdai"],
+      ["!Hedefe yönelik tedavi (treat-to-target): remisyon ya da düşük aktivite", "hedefe yönelik|treat to target|hedef remisyon|remisyon ya da düşük|remisyon veya düşük|düşük hastalık aktivite|das28|cdai"],
       ["Yanıt yoksa ve kötü prognoz varsa biyolojik (TNF inhibitörü vb.) ya da JAK inhibitörü", "biyolojik|tnf inhibit|anti tnf|antitnf|adalimumab|etanersept|infliksimab|tosilizumab|abatasept|rituksimab|jak inhibit|tofasitinib|baricitinib"]
     ]},
   { id: "rom-sle", tr: "Sistemik lupus eritematozus", en: "Systemic lupus erythematosus", cat: "bdh", lvl: 1,
@@ -35,12 +35,12 @@ terms: [
           ["EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis 2024", "https://doi.org/10.1136/ard-2023-224762"]]
     },
     c: [
-      ["!Doğurganlık çağındaki kadında çok sistemli otoimmün hastalık", "doğurganlık çağ|genç kadın|çok sistem|multisistem"],
+      ["!Doğurganlık çağındaki kadında çok sistemli otoimmün hastalık", "doğurganlık çağ|doğurganlık yaş|genç kadın|çok sistem|multisistem|birçok organ|çok organ"],
       ["Bulgular: malar döküntü, fotosensitivite, oral ülser, artrit, serozit, sitopeni", "malar|kelebek|fotosensitiv|güneş hassas|oral ülser|ağız yara|serozit|plörit|perikardit|sitopeni|lökopeni|trombositopeni|hemolitik"],
-      ["!ANA giriş ölçütü; EULAR/ACR 2019'da ≥10 puan", "ana pozitif|antinükleer|ana giriş|giriş kriter|giriş ölçüt|10 puan|on puan"],
-      ["!Özgül antikorlar: anti-dsDNA, anti-Sm; düşük C3/C4", "dsdna|ds dna|çift sarmal|anti sm|anti smith|smith|kompleman|c3|c4"],
-      ["Böbrek, nöropsikiyatrik tutulum ağır seyrin göstergesi", "nöropsikiyatr|nöbet|psikoz|böbrek tutulum"],
-      ["!Tüm hastalara hidroksiklorokin (retina taraması ile)", "hidroksiklorokin|plaquenil|antimalarya|retina|göz muayene"],
+      ["!ANA giriş ölçütü; EULAR/ACR 2019'da ≥10 puan", "ana pozitif|ana pozitifliği|ana negatif|antinükleer antikor|ana testi|ana giriş|giriş kriter|giriş ölçüt|10 puan|on puan"],
+      ["!Özgül antikorlar: anti-dsDNA, anti-Sm; düşük C3/C4", "dsdna|ds dna|çift sarmal|anti sm|anti smith|smith|kompleman|c3|c4|anti ds dna|hipokomplementemi|kompleman düşük|kompleman düzey"],
+      ["Böbrek, nöropsikiyatrik tutulum ağır seyrin göstergesi", "nöropsikiyatr|nöbet|psikoz|böbrek tutulum|santral sinir sistemi tutulum"],
+      ["!Tüm hastalara hidroksiklorokin (retina taraması ile)", "hidroksiklorokin|plaquenil|antimalarya|antimalaryal|retina|göz muayene|göz kontrol|göz dibi"],
       ["Glukokortikoid en düşük dozda, mümkünse kesilir; steroid koruyucu ilaçlar", "en düşük doz|steroid koruyucu|steroid tasarruf|mümkünse kes"],
       ["Dirençli/ağır hastalıkta belimumab, anifrolumab, rituksimab", "belimumab|anifrolumab|rituksimab|biyolojik"]
     ]},
@@ -120,12 +120,12 @@ terms: [
     c: [
       ["!Psoriazis (cilt/ailede) ile birlikte seronegatif inflamatuvar artrit", "psoriazis|sedef|psöriazis|psoriasis|seronegatif"],
       ["Tutulum biçimleri: DİF tutulumu, oligoartrit, simetrik poliartrit, aksiyel, artritis mutilans", "distal interfalang|dif tutulum|oligoartrit|asimetrik|mutilans"],
-      ["!Daktilit (sosis parmak), entezit ve tırnak değişiklikleri", "tırnak|onikoliz|pitting|çukurlaş"],
+      ["!Daktilit (sosis parmak), entezit ve tırnak değişiklikleri", "sosis parmak|onikoliz|tırnakta çukurlaş|tırnak çukurlaş|tırnak değişik|tırnak tutulum"],
       ["CASPAR sınıflaması; RF negatif", "caspar|rf negatif|romatoid faktör negatif"],
       ["Grafi: kalem-hokka görünümü, yeni kemik oluşumu", "kalem hokka|pencil in cup|kalem kap|yeni kemik oluş|periostit"],
-      ["Hafif hastalıkta kısa süre NSAİİ ve lokal steroid enjeksiyonu", "lokal enjeksiyon|lokal steroid|eklem içi|sistemik steroid önerilmez"],
+      ["Hafif hastalıkta kısa süre NSAİİ ve lokal steroid enjeksiyonu", "lokal enjeksiyon|lokal steroid|eklem içi"],
       ["!Periferik artritte ilk csDMARD metotreksat", "metotreksat|methotrexate|mtx|leflunomid|sülfasalazin"],
-      ["!Hedefe ulaşılamazsa biyolojik: TNF, IL-17, IL-23 inhibitörü (belirgin deri tutulumunda IL-17/IL-23); sonra JAK inhibitörü", "biyolojik|tnf inhibit|anti tnf|adalimumab|il 17|il17|sekukinumab|iksekizumab|il 23|guselkumab|risankizumab|ustekinumab|jak inhibit|apremilast"]
+      ["!Hedefe ulaşılamazsa biyolojik: TNF, IL-17, IL-23 inhibitörü (belirgin deri tutulumunda IL-17/IL-23); sonra JAK inhibitörü", "biyolojik|tnf inhibit|anti tnf|adalimumab|il 17|il17|sekukinumab|iksekizumab|il 23|guselkumab|risankizumab|ustekinumab|jak inhibit"]
     ]},
   { id: "rom-behcet", tr: "Behçet hastalığı", en: "Behçet's disease", cat: "vas", lvl: 2,
     src: {
@@ -158,7 +158,7 @@ terms: [
       ["!En önemli komplikasyon AA amiloidoz (nefrotik sendrom, böbrek yetmezliği)", "amiloid|aa amiloid|nefrotik|proteinüri|böbrek yetmezliğ"],
       ["!Tedavi: tanı konunca ömür boyu kolşisin; atakları ve amiloidozu önler", "kolşisin|colchicine|ömür boyu|yaşam boyu"],
       ["Kolşisine dirençte IL-1 inhibitörü (anakinra, kanakinumab)", "il 1|interlökin 1|anakinra|kanakinumab|canakinumab|kolşisin direnç|kolşisine dirençli|kolşisine yanıtsız"],
-      ["Gebelikte kolşisin sürdürülür; ataklar arası CRP/SAA izlemi", "gebelikte|hamilelik|emzirme|serum amiloid a|saa"]
+      ["Gebelikte kolşisin sürdürülür; ataklar arası CRP/SAA izlemi", "gebelikte|hamilelik|emzirme|ataklar arasında crp|ataklar arası crp|subklinik inflamasyon|atak arası izlem"]
     ]},
   { id: "rom-dev-hucreli-arterit", tr: "Dev hücreli arterit ve polimiyalji romatika", en: "Giant cell arteritis and polymyalgia rheumatica", cat: "vas", lvl: 2,
     src: {
@@ -219,9 +219,9 @@ terms: [
     },
     c: [
       ["!Ekzokrin bez lenfositik infiltrasyonu: göz ve ağız kuruluğu (sikka)", "kuruluk|kuru göz|ağız kuru|sikka|sicca|kserostomi|keratokonjonktivit|ekzokrin"],
-      ["!Anti-Ro/SSA (ve anti-La/SSB)", "anti ro|ssa|ss a|anti la|ssb|ss b"],
+      ["!Anti-Ro/SSA (sınıflamada yalnız anti-SSA puanlanır; anti-La tek başına puan almaz)", "anti ro|ssa|ss a"],
       ["Minör tükürük bezi (dudak) biyopsisi: fokal lenfositik sialadenit, fokus skoru ≥1", "dudak biyopsi|minör tükürük|tükürük bezi biyopsi|fokus skor|fokal lenfositik|sialadenit"],
-      ["Schirmer testi, oküler boyanma, uyarılmamış tükürük akımı; ACR/EULAR 2016 ≥4 puan", "schirmer|oküler boyan|boyanma skor|tükürük akım|2016|dört puan|4 puan"],
+      ["Schirmer testi, oküler boyanma, uyarılmamış tükürük akımı; ACR/EULAR 2016 ≥4 puan", "schirmer|oküler boyan|boyanma skor|tükürük akım|dört puan|4 puan"],
       ["Sistemik tutulum (ESSDAI): artrit, purpura, interstisyel akciğer, tübülointerstisyel nefrit, nöropati", "essdai|sistemik tutulum|purpura|kriyoglobulin|tübülointerstisyel|nöropati|parotis"],
       ["!B hücreli (MALT) lenfoma riski artmış", "lenfoma|malt|b hücreli"],
       ["Anti-Ro'lu annenin bebeğinde neonatal lupus/konjenital kalp bloğu", "konjenital kalp blo|neonatal lupus|kalp bloğu"],
@@ -237,9 +237,9 @@ terms: [
       ["!Antifosfolipid antikorlarla ilişkili tromboz (venöz, arteriyel, mikrovasküler) ve gebelik morbiditesi", "tromboz|venöz|derin ven|inme|arteriyel|gebelik kayb|düşük|abortus|preeklamps|fetal ölüm|gebelik morbidite"],
       ["!Laboratuvar: lupus antikoagülanı, antikardiyolipin, anti-β2 glikoprotein I; en az 12 hafta arayla kalıcı pozitiflik", "lupus antikoagülan|antikardiyolipin|kardiyolipin|beta 2 glikoprotein|beta2 glikoprotein|b2 gp|12 hafta|on iki hafta"],
       ["2023 ACR/EULAR: klinik ve laboratuvar alanlarından ayrı ayrı ≥3 puan", "2023 kriter|2023 ölçüt|2023 sınıflama|üç puan|3 puan|klinik alan|laboratuvar alan"],
-      ["Üçlü pozitiflik en yüksek risk; SLE ile birlikte olabilir", "üçlü pozitif|triple|lupus ile birlikte|sle|sekonder"],
+      ["Üçlü pozitiflik en yüksek risk; SLE ile birlikte olabilir", "üçlü pozitiflik en yüksek|triple|lupus ile birlikte|sle|sekonder"],
       ["!Trombozlu APS'de uzun süreli varfarin (VKA), hedef INR 2–3", "varfarin|warfarin|vitamin k antagonist|vka|inr"],
-      ["Üçlü pozitif hastada DOAK (rivaroksaban) önerilmez", "doak önerilmez|doak kullanılmaz|rivaroksaban önerilmez|rivaroksaban kullanılmaz|doaklardan kaçın|doak verilmez|rivaroksaban verilmez|doak tercih edilmez"],
+      ["Üçlü pozitif hastada DOAK (rivaroksaban) önerilmez", "yeni oral antikoagülanlar önerilmez|yeni oral antikoagülan önerilmez|noak önerilmez|doak önerilmez|doak kullanılmaz|rivaroksaban önerilmez|rivaroksaban kullanılmaz|doaklardan kaçın|doak verilmez|rivaroksaban verilmez|doak tercih edilmez"],
       ["Obstetrik APS: gebelikte düşük doz aspirin + heparin (DMAH)", "düşük doz aspirin|aspirin|asetilsalisilik|heparin|dmah|enoksaparin"],
       ["Katastrofik APS: antikoagülan + glukokortikoid + plazmaferez/IVIG", "katastrofik|caps|plazmaferez|ivig"]
     ]},
@@ -270,7 +270,7 @@ terms: [
       ["Tutulum: tip 1 otoimmün pankreatit, sklerozan kolanjit, tükürük/gözyaşı bezi (Mikulicz), retroperitoneal fibroz, aortit", "otoimmün pankreatit|pankreatit|sklerozan kolanjit|mikulicz|sialadenit|dakriyoadenit|gözyaşı bezi|retroperitoneal fibroz|orbita"],
       ["Serum IgG4 yüksekliği destekler ama tek başına tanı koydurmaz", "serum igg4|igg4 yüksek|igg4 düzey|tek başına|özgül değil"],
       ["!Histopatoloji: yoğun lenfoplazmasitik infiltrasyon, storiform fibroz, obliteratif flebit, IgG4+ plazma hücreleri", "lenfoplazmasitik|storiform|obliteratif flebit|plazma hücre|biyopsi|histopatoloj"],
-      ["ACR/EULAR 2019: giriş, dışlama ve ağırlıklı ölçütler; ≥20 puan", "2019 kriter|2019 ölçüt|2019 sınıflama|dışlama|20 puan|yirmi puan|giriş ölçüt|giriş kriter"],
+      ["ACR/EULAR 2019: giriş, dışlama ve ağırlıklı ölçütler; ≥20 puan", "2019 kriter|2019 ölçüt|2019 sınıflama|dışlama ölçüt|dışlama kriter|20 puan|yirmi puan|giriş ölçüt|giriş kriter"],
       ["!İlk tedavi glukokortikoid; yanıt hızlıdır", "glukokortikoid|kortikosteroid|prednizolon|prednizon|steroid"],
       ["Relapsta/steroid koruyucu olarak rituksimab", "rituksimab|rituximab|cd20|b hücre"],
       ["Organ hasarı fibrozise ilerlemeden erken tedavi", "geri dönüşümsüz|kalıcı organ hasar|erken tedavi|fibrozise ilerle"]
