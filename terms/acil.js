@@ -12,7 +12,7 @@ terms: [
   /* ====================== KOLAY ====================== */
   { id: "acil-temel-yasam-destegi", tr: "Erişkin temel yaşam desteği ve yüksek kaliteli KPR", en: "Adult basic life support and high-quality CPR", cat: "res", lvl: 1,
     src: {
-      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
+      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
       m: [["European Resuscitation Council Guidelines 2025: Adult Basic Life Support. Resuscitation 2025", "https://doi.org/10.1016/j.resuscitation.2025.110771"],
           ["Part 7: Adult Basic Life Support: 2025 AHA Guidelines for CPR and ECC. Circulation 2025", "https://pubmed.ncbi.nlm.nih.gov/41122888/"]]
     },
@@ -23,11 +23,11 @@ terms: [
       ["30:2 bası-solunum oranı", "30 2|30 a 2|otuza iki|30 bası|otuz bası|30 kompresyon|iki solunum|iki nefes"],
       ["!En erken defibrilasyon: OED", "oed|aed|otomatik eksternal|defibrilatör|defibrilasyon|şok ver"],
       ["Kesintileri en aza indir; 2 dakikada bir bası yapanı değiştir", "kesinti|ara verme|iki dakikada|2 dakikada|değiştir|yer değiş|yorul"],
-      ["Hayatta kalma zinciri, görgü tanığı KPR ve dispeçer desteği", "hayatta kalma zincir|görgü tanığ|dispeçer|telefonla|halkın|toplum"]
+      ["Hayatta kalma zinciri, görgü tanığı KPR ve dispeçer desteği", "hayatta kalma zincir|zincir|görgü tanığ|olay yerindeki|çevredeki kişi|seyirci|dispeçer|telefonla|telefonda|halkın|toplum"]
     ]},
   { id: "acil-anafilaksi", tr: "Anafilaksi", en: "Anaphylaxis", cat: "res", lvl: 1,
     src: {
-      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
+      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
       m: [["EAACI guidelines: Anaphylaxis (2021 update). Allergy 2022", "https://pubmed.ncbi.nlm.nih.gov/34343358/"],
           ["World Allergy Organization anaphylaxis guidance 2020. World Allergy Organ J 2020", "https://pubmed.ncbi.nlm.nih.gov/33204386/"]]
     },
@@ -36,14 +36,14 @@ terms: [
       ["Tetikleyiciler: besin, ilaç, arı-böcek sokması", "besin|fıstık|yiyecek|antibiyot|penisilin|arı|böcek sokma|kontrast|lateks"],
       ["!Deri-mukoza bulgusuna solunum ya da dolaşım tutulumunun eşlik etmesi", "ürtiker|kurdeşen|anjiyoödem|anjioödem|stridor|hırıltı|wheezing|bronkospazm|dudak şiş|dil şiş|tansiyon düş|hipotansiyon"],
       ["!İlk ve en önemli tedavi: IM adrenalin (erişkin 0,5 mg), uyluk ön-yan yüz", "adrenalin|epinefrin|intramüsküler|im|uyluk|vastus"],
-      ["Yanıt yoksa 5 dakika sonra adrenalin tekrarı", "5 dakika sonra|beş dakika sonra|ikinci doz|tekrar doz|dozu tekrar"],
+      ["Yanıt yoksa 5 dakika sonra adrenalin tekrarı", "5 dakika sonra|beş dakika sonra|ikinci doz|tekrar doz|dozu tekrar|adrenalin tekrar|tekrar adrenalin|adrenalini tekrar|adrenalin dozu tekrar|adrenalin yinelen"],
       ["Pozisyon (sırtüstü, bacaklar yukarı), oksijen, IV sıvı", "sırtüstü|sırt üstü|bacaklarını kaldır|bacakları kaldır|bacaklar yukarı|sıvı yükle|kristaloid"],
       ["Antihistaminik ve steroid ikinci planda; bifazik reaksiyon için gözlem, otoenjektör", "antihistamin|feniramin|steroid|metilprednizolon|hidrokortizon|bifazik|otoenjektör|oto enjektör|kalem"],
-      ["Dirençli anafilakside IV adrenalin infüzyonu (uzman)", "dirençli anafilaksi|refrakter anafilaksi|adrenalin infüzyon|glukagon"]
+      ["Dirençli anafilakside IV adrenalin infüzyonu (uzman); beta bloker kullananda glukagon", "dirençli anafilaksi|refrakter anafilaksi|adrenalin infüzyon|glukagon"]
     ]},
   { id: "acil-sok-tipleri", tr: "Şok tipleri ve ilk yaklaşım", en: "Types of shock", cat: "res", lvl: 1,
     src: {
-      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
+      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
       m: [["Vincent JL, De Backer D. Circulatory shock. N Engl J Med 2013", "https://doi.org/10.1056/NEJMra1208943"],
           ["Consensus on circulatory shock and hemodynamic monitoring. Task force of the European Society of Intensive Care Medicine. Intensive Care Med 2014", "https://pmc.ncbi.nlm.nih.gov/articles/PMC4239778/"]]
     },
@@ -85,13 +85,13 @@ terms: [
       ["Bulgular: solunum sıkıntısı, hipotansiyon, solunum sesi kaybı, boyun ven dolgunluğu, trakea deviasyonu", "solunum ses|hipotansiyon|juguler|boyun ven|trakea|deviasyon|hipersonor|hiperrezonans"],
       ["!Acil iğne dekompresyonu: erişkinde 4.–5. interkostal aralık, ön/orta aksiller hat", "iğne|dekompres|torasentez|torakosentez|aksiller hat|interkostal|dördüncü|beşinci"],
       ["Klasik yer 2. interkostal aralık orta klavikula hattı; kalın göğüs duvarında başarısızlık fazla", "ikinci interkostal|ikinci aralık|midklavikül|orta klavikül|göğüs duvarı kalın|başarısız"],
-      ["Parmak torakostomisi (özellikle pozitif basınçlı ventilasyonda)", "parmak|finger|pozitif basınç|mekanik ventil"],
+      ["Parmak torakostomisi (özellikle pozitif basınçlı ventilasyonda)", "parmak torakostom|parmakla|finger|parmak ile"],
       ["!Kesin tedavi: göğüs tüpü (tüp torakostomi)", "göğüs tüp|toraks tüp|tüp torakostomi|göğüs dren|toraks dren"],
       ["Travmatik arrestte bilateral dekompresyon düşünülür", "bilateral|iki taraflı|her iki|travmatik arrest|travmatik kardiyak arrest"]
     ]},
   { id: "acil-fast-efast", tr: "Travmada FAST ve eFAST", en: "FAST and eFAST in trauma", cat: "trv", lvl: 1,
     src: {
-      k: ["ATLS Advanced Trauma Life Support Student Course Manual, 11. baskı (American College of Surgeons, 2025)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)"],
+      k: ["ATLS Advanced Trauma Life Support Student Course Manual, 11. baskı (American College of Surgeons, 2025)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)"],
       m: [["Stengel D et al. Point-of-care ultrasonography for diagnosing thoracoabdominal injuries in patients with blunt trauma. Cochrane Database Syst Rev 2018", "https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD012669.pub2/information/en"],
           ["Kirkpatrick AW et al. Hand-held thoracic sonography for detecting post-traumatic pneumothoraces: the Extended Focused Assessment with Sonography for Trauma (EFAST). J Trauma 2004", "https://pubmed.ncbi.nlm.nih.gov/15345974/"]]
     },
@@ -106,7 +106,7 @@ terms: [
     ]},
   { id: "acil-parasetamol", tr: "Parasetamol zehirlenmesi", en: "Paracetamol (acetaminophen) poisoning", cat: "zeh", lvl: 1,
     src: {
-      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)"],
+      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)"],
       m: [["Dart RC et al. Management of acetaminophen poisoning in the US and Canada: a consensus statement. JAMA Netw Open 2023", "https://doi.org/10.1001/jamanetworkopen.2023.27739"],
           ["Chiew AL et al. Updated guidelines for the management of paracetamol poisoning in Australia and New Zealand. Med J Aust 2020", "https://www.mja.com.au/journal/2020/212/4/updated-guidelines-management-paracetamol-poisoning-australia-and-new-zealand"]]
     },
@@ -122,9 +122,9 @@ terms: [
     ]},
   { id: "acil-karbonmonoksit", tr: "Karbonmonoksit zehirlenmesi", en: "Carbon monoxide poisoning", cat: "zeh", lvl: 1,
     src: {
-      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)"],
-      m: [["Clinical Policy: Critical Issues in the Evaluation and Management of Adult Patients Presenting to the Emergency Department With Acute Carbon Monoxide Poisoning. Ann Emerg Med 2025", "https://doi.org/10.1016/j.annemergmed.2024.12.005"],
-          ["Rose JJ et al. Carbon monoxide poisoning: pathogenesis, management, and future directions of therapy. Am J Respir Crit Care Med 2017", "https://pmc.ncbi.nlm.nih.gov/articles/5363978/"]]
+      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)"],
+      m: [["Clinical Policy: A Critical Issue in the Management of Adult Patients Presenting to the Emergency Department With Acute Carbon Monoxide Poisoning. Ann Emerg Med 2025", "https://doi.org/10.1016/j.annemergmed.2024.12.005"],
+          ["Rose JJ et al. Carbon monoxide poisoning: pathogenesis, management, and future directions of therapy. Am J Respir Crit Care Med 2017", "https://pmc.ncbi.nlm.nih.gov/articles/PMC5363978/"]]
     },
     c: [
       ["!Kaynak: soba, şofben, kapalı ortamda yanma; kışın aile boyu zehirlenme", "soba|şofben|kombi|mangal|kapalı ortam|baca|kışın|kış ay|aile boyu|aynı evde"],
@@ -134,12 +134,12 @@ terms: [
       ["!Tedavi: %100 oksijen (rezervuarlı, geri solumasız maske)", "100 oksijen|yüzde 100|rezervuarlı|geri solumasız|geri soluma|normobarik|nonrebreather|yüksek akım"],
       ["Ağır olguda hiperbarik oksijen", "hiperbarik|hbo|basınç oda"],
       ["Gecikmiş nöropsikiyatrik sekel", "gecikmiş|nöropsikiyatrik|sekel|bellek|bilişsel|kognitif"],
-      ["Yangında siyanür; miyokard hasarı için EKG/troponin", "siyanür|yangın|ekg|troponin|miyokard"]
+      ["Yangında siyanür; miyokard hasarı için EKG/troponin", "siyanür|ekg|troponin|miyokard"]
     ]},
   { id: "acil-opioid", tr: "Opioid zehirlenmesi", en: "Opioid toxicity", cat: "zeh", lvl: 1,
     src: {
-      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)"],
-      m: [["Boyer EW. Management of opioid analgesic overdose. N Engl J Med 2012", "https://pubmed.ncbi.nlm.nih.gov/23034040/"],
+      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)"],
+      m: [["Boyer EW. Management of opioid analgesic overdose. N Engl J Med 2012", "https://pubmed.ncbi.nlm.nih.gov/22784117/"],
           ["Part 10: Adult and Pediatric Special Circumstances of Resuscitation: 2025 AHA Guidelines for CPR and ECC. Circulation 2025", "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation"]]
     },
     c: [
@@ -156,7 +156,7 @@ terms: [
   /* ====================== ORTA ====================== */
   { id: "acil-iyd-ritimler", tr: "Şoklanabilir ve şoklanamayan ritimler (İleri yaşam desteği algoritması)", en: "Shockable vs non-shockable rhythms (ALS algorithm)", cat: "res", lvl: 2,
     src: {
-      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
+      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
       m: [["European Resuscitation Council Guidelines 2025: Adult Advanced Life Support. Resuscitation 2025", "https://pubmed.ncbi.nlm.nih.gov/41117572/"],
           ["Part 9: Adult Advanced Life Support: 2025 AHA Guidelines for CPR and ECC. Circulation 2025", "https://professional.heart.org/en/guidelines-statements/part-9-adult-advanced-life-support-2025-american-heart-association-guidelinescir0000000000001376"]]
     },
@@ -164,7 +164,7 @@ terms: [
       ["!Şoklanabilir: VF ve nabızsız VT → hemen defibrilasyon", "ventrikül fibrilasyon|ventriküler fibrilasyon|vf|nabızsız vt|nabızsız ventrikül|şoklanabilir|şok uygulanabilir|defibrile edilebilir"],
       ["!Şoklanamayan: asistoli ve nabızsız elektriksel aktivite", "asistoli ve|nabızsız elektriksel|nea|pea|şoklanamayan|şok uygulanamayan|şok uygulanmayan"],
       ["Şoktan hemen sonra 2 dakika KPR, sonra ritim kontrolü", "iki dakika|2 dakika|ritim kontrol|ritim analiz|hemen bası|hemen kpr"],
-      ["!Adrenalin 1 mg, 3–5 dakikada bir; şoklanamayanda hemen, VF'de 3. şoktan sonra", "adrenalin 1|1 mg|bir miligram|3 5 dakika|üç beş dakika"],
+      ["!Adrenalin 1 mg, 3–5 dakikada bir; şoklanamayanda hemen, VF'de 3. şoktan sonra (ERC 2025; AHA'da daha erken)", "adrenalin 1|1 mg|bir miligram|3 5 dakika|üç beş dakika"],
       ["Dirençli VF/nVT: 3. şoktan sonra amiodaron 300 mg (alternatif lidokain)", "amiodaron|amiodarone|lidokain|300 mg|üç yüz"],
       ["!Geri döndürülebilir nedenler: 4H–4T", "4h|dört h|4t|dört t|hipovolemi|hiperkalemi|tamponad|tromboz|toksin|geri döndürülebilir"],
       ["İleri hava yolu ve dalga formlu kapnografi", "kapnograf|etco2|end tidal|karbondioksit|entübasyon|supraglottik|ileri hava"]
@@ -179,7 +179,7 @@ terms: [
       ["!Travma hastasında şokun en sık nedeni kanamadır", "hemorajik şok|hipovolemik şok|kanıyor kabul|şokun en sık neden|kanamaya bağlı şok"],
       ["ATLS kanama sınıfları (I–IV)", "dört sınıf|kanama sınıf|sınıf 1|class|dört evre"],
       ["!Kanama kontrolü öncelikli: turnike, pelvik bağlayıcı, hasar kontrol cerrahisi, anjiyoembolizasyon", "turnike|kanama kontrol|hasar kontrol|damage control|kaynağı durdur|cerrahi kontrol"],
-      ["Permisif hipotansiyon; kristaloidi sınırla", "permisif|izin verilen|kontrollü hipotansiyon|kristaloid|sıvıyı sınırla|sıvı kısıtla"],
+      ["Permisif hipotansiyon; kristaloidi sınırla", "permisif|izin verilen|kontrollü hipotansiyon|kristaloidi sınırla|kristaloid kısıt|kristaloidi kısıt|az kristaloid|sınırlı kristaloid|kısıtlı sıvı|sıvıyı sınırla|sıvı kısıtla"],
       ["!Masif transfüzyon protokolü: plazma-trombosit-eritrosit 1:1:1", "masif transfüzyon|mtp|1 1 1|bire bir|birebir|dengeli|taze donmuş|tdp|plazma|trombosit"],
       ["!Traneksamik asit ilk 3 saatte (CRASH-2)", "traneksamik|txa|transamin|crash|3 saat|üç saat"],
       ["Ölümcül üçlü: hipotermi, asidoz, koagülopati", "ölümcül üçlü|lethal triad|asidoz|dilüsyonel"],
@@ -197,14 +197,14 @@ terms: [
       ["!Kanada servikal omurga kuralı: uyanık ve stabil hastada", "kanada|canadian|ccr|c spine rule"],
       ["!Yüksek risk: 65 yaş ve üstü, tehlikeli mekanizma, kol-bacakta parestezi", "65 yaş|altmış beş|tehlikeli mekanizma|parestezi|uyuşma|karıncalan|yüksekten düş|dalış|aksiyel yük|devril|fırla"],
       ["Düşük risk varsa aktif boyun rotasyonu (45°) denenir", "45 derece|kırk beş|rotasyon|boynunu çevir|başını çevir|düşük risk"],
-      ["Duyarlılığı yüksek kurallar; gereksiz görüntüleme ve radyasyonu azaltır", "duyarlı|sensitivite|gereksiz|radyasyon|özgüllü"],
+      ["Duyarlılığı yüksek kurallar; gereksiz görüntüleme ve radyasyonu azaltır", "duyarlı|sensitivite|gereksiz|radyasyon"],
       ["Görüntüleme gerekirse servikal BT", "bt|bete|tomografi"],
       ["Nörolojik defisit/bağ hasarı şüphesinde MR", "mr|emar|manyetik|bağ hasar|ligament|omurilik|spinal kord"],
-      ["Değerlendirme tamamlanana dek hareket kısıtlaması", "boyunluk|kolar|hareket kısıt|immobiliz|stabiliz"]
+      ["Değerlendirme tamamlanana dek hareket kısıtlaması", "boyunluk|kolar|korse|hareket kısıt|immobiliz|stabiliz"]
     ]},
   { id: "acil-yanik", tr: "Yanıkta ilk yaklaşım ve sıvı resüsitasyonu", en: "Burns: initial management and fluid resuscitation", cat: "trv", lvl: 2,
     src: {
-      k: ["ATLS Advanced Trauma Life Support Student Course Manual, 11. baskı (American College of Surgeons, 2025)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)"],
+      k: ["ATLS Advanced Trauma Life Support Student Course Manual, 11. baskı (American College of Surgeons, 2025)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)"],
       m: [["Cartotto R et al. American Burn Association clinical practice guidelines on burn shock resuscitation. J Burn Care Res 2024", "https://doi.org/10.1093/jbcr/irad125"],
           ["ISBI Practice Guidelines for Burn Care. Burns 2016", "https://pubmed.ncbi.nlm.nih.gov/27542292/"]]
     },
@@ -220,7 +220,7 @@ terms: [
     ]},
   { id: "acil-organofosfat", tr: "Organofosfat zehirlenmesi", en: "Organophosphate poisoning", cat: "zeh", lvl: 2,
     src: {
-      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)"],
+      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)"],
       m: [["Eddleston M, Buckley NA, Eyer P, Dawson AH. Management of acute organophosphorus pesticide poisoning. Lancet 2008", "https://pmc.ncbi.nlm.nih.gov/articles/PMC2493390"],
           ["Zehirlenme Tanı ve Tedavi Rehberi (Birinci basamağa yönelik). T.C. Sağlık Bakanlığı Halk Sağlığı Genel Müdürlüğü 2025", "https://hsgm.saglik.gov.tr/media/attachments/2025/07/03/zehirlenme-tani-ve-tedavi-rehberi.pdf"]]
     },
@@ -232,12 +232,12 @@ terms: [
       ["Tanı: plazma (bütiril) ve eritrosit kolinesteraz düzeyi", "plazma kolinesteraz|psödokolinesteraz|eritrosit|bütiril|butiril|kolinesteraz düzey"],
       ["!Atropin: akciğer sekresyonları kuruyana dek dozu artırarak (ikiye katlayarak) titre et", "atropin|ikiye katla|iki katı|akciğer temiz|sekresyon kuru|kuruyana"],
       ["Pralidoksim (oksim) tedavisi", "pralidoksim|oksim"],
-      ["!Dekontaminasyon ve sağlık personelinin korunması", "dekontamin|elbise|yıka|eldiven|koruyucu ekipman|personel"],
+      ["!Dekontaminasyon ve sağlık personelinin korunması", "dekontamin|elbise|cilt yıka|cildi yıka|deri yıka|deriyi yıka|vücudu yıka|sabun|eldiven|koruyucu ekipman|personel"],
       ["Ara sendrom ve gecikmiş nöropati", "ara sendrom|intermediate|gecikmiş nöropati|polinöropati"]
     ]},
   { id: "acil-trisiklik", tr: "Trisiklik antidepresan zehirlenmesi", en: "Tricyclic antidepressant poisoning", cat: "zeh", lvl: 2,
     src: {
-      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)"],
+      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)"],
       m: [["Lavonas EJ et al. 2023 American Heart Association focused update on the management of patients with cardiac arrest or life-threatening toxicity due to poisoning. Circulation 2023", "https://pubmed.ncbi.nlm.nih.gov/37721023/"],
           ["Kerr GW, McGuffie AC, Wilkie S. Tricyclic antidepressant overdose: a review. Emerg Med J 2001", "https://pubmed.ncbi.nlm.nih.gov/11435353/"]]
     },
@@ -247,20 +247,20 @@ terms: [
       ["Antikolinerjik bulgular: midriyazis, taşikardi, kuru-sıcak deri, idrar retansiyonu, deliryum", "antikolinerjik|midriyaz|kuru deri|kızarık|retansiyon|deliryum"],
       ["Alfa blokajı ile hipotansiyon", "alfa|hipotansiyon"],
       ["!Sodyum bikarbonat bolus (1–2 mEq/kg), QRS daralana dek", "bikarbonat|nahco3|alkaliniz|alkalileş"],
-      ["Nöbette benzodiazepin; fenitoin, fizostigmin ve flumazenilden kaçın", "benzodiazepin|diazepam|midazolam|lorazepam|fenitoin|fizostigmin|flumazenil"],
+      ["Nöbette benzodiazepin; fenitoin, fizostigmin ve flumazenilden kaçın", "benzodiazepin|diazepam|midazolam|lorazepam"],
       ["!Ani kötüleşme olası: EKG ve sürekli monitör izlemi", "ekg|elektrokardiyo|monitör|kötüleş"],
       ["Hava yolu güvenliyse erken aktif kömür", "aktif kömür|aktive kömür|charcoal"],
       ["Dirençli olguda hipertonik salin, lipid emülsiyonu, ECMO", "hipertonik|lipid|ecmo|ekstrakorporeal"]
     ]},
   { id: "acil-metanol", tr: "Metanol zehirlenmesi", en: "Methanol poisoning", cat: "zeh", lvl: 2,
     src: {
-      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)"],
+      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)"],
       m: [["Roberts DM et al. Recommendations for the role of extracorporeal treatments in the management of acute methanol poisoning: a systematic review and consensus statement (EXTRIP). Crit Care Med 2015", "https://doi.org/10.1097/CCM.0000000000000708"],
           ["Zehirlenme Tanı ve Tedavi Rehberi (Birinci basamağa yönelik). T.C. Sağlık Bakanlığı Halk Sağlığı Genel Müdürlüğü 2025", "https://hsgm.saglik.gov.tr/media/attachments/2025/07/03/zehirlenme-tani-ve-tedavi-rehberi.pdf"]]
     },
     c: [
       ["!Kaynak: sahte/kaçak içki, kolonya; Türkiye'de toplu salgınlar", "sahte içki|kaçak içki|sahte alkol|kaçak alkol|kolonya|salgın|toplu"],
-      ["!Toksisite formik asitten (alkol dehidrogenaz ile metabolizma)", "formik|format|formaldehit|alkol dehidrogenaz|adh"],
+      ["!Toksisite formik asitten (alkol dehidrogenaz ile metabolizma)", "formik|format|alkol dehidrogenaz|adh"],
       ["Gecikmeli başlangıç: alımdan saatler sonra belirti", "gecikmeli|latent|saatler sonra|geç başla"],
       ["!Görme bozukluğu (kar fırtınası, körlük), optik nöropati", "görme|bulanık|kar fırtına|körlük|optik"],
       ["!Yüksek anyon açıklı metabolik asidoz ve ozmolar açık", "anyon açı|anyon gap|ozmolar|ozmolal|metabolik asidoz"],
@@ -272,14 +272,14 @@ terms: [
   /* ====================== ZOR ====================== */
   { id: "acil-arrest-sonrasi-bakim", tr: "Kardiyak arrest sonrası bakım", en: "Post-cardiac arrest care", cat: "res", lvl: 3,
     src: {
-      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
+      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
       m: [["European Resuscitation Council and European Society of Intensive Care Medicine guidelines 2025: post-resuscitation care. Resuscitation 2025", "https://pubmed.ncbi.nlm.nih.gov/41123621/"],
           ["European Resuscitation Council Guidelines 2025 Executive Summary. Resuscitation 2025", "https://pubmed.ncbi.nlm.nih.gov/41117573/"]]
     },
     c: [
       ["!Oksijen SpO2 %94–98 ve normokapni; hiperoksiden kaçın", "94 98|doksan dört|normokapni|hiperoksi|oksijen titr|paco2|normal karbondioksit"],
       ["!Hipotansiyondan kaçın: sistolik >100 ya da ortalama arter basıncı >60–65 mmHg", "sistolik 100|100 mmhg|ortalama arter|oab|map|vazopresör|noradrenalin|norepinefrin"],
-      ["!Sıcaklık kontrolü: komadaki hastada ateşi önle (≤37,5 °C, en az 72 saat)", "37 5|otuz yedi buçuk|ateşi önle|ateş önle|ateşin önlen|sıcaklık kontrol|hedeflenmiş sıcaklık|ateşten kaçın"],
+      ["!Sıcaklık kontrolü: komadaki hastada ateşi önle (≤37,5 °C, en az 72 saat)", "37 5|otuz yedi buçu|hedefli sıcaklık|hedeflenen sıcaklık|sıcaklık yönetim|ateşi aktif|ateşi önle|ateş önle|ateşin önlen|sıcaklık kontrol|hedeflenmiş sıcaklık|ateşten kaçın"],
       ["ST yükselmesinde acil koroner anjiyografi", "koroner anjiyo|anjiyografi|anjiografi|perkütan|st yükselme|stemi"],
       ["Nöbetleri tedavi et (levetirasetam/valproat), profilaksi yok", "levetirasetam|valproat|nöbet|konvülziyon|eeg"],
       ["!Nöroprognoz: en erken 72 saatte, multimodal", "prognoz|yetmiş iki|ssep|somatosensoriyel|nöron spesifik|nse|pupil|multimodal|çok yönlü"],
@@ -287,7 +287,7 @@ terms: [
     ]},
   { id: "acil-periarrest-aritmiler", tr: "Periarrest aritmiler: bradikardi ve taşikardi algoritmaları", en: "Peri-arrest arrhythmias: bradycardia and tachycardia algorithms", cat: "res", lvl: 3,
     src: {
-      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
+      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
       m: [["European Resuscitation Council Guidelines 2025: Adult Advanced Life Support. Resuscitation 2025", "https://pubmed.ncbi.nlm.nih.gov/41117572/"],
           ["Part 9: Adult Advanced Life Support: 2025 AHA Guidelines for CPR and ECC. Circulation 2025", "https://professional.heart.org/en/guidelines-statements/part-9-adult-advanced-life-support-2025-american-heart-association-guidelinescir0000000000001376"]]
     },
@@ -303,7 +303,7 @@ terms: [
     ]},
   { id: "acil-hizli-ardisik-entubasyon", tr: "Hızlı ardışık entübasyon (RSI)", en: "Rapid sequence intubation", cat: "res", lvl: 3,
     src: {
-      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
+      k: ["Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)", "Rosen's Emergency Medicine: Concepts and Clinical Practice, 10. baskı (2022)"],
       m: [["Acquisto NM et al. Society of Critical Care Medicine clinical practice guidelines for rapid sequence intubation in the critically ill adult patient. Crit Care Med 2023", "https://www.sccm.org/clinical-resources/guidelines/guidelines/guidelines-rapid-sequence-intubation"],
           ["Higgs A et al. Guidelines for the management of tracheal intubation in critically ill adults (DAS/ICS/FICM/RCoA). Br J Anaesth 2018", "https://pubmed.ncbi.nlm.nih.gov/29406182/"]]
     },
@@ -332,11 +332,11 @@ terms: [
       ["Üretra yaralanması: meatusta kan varsa sonda takılmaz", "üretra|meatus|sonda|foley|perine|skrotal|prostat"],
       ["!İnstabil hastada preperitoneal paketleme, anjiyoembolizasyon, eksternal fiksasyon", "preperitoneal|paketleme|packing|anjiyoemboli|embolizasyon|anjiyografi|eksternal fiks|fiksatör"],
       ["REBOA köprü tedavi olarak", "reboa|aort balon|aortik balon|endovasküler balon"],
-      ["Karar hemodinamik ve mekanik stabiliteye göre (WSES)", "wses|hemodinami|mekanik stabil|mekanik instabil"]
+      ["Karar hemodinamik ve mekanik stabiliteye göre (WSES)", "wses|hemodinami|mekanik stabil|mekanik instabil|stabil olmayan|stabilse|stabil hasta"]
     ]},
   { id: "acil-mantar", tr: "Mantar zehirlenmesi (Amanita phalloides)", en: "Mushroom poisoning (Amanita phalloides)", cat: "zeh", lvl: 3,
     src: {
-      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)"],
+      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)"],
       m: [["Tan JL et al. Amanitin intoxication: effects of therapies on clinical outcomes – a review of 40 years of reported cases. Clin Toxicol 2022", "https://informahealthcare.com/doi/full/10.1080/15563650.2022.2098139"],
           ["Amanita phalloides-associated liver failure: molecular mechanisms and management. Int J Mol Sci 2024", "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11640968/"]]
     },
@@ -347,12 +347,12 @@ terms: [
       ["Seyir: GİS evresi, yalancı iyileşme, karaciğer-böbrek yetmezliği", "yalancı iyileşme|sahte iyileşme|düzelmiş gibi|böbrek yetmez"],
       ["!Tedavi: aktif kömür, sıvı, silibinin, NAC, penisilin G", "silibinin|silimarin|penisilin"],
       ["Akut karaciğer yetmezliğinde nakil merkezine sevk", "nakil|transplant"],
-      ["Türkiye: yabani mantar toplayanlar (ör. Karadeniz); UZEM 114", "yabani|toplanan|topladığı|toplayan|karadeniz|köygöçüren"],
+      ["Türkiye: yabani mantar toplayanlar (ör. Karadeniz); UZEM 114", "yabani|toplanan|topladığı|toplayan|karadeniz|uzem|114|zehir danışma"],
       ["İzlem: transaminaz, INR, kreatinin", "inr|protrombin|kreatinin|seri izle|seri takip"]
     ]},
   { id: "acil-akrep-yilan", tr: "Akrep sokması ve yılan ısırması", en: "Scorpion sting and snakebite envenomation", cat: "zeh", lvl: 3,
     src: {
-      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)"],
+      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)"],
       m: [["Guidelines for the management of snakebites, 2nd edition. WHO Regional Office for South-East Asia 2016", "https://www.who.int/publications/i/item/9789290225300"],
           ["Emek M et al. Descriptive epidemiological evaluation of snake bite and scorpion sting cases in Türkiye. Turk Hij Den Biyol Derg 2025", "https://avesis.akdeniz.edu.tr/yayin/b82512a6-f5d8-4079-b35f-48578c60e3ef/descriptive-epidemiological-evaluation-of-snake-bite-and-scorpion-sting-cases-in-turkiye-turkiyede-yilan-isirmasi-ve-akrep-sokma-vakalarinin-karsilastirmali-tanimlayici-epidemiyolojik-degerlendirilmesi"]]
     },
@@ -369,7 +369,7 @@ terms: [
     ]},
   { id: "acil-digoksin", tr: "Digoksin zehirlenmesi", en: "Digoxin toxicity", cat: "zeh", lvl: 3,
     src: {
-      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2019)"],
+      k: ["Goldfrank's Toxicologic Emergencies, 12. baskı (McGraw Hill)", "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 9. baskı (2020)"],
       m: [["Chan BS, Buckley NA. Digoxin-specific antibody fragments in the treatment of digoxin toxicity. Clin Toxicol 2014", "https://pubmed.ncbi.nlm.nih.gov/25089630/"],
           ["Lavonas EJ et al. 2023 American Heart Association focused update on the management of patients with cardiac arrest or life-threatening toxicity due to poisoning. Circulation 2023", "https://pubmed.ncbi.nlm.nih.gov/37721023/"]]
     },
