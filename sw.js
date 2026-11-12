@@ -1,7 +1,7 @@
 /* Unprompted Tıp — çevrimdışı kabuk. Önce ağ, olmazsa önbellek.
    Sürüm değişince eski önbellek silinir; yeni dosya eklenince CACHE'i artır. tests/run-all.js bu listeyi terms/ ile karşılaştırır. */
 const CACHE = 'upt-v2';
-const BRANCH_FILES = ['kardiyoloji', 'gogus', 'gastroenteroloji', 'nefroloji', 'endokrinoloji', 'hematoloji', 'onkoloji', 'romatoloji', 'enfeksiyon', 'noroloji', 'psikiyatri', 'dermatoloji', 'halk-sagligi', 'genel-cerrahi', 'ortopedi', 'uroloji', 'beyin-cerrahisi', 'kbb', 'goz', 'kvc', 'anesteziyoloji', 'acil'];
+const BRANCH_FILES = ['anatomi', 'fizyoloji', 'biyokimya', 'histoloji', 'mikrobiyoloji', 'patoloji', 'farmakoloji', 'kardiyoloji', 'gogus', 'gastroenteroloji', 'nefroloji', 'endokrinoloji', 'hematoloji', 'onkoloji', 'romatoloji', 'enfeksiyon', 'noroloji', 'psikiyatri', 'dermatoloji', 'halk-sagligi', 'genel-cerrahi', 'ortopedi', 'uroloji', 'beyin-cerrahisi', 'kbb', 'goz', 'kvc', 'anesteziyoloji', 'pediatri', 'kadin-dogum', 'acil'];
 const SHELL = ['./', 'index.html', 'styles.css', 'scoring.js', 'app.js', 'terms/index.js', ...BRANCH_FILES.map(b => `terms/${b}.js`), 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png'];
 
 self.addEventListener('install', e => {

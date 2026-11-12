@@ -3,7 +3,267 @@
 Bir hekimin gözden geçireceği iş listesi. Her satır: konu, şüphe, kontrol edilecek kaynak. İçerik bu liste kapanmadan "hekim onaylı" sayılmaz.
 Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosya `node tools/klinik.js` ile üretilir).
 
-**Açık inceleme maddesi: 462** (değişiklik kayıtları hariç)
+**Açık inceleme maddesi: 612** (değişiklik kayıtları hariç)
+
+<!-- anatomi: 17 madde -->
+## Anatomi
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Gray's Anatomy 43. baskı: Elsevier listesinde yayın 30 Ekim 2025, telif yılı 2026; "43. baskı (2025)" yazıldı. Moore's Clinically Oriented Anatomy 10. baskı: perakende sürüm tarihi 28 Ocak 2026 (ISBN 9781975245498); bir kütüphane kaydı telif yılını 2027 veriyor. Yayıncı (Wolters Kluwer) sayfası doğrudan görülmedi. | Elsevier ve LWW ürün sayfaları |
+| (tüm konular) | Makalelerin çoğu StatPearls (NCBI Bookshelf) bölümü; bağlantılar arama sonuçlarında görüldü ama sayfalar açılamadı (ağ kısıtı: pubmed/ncbi alanlarına erişim yok). StatPearls sürekli güncellenen derleme; klasik birincil anatomi çalışmalarıyla değiştirilmesi düşünülebilir. | NCBI Bookshelf sayfaları |
+| ana-koroner-arterler | StatPearls "Coronary Arteries" bölümünün NBK numarası bulunamadı; PubMed kaydı (PMID 30521211) kullanıldı. Angelini 2007 DOI'si ikincil kaynak listelerinden (ScienceOpen/Thieme) doğrulandı. "Çoğu kişide sağ dominans" ve SA düğüm dalının çoğunlukla sağ koronerden çıkması yüzde verilmeden yazıldı. | Circulation 2007;115:1296; Gray's kalp bölümü |
+| ana-willis-poligonu | Alpers 1959 DOI'si PMC alıntı listesinden; makalenin kendi sayfası açılmadı. "Tam simetrik poligon azınlıkta" ifadesi yüzde verilmeden yazıldı; sıklık çalışmaya göre değişir. | Arch Neurol Psychiatry 1959;81:409 |
+| ana-portosistemik-anastomoz | İkinci kaynağın (Comprehensive Review of Portosystemic Collaterals in Cirrhosis) dergi adı/yılı (Int J Hepatol 2016) bellekten; yalnız PMC bağlantısı aramada görüldü. "Karaciğer kanının büyük kısmı portal venden" yüzdesi (~%75) yalnız anahtar kelimede alternatif olarak var, etikette sayı yok. | PMC5198179 künyesi |
+| ana-el-karpal | "Carpal tunnel: Normal anatomy, anatomical variants and ultrasound technique" dergi adı (J Ultrasound 2012) bellekten; PMID 23396809 aramada görüldü. | PubMed 23396809 |
+| ana-kranial-sinirler | Rhoton 2002 "The anterior and middle cranial base" DOI'si bir PDF'in künyesinden; DOI çözümlemesi yapılamadı. | Neurosurgery 2002;51(Suppl 1):273–302 |
+| ana-larinks | StatPearls larinks bölümleri arasında iç çelişki var (bazı cümleler interaritenoid/süperior laringeal sinir için hatalı); standart ders kitabı bilgisi (krikotiroid hariç tüm intrinsik kaslar rekürren) kullanıldı. | Gray's 43. baskı larinks bölümü |
+| ana-spinal-traktlar | Spinotalamik liflerin giriş düzeyinin "bir iki segment" üstünde çaprazlaşması ders kitabı bilgisi; StatPearls bölümleri anterior kortikospinal yolun çaprazlaşmasında çelişkili, bu ayrıntı kullanılmadı. Brown-Séquard konusu nörolojide ayrı konu (brown-sequard); çakışmayı önlemek için burada yalnız tek cümleyle anılıyor. | Gray's nöroanatomi bölümü |
+| ana-lumbosakral-pleksus | Siyatik sinir kökleri (L4–S3) ve lomber pleksus (L1–L4, ±T12) ders kitabı bilgisi; StatPearls lumbar plexus özetiyle uyumlu. Rubin 2020 makalesi brakiyal pleksus konusunda da kullanıldı (iki konuda ortak). | Clin Neurophysiol Pract 2020;5:173 (sayfa doğrulanmadı) |
+| ana-abdominal-aorta | Aortik hiatus T12 ve bifurkasyon L4 düzeyleri ders kitabı bilgisi (bireysel varyasyon var). Nutcracker/SMA (Wilkie) sendromları ve Dunbar sendromu yalnız anatomik korelasyon olarak anıldı. | Moore 10. baskı karın bölümü |
+| ana-inguinal-kanal | Kasık fıtığı yönetimi genel cerrahide (gc-inguinal-herni); çapraz çakışma nedeniyle bu konu inguinal kanal + femoral üçgen anatomisine daraltıldı. | — |
+| ana-kavernoz-sinus | "Sinüs patolojilerinde ilk sıklıkla VI tutulur" klasik öğreti; tüm seri/çalışmalarda doğrulanmadı. | StatPearls Cavernous Sinus Syndromes |
+| ana-inguinal-kanal | Denetim: StatPearls Femoral Triangle bağlantısı (NBK541140) "Abdomen and Pelvis" yerine "Bony Pelvis and Lower Limb" başlığına gidiyor olabilir; başlık/numara doğrulanmadı. | NCBI Bookshelf |
+| ana-brakiyal-pleksus, ana-kranial-sinirler, ana-rotator-manset, ana-mediasten, ana-larinks, ana-lumbosakral-pleksus, ana-pelvik-taban, ana-abdominal-aorta | Denetim: NBK numaralarının başlıklarla eşleştiği doğrulanamadı (ağ kısıtı); genel StatPearls satırına ek olarak hekim/editör kontrolü gerekli. Gray's 43. ve Moore 10. baskı şüphesi yukarıdaki genel satırda kayıtlı (yayın tarihleri katalog kayıtlarıyla destekli), künye değiştirilmedi. | NCBI Bookshelf; yayıncı sayfaları |
+| ana-lumbosakral-pleksus | Ortak peroneal sinir yaralanma yeri: anahtar "fibula boyn"; "fibula başı" diyen anlatım 7+ harf toleransıyla eşleşiyor. İkisi de klinikte kullanılır; anahtar değiştirilmedi. | Moore alt ekstremite bölümü |
+| ana-portosistemik-anastomoz | İyi anlatımdaki HVPG'nin "altın standart" olarak nitelenmesi: invaziv referans yöntemdir, ilk basamak tanı aracı değildir; kör anlatım notunda geçti, sabit metinde yok. | Baveno VII |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| ana-mediasten | fixtures.good: "çocuklarda timus kalıntısı" → "erişkinde timus kalıntısı ve yağ, çocuklarda büyük timusun alt kısmı" | DOĞRULANMIŞ HATA: timus puberteden sonra involüsyona uğrar |
+| ana-kranial-sinirler | c[0] etiketi ve fixtures.good: "beyin sapından çıkar" → "beyin sapıyla ilişkili; XI'in spinal kökü üst servikal medulladan" | Kesin kural gibi okunan basitleştirme |
+| ana-portosistemik-anastomoz | "pankreas başı arkas" anahtarı kaldırıldı | Birleşme yeri pankreas boynunun arkası |
+| ana-koroner-arterler | Eş anlamlı eklendi: "aort kapağının hemen üst", "sol sinüsten", "sağ sinüsten"; "inferior derivasyon", "inferior enfarkt" | Kör anlatımda başka kelimelerle söylenen kavram yakalanmadı |
+| ana-rotator-manset | "dış rotasyon yap"/"iç rotasyon yap" → "dış rotasyon"/"iç rotasyon"; "ilk on beş derece", "ilk 15 derece" eklendi | "dış rotasyona katkı", "ilk on beş derece" yakalanmadı |
+| ana-el-karpal | "en sık çıkan" eklendi (lunat kavramı) | "En sık çıkan karpal kemik ise lunat" yakalanmadı |
+| ana-el-karpal | fixtures.weak: "çoğu hastaya atel ve ameliyat" → "hafifte atel, ağır/dirençlide ameliyat" | Cerrahi ilk basamak değil |
+| ana-abdominal-aorta | fixtures.weak: "yaşlılarda düzenli USG tarama" → "65 yaş üstü erkekte (özellikle sigara içen) tek seferlik USG tarama" | USPSTF 2019 / ESVS 2024 |
+
+<!-- fizyoloji: 12 madde -->
+## Fizyoloji
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tümü) | Guyton and Hall 15. baskı ve Ganong 27. baskı yayıncı sayfalarında 2025 olarak görüldü; bazı satıcılar telif yılını 2026 veriyor. Konu içerikleri bu baskıların bölümleriyle tek tek karşılaştırılmadı. | Elsevier / McGraw Hill yayıncı sayfaları |
+| fiz-vucut-sivi-kompartmanlari | "Physiology, Body Fluids" StatPearls bölümünün bağlantısı (NBK541059) arama sonucunda görüldü, ancak sayfa içeriği tam okunamadı; yazar adları yazılmadı. StatPearls kaynakları ICF oranını farklı veriyor (vücut ağırlığının %40'ı ya da TVS'nin 2/3'ü); anlatımda TVS ≈ %60 ve 2/3–1/3 kullanıldı, plazma için sayı yazılmadı. | NCBI Bookshelf NBK541059; Guyton bölüm 25 |
+| fiz-gfr-klerens | Levey & Inker 2017 makalesinin DOI'si aramada görülmedi; PubMed bağlantısı (PMID 28474735) kullanıldı. KDIGO 2024 klerens fizyolojisi için ikincil bir kaynak (eGFR/ölçülen GFR bölümü). | PubMed 28474735 |
+| fiz-kan-basinci-regulasyonu | Lohmeier & Iliescu 2015 makalesinin tam başlığı ("The baroreflex as a long-term controller of arterial pressure") arama özetinde açıkça görülmedi; DOI görüldü. RAAS için StatPearls (hakemli derleme değil) kullanıldı. | doi 10.1152/physiol.00035.2014 |
+| fiz-oksijen-hemoglobin-egrisi | "1,34 mL O2/g Hb" anahtar olarak var ama anlatımda sayı kullanılmadı; bu sabit kaynaklarda 1,34–1,39 arasında farklı verilir. P50 değeri bilerek yazılmadı. | Guyton solunum gaz taşınması bölümü |
+| fiz-gi-hormonlar | Gastrointestinal hormonları tek tek kapsayan bir derleme bulunamadı; Psichas 2015 (enteroendokrin algılama) ve Rehfeld 2021 (CCK) seçildi. Grelinin "ağırlıklı olarak mide" kaynaklı olması ders kitabı bilgisi, makalede doğrulanmadı. | Ganong GİS düzenlemesi bölümü |
+| fiz-menstruel-siklus | Endotext bölümü sürekli güncellenen bir metin; tam metin okunmadı. Östradiolün pozitif geri bildirime geçiş eşiği/süresi sayısal olarak yazılmadı. | NCBI Bookshelf NBK279054 |
+| fiz-pacemaker-elektrofizyoloji | Funny akım ile kalsiyum saatinin göreceli katkısı literatürde tartışmalı; iki görüş de "katkı yapar" diye anlatıldı. | DiFrancesco 2010; Lakatta 2010 |
+| fiz-ters-akim-adh | İç medullada konsantrasyon mekanizması (üre geri dönüşümünün rolü) tam aydınlatılmış değil (Sands & Layton 2009); anlatımda "katkı" olarak ifade edildi. | Sands & Layton 2009 |
+| (tümü) | Denetim: Ganong 27. baskı (2025) künyesi denetçi tarafından doğrulanamadı (son bilinen 26. baskı, 2019). Önceki aramada yayıncı sayfasında görüldüğü için değiştirilmedi; yayıncı kaydından kesin teyit gerekir. | McGraw Hill Ganong ürün sayfası |
+| fiz-gi-hormonlar | Denetim: Rehfeld 2021 DOI'si (10.1530/EC-21-0025) son ekinin gönderim yılına uymayabileceği belirtildi; değiştirilmedi. | Crossref / PubMed |
+| fiz-oksijen-hemoglobin-egrisi | "Bohr etkisi" anahtarı, terimi sağa kaymanın tüm nedenleri (ısı, 2,3-BPG) için yanlış kullanan anlatımı da ödüllendirir; anahtar ile çözülemez. | Collins 2015 |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| fiz-kalp-dongusu-frank-starling | Kalp sesleri anahtarına "birinci ses/ikinci ses/av kapak" eklendi; debi kavramından "atım hacmi/vuru hacmi" çıkarıldı, "kardiyak debi" eklendi | Kör anlatım: eş anlamlı kaçtı; atım hacmi Frank-Starling kavramıyla çakışıyordu |
+| fiz-kan-basinci-regulasyonu | "sempatik tonus azal" eklendi; çıplak "natriürez" çıkarıldı (natriüretik peptidi yakalıyordu) | Kör anlatım: eş anlamlı + gevşek eşleşme |
+| fiz-oksijen-hemoglobin-egrisi | "düz kısmı/dik kısmı" eklendi | Kör anlatım: eş anlamlı kaçtı |
+| fiz-ventilasyon-perfuzyon | Apeks/baz anahtarları yön içeren çok kelimeli biçime çevrildi; "oksijen vermekle düzel" → "düzelmez" | Ters ifadeyi doğru sayıyordu |
+| fiz-asit-baz | "ventilasyonla dakikalar/dakikalar içinde" eklendi; "proksimal tübül" çıkarıldı | Kör anlatım: eş anlamlı + gevşek eşleşme |
+| fiz-pacemaker-elektrofizyoloji | "kalsiyum akım" çıkarıldı; AV kavramı çıplak "av düğüm/purkinje" yerine gecikme/hızlı ileti ifadelerine daraltıldı | Gevşek eşleşme |
+| fiz-sinaptik-iletim | Nörotransmitter kavramında çıplak "gaba/glisin" yerine işlev içeren anahtarlar | Tetanoz bağlamında gevşek eşleşme |
+| fiz-gi-hormonlar | Çıplak "enteroendokrin" çıkarıldı, algılama ifadeleri eklendi | Gevşek eşleşme |
+| fiz-glukoz-homeostazi | İnsülin reseptörü kavramında "tirozin kinaz" çıkarıldı, IRS/PI3K/Akt ifadeleri kaldı | Gevşek eşleşme |
+
+<!-- biyokimya: 16 madde -->
+## Biyokimya
+
+Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; makale tam metinleri tek tek okunmadı. Biyokimya bilgileri (enzim adları, kofaktörler, inhibitörler) standart ders kitabı bilgisidir ve sayısal eşik içermeyecek biçimde yazıldı.
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Lippincott Illustrated Reviews: Biochemistry 8. baskı: yayıncı sayfası Nisan 2021 diyor, kütüphane katalogları [2022] veriyor; "(2021)" yazıldı. | Wolters Kluwer ürün sayfası / WorldCat |
+| (tüm konular) | Harper's Illustrated Biochemistry 32. baskı: yayıncı 2022, katalog/telif 2023; "(2023)" yazıldı. | McGraw Hill ürün sayfası |
+| (tüm konular) | Kitap bölüm/sayfa eşlemesi yapılmadı; iki kitap her konu için genel referans olarak kullanıldı (temel bilimde konuya özgü daha iyi ikinci kitap yok). | Kitapların içindekiler sayfası |
+| biy-tca-dongusu, biy-elektron-transport-zinciri | İki konu aynı iki derlemeyi paylaşıyor (Martínez-Reyes 2020, Nolfi-Donegan 2020); TCA için daha klasik bir derleme seçilebilir. | PubMed |
+| biy-elektron-transport-zinciri | ATP verimi (NADH ~2,5 / FADH2 ~1,5) bilinçli olarak sayı verilmeden yazıldı. Yüksek doz aspirinin ayırıcı etkisi eklenmedi. | Lippincott 8. baskı, ETZ bölümü |
+| biy-glukoneogenez | İkinci makale olarak GSD I ACMG kılavuzu (glukoz-6-fosfataz son basamak) kullanıldı; glukoneogeneze özgü daha iyi bir derleme seçilebilir. | PubMed |
+| biy-enzim-kinetigi | Srinivasan FEBS J makalesi: DOI arama özetinde görüldü (10.1111/febs.16124), PubMed kaydı görülmedi; çevrimiçi 2021, baskı 2022. | doi.org / PubMed |
+| biy-pentoz-fosfat-g6pd | Stincone 2015 için DOI bağlantısı kullanıldı; PMID (25243985) yalnız ikincil kaynaktan görüldü. Luzzatto 2020 Blood PMID 32702756 ikincil indeks sitesinden doğrulandı. | PubMed |
+| biy-yag-asidi-oksidasyonu | Merritt 2018 için DOI kullanıldı (PMID görülmedi). Goetzman 2017 başlığı ("Advances in the understanding and treatment of mitochondrial fatty acid oxidation disorders", Curr Genet Med Rep) arama özetinde tam görülmedi; PMC5699504 bağlantısı arama sonucunda görüldü. | PMC5699504 sayfası |
+| biy-kolesterol-lipoproteinler | Feingold Endotext bölümü sürekli güncellenen çevrimiçi bölüm (NCBI 2021, endotext.org 2024); yıl yazılmadı. Konu kar-dislipidemi ile kısmen örtüşüyor; burada yalnız biyokimyasal yol ve apolipoproteinler ele alındı. | NCBI Bookshelf NBK305896 |
+| biy-hem-sentezi-porfiriler | Puy 2010 Lancet PMID 20226990 yalnız bir kaynakça listesinden görüldü, PubMed sayfası açılmadı. Givosiran (tekrarlayan AHP ataklarında) AGA 2023 özetiyle tam karşılaştırılmadı. | PubMed 20226990, AGA 2023 tam metni |
+| biy-purin-metabolizmasi-lesch-nyhan | Torres & Puig 2007 PMID 18067674 QxMD bağlantısından çıkarıldı; PubMed sayfası açılmadı. İkinci makale gut derlemesi (Dalbeth 2021); konu rom-gut ile ürik asit/allopürinol noktasında örtüşür. | PubMed 18067674 |
+| biy-aminoasit-metabolizma-bozukluklari | PKU konusu ped-fenilketonuri ile örtüşür; burada yalnız enzim/kofaktör biyokimyası (tarama ve diyet hedefleri değil) alındı. MSUD ve alkaptonüri için konuya özgü makale yok, kaynaklar homosistinüri ve PKU kılavuzları. Homosistinüride lensin yer değiştirme yönü (aşağı-içe) yazılmadı. | Morris 2017, van Wegberg 2017, MSUD/alkaptonüri derlemesi |
+| biy-vitamin-koenzimleri | İki makale de B12'ye özgü (Stabler 2013, Green 2017); tiamin, folat ve niasin için ayrı kaynak eklenmedi. Konu hem-b12-folat-eksikligi ile kısmen örtüşür (çapraz skor %58'den düşürüldü). | Wernicke/tiamin ve pellagra derlemeleri |
+| biy-lizozomal-depo-hastaliklari | Tay-Sachs, Niemann-Pick ve Fabry için konuya özgü makale yerine genel LSD derlemesi (Platt 2018) ve Gaucher derlemesi kullanıldı; Germain 2010 Fabry derlemesi (PMID 21092187) alternatif. | PubMed |
+| biy-glikojen-depo-hastaliklari | Kanungo 2018 PMID 30740405 yalnız PMC kaydından görüldü. | PubMed 30740405 |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| biy-glikoliz | "Net kazanç" kavramından tek başına "iki atp", "2 atp", "nadh" anahtarları çıkarıldı; yalnız "net 2/iki atp", "net kazanç iki atp" vb. bırakıldı. | Yatırım evresindeki 2 ATP harcamasını ya da herhangi bir NADH anmasını net kazanç sayıyordu. |
+| biy-glukoneogenez | "Çift karbonlu yağ asitleri net glukoz veremez" kavramında yönsüz anahtarlar ("net glukoz", "çift karbonlu", "asetil koa glukoza") olumsuz çok kelimeli anahtarlarla değiştirildi. | Ters (yanlış) ifadeyi doğru sayıyordu. |
+| biy-glukoneogenez | Kas kavramında "kas kana", "kas kana glukoz", "kas glukoz 6 fosfataz" çıkarıldı; "kas kana glukoz veremez", "kasta glukoz 6 fosfataz yok" vb. eklendi. | "Kas kana glukoz verir" ifadesini eşliyordu. |
+| biy-yag-asidi-oksidasyonu | Etiket "Tek sayıda karbonlu yağ asitleri..." yapıldı; "tek karbon" anahtarı "tek sayıda karbon" ile değiştirildi. | Denetimde çürütülse de "tek karbonlu" ifadesi tek karbon atomlu diye okunabilir; anlam netleştirildi (tıbbi içerik değişmedi). |
+| biy-vitamin-koenzimleri | B12/folat ayırıcı kavramında tek başına "metilmalonik" ve "homosistein" anahtarları çıkarıldı; yöne bağlı ifadeler ("b12 eksikliğinde metilmalonik", "folat eksikliğinde yalnız homosistein" vb.) kullanıldı. | "Folat eksikliğinde metilmalonik asit artar" gibi yanlış ifadeyi doğru sayıyordu. |
+
+<!-- histoloji: 12 madde -->
+## Histoloji ve embriyoloji
+
+Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; makale tam metinleri tek tek okunmadı. Sayısal ifadeler ders kitabı bilgisine (Langman, Moore, Ross) dayanır; arama ile ayrıca teyit edilmedi.
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Ross Histology 9. baskı yayıncı tarihi Eylül 2023; bazı kataloglarda c2024. "(2023)" yazıldı. | Wolters Kluwer ürün sayfası |
+| (embriyoloji konuları) | Langman 15. baskı 2023 (bazı kataloglarda c2024). The Developing Human 12. baskı Ekim 2024'te yayımlandı, telif yılı 2025 görünüyor; "(2024)" yazıldı. | Elsevier / LWW ürün sayfaları |
+| his-gastrulasyon-germ-yapraklari | Tam & Behringer 1997 (Mech Dev 68:3–25) künyesi doğrulandı ama PubMed/DOI bağlantısı aramada görülmedi; bağlantı null. | PubMed |
+| his-kas-dokusu | Henderson ve ark. Compr Physiol 2017 DOI (10.1002/cphy.c160033) yalnız kurum kaydında görüldü; sayfa aralığı kayıtta bozuk. | Compr Physiol / PubMed |
+| his-noral-tup-gelisimi | "Kapanma 4. haftada" genel ifade; kranial/kaudal nöropor kapanma günleri bilerek yazılmadı (kaynaklar arası 1–2 gün fark var). | Langman 15. baskı, bölüm 6/18 |
+| his-bagirsak-rotasyonu | Klasik 270° saat yönü tersi rotasyon modeli kullanıldı; Soffers ve ark. 2015 "en blok rotasyon" kavramını sorgulayıp bağırsağın "kaydığını" öne sürüyor. Fizyolojik herniasyon (≈6. hafta) ve geri dönüş (≈10. hafta) zamanları anlatımda yaklaşık verildi. | Langman 15. baskı; Soffers 2015 |
+| his-bobrek-gelisimi | Metanefrozun başlama zamanı anlatımda "beşinci hafta civarı" olarak geçiyor; arama ile ayrıca doğrulanmadı. | Langman 15. baskı |
+| his-kalp-gelisimi | Fallot'un "septumun öne kayması", TGA'nın "spiral dönmeme" açıklaması TUS düzeyinde sadeleştirmedir; güncel kaynaklar konotrunkal gelişimi daha karmaşık anlatır. | Buijtendijk 2020; Langman |
+| his-deri-histolojisi | Irk farkının melanosit sayısından değil melanozom özelliklerinden kaynaklandığı ifadesi klasik kitap bilgisidir; ayrıca arama ile doğrulanmadı. | Ross 9. baskı, deri bölümü |
+| his-sinir-dokusu-glia | Mikroglianın vitellüs kesesi makrofajı kökenli olduğu bilgisi güncel kabul; eski kitaplarda "kemik iliği monositi" diye geçebilir. | Allen & Lyons 2018; Ross 9. baskı |
+| his-lenfoid-organlar | Mebius & Kraal 2005 için PMID 16056254 yalnız qxmd kaydında görüldü; denetimde eski DOI (nri1331) yanlış bulundu; 10.1038/nri1669 kullanıldı. | PubMed |
+| his-farengeal-arklar | Frisdal & Trainor 2014 için PubMed kaydı görülmedi; DOI kullanıldı. | PubMed |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| his-lenfoid-organlar | Mebius & Kraal 2005 bağlantısı 10.1038/nri1669 yapıldı | Doğrulanmış hata: nri1331 başka makaleye gidiyor |
+| his-lenfoid-organlar | İyi anlatım: "Tonsiller kısmi kapsüllü, Peyer plakları kapsülsüz" | Palatin tonsiller kısmi kapsüllüdür |
+| his-kemik-ossifikasyon | Bonewald 2011 bağlantısı DOI 10.1002/jbmr.320 yapıldı | PMID 21254230 şüpheli; DOI makalenin kendi künyesi |
+| his-gametogenez | Oogenez anahtarlarından tek başına "profaz", "fertilizasyon", "döllenme" çıkarıldı; "mayoz i profaz", "profaz i" eklendi | Genel kelimeler mayoz duraklamasını bilmeden kavramı karşılıyordu |
+| his-gametogenez | Kutup cisimciği kavramına "polar cisim", "tek gamet" eklendi | Eş anlamlı ifade yakalanmıyordu |
+| his-bagirsak-rotasyonu | Tek başına "rotasyon" anahtarı çıkarıldı | Yanlış yön/derece içeren anlatımı da doğru sayıyordu |
+| his-bobrek-gelisimi | "ret" yerine "ret reseptör", "ret sinyal", "gdnf-ret", "c-ret"; genel "indüksiyon" yerine "karşılıklı indüksiyon"; üreter tomurcuğu kavramından "mezonefrik kanal", "wolff" çıkarıldı | "ret" "üreter" içinde geçiyordu; Wolff kanalı türevlerini anlatan metin üreter tomurcuğunu karşılıyordu |
+| his-deri-histolojisi | Melanozom kavramında "melanosit sayı", "melanin", "melanozom", "tirozinaz" yerine yönü belli anahtarlar ("melanozom aktivite/dağılım/büyüklü", "sayısından değil") | Ters ifadeyi doğru sayıyordu; ırk farkı söylenmeden eşleşiyordu |
+| his-gastrulasyon-germ-yapraklari | Ektoderm/endoderm türevlerine "nöral krest", "gastrointestinal epitel", "gastrointestinal ve solunum" eklendi | Eş anlamlı ifade yakalanmıyordu |
+| his-farengeal-arklar | Yapı kavramına "endoderm kaplı", "ektoderm kaplı", "endodermle/ektodermle döşeli" eklendi | Eş anlamlı ifade yakalanmıyordu |
+| his-plasenta-fetal-zarlar | Bariyer kavramından "plasenta bariyer" türleri çıkarıldı; "hemokoryal", "kanı karışmaz" bırakıldı | Gevşek eşleşme |
+| his-kalp-gelisimi | Endokardiyal yastık kavramından "endokardiyal yastık" anahtarı çıkarıldı; AV kanal/AV septal anahtarları kaldı | Gevşek eşleşme |
+| his-sinir-dokusu-glia | Mikroglia kavramında tek başına "mikroglia" yerine köken/işlev anahtarları ("vitellüs kesesi makrofaj", "mss fagosit") | Yanlış köken ("kemik iliği monositi") de doğru sayılıyordu |
+| his-bag-dokusu-kollajen | Elastik lif kavramından "elastik lif" çıkarıldı; Tip III/IV kavramından tek başına "tip 3/üç/iii" çıkarıldı, "bazal lamina/membran" eklendi | Gevşek eşleşme; yara iyileşmesi anlatımıyla çapraz eşleşme (%64) |
+
+<!-- mikrobiyoloji: 17 madde -->
+## Mikrobiyoloji
+
+Not: Bu oturumda ortak web arama kotası paketin ortasında doldu ve doi.org/PubMed/Crossref ağ kısıtı nedeniyle açılamadı. Kitap baskıları (Murray 10. baskı 2025, Jawetz 29. baskı 2025, Abbas 11. baskı 2025) ve 8 makale bağlantısı arama sonuçlarında doğrulandı; diğer makaleler bellekten künyelendi ve bağlantıları `null` bırakıldı. Bu makalelerin başlık/yıl/dergi bilgisi mutlaka kontrol edilmeli.
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Jawetz 29. baskı: yayıncı © 2025 (Ekim 2025), bazı kataloglar 2026 diyor. Abbas 11. baskı: Ağustos 2025 yayın, telif yılı 2026. "2025" yazıldı. | McGraw Hill ve Elsevier ürün sayfaları |
+| mik-hbv-seroloji | "HBsAg >6 ay = kronik" ve pencere döneminde tek pozitif belirtecin anti-HBc IgM olması klasik bilgi; EASL 2025 metninde ayrıca görülmedi. İzole anti-HBc'nin yorumu (yalancı pozitif, gizli enfeksiyon, geçmiş enfeksiyon) anlatılmadı. Konu gastroenterolojideki gas-hepatit-b ile kısmen örtüşüyor; burada yalnız seroloji yorumu ele alındı ve anahtarlar serolojiye özgüleştirildi. | EASL 2025 (doi 10.1016/j.jhep.2025.03.018); AASLD 2018 |
+| mik-immunglobulin-yapisi | Schroeder & Cavacini 2010 (JACI) ve Tonegawa 1983 (Nature) künyeleri bellekten; bağlantı doğrulanamadı (null). | PubMed |
+| mik-sterilizasyon | 121 °C klasik otoklav sıcaklığı; süre/basınç yazılmadı. Rutala & Weber 2016 (Infect Dis Clin North Am) künyesi doğrulanamadı (null). CDC sayfasının 2019 güncelleme notu yalnız arama özetinde görüldü. Türkiye'de sterilizasyon ünitesi standartları (Sağlık Bakanlığı) kaynakta yok. | CDC Disinfection & Sterilization Guideline; Rutala 2016 |
+| mik-stafilokok-streptokok | Testler (katalaz, koagülaz, novobiyosin, basitrasin, CAMP, optokin, safra eskülin) ders kitabı bilgisi; tuz konsantrasyonu (%6,5 NaCl) sayısal yazılmadı. Basitrasin duyarlılığının grup A için kesin olmadığı (bazı başka beta hemolitikler de duyarlı) vurgulanmadı. | Murray 10. baskı |
+| mik-bakteri-toksinleri | Ramachandran 2014 (Virulence) bağlantısı doğrulanamadı (null). İkinci kaynak olarak bu konuya tam uymayan ACIP Tdap 2019 (MMWR, toksoid aşılar) kullanıldı; daha uygun bir toksin derlemesiyle değiştirilebilir. | Virulence 2014;5(1); toksin derlemeleri |
+| mik-mikobakteriler | Pai 2016 (Nat Rev Dis Primers) ve WHO Modül 3 (2024) bağlantıları doğrulanamadı (null); WHO Modül 3'ün en güncel sürümünün yılı kontrol edilmeli. Konu göğüs hastalıklarındaki gog-tuberkuloz ile kısmen örtüşüyor (çapraz skor %45, eşik altında); burada laboratuvar ve mikrobiyoloji ele alındı. | WHO TB Module 3; Nat Rev Dis Primers 2016 |
+| mik-herpesvirusler | Cohen 2020 (JCI) ve Gershon 2015 (Nat Rev Dis Primers) bağlantıları doğrulanamadı. CMV latens yeri (miyeloid öncül hücreler/monosit) etikete yazılmadı. "CMV en sık konjenital viral enfeksiyon" klasik bilgi. | Murray 10. baskı |
+| mik-mantarlar | WHO fungal priority pathogens list (2022) ve Brown 2012 (Sci Transl Med) bağlantıları doğrulanamadı. Aspergillus "dar/akut açı" ve Mucorales "dik açı" dallanması klasik bilgi; açı derecesi yazılmadı. | WHO FPPL 2022 |
+| mik-kompleman | Ricklin 2010 (Nat Immunol) ve Merle 2015 (Front Immunol) bağlantıları doğrulanamadı. Faktör H – atipik HÜS ilişkisi anlatımda geçti, etikete yazılmadı. | Abbas 11. baskı |
+| mik-asi-immunolojisi | Pollard & Bijker 2021 (Nat Rev Immunol) bağlantısı doğrulanamadı. Sağlık Bakanlığı 2020 aşı takvimi bağlantısı başka bir paketten (denetlenmiş) alındı; daha güncel takvim varsa güncellenmeli. Canlı aşı kontrendikasyonlarının ayrıntısı (hangi düzey immünsüpresyon) yazılmadı. Halk sağlığındaki hs-asi-takvimi ile örtüşmemesi için takvim değil mekanizma anlatıldı. | ACIP General Best Practice; HSGM aşı takvimi |
+| mik-hiv-virolojisi | Engelman & Cherepanov 2012 ve Deeks 2015 bağlantıları doğrulanamadı. HIV-2'nin daha yavaş seyri ve Batı Afrika ağırlığı klasik bilgi. Enfeksiyon paketindeki enf-hiv-tani-art ile örtüşmemek için tanı/tedavi değil virüs yapısı ve döngüsü ele alındı. | Murray 10. baskı |
+| mik-mhc-antijen-sunumu | Neefjes 2011 (Nat Rev Immunol) ve Blum 2013 (Annu Rev Immunol) bağlantıları doğrulanamadı. HLA–hastalık eşleşmeleri (B27, DQ2/DQ8, DR3/DR4) klasik bilgi. | Abbas 11. baskı |
+| mik-primer-immun-yetmezlik | IUIS 2022 (Tangye, J Clin Immunol) bağlantısı doğrulanamadı; IUIS'in 2024 güncellemesi (J Hum Immun 2025) olabilir, varsa o kullanılmalı. Bonilla 2015 (JACI) künyesi bellekten. "En sık selektif IgA eksikliği" ve TREC taraması bilgisi klasik; Türkiye'de yenidoğan SCID taramasının durumu bilinmiyor. | IUIS 2024 güncellemesi |
+| mik-direnc-genetigi | Munita & Arias 2016 (Microbiol Spectr) ve Partridge 2018 (Clin Microbiol Rev) bağlantıları doğrulanamadı. Enfeksiyon paketindeki enf-antimikrobiyal-direnc (ESBL/karbapenemaz/MRSA/VRE klinik yaklaşımı) ile kısmen örtüşüyor; burada genetik/biyokimyasal mekanizmalar ele alındı. | Microbiol Spectr 2016 |
+| mik-enterobacterales | Adeolu 2016 (IJSEM) ve Kaper 2004 (Nat Rev Microbiol) bağlantıları doğrulanamadı. Takımda kaç aile olduğu (7) yazılmadı. EHEC O157:H7'nin sorbitolü fermente etmemesi klasik bilgi. | IJSEM 2016;66:5575 |
+| mik-protozoonlar | Montoya & Liesenfeld 2004 (Lancet) ve Shirley 2018 (OFID) bağlantıları doğrulanamadı. Amipte lümen ajanı (paromomisin) Türkiye'de bulunabilirliği bilinmiyor. Konjenital toksoplazmozda gebelik haftasına göre risk sayısal yazılmadı. | Lancet 2004;363:1965; OFID 2018 |
+
+### Kapsam değişikliği
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| mik-hipersensitivite → mik-immunglobulin-yapisi | Aşırı duyarlılık (Gell-Coombs) konusu çıkarıldı, yerine immünglobulin yapısı ve sınıfları eklendi. | Patolojideki pat-asiri-duyarlilik ile çapraz eşleşme (%73) ve konu tekrarı |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| (tüm konular) | Jawetz 29. baskı (2025), Murray 10. baskı (2025), Abbas 11. baskı (2025) künyeleri korundu. | Denetçi web araması yapmadı; paket hazırlanırken baskılar arama sonuçlarında doğrulanmıştı (yukarıdaki şüphe tablosu). |
+| mik-immunglobulin-yapisi | "plasentayı geç" → "igg plasentayı geç/igg plasentadan geç"; "dimer" → "iga dimer/dimer iga". | Sınıfsız alt dize yanlış sınıf ifadesini ödüllendiriyordu. |
+| mik-sterilizasyon | Temel kavramdan "sporları öldürmez/sporlara etkisiz" çıkarıldı, "dezenfeksiyon sporları" eklendi; biyolojik indikatör kavramından "kimyasal indikatör" çıkarıldı. | Ters ifadeyi doğru sayıyordu; kimyasal indikatör biyolojik kontrolün yerini tutmaz. |
+| mik-mikobakteriler | "arb" ve "haftalar" çıkarıldı, "kültür haftalar" eklendi. | Kısa/genel anahtar ilgisiz cümlelerle eşleşiyordu. |
+| mik-herpesvirusler | Dev hücre kavramından "cowdry" çıkarıldı; "çift sarmallı", "çekirdekte replike", "alfa/beta/gama grubu" eş anlamlıları eklendi. | Cowdry A çekirdek içi inklüzyondur; kör anlatımda söylenen kavramlar yakalanmıyordu. |
+| mik-mantarlar | Dimorfik etiketi "dokuda maya (Coccidioides'te sferül), ortamda küf" oldu. | Coccidioides dokuda sferül yapar. |
+| mik-asi-immunolojisi | Konjuge aşı kavramından "t hücre bağımsız/t hücreden bağımsız" çıkarıldı, "t hücreye bağımlı/t hücre yardımı" eklendi; canlı aşı kavramına "immün yetmezlikte", "gebelikte ve" eklendi. | Ters ifadeyi ödüllendiriyordu; kör anlatımdaki eş anlamlı yakalanmıyordu. |
+| mik-hiv-virolojisi | Prova okuma kavramına "hata yapmaya" eklendi. | Kör anlatımdaki eş anlamlı ifade yakalanmıyordu. |
+| mik-primer-immun-yetmezlik | DiGeorge etiketi "22q11.2 delesyonu: timus hipoplazisi (nadiren aplazi)" oldu; iyi anlatım "timus gelişmez ya da az gelişir" yapıldı. | Komplet atimi olguların küçük bir kısmında görülür. |
+| mik-protozoonlar | "klor" → "klora dirençli/klora dayanıklı". | Yönsüz anahtar ters ifadeyi doğru sayıyordu. |
+
+<!-- patoloji: 13 madde -->
+## Patoloji
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Robbins 11. baskı: Elsevier yayın tarihi 30 Mayıs 2025, telif yılı 2026; "11. baskı (2025)" yazıldı. Rubin 8. baskı: yayıncı/satıcı 2019, kütüphane kayıtları 2020 veriyor; "(2020)" yazıldı. | Elsevier ve Wolters Kluwer (LWW) ürün sayfaları |
+| (tüm konular) | Oturumdaki web arama kotası dolduğu ve doi.org erişilemediği için bazı makale bağlantıları doğrulanamadı ve `null` bırakıldı (aşağıda tek tek). Kavramlar Robbins/Rubin standart içeriğinden bellekle yazıldı; kitap bölümleriyle tek tek karşılaştırılmadı. | Robbins 11. baskı ilgili bölümler |
+| pat-hucre-adaptasyonlari | Nakamura & Sadoshima, Nat Rev Cardiol 2018 bağlantısı doğrulanamadı (null). | PubMed |
+| pat-hucre-hasari-nekroz | Tang ve ark., Cell Res 2019 bağlantısı doğrulanamadı (null). | PubMed |
+| pat-tromboz | Mackman N, Nature 2008 bağlantısı doğrulanamadı (null). | PubMed |
+| pat-emboli-infarkt | İkinci makale olarak Fourth Universal Definition of MI kullanıldı (infarkt morfolojisine dolaylı); daha uygun bir emboli/infarkt patolojisi derlemesi seçilebilir. | Patoloji derlemesi |
+| pat-odem-konjesyon | Woodcock & Woodcock, Br J Anaesth 2012 bağlantısı doğrulanamadı (null). | PubMed |
+| pat-ateroskleroz-patogenez | Libby ve ark., Nat Rev Dis Primers 2019 bağlantısı doğrulanamadı (null). "En sık tutulan damarlar" sıralaması Robbins'ten bellekle. | PubMed; Robbins Kan damarları bölümü |
+| pat-kanser-ozellikleri | Hanahan 2022'de önerilen yeni boyutlar özetten doğrulandı; anlatımda yalnız adları geçiyor. | Hanahan, Cancer Discov 2022 |
+| pat-karsinogenez | Her iki makalenin (de Martel, Lancet Glob Health 2020; IARC Monographs Preamble 2019) bağlantısı doğrulanamadı (null); IARC Preamble yılı kontrol edilmeli. Aflatoksin–p53 kodon mutasyonu sayısal olarak yazılmadı. | PubMed; monographs.iarc.who.int |
+| pat-amiloidoz | Merlini & Bellotti, NEJM 2003 ve Buxbaum ve ark., Amyloid 2022 (ISA nomenklatürü) bağlantıları doğrulanamadı (null). Türkiye'de AA amiloidozun önemli nedeni olarak FMF ifadesi genel bilgi; oran verilmedi. | PubMed; ISA nomenklatür sayfası |
+| pat-trinukleotid-tekrar | Orr & Zoghbi, Annu Rev Neurosci 2007 bağlantısı doğrulanamadı (null). Huntington primer (nrdp.2015.5) bağlantısı repo içindeki nöroloji paketinden alındı. Tekrar sayısı eşikleri bilerek yazılmadı. Huntington hastalığı nöroloji paketinde klinik yönüyle de var; burada yalnız mekanizma. | PubMed; Robbins Genetik bölümü |
+| pat-emboli-infarkt | Robbins 11. baskı yılı (2024 sonu çıkış / 2025-2026 telif) denetimde yeniden soruldu; mevcut "(2025)" korundu. | Elsevier ürün sayfası |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| pat-hucre-adaptasyonlari | c[6] anahtarlarından "reversib", "displazi", "dysplas" çıkarıldı; "geri döner", "uyaran kalk", "displaziye zemin", "kansere zemin" eklendi. | "reversib" "irreversible" içinde geçiyordu; tek başına "displazi" geri dönüşümlülüğü söylemeden kavramı karşılıyordu. |
+| pat-kronik-inflamasyon-granulom | c[5] tek kelimelik "kazeifiye/kazeöz/sarkoidoz" anahtarları ilişkiyi belirten çok kelimeli anahtarlarla değiştirildi ("tüberkülozda kazeifiye", "kazeöz nekroz", "sarkoidozda kazeifiye olmayan" vb.). | Ters ifade (sarkoidozda kazeifiye) doğru sayılıyordu. |
+| pat-odem-konjesyon | c[5] tek başına "hiperemi/konjesyon" anahtarları kaldırıldı; yön belirten anahtarlar ("aktif hiperemi", "pasif konjesyon", "venöz dönüş", "arteriyel genişle" vb.) kullanıldı. | Aktif/pasif yönü ters söyleyen anlatım doğru sayılıyordu. |
+| pat-emboli-infarkt | İyi anlatımdaki infarkt tanımı "arteriyel ya da daha seyrek venöz tıkanma" olarak düzeltildi. | Robbins tanımı; metin kırmızı infarktı venöz tıkanmaya bağlıyordu, iç çelişki giderildi. |
+| pat-ateroskleroz-patogenez | Tutulum yerleri kavramından tek başına "koroner", "abdominal aort", "karın aort" çıkarıldı; "abdominal aorta tutul", "en sık tutul" eklendi. | Kör anlatımda tutulum yerleri sayılmadan yalnız AAA/koroner sendromdan söz edilince kavram yakalanıyordu. |
+| pat-onkogen-tumor-baskilayici | LOH kavramından tek başına "apc", "brca" çıkarıldı; "heterozigosite kaybı", "dna onarım" eklendi. | Gen adlarını saymak LOH/DNA onarımı kavramını karşılıyordu (gevşek eşleşme). |
+
+<!-- farmakoloji: 19 madde -->
+## Farmakoloji
+
+Not: Bu paket yazılırken oturumun web arama kotası dolmuştu ve doi.org/pubmed erişimi ağ ayarlarınca engelliydi; bu nedenle hiçbir kaynak bu oturumda web üzerinden doğrulanamadı. Bağlantısı yazılı makaleler, depodaki diğer (denetlenmiş) branş paketlerinde aynı bağlantıyla kullanılmış olanlardır; geri kalanların bağlantısı `null` bırakıldı.
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Kitap baskıları doğrulanmadı: Goodman & Gilman 14. baskı (2023) ve Katzung 16. baskı (2024) bellekten yazıldı. | McGraw Hill ürün sayfaları |
+| (tüm konular) | Sayısal ifadeler (0,693 × Vd/CL, kararlı duruma 4–5 yarılanma ömrü) standart ders kitabı bilgisi; kaynakta sayfa düzeyinde kontrol edilmedi. | Goodman & Gilman, Katzung farmakokinetik bölümleri |
+| far-emilim-dagilim | Benet & Hoener 2002 (Clin Pharmacol Ther) ve Smith ve ark. 2015 (J Med Chem) başlık/yıl bellekten; bağlantı null. | PubMed |
+| far-yarilanma-klerens | Benet & Zia-Amirhosseini 1995 (Toxicol Pathol) başlık/yıl bellekten; bağlantı null. Levey & Inker 2017 GFR derlemesi farmakokinetiğe dolaylı uyuyor. | PubMed |
+| far-cyp450-etkilesim | Zanger & Schwab 2013 (Pharmacol Ther) ve FDA etkileşim tablosu sayfası doğrulanmadı; bağlantı null. İndükleyici/inhibitör listeleri klasik bilgi. | PubMed; FDA "Drug Development and Drug Interactions" sayfası |
+| far-reseptor-farmakodinami | Neubig ve ark. 2003 (IUPHAR, Pharmacol Rev) ve Rang 2006 (Br J Pharmacol) başlıkları bellekten; bağlantı null. | PubMed |
+| far-kolinerjik-ilaclar | Kaynak makaleler (Gilhus 2016 MG; Eddleston 2008 organofosfat) farmakolojiye dolaylı; mekanizma odaklı bir derleme ile değiştirilebilir. Acil paketindeki organofosfat konusuyla kısmi örtüşme (burada yalnız mekanizma). | Goodman & Gilman kolinerjik bölüm |
+| far-nsaid-cox | Vane 1971 (Nat New Biol) ve FitzGerald & Patrono 2001 (NEJM) bağlantıları doğrulanamadı (null). Rofekoksibin kardiyovasküler risk nedeniyle çekildiği bilgisi bellekten. | PubMed |
+| far-antibiyotik-mekanizma | Kohanski ve ark. 2010 (Nat Rev Microbiol) bağlantı null. Tamma IDSA 2024 direnç kılavuzu mekanizma konusuna dolaylı uyuyor. Mikrobiyoloji "mik-direnc-genetigi" ile komşu konu (orada direnç, burada etki mekanizması). | PubMed |
+| far-diuretikler | Kaynaklar (ESC HF 2021, KDIGO potasyum 2020) diüretik farmakolojisine dolaylı; Ellison & Felker NEJM 2017 diüretik derlemesi doğrulanamadığı için kullanılmadı. | Ellison DH, Felker GM. NEJM 2017 |
+| far-antikoagulan-antidot | 2020 ACC Expert Consensus (Tomaselli ve ark., JACC) bağlantı null. Andeksanet alfanın ülke/onay durumu ve 4F-PCC tercihi kılavuzlar arası farklı olabilir; Türkiye'de idarusizumab/andeksanet erişimi kontrol edilmeli. | ACC 2020 ECDP; ESC 2024 AF kılavuzu |
+| far-antiaritmik-siniflama | Lei ve ark. 2018 (Circulation) modernize sınıflama bağlantısı null; anlatımdaki "2018'de genişletildi" ifadesi bu makaleye dayanır. Amiodaron toksisite listesi klasik bilgi. | Lei M ve ark. Circulation 2018 |
+| far-antiepileptik-mekanizma | Sills & Rogawski 2020 (Neuropharmacology) başlık/yıl bellekten; bağlantı null. Lakozamidin yavaş inaktivasyon mekanizması ve perampanel AMPA antagonizması klasik bilgi. | PubMed |
+| far-gebelik-teratojen | FDA PLLR (2014 final rule, 2015 yürürlük) resmi sayfa bağlantısı null. "İlk iki hafta ya hep ya hiç" süresi kaynakta kontrol edilmedi (etikette süre yazılmadı, anlatımda geçiyor). Karbamazepinin nöral tüp riski, lityum-Ebstein ilişkisinin büyüklüğü güncel verilerle tartışmalı. | FDA PLLR sayfası; Briggs Drugs in Pregnancy and Lactation |
+| far-terapotik-ilac-izlemi | Terapötik aralık sayıları bilinçli olarak yazılmadı. Vankomisinde AUC hedefli dozlama (ASHP/IDSA 2020 konsensüsü) bellekten. | Rybak MJ ve ark. Am J Health Syst Pharm 2020 |
+| far-antidiyabetik-mekanizma | Metforminin mekanizması (AMPK) tartışmalı ve çok yollu; etikette AMPK geçiyor. ADA 2026 ve KDIGO 2022 bağlantıları başka paketlerden alındı. | ADA Standards of Care 2026 bölüm 9 |
+| far-gebelik-teratojen | ADA Standards of Care 2026 "15. Management of Diabetes in Pregnancy" bölüm numarası/DOI (dc26-S015) doğrulanamadı; teratojenite için dolaylı kaynak. PLLR Federal Register bağlantısı eklenmedi (doğrulanamadı). | ADA Standards of Care 2026 içindekiler; Federal Register 2014 PLLR |
+| far-gebelik-teratojen | "kategori x" anahtarı: denetimde öne sürülen ters yön riski çürütüldü (0/3); anahtar bırakıldı. Hekim onayı gerekirse "harf kategori/abcdx/kategori x" anahtarları birlikte gözden geçirilmeli. | Hekim kararı |
+| far-terapotik-ilac-izlemi | Etikete eklenen örnekleme zamanları (digoksin ≥6 saat, lityum ~12 saat) standart TDM bilgisi; kaynakta sayfa düzeyinde kontrol edilmedi. | Goodman & Gilman; Katzung |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| far-kolinerjik-ilaclar | Zayıf anlatımdaki "kolinerjik sistem = parasempatik" cümlesi düzeltildi (ACh ganglion ve nöromüsküler kavşakta da). | Yanıltıcı eşitleme |
+| far-diuretikler | Kalsiyum kavramında yönsüz "hiperkalsiüri", "hipokalsiüri", "kalsiyum atılımı", "kalsiyumu tut" çıkarıldı; yönlü "kalsiyumu tutar/atar", "kalsiyum atılımını artır/azalt" eklendi. | Ters ifadeyi ödüllendirme riski |
+| far-yarilanma-klerens | Formül kavramına "sıfır virgül altı dokuz", "0 69", "t yarı" eklendi. | Kör anlatımda sesli dikte biçimi yakalanmadı |
+| far-cyp450-etkilesim | Yönsüz "hızlı başlar", "hemen başlar", tek başına "gecikmeli" çıkarıldı; "inhibisyon hızlı/hemen", "indüksiyon gecikmeli/yavaş", "gecikmeli başlar", "etkileri hızlı başlar" eklendi. | Ters yön ödüllendirilebiliyordu |
+| far-reseptor-farmakodinami | Etiket: "EC50 (yarı maksimal yanıt konsantrasyonu; dozda ED50)". | EC50 doz değil konsantrasyon |
+| far-adrenerjik-ilaclar | Dolaylı sempatomimetik kavramından tek başına "kokain" çıkarıldı, "dolaylı sempatomimetik" eklendi. | Kokain beta bloker kontrendikasyonu bağlamında gevşek eşleşme |
+| far-antikoagulan-antidot | Varfarin geri dönüşünden "taze donmuş plazma/tdp" anahtarları çıkarıldı; andeksanet etiketi "apiksaban/rivaroksaban; erişilemezse 4F-PCC" olarak daraltıldı, iyi anlatım buna göre düzeltildi. | Güncel kılavuz (4F-PCC öncelikli; andeksanet edoksabanda endikasyon dışı) |
+| far-antiaritmik-siniflama | Torsades kavramından "polimorfik" anahtarı çıkarıldı. | Normal QT'li polimorfik VT TdP değildir |
+| far-antiepileptik-mekanizma | Enzim indüksiyonu/teratojenite kavramından "hla b", "hla b 1502" çıkarıldı. | HLA-B*15:02 bu kavramla ilgisiz; gevşek eşleşme |
+| far-gebelik-teratojen | Organogenez kavramından "ilk trimester/birinci trimester" çıkarıldı; iyi anlatımda "ilk iki hafta" yerine "implantasyon öncesi preembriyonik dönem", karbamazepinde nöral tüp yerine oral yarık/kardiyak defekt/genel malformasyon yazıldı. | İlk trimester organogenezle eşanlamlı değil; eskimiş vurgu |
+| far-terapotik-ilac-izlemi | Çukur düzey kavramından "tepe düzey/peak" çıkarıldı; etikete digoksin/lityum örnekleme zamanı eklendi. | Tepe düzey çukur kavramını karşılamamalı |
 
 <!-- kardiyoloji: 24 madde -->
 ## Kardiyoloji
@@ -1038,6 +1298,102 @@ Not: Bu oturumda web araması kotası dolmuştu ve PubMed/doi.org ağ erişimi k
 | anes-multimodal-postoperatif-analjezi | "kurtarıcı", "prosedüre özgü" eş anlamlıları eklendi | Kör anlatımda doğru ifadeler yakalanmadı |
 | anes-noromuskuler-blokerler | TOF kavramından "tof oranı 0", "tof oranının 0" ve yalın "0 9/0,9" kaldırıldı; "tof oranı/oranının 0,9", "0,9 un üzer", "0,9 a ulaş" eklendi | "TOF oranı 0,7 ye ulaşınca ekstübe et" gibi eskimiş eşik alt dize eşleşmesiyle kavramı alıyordu; yalın "0 9" bağlamsızdı |
 | anes-noroaksiyel-antikoagulasyon | P2Y12 kavramından yalın ilaç adları (klopidogrel, prasugrel, tikagrelor, p2y12) ve "engel değil / engel oluşturmaz" kaldırıldı; "ilaca özgü", "gün (önce) kesil", "kesilmeli", "kesilmesi gerek", "aspirin/NSAİİ tek başına" kaldı/eklendi | "Klopidogrel nöroaksiyel bloğa engel değil" gibi tehlikeli ters ifade ve kesme süresi söylemeyen anlatım kavramı alıyordu |
+
+<!-- pediatri: 24 madde -->
+## Pediatri
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Nelson 22. baskı: Elsevier 29 Mart 2024, bazı satıcılar telif yılını 2025 veriyor; "(2024)" yazıldı. Rudolph's 23. baskı (2018) güncel baskı olarak doğrulandı ama eski; 24. baskı çıkıp çıkmadığı kontrol edilmeli. Avery's 11. baskı (2023) doğrulandı. | Elsevier ve McGraw Hill ürün sayfaları |
+| (tüm konular) | Kılavuz içerikleri çoğunlukla özet/abstract ve ikincil kaynaklardan doğrulandı; tam metinler tek tek açılmadı. | doi bağlantılarındaki tam metinler |
+| ped-yenidogan-sariligi | İkinci makale ayrı bir çalışma değil, AAP 2022 kılavuzunun PubMed kaydı (eşlik eden teknik rapor Slaughter ve ark. e2022058865'in bağlantısı görülmedi). "Eşikler önceki kılavuza göre yükseltildi" ifadesi bellekten. | AAP 2022 kılavuzu ve teknik raporu |
+| ped-febril-konvulsiyon | "15 dakika" komplike nöbet sınırı ve "5 dakikayı geçen nöbete benzodiazepin" standart bilgi, kılavuz metninde doğrulanmadı. Epilepsi riskinin "hafif artmış" olması bellekten. | AAP 2008/2011; Nelson |
+| ped-akut-gastroenterit | İkinci makale bağlantısı Cochrane hipoozmolar ORS derlemesinin "references" sayfası; derlemenin yazar/yıl bilgisi doğrulanmadı. Ondansetron, rasekadotril ve probiyotik önerileri ESPGHAN 2014 özetinden/bellekten; ORS sodyum içeriği (60 vs 75 mmol/L) yazılmadı. | ESPGHAN/ESPID 2014 tam metni; Cochrane CD002847 |
+| ped-bronsiyolit | NICE NG9 satürasyon eşikleri (%90/%92) yalnız üçüncü taraf özetten görüldü, pakette kullanılmadı. Nirsevimab Türkiye'de erişim/ödeme durumu bilinmiyor. AAP 2014 güncellenmiş olabilir (AAP yeni bronşiyolit kılavuzu?). | NICE NG9; AAP güncel kılavuz listesi |
+| ped-krup | Bjornson & Johnson CMAJ 2013 bağlantısı (DOI) doğrulanamadı → null. Cochrane 2018 (pub4) derlemesinin 2023 güncellemesi (pub5) var; pub4 kaynak gösterildi, pub5 ile değiştirilmesi düşünülebilir. Deksametazon dozu (0,15 vs 0,6 mg/kg) yazılmadı. | Cochrane CD001955.pub5; CMAJ 2013;185:1317 |
+| ped-rasitizm | 400 IU/gün ilk yıl ve 2005 başlangıcı HSGM rehberi ve ikincil kaynaktan doğrulandı. Tedavi dozları (Stoss dahil) yazılmadı; "stoss" yalnız anahtar sözcük. Türkiye'de güncel program ayrıntıları (1 yaş sonrası 600 IU) kontrol edilmeli. | HSGM D vitamini uygulama rehberi; Global Consensus 2016 |
+| ped-febril-bebek | İkinci makale ayrı çalışma değil, AAP 2021 kılavuzunun PubMed kaydı. "29–60 günde belirteçler normalse LP'den kaçınılabilir, evde takip" ayrıntısı özetten; 22–28 gün algoritması ayrıntılandırılmadı. Prokalsitonin eşikleri yazılmadı. | AAP 2021 tam metni |
+| ped-kawasaki | İkinci kaynak (AHA "Top Things to Know") bağlantısı güvenilir biçimde görülmedi → null. IVIG 2 g/kg dozu yazılmadı; "ilk 10 gün" ve aspirin bellekten (AHA 2017'de standart). Japon kılavuzları ve tanı ölçütlerindeki (2020 Japon revizyonu) farklar belirtilmedi. | AHA 2017 bildirisi tam metni |
+| ped-invajinasyon | İkinci makale ayrı çalışma değil, aynı derlemenin PubMed kaydı (pubmed.gov alan adıyla). Kılavuz düzeyinde kaynak bulunamadı. Yaş aralığı (6 ay–3 yaş) bellekten. | Nelson; ESPR/SPR görüntüleme önerileri |
+| ped-pilor-stenozu | Pediatr Ann 2021 DOI'si yalnız depo kaydından görüldü. İtalyan kılavuzunun (doi:10.4081/pmc.2020.243) tam başlığı doğrulanmadı → bağlantı null. "2.–6. hafta" ve "düzeltilmemiş alkalozda postoperatif apne" bellekten. US ölçüm eşikleri yazılmadı. | Pediatr Ann 2021;50:e136; Nelson |
+| ped-iga-vaskuliti | SHARE 2019 ve EULAR/PRINTO/PRES 2010 doğrulandı. "Aylarca idrar/tansiyon takibi" süre olarak (6–12 ay) yazılmadı. Kortikosteroidin nefrit önlemedeki yeri tartışmalı. Romatoloji/nefroloji (nef-iga-nefropatisi) branşlarıyla kısmi örtüşme. | SHARE 2019; KDIGO 2021 IgAV bölümü |
+| ped-nefrotik-sendrom | Nefroloji branşında "nef-minimal-degisiklik" ve "nef-nefrotik-nefritik" var; bu konu çocukluk çağına (IPNA, steroid yanıtı) odaklandı ama örtüşme var. Prednizolon dozu/süresi yazılmadı. Biyopsi endikasyonları IPNA metninde doğrulanmadı. | IPNA 2023; KDIGO 2021 |
+| ped-yenidogan-resusitasyonu | AHA/AAP 2025 neonatal bölümün DOI'si (10.1161/CIR.0000000000001367) PubMed kaydından; başlık eşleşmesi tam teyit edilmedi. 3:1 oran, şişirme solukları ve umbilikal ven tercihi bellekten (ERC/AHA'da standart). Türkiye Neonatoloji Derneği NRP uyarlaması kontrol edilmedi. | ERC 2025 Newborn; AHA/AAP 2025 Part 5 |
+| ped-rds | İkinci makale aynı kılavuzun PMC tam metni. Kafein ve LISA önerileri özetten. Sezaryen/erkek risk faktörleri bellekten. | Avrupa RDS 2022 tam metni |
+| ped-nek | İkinci makale aynı NEJM derlemesinin PubMed kaydı; güncel kılavuz/derleme eklenmesi önerilir. Modifiye Bell evrelemesi (Walsh & Kliegman 1986) kaynağı eklenmedi. Probiyotik profilaksisi tartışmalı olduğu için eklenmedi. | Avery's; güncel NEC derlemesi |
+| ped-fenilketonuri | Türkiye programının başlangıç yılı kaynaklara göre 1983/1987; yazılmadı. Taranan 6 hastalık listesi (SMA 2022'den beri) haber/bakanlık açıklamasından. Pegvaliaz Türkiye'de ruhsat/erişim durumu bilinmiyor. HSGM PDF bağlantısı arama sonucunda görüldü, açılmadı. | HSGM Neonatal Tarama Programı sayfası; Avrupa PKU kılavuzu 2017 |
+| ped-konjenital-hipotiroidi | KH'nin programa eklenme tarihi (19 ya da 25 Aralık 2006) kaynaklarda farklı; yalnız "2006" yazıldı. Levotiroksin başlangıç dozu (10–15 µg/kg/gün) ikincil kaynaktan, pakette sayı yazılmadı. "İlk iki hafta içinde başla" ENDO-ERN önerisi bellekten. AAP 2023 raporu DOI'si haber/üniversite kaydından. | ENDO-ERN 2021; AAP 2023 (Pediatrics 151:e2022060420) |
+| ped-kawasaki | Denetim: cat "nefro" yerine kardiyoloji önerildi. Alt başlık "Nefroloji ve vaskülit" olduğundan vaskülit olarak yerinde bırakıldı; ayrı kardiyoloji/vaskülit alt başlığı açılıp açılmayacağı hekim kararı. AHA 2024 güncellemesi (Jone ve ark., Circulation 2024) kaynak olarak eklenmeli; DOI web ile doğrulanmadı. | AHA 2024 Kawasaki bildirimi |
+| ped-bronsiyolit | Nirsevimab etiketi 2023 AAP/CDC önerisine göre güncellendi (web ile doğrulanmadı). Türkiye'de nirsevimab ve maternal RSV aşısının erişim/geri ödeme durumu bilinmiyor. | AAP/ACIP 2023; SB |
+| ped-rasitizm | HSGM "D Vitamini Uygulama Rehberi" PDF yolu doğrulanamadı → bağlantı null. Resmi program adı "Bebeğe D Vitamini Destek Programı" (2005); doğru sayfa bulunup künye düzeltilmeli. | hsgm.saglik.gov.tr |
+| ped-pilor-stenozu | Denetim: Pediatr Ann 2021 DOI'sinin başlıkla eşleştiği ve İtalyan kılavuzunun (Pediatr Med Chir 2020) varlığı doğrulanamadı. Doğrulanamazsa güncel derlemeyle değiştirilmeli. | doi.org; PubMed |
+| ped-yenidogan-resusitasyonu | ERC 2025 NLS (10.1016/j.resuscitation.2025.110766) ve AHA/AAP 2025 (10.1161/CIR.0000000000001367) DOI'leri doi.org üzerinden açılarak doğrulanmalı. | doi.org |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| ped-febril-konvulsiyon | "rutin eeg" ve "rutin tetkik" anahtarları olumsuz biçimlerle ("rutin eeg gerekmez/önerilmez/istenmez", "rutin tetkik gerekmez/önerilmez") değiştirildi. | Ters ifadeyi ("rutin EEG istenir") doğru sayıyordu. |
+| ped-akut-gastroenterit | "diyet kısıtla" kaldırıldı; "diyet kısıtlanmaz", "kısıtlayıcı diyet önerilmez/uygulanmaz", "beslenmeye erken", "emzirme kesilmez" eklendi. | DOĞRULANMIŞ HATA: ters/eskimiş ifadeyi ödüllendiriyordu (ESPGHAN 2014). |
+| ped-akut-gastroenterit | "rutin antibiyotik" kaldırıldı; "rutin antibiyotik verilmez/önerilmez", "antibiyotik rutin değil/verilmez", "antidiyareik (ilaç) önerilmez" eklendi. | DOĞRULANMIŞ HATA: "rutin antibiyotik verilir" de eşleşiyordu; kör anlatımdaki eş anlamlı yakalanmıyordu. |
+| ped-akut-gastroenterit | IV sıvı kavramına "intravenöz tedavi", "izotonik" eklendi. | Kör anlatımda başka kelimelerle söylendiği hâlde yakalanmadı. |
+| ped-akut-gastroenterit | Cochrane künyesine yazarlar ve 2002 yılı eklendi; bağlantı https://doi.org/10.1002/14651858.CD002847 yapıldı. | Künyede yıl yoktu, bağlantı "/references" alt sayfasına gidiyordu. |
+| ped-bronsiyolit | "bronkodilatör rutin" kaldırıldı; "bronkodilatör rutin önerilmez/kullanılmaz", "rutin bronkodilatör verilmez", "kortikosteroid ve antibiyotik rutin önerilmez" eklendi. | Ters ifadeyi doğru sayıyordu; kör anlatımdaki eş anlamlı yakalanmıyordu. |
+| ped-bronsiyolit | Korunma etiketi: nirsevimab ilk RSV mevsimindeki bebekler (yüksek riskte ikinci mevsim), palivizumab, maternal RSV aşısı; "maternal rsv aşı", "gebelikte rsv aşı" anahtarları; iyi anlatımın son cümlesi buna göre düzeltildi. | Nirsevimabı yalnız yüksek riskle sınırlayan eskimiş anlatım (AAP/ACIP 2023). |
+| ped-krup | Zayıf anlatımdaki "aile soğuk havaya çıkarabilir" yerine "evde destek tedavisiyle izlenir" yazıldı. | Soğuk/nemli havanın kanıtlanmış yararı yok (Cochrane). |
+| ped-rasitizm | HSGM PDF bağlantısı null yapıldı. | Bağlantı doğrulanamadı; şüphe tablosuna eklendi. |
+| ped-febril-bebek | İyi anlatım: "her bebekte idrar tahlili; kültür kateterle, 22–60 günde tahlil pozitifse" biçiminde düzeltildi. | AAP 2021'den daha katı ifade vardı. |
+| ped-kawasaki | IVIG kavramından "on gün", "10 gün" kaldırıldı; "eko" yerine "eko ile", "ekoda", "eko yap" kondu. | IVIG'den bağımsız eşleşme ve kısa anahtar riski. |
+| ped-invajinasyon | "frenk üzümü", "lenfoid hiperplazi" eklendi. | Kör anlatımdaki eş anlamlılar. |
+| ped-yenidogan-resusitasyonu | Çıplak "21" anahtarı kaldırıldı. | Oksijenden bağımsız sayılarla eşleşebiliyordu. |
+| ped-nek | Tedavi kavramına "oral alım kesil", "nazogastrik/mide dekompres", "geniş spektrumlu antibiyotik" eklendi. | Kör anlatımda söylendiği hâlde yakalanmadı. |
+| ped-konjenital-hipotiroidi | "serum tsh ve serbest t4", "yakın izlem", "tsh ile izlem" eklendi. | Kör anlatımda söylendiği hâlde yakalanmadı. |
+| ped-fenilketonuri | Genel "diyet" ve "zihinsel" anahtarları "fenilalaninsiz", "özel diyet", "zihinsel yetersiz", "zihinsel gerilik olur" ile daraltıldı. | Biyokimya konusunun anlatımı bu konuda %64 alıyordu (çapraz eşleşme hatası). |
+
+<!-- kadin-dogum: 20 madde -->
+## Kadın hastalıkları ve doğum
+
+Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinleri tek tek okunmadı.
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm obstetri konuları) | Williams Obstetrics 26. baskı (2022) kullanıldı; McGraw Hill'de 27. baskı sayfası var ama yayın yılı doğrulanamadı. Çıktıysa güncellenmeli. | McGraw Hill ürün sayfası |
+| (çeşitli) | Gabbe's Obstetrics 8. baskı (2021), Speroff 9. baskı (2019), Williams Gynecology 4. baskı (2020) baskı/yılları web aramasıyla doğrulanmadı (bilgi birikiminden). Creasy & Resnik 9. baskı: Elsevier Eylül 2022, telif 2023. Berek & Novak 17. baskı (2025) doğrulandı. | Yayınevi sayfaları |
+| kd-postpartum-kanama | Etikette klasik ≥500 mL tanımı kullanıldı. WHO/FIGO/ICM 2025 birleşik kılavuzu yeni objektif tanı ölçütleri getirdi (daha düşük ölçülen kayıp + anormal hemodinamik bulgular); eşik tam metinden kontrol edilmeli ve etiket güncellenmeli. TXA "ilk 3 saat" WOMAN/WHO bilgisinden, FIGO metninde ayrıca görülmedi. | WHO 2025 PPH consolidated guideline; FIGO 2022 |
+| kd-postpartum-kanama | Sağlık Bakanlığı Doğum Sonu Kanama yönetim rehberi bulunamadı/kontrol edilmedi. | SB Doğum ve Sonrası Bakım Yönetim Rehberi |
+| kd-preeklampsi | 160/110 ağır özellik eşiği, MgSO4 izlemi (patella refleksi, kalsiyum glukonat) ve aspirin standart bilgi; ACOG PB 222 tam metninde satır satır kontrol edilmedi. ISSHP "hafif/ağır" ayrımını önermiyor; etikette ACOG kullanıldı. Aspirin dozu/başlama haftası bilinçli olarak yazılmadı. | ACOG PB 222; ISSHP 2021 |
+| kd-ektopik-gebelik | NICE NG126 bağlantısı kurumun ana sayfası; "48 saat arayla seri hCG" NICE özetinden. Metotreksat uygunluk ölçütleri (hCG eşiği vb.) bilinçli olarak yazılmadı. | NICE NG126; ACOG PB 193 |
+| kd-gestasyonel-diyabet | IADPSG eşikleri (92/180/153) ikincil özetlerden ve bilgi birikiminden; makalenin tam metni okunmadı. Türkiye'de tek basamak 75 g OGTT uygulaması (SB/TEMD) ayrıca doğrulanmadı. Postpartum 4–12. hafta OGTT ADA'dan, 2026 metninde kontrol edilmeli. | IADPSG 2010; ADA 2026 Bölüm 15; TEMD Diabetes Mellitus kılavuzu |
+| kd-plasenta-previa-dekolman | Oyelese & Ananth 2006 makalesinin PubMed/DOI bağlantısı görülmediği için null. | PubMed |
+| kd-preterm-eylem | Steroid penceresi 24–34. hafta (ACOG CO 713: 24 0/7–33 6/7; WHO 2022: 24–34 0/7). Tokoliz "~48 saat" ve MgSO4 nöroproteksiyonu ikincil özetlerden; MgSO4 için hafta eşiği bilinçli olarak yazılmadı. ACOG PB 171 DOI ikincil kaynaktan. | ACOG CO 713, PB 171; WHO ACS 2022 |
+| kd-pkos | AMH'nin erişkinde ultrason yerine kullanılabileceği ve ergende önerilmediği 2023 kılavuzu bilgisinden; tam metinde kontrol edilmedi. Letrozol ilk tercih bilgisi aynı kaynaktan. | Teede 2023 Hum Reprod |
+| kd-endometriozis | Zondervan NEJM 2020 derlemesinin bağlantısı görülmedi (null). | PubMed |
+| kd-serviks-tarama | Türkiye programı bağlantısı WHO platformunda barındırılan 2013 ulusal standart belgesi; 2026 SB bilgi notu 30–65 yaş, 5 yılda bir HPV-DNA diyor. Williams Gynecology baskısı doğrulanmadı. WHO bağlantısı yayın değil haber sayfası. Onkoloji paketindeki onk-kanser-taramalari ile kısmi örtüşme var (Türkiye programı). | SB Halk Sağlığı Genel Müdürlüğü kanser tarama sayfası |
+| kd-anormal-uterin-kanama | ACOG CO 557 (2013) bağlantısı görülmedi (null); güncelliği kontrol edilmeli. | ACOG |
+| kd-hellp | Tennessee ölçütleri (LDH >600, AST ≥70, trombosit ≤100.000) Haram 2009 özetinden. | Haram 2009; Williams |
+| kd-rh-alloimmunizasyon | ACOG PB 181 PubMed/DOI bağlantısı aramada görülmedi (null). 28. hafta ve doğum sonrası 72 saat standart bilgi; Türkiye'de uygulanan doz/şema kontrol edilmedi. | ACOG PB 181; BSH 2014 |
+| kd-menopoz-hrt | NICE NG23 bağlantısı görülmedi (null). Fezolinetant Türkiye'de ruhsat durumu bilinmiyor. NAMS artık "The Menopause Society" adını kullanıyor; 2022 bildirgesi kullanıldı. | NICE NG23; TİTCK |
+| kd-over-torsiyonu | Huang 2017 Tzu Chi Med J derlemesinin bağlantısı doğrulanmadı (null). ACOG CO 783 ergenlere özgü; erişkine genellemesi kitaptan. | PubMed |
+| kd-hiperemezis | "Tiamin dekstrozdan önce" klasik bilgi; RCOG 2024 metninde ayrıca kontrol edilmedi. | RCOG GTG 69 (2024) |
+| (kapsam) | Doğum öncesi bakım takvimi, infertilite değerlendirmesi ve kontrasepsiyon (WHO MEC) bu ilk teslimde yer almadı. | — |
+| kd-pkos, kd-anormal-uterin-kanama, kd-over-torsiyonu, kd-ektopik-gebelik, kd-endometriozis | Berek & Novak's Gynecology 17. baskı (2025) künyesi denetimde doğrulanamadı (16. baskı 2020). Değiştirilmedi; yayınevi kaydından doğrulanmalı, doğrulanamazsa 16. baskı (2020) yazılmalı. | Wolters Kluwer katalog |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| kd-preeklampsi | Doğum zamanlaması etiketi: ağır özelliksizde 37., ağır özellikli preeklampside ≥34. hafta | ACOG PB 222; etiket iki durumu ayırmıyordu |
+| kd-preeklampsi | "20 hafta/20. hafta/yirminci hafta" anahtarları yön bildiren "20. haftadan sonra" vb. ile değiştirildi | "20. haftadan önce" (kronik HT) ters ifadesi de eşleşiyordu |
+| kd-plasenta-previa-dekolman | Doğum şekli kavramında tek başına "sezaryen" yerine "sezaryenle doğ/doğum sezaryen/planlı sezaryen" vb. | "geçirilmiş sezaryen" risk etkeni kavramı karşılıyordu |
+| kd-pkos | Rotterdam anahtarı "ikisi" → "ikisi yeterli/ikisinin bulunması" | Çok genel, ters ifadeyi ödüllendiriyordu |
+| kd-pkos | Zayıf anlatımda "küçük kistler" → "küçük folikül, gerçek kist değil, her hastada yok" | PCOM foliküllerdir, tanı için şart değil (2023 kılavuzu) |
+| kd-over-torsiyonu | Over koruma kavramından "ooforektomi/siyah görün/koyu görün/koyu mor" çıkarıldı, "detorsiyon/overi kurtar" eklendi | Eskimiş "siyah overde ooforektomi" ifadesi doğru sayılıyordu (ACOG CO 783) |
+| kd-over-torsiyonu | Temel tanım anahtarı "adneks" → "adneks torsiyon/adneksiyel torsiyon" | Torsiyon demeden "adneks" geçmesi yetiyordu |
+| kd-hiperemezis | Ayırıcı tanıda "mol" → "mol gebe/hidatiform" | "molekül" (DMAH) ile alt dize eşleşmesi |
+| kd-hiperemezis | "ketonüri şiddet/keton şiddet" → "ketonüri şiddet göstergesi değil/ketonüri gösterge değil" | "ketonüri şiddet göstergesidir" ters ifadesi eşleşiyordu (RCOG GTG 69) |
+| kd-hellp | Etiket LDH ">600" → "≥600"; iyi anlatımda "trombosit 100 bin ve altında", "LDH 600 ve üzerinde" | Tennessee ölçütleri ≤100.000 ve ≥600 |
+| kd-serviks-tarama | Triyaj etiketi ve iyi anlatım: HPV 16/18 pozitifte doğrudan kolposkopi, diğer yüksek riskli tiplerde sitoloji triyajı | Ulusal algoritma/ASCCP 2019; tüm HPV pozitiflerin sitolojiyle triyajı ima ediliyordu |
+| kd-endometriozis | ESHRE klinik tanı kavramından genel "görüntüleme/transvajinal/tvusg/mr/emar/manyetik rezonans" çıkarıldı, "görüntülemeyle tanı/laparoskopisiz tanı" vb. eklendi | Kör anlatım "altın standart laparoskopi" (tersi) dediği hâlde kavram yakalanıyordu |
 
 <!-- acil: 30 madde -->
 ## Acil tıp
