@@ -48,6 +48,7 @@ const OLD = '42b5d9d';
   check(await page.$eval('[data-term="migren"] .dot', el => el.className.includes('s-pass') || el.className.includes('s-master')), 'haritada migren "geçti" görünüyor');
   check((await page.textContent('#hist')).includes('Migren'), 'geçmişte migren anlatımı görünüyor');
   check((await page.textContent('#due-list')).includes('Migren'), `tekrar takvimi okundu (sıradaki tekrar ${prog.due})`);
+  await page.evaluate(() => { const d = document.querySelector('[data-term="migren"]').closest('details'); if (d) d.open = true; });
   await page.click('[data-term="migren"]');
   check(await page.inputValue('#r-notes') === 'Migren notum: tek taraflı zonklayıcı, aura, triptan.', 'araştırma notu aynen geldi');
   check(errors.length === 0, 'sayfa hatası yok' + (errors.length ? ': ' + errors.join(' | ') : ''));
