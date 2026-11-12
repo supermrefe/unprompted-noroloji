@@ -3,7 +3,7 @@
 Bir hekimin gözden geçireceği iş listesi. Her satır: konu, şüphe, kontrol edilecek kaynak. İçerik bu liste kapanmadan "hekim onaylı" sayılmaz.
 Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosya `node tools/klinik.js` ile üretilir).
 
-**Açık inceleme maddesi: 310** (değişiklik kayıtları hariç)
+**Açık inceleme maddesi: 462** (değişiklik kayıtları hariç)
 
 <!-- kardiyoloji: 24 madde -->
 ## Kardiyoloji
@@ -652,6 +652,364 @@ Konu id'leri, `subs`, seviyeler ve konu sayısı (42) değişmedi. Tüm konulara
 | hs-malnutrisyon | Ortak bildiri bağlantısı fctc.who.int'ten who.int/publications'a taşındı. | Yanlış alan adı (Tütün Kontrolü sitesi). |
 | hs-tarama-testi | "dışlama", "dışlar" → "duyarlı test dışla", "duyarlı testle dışla" | Yönsüz; "özgül test tanıyı dışlar" eşleşiyordu |
 | hs-anne-bebek-olum | SKH kavramından "70/100" çıkarıldı | [70,100] olarak her "70/100.000" ifadesini (ters yön dahil) eşliyordu |
+
+<!-- genel-cerrahi: 20 madde -->
+## Genel cerrahi
+
+Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinleri tek tek okunmadı.
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Sabiston 22. baskı: Elsevier yayın tarihi 27.08.2025, telif yılı 2026; "22. baskı (2025)" yazıldı. | Elsevier ürün sayfası (ISBN 9780443124341) |
+| (tüm konular) | Schwartz's Principles of Surgery: aramada 12. baskı bulunamadı, 11. baskı (2019) kullanıldı; 12. baskı çıktıysa güncellenmeli. Tüm konularda aynı iki genel cerrahi kitabı kullanıldı; anorektal/meme/tiroid için alan kitabı (ör. Corman) daha uygun olabilir. | McGraw Hill AccessSurgery |
+| gc-akut-apandisit | Alvarado bileşenleri ve 10 puan doğrulandı; kesme değerleri çalışmalar arasında farklı olduğu için sayı yazılmadı. Çocuk/gebede MR önerisinin WSES 2020'deki tam ifadesi okunmadı. | WSES 2020 tam metin |
+| gc-akut-kolesistit | "Erken kolesistektomi" zaman penceresi (TG18'de 72 saat/7 gün tartışması) sayısız yazıldı. TG18 flowchart makalesinin DOI'si (10.1002/jhbp.516) arama özetinden alındı; başlığın tam olarak "flowchart for the management of acute cholecystitis" olduğu doğrulanmalı. | J Hepatobiliary Pancreat Sci 2018;25:55-72 |
+| gc-akut-kolanjit | Drenaj zamanlaması (orta: erken, ağır: acil) MDCalc özetinden; TG18 tam metinle karşılaştırılmalı. | TG18 kolanjit makalesi |
+| gc-inguinal-herni | Kadında laparoendoskopik onarım önerisi doğrulandı; "iki taraflı fıtıkta" önerisi anlatımda var ama ayrıca doğrulanmadı. | HerniaSurge 2018 / BJS Open 2023 güncellemesi |
+| gc-cerrahi-alan-enfeksiyonu | Profilaksi zaman penceresi (DSÖ: insizyondan önceki 120 dk içinde?) doğrulanamadığı için sayısız yazıldı. CDC'nin <200 mg/dL glukoz önerisi arama özetinde görüldü. | WHO 2016 global SSI kılavuzu; CDC 2017 |
+| gc-anorektal-hastaliklar | Fissür için güncel ASCRS kılavuzu (2023?) bulunamadı; 2010 parametreleri var. Fistül kılavuzunun ilk yazarı kaynaklarda Gaertner/Feingold olarak farklı geçiyor. | Dis Colon Rectum 2022;65:964-985 |
+| gc-ince-barsak-obstruksiyonu | Gastrografin'in ameliyat ihtiyacını azalttığı Ceresoli meta-analizinde var, ancak başka meta-analizler (BJS, Koh 2019) aynı sonucu bulmadı. | Bologna 2017 güncellemesi |
+| gc-peptik-ulser-perforasyonu | WSES'in belirsiz olguda BT önerisi ve laparoskopik onarım koşulları tam metinden kontrol edilmedi. | WSES 2020 |
+| gc-akut-divertikulit | Antibiyotiksiz izlem için hasta seçimi ölçütleri (immünkompetan, komplike olmayan) WSES ve ASCRS'de benzer ama birebir doğrulanmadı. | WSES 2020, ASCRS 2020 |
+| gc-meme-kitlesi | ACR yaş eşikleri (30 altı USG; 40 ve üstü mamografi/tomosentez; 30-39 arası her ikisi) arama özetinden. Türkiye uygulaması farklı olabilir. | ACR AC 2022 |
+| gc-eras | Berrak sıvı ve karbonhidrat yükleme süreleri sayısız yazıldı. Ljungqvist derlemesinin %30-50 yatış azalması bilgisi kullanılmadı. | ERAS Society 2018 |
+| gc-akut-mezenter-iskemi | ESVS kılavuzu 2025 sürümü kullanıldı (2017 sürümü yerine). Etiyoloji oranları WSES 2022'den; laktat/D-dimer ifadesi tam metinden kontrol edilmeli. | WSES 2022; ESVS 2025 |
+| gc-pankreatit-nekroz-cerrahisi | Girişimin geciktirilme süresi (yaklaşık 4 hafta) sayısız yazıldı. Hafif biliyer pankreatitte aynı yatışta kolesistektomi ders bilgisi; WSES 2019'da doğrulanmalı. | WSES 2019; PANTER |
+| gc-tiroid-cerrahisi-komplikasyonlari | ATA bildirisinde PTH <15 pg/mL eşiği var, anlatımda sayı yazılmadı. Tiroid fırtınasının cerrahiye bağlı sıklığı doğrulanmadı. | Thyroid 2018;28:830-841; AAES 2020 |
+| gc-anastomoz-kacagi | Risk faktörleri listesi ders bilgisi (Kingham derlemesinin özeti okunamadı). Endoskopik vakum tedavisi kılavuz önerisi olarak doğrulanmadı. | Kingham 2009; Rahbari 2010 |
+| gc-bariatrik-cerrahi | Asyalılarda eşik değeri (BKİ >25 klinik obezite; cerrahi için 27,5 olabilir) sayısız yazıldı. Türkiye'de SGK geri ödeme ölçütleri farklı olabilir. | ASMBS/IFSO 2022; SUT |
+| gc-meme-kitlesi | Schwartz's Principles of Surgery künyesi 11. baskı (2019); 12. baskı yayımlandıysa güncellenmeli (web doğrulaması yapılmadı). | Yayıncı (McGraw Hill) sayfası |
+| gc-akut-mezenter-iskemi | ESVS 2025 kılavuzunun DOI'si (10.1016/j.ejvs.2025.06.010) doğrulanamadı. | EJVES dergi sayfası |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| gc-akut-kolesistit | "Antibiyotik ve destek tedavisi" anahtarlarına "sıvı analjezi", "analjezi ve antibiyotik", "antibiyotik tedavisi" eklendi | Kör anlatımda söylenen kavram yakalanmadı |
+| gc-inguinal-herni | Zayıf anlatımdaki "ameliyattan sonra ağır kaldırılmamalı" cümlesi "ağrının izin verdiği ölçüde erken normal aktivite" ile değiştirildi | HerniaSurge rutin aktivite kısıtlaması önermiyor |
+| gc-inguinal-herni | İzlem kavramına "dikkatli bekle" eklendi | Kör anlatımda eş anlamlı yakalanmadı |
+| gc-cerrahi-alan-enfeksiyonu | Profilaksi etiketi: çoğu ajanda 60 dk, vankomisin/florokinolon 120 dk; WHO 120 dk içinde | WHO 2016 120 dk önerir; 60 dk ASHP/IDSA kuralı |
+| gc-cerrahi-alan-enfeksiyonu | Çıplak "sigara" anahtarı "sigarayı bırak / sigaranın bırakıl / sigara bırak" ile değiştirildi | Risk faktörü olarak anılan sigara bu kavramı gevşek eşleştiriyordu |
+| gc-anorektal-hastaliklar | Kolon değerlendirmesi etiketi ve iyi anlatım "endike olduğunda (yaş, alarm bulgusu, aile öyküsü, tarama)" biçiminde koşullu yazıldı | ASCRS 2018 önerisi koşullu |
+| gc-ince-barsak-obstruksiyonu | "Kolonda volvulus" etiketten çıkarıldı; invajinasyon, ince barsak volvulusu, Crohn darlığı, safra taşı ileusu eklendi (anahtarlar dahil) | Doğrulanmış hata: kolon volvulusu kalın barsak tıkanıklığı nedenidir |
+| gc-peptik-ulser-perforasyonu | Ameliyat sonrası kavramında çıplak "ppi/proton pompa/pantoprazol" kaldırıldı; "eradikasyon", "ameliyat sonrası ppi" kaldı | Ameliyat öncesi PPI gevşek eşleşiyordu |
+| gc-akut-divertikulit | Antibiyotiksiz izlem kavramından "ayaktan" anahtarı kaldırıldı | Ayaktan tedavi antibiyotiksiz izlemle aynı değil |
+| gc-akut-divertikulit | Çıplak "komplike/komplikasyonsuz" yerine "komplike ve komplike(siz)", "komplike divertikülit" | "Komplike olmayan" ifadesi ayrımı yapmadan eşleşiyordu |
+| gc-akut-kolanjit | "mental durum" ve "mr kolanjiyo" anahtarları eklendi | Kör anlatımdaki eş anlamlılar |
+| gc-meme-kitlesi | Malignite akıntısı "spontan, tek taraflı, tek kanaldan kanlı/seröz" olarak etiketlendi; anahtar "kanlı akıntı / kanlı meme başı / tek kanal" | Nitelendirilmemiş akıntı malignite bulgusu değil |
+| gc-meme-kitlesi | Doku tanısından "ince iğne" ve çıplak "biyopsi" kaldırıldı | Solid kitlede İİAB değil kalın iğne biyopsisi önerilir (ESMO) |
+| gc-meme-kitlesi | Üçlü değerlendirmeden "klinik muayene/fizik muayene" kaldırıldı, "üçlü yaklaşım" eklendi | Yalnız muayeneden söz eden anlatım temel kavramı kazanıyordu |
+| gc-eras | Barsak hazırlığı/nazogastrik/dren anahtarları olumsuz ifadeli çok kelimeli anahtarlara daraltıldı | Rutin barsak hazırlığı yapılır diyen ters anlatım doğru sayılıyordu |
+| gc-eras | Çıplak "opioid" yerine "opioid azalt/tasarruf/opioidsiz/opioid koruyucu" | Ters anlatımı ödüllendiriyordu |
+| gc-akut-mezenter-iskemi | Laktat/D-dimer kavramı anahtarları "dışlamaz, tanı koydurmaz, özgül değil, nonspesifik, normal laktat" oldu | Çıplak "laktat" ters ifadeyi doğru sayıyordu |
+| gc-pankreatit-nekroz-cerrahisi | Koleksiyon kavramından "psödokist" kaldırıldı | Revize Atlanta'da psödokist ayrı entite |
+| gc-pankreatit-nekroz-cerrahisi | Step-up kavramından çıplak "nekrozektomi" kaldırıldı, "endoskopik nekrozektomi" eklendi | "Açık nekrozektomi" step-up sayılıyordu |
+| gc-pankreatit-nekroz-cerrahisi | Enfeksiyon ipuçlarına "koleksiyon içinde gaz", "kötüleşen organ yetmez", "yeniden ateşlen" eklendi | Kör anlatımda yakalanmadı |
+| gc-anastomoz-kacagi | ISREC kavramından "relaparotomi/tekrar ameliyat/yeniden ameliyat" kaldırıldı | Tedavi cümlesiyle gevşek eşleşiyordu |
+| gc-bariatrik-cerrahi | BKİ ≥35 kavramı "eşlik eden hastalıktan bağımsız" ifadelerini gerektiren anahtarlara daraltıldı | Eskimiş "BKİ 35 + komorbidite" ölçütü doğru sayılıyordu |
+| gc-bariatrik-cerrahi | BKİ 30–34,9 kavramından çıplak "tip 2 diyabet/diyabetik/metabolik hastalık" kaldırıldı | Eşik belirtmeyen anlatım temel kavramı kazanıyordu |
+| gc-bariatrik-cerrahi | Asya/NIH kavramından çıplak "1991/nih" kaldırıldı; "yerini aldı" eklendi | "1991 NIH ölçütleri geçerli" gibi eskimiş ifade doğru sayılıyordu |
+
+<!-- ortopedi: 21 madde -->
+## Ortopedi ve travmatoloji
+
+Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinleri sayfa sayfa okunmadı.
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Campbell's Operative Orthopaedics 15. baskı: Elsevier tarihi 5 Mart 2026, bazı satıcılarda Şubat/Mayıs 2026; "2026" yazıldı. Rockwood and Green's 10. baskı 2024 (Ağustos/Eylül). Green's Operative Hand Surgery 8. baskı: telif 2022, yayın Aralık 2021. | Elsevier / Wolters Kluwer ürün sayfaları |
+| ort-yasli-kalca-kirigi | AAOS 2021 kılavuzunun "24–48 saat" önerisi arama özetinden; tam ifade ve kanıt düzeyi PDF'te kontrol edilmeli. Bağlantı AAOS kurum sayfası (JAAOS 2022 özeti PubMed'de ayrıca var, PMID görülmedi). Sinir bloğu/deliryum, TXA önerileri metinde görülmedi. | AAOS hipfxcpg.pdf |
+| ort-acik-kirik-gustilo | Tip I <1 cm, tip II 1–10 cm, tip III >10 cm eşikleri klasik ders kitabı bilgisi; Gustilo 1976 özetinde görülmedi (IIIA/B/C alt tipleri 1984 makalesinden). EAST 2011 bağlantısı makale değil kurum özet sayfası; DOI görülmedi. Sefazolin adı EAST özetinde "gram pozitif kapsam" olarak geçiyor. | Gustilo 1984 J Trauma; EAST 2011 tam metni |
+| ort-kompartman-sendromu | ΔP <30 mmHg BOAST ve McQueen 1996'dan doğrulandı. McQueen DOI'si bone&joint sayfa adresinden türetildi. "İki kesiyle dört kompartman" BOAST özetinden. | BOAST 2025 PDF |
+| ort-distal-radius-kirigi | AAOS 2020'de 65 yaş "fonksiyonel aktivite vekili" olarak geçiyor; konservatif tedavinin "benzer sonuç" ifadesi özetten. Kamal & Shapiro DOI'si arama sonucundan. | AAOS 2020 DRF CPG PDF |
+| ort-ayak-bilegi-kirigi | Ottawa kurallarının ayrıntısı (malleolün distal 6 cm arka kenarı, "dört adım") klasik bilgi; Stiell 1993 JAMA PMID 8433468 arama özetinde görüldü ama özet metni okunmadı. Weber'e göre tedavi ayrımı ders kitabı bilgisi. | Stiell 1993 JAMA |
+| ort-gkd | AAOS 2022 kılavuzu için PubMed kaydı bulunamadı; AAOS kurum sayfası kullanıldı. "Altı aydan önce görüntüleme" ve "dördüncü aydan sonra grafi" AAOS özetinden. AAP 2016 bağlantısı PMID 27940740 (qxmd üzerinden görüldü, PubMed sayfası açılmadı). Pavlik'in 6 ay sınırı ders kitabı bilgisi. | AAOS 2022 DDH CPG; Pediatrics 2016;138:e20163107 |
+| ort-skafoid-kirigi | İkinci makale (UK ulusal kesitsel çalışma, Bone Joint Open 2021) DOAJ sayfasıyla verildi; DOI ve yazarlar görülmedi. Daha iyi bir ikinci kaynak (BSSH/NICE) seçilebilir. "2 mm" eşiği SWIFFT'ten. | Bone Joint Open 2021; BSSH rehberi |
+| ort-ock-menisku | Lachman'ın "en duyarlı" test olması klasik bilgi, burada ayrıca doğrulanmadı. | AAOS ACL CPG 2022 |
+| ort-omuz-cikigi | Robinson 2006 JBJS Am makalesinin PubMed/DOI bağlantısı doğrulanamadı → null. "Çıkıkların büyük çoğunluğu anterior" ve FARES/Stimson yöntemleri ders kitabı bilgisi. | PubMed (Robinson CM, JBJS Am 2006) |
+| ort-cocuk-septik-artrit | Kocher eşikleri (38,5 °C, ESH ≥40, lökosit >12.000) ikincil özetlerden; CRP'nin eklenmesi (Caird 2006) ayrıca doğrulanmadı. Ampirik ilaç seçimi (sefazolin, klindamisin, vankomisin) PIDS/IDSA metninde ayrıca görülmedi; Türkiye MRSA oranına göre değişir. | Kocher 1999; Woods 2021 tam metni |
+| ort-adolesan-idiyopatik-skolyoz | Korse ve cerrahi için derece eşikleri (ör. 20–25°/40–45°/50°) bilerek yazılmadı. Sol torakal eğrinin kırmızı bayrak olması klasik bilgi. | SOSORT 2016; SRS önerileri |
+| ort-perthes | Part I makalesinin bağlantısı BVS (MEDLINE mdl-15466719) kaydı; PubMed sayfası doğrudan görülmedi. "8 yaş" eşiği Herring 2004 Part II özetinden. | PubMed 15466719 |
+| ort-fbke | Klein çizgisi ve Drehmann bulgusu ders kitabı bilgisi; profilaktik karşı taraf tespiti tartışmalı (merkeze göre değişir). Naseem 2017 DOI'si Springer PDF adresinden türetildi. | Naseem 2017 J Orthop Traumatol |
+| ort-pes-ekinovarus-ponseti | Cochrane derlemesinin yazarı (Gray K) ve yılı (2014) doğrulanmadı; yalnız DOI (CD008602.pub3) görüldü. "Tenotomi %60–90", "3 ay tam gün, sonra 4–5 yaşa kadar gece" derleme özetlerinden. | Cochrane CD008602; Radler 2013 |
+| ort-kemik-tumorleri | MAP (metotreksat-doksorubisin-sisplatin) ve denosumab endikasyonu ESMO 2021 metninde ayrıca görülmedi. EWSR1-FLI1 Grünewald 2018'den. Robbins 10. baskı (2020) bu oturumda yeniden doğrulanmadı. | ESMO 2021 bone sarcoma tam metni |
+| ort-yag-embolisi | Gurd DOI'si bone&joint sayfa adresinden türetildi. StatPearls yazarları (Rothberg, Makarewich) doğrulanmadı. Latent dönem süresi sayısız yazıldı. Steroidin rutin yerinin olmaması tartışmalı (bazı kaynaklar profilaksi düşünülebilir diyor). | StatPearls NBK499885; Gurd 1974 |
+| ort-yasli-kalca-kirigi | AAOS kılavuz bağlantısı (aaos.org/hipfracturesintheelderly) denetimde doğrulanamadı; önerilen aaos.org/hipfxcpg de doğrulanmadı, değiştirilmedi. | AAOS resmi CPG sayfası |
+| ort-kompartman-sendromu | Denetim: BOAST 10'un BAPRAS ortak 2025 revizyonu doğrulanamadı (2016 BOA sürümü olabilir). Künye değiştirilmedi. | boa.ac.uk BOAST listesi |
+| ort-yag-embolisi | Denetim: Gurd 1974 DOI sonu .405 yerine .408 olabilir (makale s. 408–416); Crossref'e erişilemedi, değiştirilmedi. | Crossref / bone&joint arşivi |
+| ort-gkd | Türkiye SB GKD tarama programının ayrıntısı (yaş haftası, başlangıç yılı) doğrulanmadı; etikete sayısız eklendi. | T.C. Sağlık Bakanlığı GKD programı |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| (tüm konular) | Campbell 15. baskı (2026) korundu. | Elsevier yayın tarihi 5 Mart 2026 önceki aramada görüldü (yukarıdaki satır). |
+| ort-yasli-kalca-kirigi | Sinir bloğu kavramından tek başına "deliryum" anahtarı çıkarıldı; çivi kavramına "proksimal femoral çivi" eklendi. | Gevşek eşleşme; eş anlamlı. |
+| ort-acik-kirik-gustilo | fixtures.weak: "kemik dışarı çıkar" → "kırık hattı yarayla ilişkili, kemik görünmeyebilir"; "yara kapatılır" → "steril pansumanla örtülür". | Dar tanım ve primer kapatma olarak yanlış okunma. |
+| ort-kompartman-sendromu | Alçı açma kavramına "bandajlar açıl|alçı ve bandaj|alçı ve sargı" eklendi. | Kör anlatım eş anlamlısı. |
+| ort-ayak-bilegi-kirigi | Tedavi kavramından "stabil|instabil|unstabil|bimalleol|trimalleol" çıkarıldı. | Ters ifadeyi (unstabil kırık alçıyla) ödüllendiriyordu. |
+| ort-gkd | Tarama kavramı: etikete Türkiye SB programı eklendi; yönsüz anahtarlar (rutin ultrason, tüm bebeklere, evrensel tarama) yerine "evrensel tarama önerilmez|rutin ultrason önerilmez|sağlık bakanlığı|ulusal tarama|tarama programı". | Ters ifade eşleşmesi ve Türkiye bağlamı. |
+| ort-ock-menisku | Menisküs koruma: genel "onarım|koru|koruy|periferik|dikiş" çıkarıldı, menisküse özgü anahtarlar kondu. Dejeneratif yırtık: "dejeneratif|menisektomi|menisküsü çıkar|konservatif" yerine "önce konservatif|konservatif tedavi|menisektomi sonrası|menisektomiden sonra". | Ters ifadeyi (ÖÇB onarımı, dejeneratifte menisektomi) ödüllendiriyordu. |
+| ort-kemik-tumorleri | Osteosarkom tedavisinden tek başına "kemoterapi" çıkarıldı; "preoperatif kemoterapi|ameliyat öncesi kemoterapi|map" eklendi. | Yalnız postoperatif kemoterapi anlatımını da sayıyordu. |
+| ort-cocuk-septik-artrit | "eklem efüzyon|eklem aspirasyon" ve "oral tedaviye geç" eklendi. | Kör anlatım eş anlamlıları. |
+| ort-perthes | Kötü prognoz kavramından tek başına "prognoz" çıkarıldı, "pilar c" eklendi. | Gevşek eşleşme. |
+
+<!-- uroloji: 19 madde -->
+## Üroloji
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Campbell-Walsh-Wein 13. baskı: yayıncı listeleri Nisan–Haziran 2025 veriyor, ABD listesinde telif yılı 2026; "13. baskı (2025)" yazıldı. Smith & Tanagho için 20. baskı bulunamadı; 19. baskı (2020) kullanıldı. | Elsevier ve McGraw Hill ürün sayfaları |
+| (tüm konular) | EAU kılavuzlarının çoğunda 2026 güncellemesi yayımlanmış görünüyor; pakette 2025 sürümleri/uroweb sayfaları kaynak gösterildi. Öneriler kılavuz tam metninden değil özet/ikincil kaynaklardan ve ders kitabı bilgisinden doğrulandı. | uroweb.org ilgili kılavuz (2026) |
+| uro-urolitiyazis | Medikal atılım tedavisi: SUSPEND (2015) plaseboya üstünlük göstermedi; EAU distal üreter taşında (>5 mm) alfa bloker önerisini sürdürüyor. Boyut eşiği bellekten, pakette sayısız yazıldı. | EAU Urolithiasis 2025/2026, MET bölümü |
+| uro-bph | EAU artık "BPO" terimini tercih ediyor; tedavi seçimi (5-ARI için prostat hacmi eşiği) sayısız yazıldı. | EAU Non-neurogenic Male LUTS 2026 |
+| uro-testis-torsiyonu | Testis kurtarılma oranları (0–6 saat ~%97) yalnız ikincil özetten görüldü; sayı yazılmadı. Manuel detorsiyonun yeri pakette yok. EAU pediatrik kaynağı olarak "summary of changes 2025" sayfası verildi, bölüm sayfası değil. | EAU/ESPU Paediatric Urology, Acute scrotum bölümü |
+| uro-hematuri | AUA mikrohematüri tanımı (≥3 eritrosit/BBA) bellekten, pakette sayı yazılmadı. AUA 2025 risk gruplarının ölçütleri ayrıntılandırılmadı. EAU ile AUA hematüri yaklaşımı farklılık gösterebilir. | AUA/SUFU Microhematuria 2025 |
+| uro-inmemis-testis | Orşiopeksi 12 ay/en geç 18 ay EAU/ESPU 2020 pocket metninden doğrulandı; 2025 güncellemesinde (bölüm 3.2 güncellendi) değişiklik olup olmadığı kontrol edilmeli. AUA 2025 yeni kriptorşidizm kılavuzu var, 2014 sürümü kaynak gösterildi. Hormon tedavisinin yeri yazılmadı. | EAU/ESPU 2025 bölüm 3.2; AUA Cryptorchidism 2025 |
+| uro-prostat-kanseri-tani | Transperineal biyopsi tercihi ve PSMA PET kullanımı EAU 2024 özetinden/bellekten; risk temelli tarama ayrıntıları (yaş, PSA eşikleri) yazılmadı. PI-RADS v2.1 makalesi (Eur Urol 2019) DOI doğrulanamadığından kaynak olarak kullanılmadı. Türkiye'de PSMA PET erişimi değişken. | EAU prostat kanseri 2024–2026 |
+| uro-mesane-kanseri-nmibc | Re-TUR zamanlaması ("birkaç hafta") bellekten; EAU 2024 risk grupları (çok yüksek risk dahil) ayrıntılandırılmadı. BCG idame süresi yazılmadı. Türkiye'de BCG temininde dönemsel sorunlar olabilir. | EAU NMIBC 2025 |
+| uro-renal-hucreli-karsinom | Adjuvan pembrolizumab önerisi EAU 2025'te güçlü öneri olarak özet sayfasında görüldü; risk ölçütleri yazılmadı. "Sol varikosel → trombüs" klasik ders kitabı bilgisi. | EAU RCC 2025; KEYNOTE-564 |
+| uro-uriner-inkontinans | Kadın odaklı kaynaklar (EAU kadın AÜSS, AUA/SUFU kadın SUI) kullanıldı; erkek (prostatektomi sonrası) inkontinans kapsanmadı. Mirabegron/vibegron Türkiye'de ruhsat durumu kontrol edilmedi. | EAU Non-neurogenic Female LUTS 2025 |
+| uro-erektil-disfonksiyon | AUA ED kılavuzu 2018 (2022'de errata); EAU SRH 2026 güncellemesi ED önerilerini yeniden düzenledi, son hali kontrol edilmeli. | EAU SRH 2026, AUA ED |
+| uro-vezikoureteral-reflu | RIVUR: profilaksi tekrarlayan İYE'yi ~%50 azalttı, skarda fark yok (ikincil özetler). Profilaksi endikasyonları (yaş, derece) EAU ile AAP arasında farklı; pakette ayrıntılandırılmadı. | EAU/ESPU VUR bölümü; AAP İYE kılavuzu |
+| uro-priapizm | ">4 saat" tanımı AUA/SMSNA 2021'den; EAU 2026 iskemik priapizm bölümünü önemli ölçüde değiştirdi — kontrol edilmeli. Fenilefrin dozu yazılmadı. | AUA/SMSNA 2021; EAU SRH 2026 priapizm |
+| uro-fournier-gangreni | Antibiyotik seçenekleri (karbapenem, piperasilin-tazobaktam + klindamisin) genel nekrotizan yumuşak doku enfeksiyonu önerilerinden; ürolojik kılavuz yok. FGSI eşiği (9) yalnız ikincil kaynakta görüldü, yazılmadı. Konu enfeksiyon (enf-selulit-nyde) ve genel cerrahi ile kısmen örtüşür. | IDSA 2014 deri-yumuşak doku; Laor 1995 J Urol |
+| uro-uretra-travmasi | Erken endoskopik realignment ile suprapubik sistostomi tercihi kılavuzlar arasında tartışmalı; pakette iki seçenek de verildi. Geciktirilmiş üretroplasti zamanlaması sayısız yazıldı. Acil tıp (acil-pelvis-kirigi) konusuyla kısmen örtüşür. | EAU Urological Trauma 2026; AUA Urotrauma |
+| uro-erkek-infertilitesi | Semen analizi için DSÖ 2021 (6. baskı) referansları sayısız yazıldı; Y mikrodelesyon test eşikleri AUA 2024'te değişti, yazılmadı. Varikoselin çoğunlukla solda olması ders kitabı bilgisi. | AUA/ASRM 2024; EAU SRH 2026 |
+| uro-uriner-inkontinans | AUA/SUFU 2023 SUI cerrahi güncellemesinin DOI'si (10.1097/JU.0000000000003435) bu makaleye gidiyor mu doğrulanamadı. | J Urol 2023 kaydı / auanet.org |
+| uro-fournier-gangreni | "Practical Review of the Current Management of Fournier's Gangrene" makalesinin yılı (2021/2022) ve PMID 35295879 doğrulanamadı (PubMed erişimi engelli). | PubMed |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| uro-urolitiyazis | c[2] anahtarları "kalsiyum oksalat\|kalsiyum taş\|oksalat" ile sınırlandı (ürik asit, strüvit, sistin çıkarıldı). | En sık taşı yanlış tip olarak söyleyen anlatım doğru sayılıyordu. |
+| uro-urolitiyazis | c[1] anahtarlarından "ultrason\|usg" çıkarıldı. | "Altın standart USG" diyen yanlış anlatım temel kavramı geçiyordu. |
+| uro-hematuri | Risk faktörü kavramına "sigara içen\|ileri yaş\|mesleki" eklendi. | Kör anlatımda başka kelimelerle söylenen kavram yakalanmadı (yanlış negatif). "sigara" tek başına NMIBC ile çapraz eşleşme yarattığı için çok kelimeli kullanıldı. |
+| uro-inmemis-testis | c[2]'de "rutin ultrason\|rutin görüntüleme" yerine olumsuz kalıplar ("... rutin önerilmez", "rutin ... önerilmez") kondu. | Yönsüz anahtar ters ifadeyi ("rutin ultrason yapılmalı") ödüllendiriyordu. |
+| uro-inmemis-testis | c[4]'ten "orşiopeksi\|orşidopeksi" çıkarıldı; yalnız yaş eşikleri kaldı. | Yanlış zamanlama veren anlatım temel kavramı geçiyordu. |
+| uro-prostat-kanseri-tani | c[2]'den tek başına "tarama" çıkarıldı. | "Herkese toplu tarama" gibi ters ifade doğru sayılıyordu. |
+| uro-renal-hucreli-karsinom | c[0]'dan "kromofob" çıkarıldı, "vhl\|von hippel" eklendi. | Doğrulanmış hata: "en sık alt tip kromofob" doğru sayılıyordu. |
+| uro-renal-hucreli-karsinom | c[5] anahtarları parsiyel/nefron koruyucu/kısmi nefrektomi ile sınırlandı. | "T1'de radikal nefrektomi" ters anlatımı doğru sayılıyordu. |
+| uro-renal-hucreli-karsinom | c[1] anahtarları "rastlantısal\|tesadüfen\|insidental" ile sınırlandı. | "Triad" tek başına eskimiş "hastalar triadla başvurur" ifadesini ödüllendiriyordu. |
+| uro-renal-hucreli-karsinom | c[6]'ya "ablasyon" eklendi. | Kavram etiketindeki ablasyonun eş anlamlısı eksikti. |
+| uro-priapizm | İyi anlatımda "kalıcı ED kaçınılmazdır" cümlesi "özellikle 36 saati aşınca risk çok yükselir; uzamış/dirençli olguda erken protez düşünülebilir" olarak düzeltildi. | AUA/SMSNA 2021'e göre ED riski süreyle artar, kaçınılmaz değildir. |
+| uro-priapizm | c[1] "iskemik\|ağrılı" yerine "iskemik priapizm\|iskemik yani\|ağrılı ve rijit"; c[4]'ten "doppler" çıkarıldı. | Santral retina arter tıkanıklığı anlatımı priapizmden %64 alıyordu (çapraz eşleşme). |
+| uro-fournier-gangreni | c[7]'ye "yüksek mortalite\|mortalitesi yüksek" eklendi. | Kavramın FGSI dışındaki kısmı için eş anlamlı yoktu. |
+| uro-uriner-inkontinans, uro-fournier-gangreni | Kaynak künyeleri değiştirilmedi, şüphe tablosuna eklendi. | DOI/PMID doğrulanamadı; doğrulanamayan bilgi eklenmedi. |
+
+<!-- beyin-cerrahisi: 17 madde -->
+## Beyin cerrahisi
+
+Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinleri tek tek okunmadı. Kitaplar: Youmans and Winn 8. baskı (Elsevier, 2022; e-kitap kaydı 2023), Greenberg's Handbook of Neurosurgery 10. baskı (Thieme, 2023) — perakende/yayınevi listelerinden.
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Kitap baskı yılları yayınevi ürün sayfasında değil, ikincil listelerde görüldü. Türkçe ders kitabı (ör. Türk Nöroşirürji Derneği kitabı) eklenmedi. | Elsevier/Thieme ürün sayfaları |
+| bc-epidural-subdural-hematom | >30 cm³ (EDH) ve >10 mm / >5 mm orta hat kayması (SDH) eşikleri 2006 Bullock özetlerinden; özetler arası küçük ifade farkı var, tam metin okunmadı. Eşikler 2006'dan beri güncellenmedi. | Neurosurgery 2006;58(3 Suppl):S7-15 ve S16-24 |
+| bc-agir-kafa-travmasi | BTF 4: KİB >22 mmHg, CPP 60–70 mmHg, steroid/profilaktik hipotermi önerilmez, 7 günlük nöbet profilaksisi bellekten (kılavuz metni açılmadı). Narratifte "uygun hastalarda KİB monitörizasyonu" genel bırakıldı. Sistolik kan basıncı eşikleri (yaşa göre ≥100/≥110 mmHg) yazılmadı. | BTF 4. baskı tam metni (braintrauma.org) |
+| bc-kafa-ici-basinc-herniasyon | 2. makale (Continuum 2018, PMID 30516597) yazarı aramada görülmedi; başlık arama özetinden. | PubMed 30516597 |
+| bc-kauda-ekuina | GIRFT yolağı İngiltere'ye özgü; MR zamanlaması kılavuzlar arasında farklı (1 saat / 4 saat / "aynı gün"); bu yüzden sayı yazılmadı. Türkiye'de ulusal yolak yok. Bağlantı spinal.co.uk'daki PDF (resmi GIRFT sayfası değil). | GIRFT National Suspected CES Pathway 2023 |
+| bc-hidrosefali-sant | Kahle 2016 PMID'si (26256071) yalnız ikincil kayıtta görüldü, DOI kullanıldı. Limbrick Part 4 için CNS sayfası kullanıldı, PubMed kaydı doğrulanmadı. | Lancet 2016;387:788-99; J Neurosurg Pediatr 2014;14 Suppl 1:30-34 |
+| bc-glioblastom | "Medyan sağkalım yaklaşık 15 ay" Stupp 2005'teki 14,6 aydan yuvarlandı; güncel serilerde farklı olabilir. 60 Gy Stupp kolunu tanımlar. Tümör tedavi alanları (TTF) ve EANO 2021 eklenmedi. | Stupp NEJM 2005; EANO 2021 (Nat Rev Clin Oncol) |
+| bc-meningiom | "Erişkinde en sık primer intrakraniyal tümör" CBTRUS verisine dayanan yaygın bilgi; bu oturumda ayrıca doğrulanmadı. EANO 2021 içeriği tam metinden okunmadı. | CBTRUS raporu; Neuro Oncol 2021;23:1821-34 |
+| bc-spinal-kord-yaralanmasi | AO Spine 2024: ilk 24 saatte erken cerrahi doğrulandı; AANS/CNS bu öneriye itiraz eden pozisyon bildirisi yayımladı (sınıf I kanıt yok). Ortalama arter basıncı hedef aralığı (AO Spine hemodinamik kılavuzu) doğrulanmadığı için sayı yazılmadı. Metilprednizolon: AO Spine 2017 seçilmiş hastada 8 saat içinde 24 saatlik infüzyonu "seçenek" sayarken AANS/CNS 2013 önermiyor — etikette "tartışmalı, rutin değil" yazıldı. | Global Spine J 2024;14(3 Suppl); AANS/CNS 2013 |
+| bc-servikal-miyelopati | "Erişkinde en sık omurilik disfonksiyonu nedeni" ifadesi literatürde yaygın, bu oturumda kaynaktan doğrulanmadı. Hafif DCM önerisi özetten. | Global Spine J 2017;7(3 Suppl):70S-83S |
+| bc-lomber-spinal-stenoz | Vasküler/nörojenik kladikasyon ayrımı (bisiklet testi vb.) ders kitabı bilgisi, kaynakta tek tek doğrulanmadı. NASS 2013 yazar adı ikincil haberden. | JAMA 2022;327:1688; Spine J 2013 (PMID 23830297) |
+| bc-hipofiz-apopleksisi | Tetikleyiciler ve cerrahi endikasyonları UK 2011 kılavuzundan, özet düzeyinde doğrulandı; kılavuz 2014'te değişiklik yapılmadan gözden geçirilmiş, daha yeni bir sürüm olup olmadığı kontrol edilmeli. Hidrokortizon dozu yazılmadı. | Clin Endocrinol 2011;74:9-20 |
+| bc-anevrizma-tedavisi-vazospazm | Nöroloji paketindeki subaraknoid-kanama ile örtüşmeyi azaltmak için ISAT ve vazospazm tedavisi öne çıkarıldı; yine de yeniden kanama/nimodipin ortak. ISAT bağlantısı PubMed 12414200 (QxMD kaydından çıkarıldı, PubMed sayfası doğrudan görülmedi). Triple-H'nin önerilmemesi ve övolemi AHA 2023'ten bellekten; nimodipin dozu/süresi yazılmadı. | Stroke 2023;54:e314; Lancet 2002;360:1267 |
+| bc-avm | ARUBA makalesinin DOI/PubMed bağlantısı aramada görülmedi (null). Spetzler-Martin puanlaması ayrıntıları yazılmadı. | Lancet 2014;383:614-21 |
+| bc-beyin-apsesi | ESCMID 2024 DOI'si (10.1016/j.cmi.2023.08.016) bir depo kaydından; 10.1016/j.cmi.2023.10.012 yazar yanıtıdır, karıştırılmamalı. Ampirik rejim ve "drenaj mümkünse her zaman" ESCMID özetinden. | Clin Microbiol Infect 2024;30:66-89 |
+| bc-chiari | Tonsil inişi için mm eşiği (klasik ≥5 mm) konsensus metninde doğrulanmadığı için yazılmadı. Pediatrik konsensus makalesinin bağlantısı/yazarları bulunamadı (null). | Neurol Sci 2022;43:1327; pediatrik konsensus Neurol Sci 2021 |
+| bc-kauda-ekuina (denetim) | Metcalfe 2023 Emerg Med J künyesi ile PMID 37669831 eşleşmesi denetimde doğrulanamadı (ağ erişimi yok, PubMed 403). Hekim/editör PubMed'de kontrol etmeli; uymuyorsa doğrulanmış kaynakla (ör. GIRFT yolağı tek başına ya da Hoeritzauer 2023 Pract Neurol) değiştirilmeli. | — |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| bc-epidural-subdural-hematom | Hacim kavramında "30 mili" → "30 ml" | "30 milimetre" yanlış eşiği doğru sayıyordu |
+| bc-epidural-subdural-hematom | SDH eşiğinde "orta hat kayma/şift/midline shift/shift" çıkarıldı; "5 mm/5 milimetre/beş milimetre" eklendi | Sayısız ya da yanlış eşikli anlatım ödüllendiriliyordu |
+| bc-agir-kafa-travmasi | "8 in altı" çıkarıldı, "8 veya altı" eklendi | GKS<8 yanlış sınır; tanım GKS ≤8 |
+| bc-agir-kafa-travmasi | "profilaktik hipotermi" ve "crash" çıkarıldı; "hipotermi yapılmaz/uygulanmaz", "steroid mortaliteyi artır" eklendi | Yön bildirmeyen anahtarlar ters ifadeyi de doğru sayıyordu |
+| bc-kauda-ekuina | Disk hernisine "büyük bir lomber disk", acil MR'a "acil lomber mr/beklemeden mr" eklendi; CES-R/I kavramından "retansiyonlu", "erken dönemde" çıkarıldı | Kör anlatımda söylenen kavram yakalanmadı; "idrar retansiyonu" gevşek eşleşiyordu |
+| bc-hidrosefali-sant | İyi anlatımda ETV cümlesi "başarılı olursa şanttan bağımsızlık; başarı yaş ve etiyolojiye göre değişir (ETV başarı skoru)" yapıldı | ETV her hastada şantsızlık sağlamaz (Kulkarni ETVSS; Kahle 2016) |
+| bc-glioblastom | Sağkalım kavramından "medyan/ortalama sağkalım" çıkarıldı | Sayı söylenmeden eşleşiyordu |
+| bc-meningiom | Derece kavramından "atipik/anaplastik/derece 3" çıkarıldı | "Çoğu derece 1, benign" özünü taşımıyordu, ters ifadeyi ödüllendiriyordu |
+| bc-spinal-kord-yaralanmasi | Kaynak başlığı "Type and Timing ... Global Spine J 2024;14(3 Suppl):174S-186S" olarak düzeltildi; 24 saat kavramından "dekompresyon/erken cerrahi/erken dekompres" çıkarıldı | Başlık 2017 sürümünündü; süresiz/yanlış süreli anlatım eşleşiyordu |
+| bc-hipofiz-apopleksisi | Kanama/enfarkt kavramından "apopleksi" çıkarıldı | Konu adı patofizyoloji bilinmeden puan veriyordu |
+| bc-anevrizma-tedavisi-vazospazm | ISAT kavramında tek başına "isat" yerine "isat çalışmasında koil", "koil(le) daha az" | Sonuç söylenmeden çalışma adı eşleşiyordu |
+| bc-avm | Başvuru kavramından "nöbet/epilep"; Spetzler-Martin'den "martin/venöz drenaj"; ARUBA'dan "rüptüre olmamış/kanamamış/tıbbi tedavi/konservatif" çıkarıldı; "girişim üstün değil" eklendi | En sık başvuru kanama; gevşek anahtarlar özü içermeden eşleşiyordu |
+| bc-beyin-apsesi | LP kavramına "lomber ponksiyon kitle" eklendi | Kör anlatımda başka kelimelerle söylendi, yakalanmadı |
+| bc-lomber-spinal-stenoz | "ileri yaş/yaşlı", tek başına "kladikasyon", "vasküler", "konservatif" çıkarıldı | Santral retina arter tıkanıklığı anlatımı bu konuda %80 alıyordu (çapraz eşleşme hatası) |
+
+<!-- kbb: 21 madde -->
+## Kulak burun boğaz
+
+Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinleri okunmadı.
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Cummings 8. baskı: Elsevier yayın tarihi 30 Eylül 2025, telif yılı 2026; "8. baskı (2025)" yazıldı. Konu bazında bölüm içerikleri görülmedi. | Elsevier ürün sayfası |
+| (tüm konular) | Scott-Brown's 8. baskı (2018) doğrulandı; 9. baskı çıkıp çıkmadığı aranmadı. | CRC Press / Routledge |
+| kbb-akut-otitis-media | AAP 2013 kılavuzu 10 yılı aşkın; güncellenmiş bir AAP/AAO-HNS kılavuzu olup olmadığı kontrol edilmeli. "Yüksek doz amoksisilin" dozu (mg/kg) bilerek yazılmadı. Türkiye'deki direnç durumu farklı olabilir. | Pediatrics 2013;131:e964; AAP güncel kılavuz |
+| kbb-seroz-otitis-media | "Yaklaşık 3 ay izlem" AAO-HNS 2016'nın bekle-gör önerisine bellekten dayanıyor; aramada "3–6 ayda bir yeniden değerlendirme" ifadesi görüldü. | OHNS 2016;154(1 Suppl):S1 |
+| kbb-akut-rinosinuzit | EPOS 2020 post-viral tanımı (5. günden sonra artış/10 günü aşan) ikincil kaynaktan; bakteriyel ARS kriterlerinin EPOS (≥3 kriter) ve AAO-HNS arasında ifade farkı var, pakette ortak noktalar kullanıldı. | EPOS 2020 tam metin; AAO-HNS 2015 |
+| kbb-epistaksis | "%90 anterior" gibi oran yazılmadı; "çoğu anterior" ifadesi ders kitabı bilgisi. Türkiye'de traneksamik asit topikal kullanım pratiği eklenmedi. | AAO-HNS 2020 |
+| kbb-tonsillit-peritonsiller-apse | Paradise kriterleri (7/5/3) bellekten, kılavuz özetinde açıkça görülmedi. Peritonsiller apsede penisilin+metronidazol önerisi Powell 2012 derlemesinden; tercih edilen rejim tartışmalı. Mitchell 2019 DOI'si arama sonucundan (10.1177/0194599818801757). | OHNS 2019;160(1S):S1 |
+| kbb-kronik-otitis-kolesteatom | Lancet 2024 KSOM derlemesinin DOI'si MSD Manual atfından görüldü; PubMed ID (38621397?) doğrulanmadı. Ototoksik aminoglikozit damlalardan kaçınma önerisi pakete eklenmedi. | Lancet 2024;403:2339 |
+| kbb-ani-sensorinoral-isitme-kaybi | "Ardışık 3 frekansta ≥30 dB" 2012 kılavuzu/ikincil kaynaktan; "72 saat" ifadesi doğrulanamadığı için yazılmadı. Hiperbarik oksijenin Türkiye'deki erişimi değişken. | OHNS 2019;161(1 Suppl):S1 |
+| kbb-kronik-rinosinuzit | Biyolojik ajanların (dupilumab, omalizumab, mepolizumab) Türkiye'de KRSwNP endikasyonu ve geri ödemesi bilinmiyor. | EPOS 2020; SGK SUT |
+| kbb-meniere | 20 dk–12 saat ve düşük-orta frekans kriteri Lopez-Escamez 2015'ten doğrulandı. Basura 2020 DOI'si arama sonucundan; PubMed ID 32267799 bağlantı olarak kullanılmadı. Betahistinin etkinliği tartışmalı (BEMED çalışması). | OHNS 2020;162(2 Suppl):S1 |
+| kbb-vestibuler-norit | Bárány 2022 PubMed ID'si (35723133?) doğrulanmadı, DOI kullanıldı. Steroid önerisi tek RKÇ'ye (Strupp 2004) dayanıyor; kılavuz düzeyinde kesin değil. | J Vestib Res 2022;32:389 |
+| kbb-yabanci-cisim-aspirasyonu | İki makale de ideal değil (2011 tanı derlemesi; 2026 Curr Opin Pulm Med derlemesinin yazar ve kapsamı tam görülmedi). "Sağ ana bronş" ve "3 yaş altı" ders kitabı bilgisi. Güncel pediatrik bir derleme ya da ERC çocuk yaşam desteği (yabancı cisim) kılavuzu ile değiştirilebilir. | PubMed 41076577; ERC 2021/2025 PLS |
+| kbb-larinks-kanseri | "Glottis en sık" ve "glottiste lenfatik az" ders kitabı bilgisi. Ses kısıklığında laringoskopi için süre eşiği (AAO-HNS disfoni kılavuzu) yazılmadı. | Steuer 2017; AAO-HNS hoarseness 2018 |
+| kbb-nazofarenks-kanseri | Lancet 2019 DOI'si atıflardan doğrulandı. "En sık abdusens tutulumu" bellekten. İndüksiyon kemoterapisinin (gemsitabin-sisplatin) hangi evrede önerildiği tam metinden kontrol edilmeli. | JCO 2021;39:840 |
+| kbb-hpv-orofarenks-kanseri | AJCC 8. baskıda ayrı evreleme kaynaktan; "8" baskı numarası bellekten. Türkiye'de HPV aşısının ulusal programdaki durumu belirtilmedi. | Lechner 2022 |
+| kbb-derin-boyun-enfeksiyonu | Makaleler kılavuz değil (2025 kapsam derlemesi, 2020 PTA komplikasyon derlemesi); ampirik antibiyotik seçimi kurum direncine göre değişir. | Cummings bölümü |
+| kbb-boyun-kitlesi-tiroglossal-kist | Tiroglossal makalenin yazarları görülmedi (Surg Radiol Anat 2013, PubMed 23689821). Kistte papiller karsinom oranı yazılmadı. | Pynnonen 2017; PubMed 23689821 |
+| kbb-meniere | DOI 909439 yerine tam kılavuz DOI'si 10.1177/0194599820909438 yazıldı (bellekten; 909439'un Executive Summary olduğu düşünülüyor). Bağlantı açılıp doğrulanmalı. | doi.org/10.1177/0194599820909438 |
+| kbb-vestibuler-norit | Kortikosteroid önerisi yumuşatıldı; kılavuzlar arasında öneri gücü farkı hekimce değerlendirilmeli. | Cochrane CD008607 (2011); Strupp 2004 |
+| kbb-boyun-kitlesi-tiroglossal-kist | Surg Radiol Anat 2013 / PMID 23689821 eşleşmesi ve yazarları hâlâ doğrulanmadı. | PubMed 23689821 |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| kbb-akut-otitis-media | Bekle-gör anahtarlarına "izle bekle/izle ve bekle"; ağrı kontrolüne "analjezi/ağrı kesici" eklendi. | Kör anlatım: eş anlamlılar yakalanmadı |
+| kbb-seroz-otitis-media | c[6] etiketi "≥3 ay kalıcı efüzyon + işitme kaybında tüp; ≥4 yaşta adenoidektomi (tek başına ya da tüple) seçenek" oldu; good metni uyarlandı. İlaç kavramına "rutin önerilmiyor/önerilmez" eklendi. | AAO-HNS 2016 KAS 11; kör anlatım |
+| kbb-akut-rinosinuzit | Viral kavramında "10 gün/on gün" yerine yönlü "10/on günden kısa/az"; bakteriyel kavramından tek başına "bakteriyel" çıkarıldı. | Ters ifadeyi ödüllendiren anahtar |
+| kbb-kronik-rinosinuzit | Objektif kanıt etiketi: birinci basamakta semptomla tanı, uzman düzeyinde endoskopi/BT; good metni uyarlandı. | EPOS 2020 basamak ayrımı |
+| kbb-meniere | Kılavuz DOI'si ...909438 yapıldı; atak kavramına "dakikalar ile saatler/dakikalarca/saatler süren" eklendi. | Bağlantı başlıkla uyumsuz; kör anlatım |
+| kbb-vestibuler-norit | c[0] "orta-şiddetli"; c[5] "erken kısa süreli kortikosteroid düşünülebilir (uzun dönem yararı tartışmalı)", gevşek "kısa süre" anahtarı çıkarıldı; good metni uyarlandı. | Bárány 2022; Cochrane 2011 |
+| kbb-yabanci-cisim-aspirasyonu | Grafi kavramından "radyoopak" anahtarı çıkarıldı. | Ters ifadeyi ödüllendiriyordu |
+| kbb-larinks-kanseri | "lenf drenaj" yerine yönlü "lenf drenajı az/lenfatikten fakir/geç boyun metastaz" anahtarları. | Ters ifadeyi ödüllendiriyordu |
+| kbb-nazofarenks-kanseri | Tanı kavramında "plazma" yerine "plazma ebv". "çin" ve "mr" ≤3 harf olduğu için tam sözcük eşleşir ("için" ile eşleşmez); değiştirilmedi. | Özgül olmayan anahtar |
+| kbb-hpv-orofarenks-kanseri | Korunma kavramına "aşısı" eklendi. | Kör anlatım: "HPV aşısı" yakalanmadı |
+| kbb-boyun-kitlesi-tiroglossal-kist | "ampirik antibiyotik" → "ampirik antibiyotik verilmez/önerilmez"; "açık biyopsi" → "açık biyopsi ilk tercih değil/açık biyopsi yerine". | Ters ifadeyi ödüllendiriyordu |
+
+<!-- goz: 18 madde -->
+## Göz hastalıkları
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Kanski 10. baskı (Salmon, 2024) yayıncı sayfasından doğrulandı. Vaughan & Asbury'nin 20. baskısı bulunamadı; 19. baskı yayın yılı kaynaklarda 2017/2018 olarak farklı veriliyor, "2017" yazıldı. | McGraw Hill ürün sayfası |
+| (tüm konular) | Kılavuz önerileri çoğunlukla özet/ikincil kaynaklardan ve bellekten; PPP tam metinleri tek tek açılmadı. | İlgili AAO PPP tam metinleri |
+| goz-akut-aci-kapanma-glokomu, goz-primer-acik-acili-glokom | EGS 6. baskı (Br J Ophthalmol, Eylül 2025) DOI'si bulunamadı; EGS resmi sayfası (eugs.org/educational_materials/190) verildi, sayfanın 6. baskıya ait olduğu tam teyit edilmeli. AAO Primary Angle-Closure Disease PPP'nin 2026 güncellemesi çıkmış (Şubat 2026, epub); pakette 2021 sürümü kullanıldı. | BJO 2025 EGS kılavuzu; Ophthalmology 2026 PACD PPP |
+| goz-primer-acik-acili-glokom | SLT'nin ilk basamak seçenek olması (LiGHT çalışması, EGS/AAO) bellekten. | EGS 2025; AAO POAG PPP 2020 |
+| goz-kirmizi-goz-konjonktivit | Azari & Arabi 2020 (J Ophthalmic Vis Res) bağlantısı doğrulanmadı (null). | PubMed |
+| goz-keratit | Bacterial Keratitis PPP 2024 DOI'si (10.1016/j.ophtha.2023.12.035) yalnız ikincil bir kaynakta görüldü. HSV keratit kılavuzu (White & Chodosh) için AAO klinik bildirim sayfası verildi; yılı (2014) ve Ophthalmology'de yayımlanmış sürümü teyit edilmeli. Akantamöba için ayrı makale konmadı. | doi.org; AAO; akantamöba derlemesi |
+| goz-kimyasal-yanik | Dua 2001 (Br J Ophthalmol) DOI'si doğrulanamadı (null). İrrigasyon hedef pH aralığı sayısal yazılmadı. Topikal steroidin süresi/zamanlaması (ilk hafta) belirtilmedi. | Dua 2001; Eslani 2014 |
+| goz-katarakt | Kaynak 2021 PPP'ye (Ophthalmology 2022, doi 10.1016/j.ophtha.2021.10.006) güncellendi; DOI bellekten, doi.org'da teyit edilmeli. Liu ve ark. Lancet 2017 bağlantısı doğrulanmadı (null). | AAO PPP sayfası; PubMed |
+| goz-diyabetik-retinopati | DR PPP 2025 DOI'si bulunamadı, AAO resmi sayfası verildi; bazı kaynaklar "2024" diyor. Tarama zamanlaması (tip 1'de 5 yıl, tip 2'de tanıda) bellekten; ADA 2025 bağlantısı null. Hızlı HbA1c düşüşünde erken kötüleşme bellekten. | AAO DR PPP 2025; ADA Standards of Care 2025 bölüm 12 |
+| goz-yasa-bagli-makula-dejenerasyonu | Kompleman inhibitörlerinin (pegcetacoplan, avacincaptad pegol) Türkiye'de ruhsat/erişim durumu bilinmiyor; EMA'nın pegcetacoplan için olumsuz görüşü olmuştu. | TİTCK; AAO AMD PPP 2025 |
+| goz-retina-dekolmani | Steel D, BMJ Clin Evid 2014 bağlantısı doğrulanmadı (null). PVD PPP'nin daha yeni (2024/2025) bir sürümü olabilir (DOI 10.1016/j.ophtha.2024.12.023 bir katalogda görüldü). | PubMed; AAO PVD PPP |
+| goz-santral-retina-arter-tikanikligi | IV trombolizin zaman penceresi (4,5 saat) ve kanıt düzeyi yazılmadı; "araştırılıyor" diye ifade edildi. Türkiye'de inme merkezlerinin SRAT'yi kabul pratiği değişken. | AHA 2021 bildirimi; güncel RCT'ler (THEIA, TenCRAOS) |
+| goz-retinal-ven-tikanikligi | EURETINA 2019 RVO kılavuzu bağlantısı doğrulanmadı (null). "Doksan gün glokomu" anahtar olarak var, süre doğrulanmadı. Faricimab'ın RVO endikasyonu Türkiye'de teyit edilmeli. | Ophthalmologica 2019; AAO RVO PPP |
+| goz-uveit-behcet | SUN 2005 (Am J Ophthalmol) bağlantısı doğrulanmadı (null). EULAR 2018 öneri ayrıntıları (steroidin tek başına kullanılmaması, ilaç listesi) bellekten; EULAR'ın daha yeni bir güncellemesi olup olmadığı kontrol edilmeli. Behçet'in Türkiye'de körlük nedeni olarak önemi genel bilgi. | Ann Rheum Dis 2018; romatoloji paketiyle (rom-behcet) çakışma |
+| goz-optik-nevrit | ONTT sonuçları (oral prednizon tek başına nüksü artırdı) NEI özetiyle uyumlu; Beck 1992 DOI'si tek kaynakta görüldü. Nöroloji paketinde optik nörit/MS konusu ile örtüşme olabilir. | NEJM 1992;326:581; noroloji.js |
+| goz-sasilik-ambliyopi | Tedavi ayrıntıları (kapama saatleri, yaş sınırı) yazılmadı. | AAO Amblyopia PPP 2023 |
+| goz-prematurite-retinopatisi | Tarama eşiği ≤1500 g / ≤30 hafta AAP 2018'den (bellek + yaygın bilgi); Türkiye Neonatoloji/TOD ROP rehberinde eşikler farklı olabilir (ör. daha yüksek ağırlık/hafta). AAP'nin 2018 sonrası güncellemesi olup olmadığı kontrol edilmeli. | AAP 2018; Türk Neonatoloji Derneği ROP rehberi |
+| goz-retinoblastom | Global Retinoblastoma Study Group JAMA Oncol 2020 bağlantısı doğrulanmadı (null). | PubMed |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| goz-kimyasal-yanik | Asit kavramından tek başına "asit", "bariyer", "pıhtılaşma" anahtarları çıkarıldı; mekanizmaya özgü çok kelimeli anahtarlar eklendi | Ters ifadeyi ("asit yanığı daha ağır") ödüllendiriyordu |
+| goz-kimyasal-yanik | Alkali kavramında "çamaşır suyu" yerine "kostik", "lavabo açıcı" | Hipoklorit zayıf alkali; ağır alkali yanık örneği değil |
+| goz-kimyasal-yanik | Zayıf anlatımda başvuru cümlesi "Göz olay yerinde hemen yıkanmalı, ardından..." olarak yazıldı | İrrigasyonun ertelenebileceği izlenimini önlemek |
+| goz-katarakt | Kaynak AAO Cataract PPP 2016 → 2021 (Ophthalmology 2022) | Eskimiş kılavuz |
+| goz-katarakt, goz-retinoblastom | "kırmızı refle" anahtarı "kırmızı refle kaybı/yok/alınamaz/anormal" ile daraltıldı (retinoblastomda "beyaz refle" eklendi) | "Kırmızı refle normal" ifadesi kavramı karşılıyordu |
+| goz-diyabetik-retinopati | Sistemik kontrol kavramına "lipid/lipit kontrol", "glisemi, tansiyon", "hızlı glisemi düzel" eklendi | Kör anlatımda başka kelimelerle söylenen kavram yakalanmadı |
+| goz-retinal-ven-tikanikligi | Fundus etiketi CRVO'ya bağlandı, BRVO'da sektörel kanama eklendi ("sektörel kanama" anahtarı) | Etiket BRVO için yanlış genelleme öğretebilirdi |
+| goz-retinal-ven-tikanikligi | Sistemik kontrol kavramına "risk faktörleri (mutlaka) kontrol" eklendi | Kör anlatımda eş anlamlı ifade yakalanmadı |
+| goz-prematurite-retinopatisi | Tarama kavramına sayısız ifadeler ("risk grubundaki bebek", "rop tarama", "tarama muayene") eklendi; Türkiye eşiği (TND 2021) doğrulanamadığı için sayı eklenmedi, şüphe tablosunda duruyor | Kör anlatımda sayı vermeden söylenen tarama yakalanmadı |
+| goz-akut-aci-kapanma-glokomu | Değişiklik yok: EGS 6. baskı DOI'si doğrulanamadı; şüphe tablosunda mevcut | Hekim/kaynak kontrolü gerekli |
+
+<!-- kvc: 16 madde -->
+## Kalp ve damar cerrahisi
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Web arama kotası dolduğu için kılavuz önerileri çoğunlukla bellekten ve ikincil özetlerden yazıldı; kılavuz tam metinleri açılmadı. Kitap baskıları doğrulandı (Rutherford 10. baskı 2022; Sabiston & Spencer Surgery of the Chest 10. baskı, yayın 2023/telif 2024; Kirklin/Barratt-Boyes 4. baskı 2013). Sabiston Textbook of Surgery 21. baskı (2021) ve Braunwald 13. baskı (2025) bu oturumda ayrıca doğrulanmadı. | Yayıncı sayfaları |
+| kvc-aort-diseksiyonu | 2022 ACC/AHA aort hastalığı kılavuzunun URL'si doğrulanamadı (null). ESC 2024'ün yeni TEM sınıflaması pakete eklenmedi; Stanford/DeBakey kullanıldı. | 2024 ESC PAAD; 2022 ACC/AHA Aortic Disease |
+| kvc-abdominal-aort-anevrizmasi | Onarım eşikleri (erkek 5,5 cm, kadın 5,0 cm, yılda ≥1 cm büyüme) bellekten; ESVS 2024 tam metninde kadın eşiğinin öneri sınıfı kontrol edilmeli. Tarama: ESVS 2024 özetine göre yüksek riskli gruplar. | ESVS 2024 AAA kılavuzu |
+| kvc-periferik-arter-hastaligi | ABI ≤0,90 eşiği ve silostazol önerisinin ESC 2024'teki sınıfı tam metinde doğrulanmadı. | 2024 ESC PAAD |
+| kvc-akut-ekstremite-iskemisi | Rutherford akut iskemi sınıfları (I, IIa, IIb, III) bellekten; ESVS 2020 tam metni açılmadı. | ESVS 2020 ALI |
+| kvc-kronik-venoz-hastalik | CEAP 2020 güncellemesi makalesinin URL'si doğrulanamadı (null). Termal ablasyonun ilk seçenek olması ESVS 2022 tam metninde kontrol edilmeli. | ESVS 2022; CEAP 2020 (Lurie ve ark.) |
+| kvc-karotis-darligi | Semptomatik %50–99'da endarterektomi ve 14 gün penceresi bellekten (ESVS 2023 özetinde doğrudan görülmedi); "son 6 ay" semptomlu tanımı da kontrol edilmeli. | ESVS 2023 karotis kılavuzu |
+| kvc-kabg-pki | ESC 2024 KKS'de revaskülarizasyon önerilerinin 2018 ile büyük ölçüde aynı olduğu ikincil kaynaktan; SYNTAX eşikleri sayısal yazılmadı. 2018 ESC/EACTS makale yılı (Eur Heart J 2019) kontrol edilmeli. | 2024 ESC KKS; 2018 ESC/EACTS revaskülarizasyon |
+| kvc-kardiyak-tamponad | Spodick "Acute cardiac tamponade" NEJM 2003 URL'si doğrulanamadı (null). | NEJM 2003;349:684 |
+| kvc-kronik-ekstremiteyi-tehdit-eden-iskemi | GVG'nin iki yayını var (JVS ve EJVES 2019); JVS DOI'si kullanıldı. "2 haftadan uzun" süre tanımı bellekten. | GVG 2019 |
+| kvc-fallot-tetralojisi | Tam düzeltme zamanlaması sayısal yazılmadı; Türkiye pratiği ile farklar olabilir. | Kirklin/Barratt-Boyes; Apitz 2009 |
+| kvc-buyuk-arter-transpozisyonu | 2018 AHA/ACC erişkin KKH kılavuzu URL'si doğrulanamadı (null). Arteriyel switch zamanlaması sayısal yazılmadı. | 2018 AHA/ACC ACHD; 2020 ESC ACHD |
+| kvc-torasik-outlet-sendromu | ESC 2024 PAAD'ın TOS'u ne kadar kapsadığı doğrulanmadı; ikinci kaynak olarak zayıf olabilir. | SVS 2016 raporlama standartları; Rutherford |
+| kvc-kardiyopulmoner-baypas | 2024 EACTS/EACTAIC/EBCP KPB kılavuzunun varlığı ve künyesi doğrulanamadı (null). | EACTS web sitesi |
+| kvc-postoperatif-af | "2–4. gün" zirvesi ve posterior perikardiyotomi (PALACS) önerisinin ESC 2024 AF'deki sınıfı tam metinde kontrol edilmedi. Postperikardiyotomi tedavisi için ESC 2025 perikardit kılavuzu esas alındı. | 2024 ESC AF; 2025 ESC miyokardit/perikardit |
+| kvc-mitral-yetersizligi-cerrahisi | ESC/EACTS 2025'te asemptomatik düşük riskli primer MY'de erken onarımın Sınıf I'e yükseltildiği ikincil kaynaktan; LVESD/EF eşikleri sayısal yazılmadı. Carpentier 1983 makalesinin URL'si doğrulanamadı (null). | 2025 ESC/EACTS VHD tam metni |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| kvc-aort-diseksiyonu | Stanford A/B kavramında tek başına "stanford", "debakey", "tip a/b", "çıkan/inen aort", "acil cerrahi" anahtarları kaldırıldı; tip ile tedaviyi birlikte arayan çok kelimeli anahtarlar konuldu ("tip a acil cerrahi", "tip b de önce medikal" vb.). | Ters çevrilmiş anlatım (tip B'de acil cerrahi) doğru sayılıyordu. |
+| kvc-abdominal-aort-anevrizmasi | İyi anlatımda tarama cümlesi "65 yaş üstü erkeklerde tek seferlik ultrason taraması; ek yüksek riskli gruplarda seçici tarama" olarak düzeltildi. | ESVS 2024: erkeklerde nüfus taraması önerisi; "yüksek riskli gruplar" eksik/yanıltıcıydı. |
+| kvc-abdominal-aort-anevrizmasi | Eşik kavramında "5 cm", "beş santim", "50 mm" çıkarıldı; yerine "kadında 5", "kadınlarda 5", "kadında 50 mm" konuldu. | "Erkekte 5 cm" gibi yanlış eşik doğru sayılıyordu. |
+| kvc-periferik-arter-hastaligi | ABI kavramında "abi", "abı", "0,9", "0.9" çıkarıldı; "abi değeri/ölç/indeks", "0,90", "0.90", "0,9 un altı", "0,9 ve altı" eklendi. Egzersiz kavramına "denetimli yürüyüş", "gözetimli yürüyüş" eklendi. | İlgisiz sözcük/sayılarla gevşek eşleşme; kör anlatımda "denetimli yürüyüş egzersizi" yakalanmamıştı. |
+| kvc-kabg-pki | KABG tercih kavramında tek başına "sol ana", "diyabet", "çok damar", "düşük ef" vb. kaldırıldı; tercih/cerrahi sözcüğüyle birlikte geçen anahtarlar konuldu; etiket "Sol ana (orta-yüksek SYNTAX) ya da çok damar + diyabet/düşük EF'de KABG tercih" oldu. Kalp takımı kavramına "kalp ekib" eklendi. | "Sol anada PKG tercih" gibi ifade doğru sayılıyordu; düşük SYNTAX'lı sol anada PKG de Sınıf I (ESC 2024 KKS). Kör anlatımda "kalp ekibi" yakalanmamıştı. |
+| kvc-mitral-yetersizligi-cerrahisi | İyi anlatımda "erken onarımı birinci sınıf öneriye yükseltti" → "erken onarım önerisini güçlendirdi". Onarım kavramına "kapak tamir", "mitral tamir", "replasman değil" eklendi. | 2025'te Sınıf I'e çıkış doğrulanamadı (2021'de IIa); kör anlatımda "tamir" yakalanmamıştı. |
+| kvc-akut-ekstremite-iskemisi | Değişiklik yok: DOI 10.1016/j.ejvs.2019.09.006 korundu. | Denetçinin önerdiği DOI web'de doğrulanmadı; mevcut DOI bilinen künyeyle (EJVES 2020;59:173-218) uyumlu görünüyor. Hekim/kaynak kontrolü önerilir. |
+
+<!-- anesteziyoloji: 20 madde -->
+## Anesteziyoloji ve reanimasyon
+
+Not: Bu oturumda web araması kotası dolmuştu ve PubMed/doi.org ağ erişimi kapalıydı; HİÇBİR kaynak, baskı, URL ya da sayı web üzerinden doğrulanamadı. Tüm makale bağlantıları bu yüzden `null`. İçerik ders kitabı bilgisine ve bilinen kılavuz özetlerine dayanır; aşağıdaki her satırın hekim tarafından kontrolü gerekir.
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Miller's Anesthesia 10. baskı (2024) ve Morgan & Mikhail's 7. baskı (2022) baskı/yılları doğrulanmadı. | Elsevier / McGraw Hill ürün sayfaları |
+| (tüm konular) | Tüm makale URL'leri null; başlık, dergi ve yıllar bellekten yazıldı, ayrıca doğrulanmalı. | PubMed |
+| anes-asa-fiziksel-durum | ASA sınıf tanımları ve örnekler (son güncelleme 2020 olarak yazıldı) doğrulanmadı. Mayhew 2019 Anaesthesia derlemesinin künyesi bellekten. | asahq.org ASA Physical Status Classification |
+| anes-preoperatif-aclik | 2/4/6/8 saat süreleri ve ASA 2023 karbonhidratlı berrak sıvı önerisi bellekten; ASA 2023'ün çocuk açlık süreleri konusunda kesin öneri vermediği hatırlanıyor, yazılmadı. GLP-1 agonisti önerileri (ASA 2023 konsensüs bildirisi, 2024 çok dernekli öneri) değişken. | Anesthesiology 2023;138:132; ASA GLP-1 bildirileri |
+| anes-iv-induksiyon-ajanlari | Kaynak makalelerin künyeleri doğrulanmadı. Tek doz etomidatın klinik sonuca etkisi tartışmalı. | BJA Education; Clin Pharmacokinet 2018 |
+| anes-monitorizasyon-kapnografi | ASA standartları güncel sürüm yılı ve AAGBI 2021 künyesi doğrulanmadı. | asahq.org; Anaesthesia 2021 |
+| anes-sedasyon-duzeyleri | ASA 2018 orta sedasyon kılavuzu künyesi; kapnografi önerisinin düzeyi doğrulanmadı. | Anesthesiology 2018 |
+| anes-inhalasyon-anestezikleri | MAK'ı etkileyen faktörler listesi (kızıl saç dahil) ders kitabından; Eger 1965 künyesi ve StatPearls bölüm adı doğrulanmadı. | Miller; Anesthesiology 1965 |
+| anes-noromuskuler-blokerler | TOF oranı ≥0,9 eşiği ve ASA 2023 / ESAIC 2023 kılavuz künyeleri doğrulanmadı. | Anesthesiology 2023; Eur J Anaesthesiol 2023 |
+| anes-noroaksiyel-anestezi | Omurilik sonlanma düzeyi (L1-L2) ve PDPH konsensusu (JAMA Netw Open 2023) künyesi doğrulanmadı; kafeinin etkinliği konsensüste zayıf. SOAP 2021 trombositopeni makalesi konuya kısmen özgü. | JAMA Netw Open 2023; Anesth Analg 2021 |
+| anes-postoperatif-bulanti-kusma | Gan 2020 konsensus önerileri (risk faktörü sayısına göre ≥2 antiemetik) bellekten. | Anesth Analg 2020;131:411 |
+| anes-opioid-farmakolojisi-pca | Opioid-naif hastada bazal infüzyon önerilmemesi (APS 2016) bellekten. Grass 2005 künyesi doğrulanmadı. | J Pain 2016;17:131 |
+| anes-zor-havayolu | ASA 2022 ve DAS 2015 içerikleri (deneme sayısı sınırı, skalpel krikotiroidotomi) bellekten; deneme sayısı rakamı yazılmadı. | Anesthesiology 2022;136:31; BJA 2015;115:827 |
+| anes-malign-hipertermi | Dantrolen 2,5 mg/kg başlangıç dozu ve RYR1/CACNA1S bilgisi bellekten; EMHG 2010 yerine daha güncel EMHG kılavuzu olabilir. | MHAUS; EMHG; Orphanet J Rare Dis 2015 |
+| anes-lokal-anestezik-toksisitesi | %20 lipid emülsiyonu ve arrestte düşük doz adrenalin, vazopresin/kalsiyum kanal/beta bloker/lokal anestezikten kaçınma önerisi ASRA kontrol listesinden bellekten; lipid dozu bilerek yazılmadı. Künyeler (2018 ve 2021) doğrulanmadı. | Reg Anesth Pain Med 2018; 2021 |
+| anes-noroaksiyel-antikoagulasyon | DMAH 12/24 saat süreleri ASRA 2018'den bellekten; P2Y12 inhibitörü ve DOAK gün sayıları bilerek yazılmadı. ESAIC/ESRA 2022 süreleri ASRA'dan farklı olabilir; ASRA esas alındı. | Reg Anesth Pain Med 2018;43:263; Eur J Anaesthesiol 2022 |
+| anes-multimodal-postoperatif-analjezi | Gabapentinoidlerin rutin önerilmemesi (PROSPECT) bellekten; PROSPECT 2019 metodoloji makalesi künyesi doğrulanmadı. | Anaesthesia 2019; PROSPECT web |
+
+### Denetim sonrası şüpheler (hekim kararı)
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| anes-zor-havayolu | DAS beklenmeyen zor entübasyon kılavuzu 2025'te güncellenmiş olabilir (Ahmad I ve ark., Br J Anaesth 2025); doğrulanamadığı için kaynakta DAS 2015 bırakıldı, anlatımda yıl kaldırıldı. | Br J Anaesth 2025 |
+| anes-noroaksiyel-antikoagulasyon | ASRA 5. baskı (Kopp SL ve ark., Reg Anesth Pain Med 2025) yayımlanmış olabilir; DOAK/antiagregan süreleri değişmiş olabilir. Doğrulanamadığı için kaynak 2018 bırakıldı, başlıktan yıl kaldırıldı. | Reg Anesth Pain Med 2025 |
+| anes-malign-hipertermi | EMHG kılavuzu 2020 sürümüne güncellendi (Br J Anaesth 2020;125:168-183, bilgiye dayalı); DOI web'de doğrulanmadığı için bağlantı null. | doi.org / PubMed |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| anes-preoperatif-aclik | Berrak sıvı etiketine "ASA, erişkin; çocukta Avrupa kılavuzları 1 saat" eklendi | Pediatrik ESAIC 2022 önerisiyle karışmasın |
+| anes-monitorizasyon-kapnografi | "sürekli başta", "başta bulun" eş anlamlıları eklendi | Kör anlatımda doğru ifade yakalanmadı |
+| anes-sedasyon-duzeyleri | "uyandırılamaz" anahtarı kaldırıldı; genel anestezide genel "havayolu desteği" anahtarı "sıklıkla/genellikle havayolu desteği" ile daraltıldı; zayıf anlatımda amnezi/taburculuk ifadesi yumuşatıldı | Uyandırılamaz = genel anestezi (ASA); derin sedasyonda da havayolu desteği gerekebilir; taburculuk derlenme kriterine bağlı |
+| anes-inhalasyon-anestezikleri | MAK-potens anahtarları yönlü yapıldı (mak düşük, ne kadar düşükse, ters orantı); MH kavramında "tetikley" kaldırıldı, "malign hipertermiyi tetik" vb. kullanıldı | Ters ifade ve genel sözcük doğru sayılıyordu |
+| anes-noromuskuler-blokerler | "depolarizan" anahtarı kaldırıldı; TOF kavramı "tof oranı 0, 0 9, kantitatif" gibi eşik/izlem türüne özgü anahtarlara bağlandı | "nondepolarizan" alt dize eşleşmesi; eskimiş eşik doğru sayılıyordu |
+| anes-noroaksiyel-anestezi | PDPH tedavi etiketi: analjezik, istenirse kafein, hidrasyonun yararı gösterilmemiş; iyi anlatım buna göre düzeltildi | Uppal 2023 konsensüsü |
+| anes-postoperatif-bulanti-kusma | "sigara içme" anahtarı yerine "sigara içmeme", "sigara kullanmayan", "non smoker" | Ters ifade (sigara içmek risk) doğru sayılıyordu |
+| anes-opioid-farmakolojisi-pca | Bazal infüzyona "rutin önerilmez", "bazal infüzyon rutin" eklendi; M6G kavramında genel "metabolit/birik/böbrek yetmez" daraltıldı | Kör anlatım yakalanmadı; gevşek eşleşme |
+| anes-zor-havayolu | İyi anlatımda "DAS 2015 algoritması" yerine "DAS kılavuzu" | 2025 güncellemesi olasılığı (şüphe tablosu) |
+| anes-malign-hipertermi | EMHG kaynağı Br J Anaesth 2010 yerine 2020 sürümü | Kılavuz güncellendi |
+| anes-lokal-anestezik-toksisitesi | "nöbet benzodiazepinle", "benzodiazepinle kontrol" eklendi | Kör anlatımda doğru ifade yakalanmadı |
+| anes-noroaksiyel-antikoagulasyon | Etiket "Tienopiridinler" yerine "P2Y12 inhibitörleri"; genel aspirin/NSAİİ/antiagregan anahtarları kaldırılıp "aspirin tek başına", "engel değil", "p2y12" kullanıldı; DMAH anahtarları doz-süreyi birlikte bağlayan "tedavi dozunda 24" türüne daraltıldı; kateter çekme eş anlamlıları eklendi; başlık ve anlatımdan "ASRA 2018" yılı kaldırıldı | Tikagrelor tienopiridin değil; ters ifadeler doğru sayılıyordu; ASRA 2025 olasılığı |
+| anes-multimodal-postoperatif-analjezi | "kurtarıcı", "prosedüre özgü" eş anlamlıları eklendi | Kör anlatımda doğru ifadeler yakalanmadı |
 
 <!-- acil: 30 madde -->
 ## Acil tıp
