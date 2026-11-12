@@ -1,0 +1,49 @@
+## Pediatri
+
+| Konu id | Şüphe | Kontrol edilecek kaynak |
+|---|---|---|
+| (tüm konular) | Nelson 22. baskı: Elsevier 29 Mart 2024, bazı satıcılar telif yılını 2025 veriyor; "(2024)" yazıldı. Rudolph's 23. baskı (2018) güncel baskı olarak doğrulandı ama eski; 24. baskı çıkıp çıkmadığı kontrol edilmeli. Avery's 11. baskı (2023) doğrulandı. | Elsevier ve McGraw Hill ürün sayfaları |
+| (tüm konular) | Kılavuz içerikleri çoğunlukla özet/abstract ve ikincil kaynaklardan doğrulandı; tam metinler tek tek açılmadı. | doi bağlantılarındaki tam metinler |
+| ped-yenidogan-sariligi | İkinci makale ayrı bir çalışma değil, AAP 2022 kılavuzunun PubMed kaydı (eşlik eden teknik rapor Slaughter ve ark. e2022058865'in bağlantısı görülmedi). "Eşikler önceki kılavuza göre yükseltildi" ifadesi bellekten. | AAP 2022 kılavuzu ve teknik raporu |
+| ped-febril-konvulsiyon | "15 dakika" komplike nöbet sınırı ve "5 dakikayı geçen nöbete benzodiazepin" standart bilgi, kılavuz metninde doğrulanmadı. Epilepsi riskinin "hafif artmış" olması bellekten. | AAP 2008/2011; Nelson |
+| ped-akut-gastroenterit | İkinci makale bağlantısı Cochrane hipoozmolar ORS derlemesinin "references" sayfası; derlemenin yazar/yıl bilgisi doğrulanmadı. Ondansetron, rasekadotril ve probiyotik önerileri ESPGHAN 2014 özetinden/bellekten; ORS sodyum içeriği (60 vs 75 mmol/L) yazılmadı. | ESPGHAN/ESPID 2014 tam metni; Cochrane CD002847 |
+| ped-bronsiyolit | NICE NG9 satürasyon eşikleri (%90/%92) yalnız üçüncü taraf özetten görüldü, pakette kullanılmadı. Nirsevimab Türkiye'de erişim/ödeme durumu bilinmiyor. AAP 2014 güncellenmiş olabilir (AAP yeni bronşiyolit kılavuzu?). | NICE NG9; AAP güncel kılavuz listesi |
+| ped-krup | Bjornson & Johnson CMAJ 2013 bağlantısı (DOI) doğrulanamadı → null. Cochrane 2018 (pub4) derlemesinin 2023 güncellemesi (pub5) var; pub4 kaynak gösterildi, pub5 ile değiştirilmesi düşünülebilir. Deksametazon dozu (0,15 vs 0,6 mg/kg) yazılmadı. | Cochrane CD001955.pub5; CMAJ 2013;185:1317 |
+| ped-rasitizm | 400 IU/gün ilk yıl ve 2005 başlangıcı HSGM rehberi ve ikincil kaynaktan doğrulandı. Tedavi dozları (Stoss dahil) yazılmadı; "stoss" yalnız anahtar sözcük. Türkiye'de güncel program ayrıntıları (1 yaş sonrası 600 IU) kontrol edilmeli. | HSGM D vitamini uygulama rehberi; Global Consensus 2016 |
+| ped-febril-bebek | İkinci makale ayrı çalışma değil, AAP 2021 kılavuzunun PubMed kaydı. "29–60 günde belirteçler normalse LP'den kaçınılabilir, evde takip" ayrıntısı özetten; 22–28 gün algoritması ayrıntılandırılmadı. Prokalsitonin eşikleri yazılmadı. | AAP 2021 tam metni |
+| ped-kawasaki | İkinci kaynak (AHA "Top Things to Know") bağlantısı güvenilir biçimde görülmedi → null. IVIG 2 g/kg dozu yazılmadı; "ilk 10 gün" ve aspirin bellekten (AHA 2017'de standart). Japon kılavuzları ve tanı ölçütlerindeki (2020 Japon revizyonu) farklar belirtilmedi. | AHA 2017 bildirisi tam metni |
+| ped-invajinasyon | İkinci makale ayrı çalışma değil, aynı derlemenin PubMed kaydı (pubmed.gov alan adıyla). Kılavuz düzeyinde kaynak bulunamadı. Yaş aralığı (6 ay–3 yaş) bellekten. | Nelson; ESPR/SPR görüntüleme önerileri |
+| ped-pilor-stenozu | Pediatr Ann 2021 DOI'si yalnız depo kaydından görüldü. İtalyan kılavuzunun (doi:10.4081/pmc.2020.243) tam başlığı doğrulanmadı → bağlantı null. "2.–6. hafta" ve "düzeltilmemiş alkalozda postoperatif apne" bellekten. US ölçüm eşikleri yazılmadı. | Pediatr Ann 2021;50:e136; Nelson |
+| ped-iga-vaskuliti | SHARE 2019 ve EULAR/PRINTO/PRES 2010 doğrulandı. "Aylarca idrar/tansiyon takibi" süre olarak (6–12 ay) yazılmadı. Kortikosteroidin nefrit önlemedeki yeri tartışmalı. Romatoloji/nefroloji (nef-iga-nefropatisi) branşlarıyla kısmi örtüşme. | SHARE 2019; KDIGO 2021 IgAV bölümü |
+| ped-nefrotik-sendrom | Nefroloji branşında "nef-minimal-degisiklik" ve "nef-nefrotik-nefritik" var; bu konu çocukluk çağına (IPNA, steroid yanıtı) odaklandı ama örtüşme var. Prednizolon dozu/süresi yazılmadı. Biyopsi endikasyonları IPNA metninde doğrulanmadı. | IPNA 2023; KDIGO 2021 |
+| ped-yenidogan-resusitasyonu | AHA/AAP 2025 neonatal bölümün DOI'si (10.1161/CIR.0000000000001367) PubMed kaydından; başlık eşleşmesi tam teyit edilmedi. 3:1 oran, şişirme solukları ve umbilikal ven tercihi bellekten (ERC/AHA'da standart). Türkiye Neonatoloji Derneği NRP uyarlaması kontrol edilmedi. | ERC 2025 Newborn; AHA/AAP 2025 Part 5 |
+| ped-rds | İkinci makale aynı kılavuzun PMC tam metni. Kafein ve LISA önerileri özetten. Sezaryen/erkek risk faktörleri bellekten. | Avrupa RDS 2022 tam metni |
+| ped-nek | İkinci makale aynı NEJM derlemesinin PubMed kaydı; güncel kılavuz/derleme eklenmesi önerilir. Modifiye Bell evrelemesi (Walsh & Kliegman 1986) kaynağı eklenmedi. Probiyotik profilaksisi tartışmalı olduğu için eklenmedi. | Avery's; güncel NEC derlemesi |
+| ped-fenilketonuri | Türkiye programının başlangıç yılı kaynaklara göre 1983/1987; yazılmadı. Taranan 6 hastalık listesi (SMA 2022'den beri) haber/bakanlık açıklamasından. Pegvaliaz Türkiye'de ruhsat/erişim durumu bilinmiyor. HSGM PDF bağlantısı arama sonucunda görüldü, açılmadı. | HSGM Neonatal Tarama Programı sayfası; Avrupa PKU kılavuzu 2017 |
+| ped-konjenital-hipotiroidi | KH'nin programa eklenme tarihi (19 ya da 25 Aralık 2006) kaynaklarda farklı; yalnız "2006" yazıldı. Levotiroksin başlangıç dozu (10–15 µg/kg/gün) ikincil kaynaktan, pakette sayı yazılmadı. "İlk iki hafta içinde başla" ENDO-ERN önerisi bellekten. AAP 2023 raporu DOI'si haber/üniversite kaydından. | ENDO-ERN 2021; AAP 2023 (Pediatrics 151:e2022060420) |
+| ped-kawasaki | Denetim: cat "nefro" yerine kardiyoloji önerildi. Alt başlık "Nefroloji ve vaskülit" olduğundan vaskülit olarak yerinde bırakıldı; ayrı kardiyoloji/vaskülit alt başlığı açılıp açılmayacağı hekim kararı. AHA 2024 güncellemesi (Jone ve ark., Circulation 2024) kaynak olarak eklenmeli; DOI web ile doğrulanmadı. | AHA 2024 Kawasaki bildirimi |
+| ped-bronsiyolit | Nirsevimab etiketi 2023 AAP/CDC önerisine göre güncellendi (web ile doğrulanmadı). Türkiye'de nirsevimab ve maternal RSV aşısının erişim/geri ödeme durumu bilinmiyor. | AAP/ACIP 2023; SB |
+| ped-rasitizm | HSGM "D Vitamini Uygulama Rehberi" PDF yolu doğrulanamadı → bağlantı null. Resmi program adı "Bebeğe D Vitamini Destek Programı" (2005); doğru sayfa bulunup künye düzeltilmeli. | hsgm.saglik.gov.tr |
+| ped-pilor-stenozu | Denetim: Pediatr Ann 2021 DOI'sinin başlıkla eşleştiği ve İtalyan kılavuzunun (Pediatr Med Chir 2020) varlığı doğrulanamadı. Doğrulanamazsa güncel derlemeyle değiştirilmeli. | doi.org; PubMed |
+| ped-yenidogan-resusitasyonu | ERC 2025 NLS (10.1016/j.resuscitation.2025.110766) ve AHA/AAP 2025 (10.1161/CIR.0000000000001367) DOI'leri doi.org üzerinden açılarak doğrulanmalı. | doi.org |
+
+### Denetim sonrası değişiklikler
+
+| Konu id | Değişiklik | Gerekçe |
+|---|---|---|
+| ped-febril-konvulsiyon | "rutin eeg" ve "rutin tetkik" anahtarları olumsuz biçimlerle ("rutin eeg gerekmez/önerilmez/istenmez", "rutin tetkik gerekmez/önerilmez") değiştirildi. | Ters ifadeyi ("rutin EEG istenir") doğru sayıyordu. |
+| ped-akut-gastroenterit | "diyet kısıtla" kaldırıldı; "diyet kısıtlanmaz", "kısıtlayıcı diyet önerilmez/uygulanmaz", "beslenmeye erken", "emzirme kesilmez" eklendi. | DOĞRULANMIŞ HATA: ters/eskimiş ifadeyi ödüllendiriyordu (ESPGHAN 2014). |
+| ped-akut-gastroenterit | "rutin antibiyotik" kaldırıldı; "rutin antibiyotik verilmez/önerilmez", "antibiyotik rutin değil/verilmez", "antidiyareik (ilaç) önerilmez" eklendi. | DOĞRULANMIŞ HATA: "rutin antibiyotik verilir" de eşleşiyordu; kör anlatımdaki eş anlamlı yakalanmıyordu. |
+| ped-akut-gastroenterit | IV sıvı kavramına "intravenöz tedavi", "izotonik" eklendi. | Kör anlatımda başka kelimelerle söylendiği hâlde yakalanmadı. |
+| ped-akut-gastroenterit | Cochrane künyesine yazarlar ve 2002 yılı eklendi; bağlantı https://doi.org/10.1002/14651858.CD002847 yapıldı. | Künyede yıl yoktu, bağlantı "/references" alt sayfasına gidiyordu. |
+| ped-bronsiyolit | "bronkodilatör rutin" kaldırıldı; "bronkodilatör rutin önerilmez/kullanılmaz", "rutin bronkodilatör verilmez", "kortikosteroid ve antibiyotik rutin önerilmez" eklendi. | Ters ifadeyi doğru sayıyordu; kör anlatımdaki eş anlamlı yakalanmıyordu. |
+| ped-bronsiyolit | Korunma etiketi: nirsevimab ilk RSV mevsimindeki bebekler (yüksek riskte ikinci mevsim), palivizumab, maternal RSV aşısı; "maternal rsv aşı", "gebelikte rsv aşı" anahtarları; iyi anlatımın son cümlesi buna göre düzeltildi. | Nirsevimabı yalnız yüksek riskle sınırlayan eskimiş anlatım (AAP/ACIP 2023). |
+| ped-krup | Zayıf anlatımdaki "aile soğuk havaya çıkarabilir" yerine "evde destek tedavisiyle izlenir" yazıldı. | Soğuk/nemli havanın kanıtlanmış yararı yok (Cochrane). |
+| ped-rasitizm | HSGM PDF bağlantısı null yapıldı. | Bağlantı doğrulanamadı; şüphe tablosuna eklendi. |
+| ped-febril-bebek | İyi anlatım: "her bebekte idrar tahlili; kültür kateterle, 22–60 günde tahlil pozitifse" biçiminde düzeltildi. | AAP 2021'den daha katı ifade vardı. |
+| ped-kawasaki | IVIG kavramından "on gün", "10 gün" kaldırıldı; "eko" yerine "eko ile", "ekoda", "eko yap" kondu. | IVIG'den bağımsız eşleşme ve kısa anahtar riski. |
+| ped-invajinasyon | "frenk üzümü", "lenfoid hiperplazi" eklendi. | Kör anlatımdaki eş anlamlılar. |
+| ped-yenidogan-resusitasyonu | Çıplak "21" anahtarı kaldırıldı. | Oksijenden bağımsız sayılarla eşleşebiliyordu. |
+| ped-nek | Tedavi kavramına "oral alım kesil", "nazogastrik/mide dekompres", "geniş spektrumlu antibiyotik" eklendi. | Kör anlatımda söylendiği hâlde yakalanmadı. |
+| ped-konjenital-hipotiroidi | "serum tsh ve serbest t4", "yakın izlem", "tsh ile izlem" eklendi. | Kör anlatımda söylendiği hâlde yakalanmadı. |
+| ped-fenilketonuri | Genel "diyet" ve "zihinsel" anahtarları "fenilalaninsiz", "özel diyet", "zihinsel yetersiz", "zihinsel gerilik olur" ile daraltıldı. | Biyokimya konusunun anlatımı bu konuda %64 alıyordu (çapraz eşleşme hatası). |
