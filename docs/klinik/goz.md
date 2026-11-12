@@ -38,4 +38,5 @@
 | goz-kimyasal-yanik | Alkali kavramından çıplak "alkali", "kireç", "amonyak", "sodyum hidroksit", "kostik", "lavabo açıcı" ve "derine ilerle" kaldırıldı; "alkali yanık(lar) asitten / daha ağır", "asitten (daha) ağır", "derin dokulara ilerler" eklendi; "sabunlaş/saponifikasyon" kaldı | "Asit derine ilerler", "alkali yanık daha hafif" gibi ters ifadeler ve asit kavramının "asit derine ilerlemez" anahtarı alkali kavramını kazandırıyordu |
 | goz-diyabetik-retinopati | Virgüllü "glisemi, tansiyon" anahtarı "glisemi ve tansiyon / glisemi ve kan basıncı" ile değiştirildi | Rastgele, kırılgan eş anlamlı |
 | goz-prematurite-retinopatisi | Tarama eşiği kavramından "rop tarama" ve "tarama muayene" kaldırıldı | Eşik söylemeden, hatta "ROP taraması gerekmez" diyen anlatım temel kavramı alıyordu |
+| goz-kirmizi-goz-konjonktivit | Viral kavramında tek başına "folikül" → "konjonktivada folikül/foliküler konjonktivit/folikül reaksiyon"; alerjik kavramında "kaşın" → "kaşınma/kaşınır" | his-deri-histolojisi anlatımı "kıl folikülü" ve "tabakasında" (alt dize) ile %60 çapraz eşleşiyordu |
 

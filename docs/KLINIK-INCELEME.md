@@ -44,6 +44,8 @@ Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosy
 | ana-el-karpal | "en sık çıkan" eklendi (lunat kavramı) | "En sık çıkan karpal kemik ise lunat" yakalanmadı |
 | ana-el-karpal | fixtures.weak: "çoğu hastaya atel ve ameliyat" → "hafifte atel, ağır/dirençlide ameliyat" | Cerrahi ilk basamak değil |
 | ana-abdominal-aorta | fixtures.weak: "yaşlılarda düzenli USG tarama" → "65 yaş üstü erkekte (özellikle sigara içen) tek seferlik USG tarama" | USPSTF 2019 / ESVS 2024 |
+| ana-spinal-traktlar | İyi anlatımdan "Hemiseksiyonda lezyon tarafında motor ve arka kordon, karşı tarafta ağrı ısı kaybolur." cümlesi çıkarıldı | brown-sequard kliniğine taşıyordu (%82 çapraz eşleşme) |
+| ana-el-karpal | İyi anlatımdan "hasta ellerinin üzerine düşer ve enfiye çukurunda hassasiyet olur" çıkarıldı | ort-skafoid-kirigi kliniğine taşıyordu (%60 çapraz eşleşme) |
 
 <!-- fizyoloji: 12 madde -->
 ## Fizyoloji
@@ -114,6 +116,7 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; makale tam metinleri
 | biy-glukoneogenez | Kas kavramında "kas kana", "kas kana glukoz", "kas glukoz 6 fosfataz" çıkarıldı; "kas kana glukoz veremez", "kasta glukoz 6 fosfataz yok" vb. eklendi. | "Kas kana glukoz verir" ifadesini eşliyordu. |
 | biy-yag-asidi-oksidasyonu | Etiket "Tek sayıda karbonlu yağ asitleri..." yapıldı; "tek karbon" anahtarı "tek sayıda karbon" ile değiştirildi. | Denetimde çürütülse de "tek karbonlu" ifadesi tek karbon atomlu diye okunabilir; anlam netleştirildi (tıbbi içerik değişmedi). |
 | biy-vitamin-koenzimleri | B12/folat ayırıcı kavramında tek başına "metilmalonik" ve "homosistein" anahtarları çıkarıldı; yöne bağlı ifadeler ("b12 eksikliğinde metilmalonik", "folat eksikliğinde yalnız homosistein" vb.) kullanıldı. | "Folat eksikliğinde metilmalonik asit artar" gibi yanlış ifadeyi doğru sayıyordu. |
+| biy-vitamin-koenzimleri | İyi anlatımdan "bu hastalara glukozdan önce tiamin verilir" çıkarıldı | wernicke tedavisine taşıyordu (%60 çapraz eşleşme) |
 
 <!-- histoloji: 12 madde -->
 ## Histoloji ve embriyoloji
@@ -388,6 +391,7 @@ Not: Bu paket yazılırken oturumun web arama kotası dolmuştu ve doi.org/pubme
 | gog-sarkoidoz | "kazeifikasyon göstermeyen", "diğer granülomatöz nedenler" eş anlamlıları eklendi | Kör anlatımda aynı kavram yakalanmadı |
 | gog-astim | SABA kavramında yönsüz anahtarlar ('önerilm', 'tek başına/yalnız kısa etkili beta') 'önerilmez/kullanılmaz' biçimlerine daraltıldı | 'önerilmektedir' gibi ters ifadeler eşleşiyordu |
 | gog-toplum-kokenli-pnomoni | Yinelenen 'ağır pnömonide hidrokortizon' anahtarı kaldırıldı | Tekrar |
+| gog-tuberkuloz | Standart tedavi kavramından tek başına "rifampisin" anahtarı çıkarıldı (izoniazid, pirazinamid, etambutol, HRZE vb. kaldı) | Xpert'in rifampisin direncini anlatan mik-mikobakteriler anlatımı tedavi kavramını alıp %67 çapraz eşleşiyordu |
 
 <!-- gastroenteroloji: 25 madde -->
 ## Gastroenteroloji ve hepatoloji
@@ -483,6 +487,7 @@ Not: Bu paket yazılırken oturumun web arama kotası dolmuştu ve doi.org/pubme
 | nef-hiperkalemi, nef-diyabetik-bobrek | "arb" anahtarı değiştirilmedi. | ≤3 harfli anahtarlar yalnız tam sözcük olarak eşleşir (scoring.js); "bikarbonat"/"karbonhidrat" ile eşleşmez. |
 | (tüm konular) | Brenner & Rector yılı değiştirilmedi; şüphe tablosuna eklendi. | Denetçi iddiası doğrulanmamış bilgi; önceki kaynak kontrolü 2026 gösteriyor. |
 | nef-iga-nefropatisi | Destekleyici tedavi etiketi: sparsentan ACEi/ARB yerine geçer, SGLT2i eklenir | KDIGO 2025 ile uyum |
+| nef-nefrotik-nefritik | Nefritik kavramında tek başına "hematüri" → "glomerüler hematüri" | Biyopsi endikasyonu olarak "belirgin hematüri" geçen ped-nefrotik-sendrom anlatımı %73 çapraz eşleşiyordu |
 
 <!-- endokrinoloji: 21 madde -->
 ## Endokrinoloji
@@ -723,6 +728,8 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 | enf-nedeni-bilinmeyen-ates | "olası tanı" → "olası tanı ipuc" | Çok genel |
 | enf-kkka | "ribavirinin/ribavirin yararı" → "ribavirinin yararı tartışmalı/kanıtlanmamış" | "yararı kanıtlanmıştır" ters ifadesi eşleşiyordu |
 | enf-kuduz-profilaksi | Şema kavramına "4 doz", "dört doz" eklendi | Etiketteki WHO/ACIP 4 doz şeması puan almıyordu |
+| enf-tetanoz-profilaksi | Bulgular kavramından genel "kasılma" anahtarı çıkarıldı (trizmus, spazm vb. kaldı) | "Uterus kasılmaları" geçen kd-preterm-eylem anlatımı %60 çapraz eşleşiyordu |
+| enf-antimikrobiyal-direnc | ESBL kavramından tek başına "karbapenem" anahtarı çıkarıldı (meropenem, ertapenem kaldı) | Beta laktam sınıflarını sayan far-antibiyotik-mekanizma anlatımı %60 çapraz eşleşiyordu |
 
 <!-- noroloji: 38 madde -->
 ## Nöroloji
@@ -814,6 +821,9 @@ Konu id'leri, `subs`, seviyeler ve konu sayısı (42) değişmedi. Tüm konulara
 | lambert-eaton | Proksimal güçsüzlük kavramına "proksimal kas", "merdiven çıkma", "oturduğu yerden kalkma", "arefleksi", "refleksler azalmış"; fasilitasyon kavramına "kolaylaşma", "kullandıkça güçlenir", "efordan sonra / efor sonrası", "geçici olarak art" eklendi | Kör anlatım eş anlamlıları |
 | miller-fisher | Prognoz kavramına "prognoz genelde", "prognoz çok iyi", "kendiliğinden düzelir" eklendi (IVIG/plazmaferez GBS ile çapraz eşleşmeyi önlemek için eklenmedi) | Kör anlatım eş anlamlıları |
 | dravet | SUDEP kavramına "ani beklenmedik", "epileptik ölüm" eklendi | Türkçe açılım yakalanmıyordu |
+| brown-sequard | Çaprazlaşma kavramından "çaprazla" ve "dekusasyon" çıkarıldı ("segment içinde", "karşı tarafa geç" kaldı) | Genel çaprazlaşma/piramidal dekussasyon anlatan ana-spinal-traktlar anlatımı eşleşiyordu (%82); ayrıca o anlatımdan Brown-Séquard klinik cümlesi çıkarıldı (anatomi.md) |
+| wernicke | Anahtar değişmedi; biy-vitamin-koenzimleri iyi anlatımından "glukozdan önce tiamin verilir" klinik cümlesi çıkarıldı (biyokimya.md) | Biyokimya anlatımı %60 çapraz eşleşiyordu |
+| pres | Tedavi kavramından "magnezyum" anahtarı çıkarıldı (kontrollü kan basıncı düşürme, tetikleyiciyi kesme kaldı) | Eklampside magnezyum sülfat anlatan kd-preeklampsi anlatımı %67 çapraz eşleşiyordu |
 
 <!-- psikiyatri: 18 madde -->
 ## Psikiyatri
@@ -1046,6 +1056,7 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 | ort-gkd | Tarama kavramının son anahtarları: "evrensel tarama önerilmez|rutin ultrason önerilmez|rutin ultrason taramasını önermiyor|risk faktörü varsa|seçici tarama|sağlık bakanlığı programıyla|bakanlığı tüm bebeklere"; yönsüz "sağlık bakanlığı", "ulusal tarama", "tarama programı" kaldırıldı (38. satırdaki listede "risk faktörü varsa|seçici tarama" da eksikti) | "Sağlık Bakanlığı tarama programı yoktur" gibi ters ifade doğru sayılıyordu |
 | ort-ock-menisku | Menisküs koruma kavramından "menisküs koru/menisküsü koru" kaldırıldı; "menisküs korunur/korunmalı", "menisküsü korunur", "mümkün olduğunca korunur" eklendi | Alt dize eşleşmesiyle "menisküs korunamaz/korunmaz" ters ifadesi kavramı alıyordu |
 | ort-ock-menisku | Dejeneratif yırtık kavramından kalan genel "konservatif tedavi, fizik tedavi, egzersiz, osteoartrit, artroz, kireçlen" kaldırıldı; "önce egzersiz", "önce fizik tedavi" eklendi | "Konservatif tedavi işe yaramaz; artroz gelişmez" gibi ters anlatım kavramı alıyordu |
+| ort-skafoid-kirigi | Anahtar değişmedi; ana-el-karpal iyi anlatımından el üstüne düşme/enfiye çukuru hassasiyeti klinik cümlesi çıkarıldı (anatomi.md) | Anatomi anlatımı %60 çapraz eşleşiyordu |
 
 <!-- uroloji: 19 madde -->
 ## Üroloji
@@ -1233,6 +1244,7 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 | goz-kimyasal-yanik | Alkali kavramından çıplak "alkali", "kireç", "amonyak", "sodyum hidroksit", "kostik", "lavabo açıcı" ve "derine ilerle" kaldırıldı; "alkali yanık(lar) asitten / daha ağır", "asitten (daha) ağır", "derin dokulara ilerler" eklendi; "sabunlaş/saponifikasyon" kaldı | "Asit derine ilerler", "alkali yanık daha hafif" gibi ters ifadeler ve asit kavramının "asit derine ilerlemez" anahtarı alkali kavramını kazandırıyordu |
 | goz-diyabetik-retinopati | Virgüllü "glisemi, tansiyon" anahtarı "glisemi ve tansiyon / glisemi ve kan basıncı" ile değiştirildi | Rastgele, kırılgan eş anlamlı |
 | goz-prematurite-retinopatisi | Tarama eşiği kavramından "rop tarama" ve "tarama muayene" kaldırıldı | Eşik söylemeden, hatta "ROP taraması gerekmez" diyen anlatım temel kavramı alıyordu |
+| goz-kirmizi-goz-konjonktivit | Viral kavramında tek başına "folikül" → "konjonktivada folikül/foliküler konjonktivit/folikül reaksiyon"; alerjik kavramında "kaşın" → "kaşınma/kaşınır" | his-deri-histolojisi anlatımı "kıl folikülü" ve "tabakasında" (alt dize) ile %60 çapraz eşleşiyordu |
 
 <!-- kvc: 16 madde -->
 ## Kalp ve damar cerrahisi

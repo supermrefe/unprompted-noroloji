@@ -48,3 +48,5 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 | enf-nedeni-bilinmeyen-ates | "olası tanı" → "olası tanı ipuc" | Çok genel |
 | enf-kkka | "ribavirinin/ribavirin yararı" → "ribavirinin yararı tartışmalı/kanıtlanmamış" | "yararı kanıtlanmıştır" ters ifadesi eşleşiyordu |
 | enf-kuduz-profilaksi | Şema kavramına "4 doz", "dört doz" eklendi | Etiketteki WHO/ACIP 4 doz şeması puan almıyordu |
+| enf-tetanoz-profilaksi | Bulgular kavramından genel "kasılma" anahtarı çıkarıldı (trizmus, spazm vb. kaldı) | "Uterus kasılmaları" geçen kd-preterm-eylem anlatımı %60 çapraz eşleşiyordu |
+| enf-antimikrobiyal-direnc | ESBL kavramından tek başına "karbapenem" anahtarı çıkarıldı (meropenem, ertapenem kaldı) | Beta laktam sınıflarını sayan far-antibiyotik-mekanizma anlatımı %60 çapraz eşleşiyordu |

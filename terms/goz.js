@@ -43,9 +43,9 @@ terms: [
       ["Azari AA, Arabi A. Conjunctivitis: a systematic review. J Ophthalmic Vis Res 2020", null]] },
     c: [
       ["!Alarm bulguları: görme azalması, belirgin ağrı, fotofobi, siliyer enjeksiyon → keratit, üveit, akut glokomu dışla", "görme azal|görmede azal|fotofobi|ışığa hassas|ışıktan rahatsız|siliyer enjeksiyon|alarm bulgu|kırmızı bayrak|uyarıcı bulgu|keratit|üveit|akut glokom|açı kapan"],
-      ["!Viral (adenovirüs): sulu akıntı, folikül, preaurikuler lenfadenopati, çok bulaşıcı", "adenovir|viral konjonktivit|sulu akıntı|folikül|preaurikül|kulak önü|preauriküler|bulaşıcı|epidemik keratokonjonktivit"],
+      ["!Viral (adenovirüs): sulu akıntı, folikül, preaurikuler lenfadenopati, çok bulaşıcı", "adenovir|viral konjonktivit|sulu akıntı|konjonktivada folikül|foliküler konjonktivit|folikül reaksiyon|preaurikül|kulak önü|preauriküler|bulaşıcı|epidemik keratokonjonktivit"],
       ["Bakteriyel: pürülan akıntı, sabah kirpiklerin yapışması; topikal antibiyotik", "pürülan|irinli|cerahat|kirpikler yapış|gözler yapış|yapışık|bakteriyel konjonktivit|topikal antibiyotik|antibiyotikli damla"],
-      ["!Alerjik: kaşıntı ön planda, papiller reaksiyon, bilateral; antihistaminik/mast hücre stabilizatörü", "kaşıntı|kaşın|alerjik konjonktivit|papil|antihistamin|mast hücre|olopatadin|ketotifen|vernal|mevsimsel"],
+      ["!Alerjik: kaşıntı ön planda, papiller reaksiyon, bilateral; antihistaminik/mast hücre stabilizatörü", "kaşıntı|kaşınma|kaşınır|alerjik konjonktivit|papil|antihistamin|mast hücre|olopatadin|ketotifen|vernal|mevsimsel"],
       ["Hiperakut konjonktivit ve yenidoğanda gonokok/klamidya; sistemik tedavi", "gonokok|gonore|neisseria|klamidya|chlamydia|hiperakut|oftalmia neonatorum|yenidoğan konjonktivit"],
       ["Tanısı konmamış kırmızı gözde topikal steroid verilmez", "steroid verilmez|steroid vermeyiz|steroid kullanılmaz|steroidden kaçın|steroid verme|steroid olmamalı|kortizonlu damla verilmez|kortizonlu damla vermeyiz"],
       ["Subkonjonktival kanama ağrısız ve görmeyi etkilemeyen benign tablo", "subkonjonktival kanama|subkonjonktival hemoraji|göz akına kan|ağrısız kanama"]

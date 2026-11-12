@@ -311,7 +311,7 @@ terms: [
     ["!Aynı tarafta motor güçsüzlük (kortikospinal yol)", "aynı tarafta motor|aynı tarafta güçsüz|ipsilateral güçsüz|ipsilateral motor|kortikospinal"],
     ["!Aynı tarafta derin duyu ve vibrasyon kaybı (dorsal kolon)", "dorsal kolon|arka kordon|posterior kolon|vibrasyon|pozisyon duyu"],
     ["!Karşı tarafta ağrı ve ısı duyusu kaybı (spinotalamik)", "karşı tarafta ağrı|kontralateral ağrı|ağrı ve ısı|ağrı ısı|spinotalamik"],
-    ["Spinotalamik lifler 1–2 segment içinde çaprazlaşır", "çaprazla|segment içinde|karşı tarafa geç|dekusasyon"],
+    ["Spinotalamik lifler 1–2 segment içinde çaprazlaşır", "segment içinde|karşı tarafa geç"],
     ["Nedenler: penetran travma, tümör, disk, MS", "bıçak|penetran|ateşli silah"],
     ["Prognoz omurilik sendromları içinde görece iyi", "prognoz"]
   ]},
@@ -580,7 +580,7 @@ terms: [
     ["!Tetikleyiciler: ani hipertansiyon, eklampsi, takrolimus/siklosporin, kemoterapi, böbrek yetmezliği", "eklampsi|takrolimus|siklosporin|kalsinörin"],
     ["Klinik: baş ağrısı, nöbet, görme bozukluğu, ensefalopati", "kortikal körlük|görme bozuk|ensefalopati"],
     ["!MR: bilateral parieto-oksipital T2/FLAIR hiperintensite", "parieto oksipital|parietooksipital|parieto|flair"],
-    ["Tedavi: kan basıncını kontrollü düşürme, tetikleyiciyi kesme", "kontrollü olarak düşür|kontrollü düşür|tetikleyici ilaç|tetikleyiciyi kes|magnezyum"],
+    ["Tedavi: kan basıncını kontrollü düşürme, tetikleyiciyi kesme", "kontrollü olarak düşür|kontrollü düşür|tetikleyici ilaç|tetikleyiciyi kes"],
     ["Çoğunlukla geri döner; kanama/infarkt olabilir", "geri döner|geri dön|reversibl"]
   ]},
   { id: "subakut-kombine-dejenerasyon", tr: "Subakut kombine dejenerasyon", en: "Subacute combined degeneration", cat: "lok", lvl: 3,

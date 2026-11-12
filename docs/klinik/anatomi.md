@@ -36,3 +36,5 @@
 | ana-el-karpal | "en sık çıkan" eklendi (lunat kavramı) | "En sık çıkan karpal kemik ise lunat" yakalanmadı |
 | ana-el-karpal | fixtures.weak: "çoğu hastaya atel ve ameliyat" → "hafifte atel, ağır/dirençlide ameliyat" | Cerrahi ilk basamak değil |
 | ana-abdominal-aorta | fixtures.weak: "yaşlılarda düzenli USG tarama" → "65 yaş üstü erkekte (özellikle sigara içen) tek seferlik USG tarama" | USPSTF 2019 / ESVS 2024 |
+| ana-spinal-traktlar | İyi anlatımdan "Hemiseksiyonda lezyon tarafında motor ve arka kordon, karşı tarafta ağrı ısı kaybolur." cümlesi çıkarıldı | brown-sequard kliniğine taşıyordu (%82 çapraz eşleşme) |
+| ana-el-karpal | İyi anlatımdan "hasta ellerinin üzerine düşer ve enfiye çukurunda hassasiyet olur" çıkarıldı | ort-skafoid-kirigi kliniğine taşıyordu (%60 çapraz eşleşme) |

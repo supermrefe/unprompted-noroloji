@@ -102,7 +102,7 @@ terms: [
       ["Belirtiler: iki-üç haftadan uzun öksürük, ateş, gece terlemesi, kilo kaybı, hemoptizi", "gece terle|kilo kayb|zayıfla|hemoptizi|kan tükür|iki haftadan uzun|üç haftadan uzun|uzun süren öksürük"],
       ["Grafide üst lob apikal-posterior infiltrat ve kavite", "kavite|kaviter|üst lob|apikal|apeks"],
       ["!Tanı: balgam yayması (ARB), kültür ve hızlı moleküler test (Xpert MTB/RIF)", "arb|aside dirençli|asido rezistan|ehrlich ziehl|ziehl neelsen|erlich|balgam yayma|mikobakteri kültür|löwenstein|xpert|gen expert|genexpert|moleküler test|pcr|rifampisin direnc|rifampisin direnç"],
-      ["!Standart tedavi: 2 ay HRZE + 4 ay HR (toplam 6 ay)", "hrze|izoniazid|rifampisin|pirazinamid|etambutol|altı ay|6 ay|dörtlü|dört ilaç|başlangıç evre|idame evre|devam evre"],
+      ["!Standart tedavi: 2 ay HRZE + 4 ay HR (toplam 6 ay)", "hrze|izoniazid|pirazinamid|etambutol|altı ay|6 ay|dörtlü|dört ilaç|başlangıç evre|idame evre|devam evre"],
       ["Doğrudan gözetimli tedavi (DGT) ve temaslı taraması; bildirim zorunlu", "doğrudan gözetim|dgt|dot|gözetimli tedavi|temaslı|temas tarama|bildirim|verem savaş|dispanser"],
       ["İlaç yan etkileri: hepatotoksisite, izoniazidde nöropati (piridoksin), etambutolde optik nörit", "hepatotoks|karaciğer enzim|piridoksin|b6 vitamin|nöropati|optik nörit|renk görme|turuncu"],
       ["Latent enfeksiyon: TDT ya da IGRA ile tanı, aktif hastalık dışlanınca koruyucu tedavi", "latent|tüberkülin|tdt|ppd|igra|interferon gama|quantiferon|kuantiferon|koruyucu tedavi|profilaksi"],

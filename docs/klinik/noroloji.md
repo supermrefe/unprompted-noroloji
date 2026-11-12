@@ -87,3 +87,6 @@ Konu id'leri, `subs`, seviyeler ve konu sayısı (42) değişmedi. Tüm konulara
 | lambert-eaton | Proksimal güçsüzlük kavramına "proksimal kas", "merdiven çıkma", "oturduğu yerden kalkma", "arefleksi", "refleksler azalmış"; fasilitasyon kavramına "kolaylaşma", "kullandıkça güçlenir", "efordan sonra / efor sonrası", "geçici olarak art" eklendi | Kör anlatım eş anlamlıları |
 | miller-fisher | Prognoz kavramına "prognoz genelde", "prognoz çok iyi", "kendiliğinden düzelir" eklendi (IVIG/plazmaferez GBS ile çapraz eşleşmeyi önlemek için eklenmedi) | Kör anlatım eş anlamlıları |
 | dravet | SUDEP kavramına "ani beklenmedik", "epileptik ölüm" eklendi | Türkçe açılım yakalanmıyordu |
+| brown-sequard | Çaprazlaşma kavramından "çaprazla" ve "dekusasyon" çıkarıldı ("segment içinde", "karşı tarafa geç" kaldı) | Genel çaprazlaşma/piramidal dekussasyon anlatan ana-spinal-traktlar anlatımı eşleşiyordu (%82); ayrıca o anlatımdan Brown-Séquard klinik cümlesi çıkarıldı (anatomi.md) |
+| wernicke | Anahtar değişmedi; biy-vitamin-koenzimleri iyi anlatımından "glukozdan önce tiamin verilir" klinik cümlesi çıkarıldı (biyokimya.md) | Biyokimya anlatımı %60 çapraz eşleşiyordu |
+| pres | Tedavi kavramından "magnezyum" anahtarı çıkarıldı (kontrollü kan basıncı düşürme, tetikleyiciyi kesme kaldı) | Eklampside magnezyum sülfat anlatan kd-preeklampsi anlatımı %67 çapraz eşleşiyordu |

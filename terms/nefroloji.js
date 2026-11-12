@@ -54,7 +54,7 @@ terms: [
     c: [
       ["!Nefrotik: günde >3,5 g proteinüri ve hipoalbüminemi", "3,5 gram|üç buçuk gram|3,5 g|ağır proteinüri|masif proteinüri|nefrotik düzey|hipoalbümin|albümin düşük|albüminin düşmesi"],
       ["Nefrotikte ödem ve hiperlipidemi, lipidüri", "hiperlipidemi|hiperkolesterol|lipidüri|yağ cisim|oval yağ|maltez|hiperlipidem"],
-      ["!Nefritik: glomerüler hematüri (dismorfik eritrosit, eritrosit silendiri), hipertansiyon, oligüri", "eritrosit silendir|dismorfik|kola renkli|çay renkli|hematüri|oligüri|aktif sediment"],
+      ["!Nefritik: glomerüler hematüri (dismorfik eritrosit, eritrosit silendiri), hipertansiyon, oligüri", "eritrosit silendir|dismorfik|kola renkli|çay renkli|glomerüler hematüri|oligüri|aktif sediment"],
       ["Nefrotik nedenler: minimal değişiklik, FSGS, membranöz, diyabet, amiloidoz", "minimal değişiklik|minimal lezyon|fsgs|fokal segmental|membranöz|amiloid"],
       ["!Nefritik nedenler: poststreptokokal GN, IgA nefropatisi, ANCA/anti-GBM (hızlı ilerleyen GN), lupus", "poststreptokok|post streptokok|streptokok sonrası|iga nefropati|anca|anti gbm|goodpasture|hızlı ilerleyen|rpgn|kresent|hilal"],
       ["Nefrotik komplikasyon: tromboz (renal ven), enfeksiyon", "renal ven|tromboz|tromboemboli|hiperkoagül|antitrombin"],

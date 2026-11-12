@@ -98,7 +98,7 @@ terms: [
     },
     c: [
       ["!Clostridium tetani sporları yaraya girer; tetanospazmin inhibitör (GABA, glisin) salınımını engeller", "clostridium tetani|klostridyum|tetani|tetanospazmin|tetanospasmin|gaba|glisin|inhibitör nöron|spor"],
-      ["Bulgular: trizmus, risus sardonikus, opistotonus, ağrılı spazmlar; bilinç açık", "trizmus|çene kilit|ağız açama|risus|sardonik|opistotonus|spazm|kasılma"],
+      ["Bulgular: trizmus, risus sardonikus, opistotonus, ağrılı spazmlar; bilinç açık", "trizmus|çene kilit|ağız açama|risus|sardonik|opistotonus|spazm"],
       ["!Tetanoza yatkın yara: kirli, toprakla bulaşık, delici, ezilmiş, yanık, nekrotik doku", "kirli yara|toprak|delici|ezilme|ezik|yanık|nekrotik|paslı|batma|tetanoza yatkın|riskli yara"],
       ["!Aşı öyküsü bilinmiyor ya da 3 dozdan az ise: tetanoz aşısı (Td/Tdap); kirli yarada ek olarak TIG", "üç dozdan az|3 dozdan az|bilinmiyor|aşı öykü|aşı geçmiş|tetanoz immünglobulin|tetanoz immunglobulin|tig|hiperimmün"],
       ["Tam aşılıda: temiz küçük yarada son doz 10 yıldan, kirli yarada 5 yıldan eskiyse rapel", "10 yıl|on yıl|5 yıl|beş yıl|rapel|hatırlatma doz|booster|pekiştir"],
@@ -175,7 +175,7 @@ terms: [
           ["Liu C et al. Clinical practice guidelines by IDSA for the treatment of methicillin-resistant Staphylococcus aureus infections in adults and children. Clin Infect Dis 2011", "https://doi.org/10.1093/cid/ciq146"]]
     },
     c: [
-      ["!ESBL: E. coli ve Klebsiella'da 3. kuşak sefalosporin direnci; ciddi enfeksiyonda karbapenem (meropenem)", "esbl|genişlemiş spektrumlu|geniş spektrumlu beta|üçüncü kuşak sefalosporin|3. kuşak|meropenem|karbapenem|ertapenem"],
+      ["!ESBL: E. coli ve Klebsiella'da 3. kuşak sefalosporin direnci; ciddi enfeksiyonda karbapenem (meropenem)", "esbl|genişlemiş spektrumlu|geniş spektrumlu beta|üçüncü kuşak sefalosporin|3. kuşak|meropenem|ertapenem"],
       ["ESBL'li sistitte nitrofurantoin/fosfomisin gibi oral seçenekler kullanılabilir", "nitrofurantoin|fosfomisin|sistitte"],
       ["!Karbapenemazlar: KPC, OXA-48 (Türkiye'de sık), metallo-beta-laktamaz (NDM)", "karbapenemaz|kpc|oxa 48|oksa 48|oxa48|ndm|metallo|mbl|cre|karbapeneme dirençli"],
       ["KPC ve OXA-48'de seftazidim-avibaktam; MBL'de seftazidim-avibaktam + aztreonam ya da sefiderokol", "seftazidim avibaktam|avibaktam ile aztreonam|avibaktam aztreonam|avibaktam artı aztreonam|sefiderokol|cefiderocol"],
