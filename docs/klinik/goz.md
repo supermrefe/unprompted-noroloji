@@ -35,4 +35,7 @@
 | goz-retinal-ven-tikanikligi | Sistemik kontrol kavramına "risk faktörleri (mutlaka) kontrol" eklendi | Kör anlatımda eş anlamlı ifade yakalanmadı |
 | goz-prematurite-retinopatisi | Tarama kavramına sayısız ifadeler ("risk grubundaki bebek", "rop tarama", "tarama muayene") eklendi; Türkiye eşiği (TND 2021) doğrulanamadığı için sayı eklenmedi, şüphe tablosunda duruyor | Kör anlatımda sayı vermeden söylenen tarama yakalanmadı |
 | goz-akut-aci-kapanma-glokomu | Değişiklik yok: EGS 6. baskı DOI'si doğrulanamadı; şüphe tablosunda mevcut | Hekim/kaynak kontrolü gerekli |
+| goz-kimyasal-yanik | Alkali kavramından çıplak "alkali", "kireç", "amonyak", "sodyum hidroksit", "kostik", "lavabo açıcı" ve "derine ilerle" kaldırıldı; "alkali yanık(lar) asitten / daha ağır", "asitten (daha) ağır", "derin dokulara ilerler" eklendi; "sabunlaş/saponifikasyon" kaldı | "Asit derine ilerler", "alkali yanık daha hafif" gibi ters ifadeler ve asit kavramının "asit derine ilerlemez" anahtarı alkali kavramını kazandırıyordu |
+| goz-diyabetik-retinopati | Virgüllü "glisemi, tansiyon" anahtarı "glisemi ve tansiyon / glisemi ve kan basıncı" ile değiştirildi | Rastgele, kırılgan eş anlamlı |
+| goz-prematurite-retinopatisi | Tarama eşiği kavramından "rop tarama" ve "tarama muayene" kaldırıldı | Eşik söylemeden, hatta "ROP taraması gerekmez" diyen anlatım temel kavramı alıyordu |
 

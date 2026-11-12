@@ -40,3 +40,7 @@
 | uro-priapizm | c[1] "iskemik\|ağrılı" yerine "iskemik priapizm\|iskemik yani\|ağrılı ve rijit"; c[4]'ten "doppler" çıkarıldı. | Santral retina arter tıkanıklığı anlatımı priapizmden %64 alıyordu (çapraz eşleşme). |
 | uro-fournier-gangreni | c[7]'ye "yüksek mortalite\|mortalitesi yüksek" eklendi. | Kavramın FGSI dışındaki kısmı için eş anlamlı yoktu. |
 | uro-uriner-inkontinans, uro-fournier-gangreni | Kaynak künyeleri değiştirilmedi, şüphe tablosuna eklendi. | DOI/PMID doğrulanamadı; doğrulanamayan bilgi eklenmedi. |
+| uro-priapizm | İskemik priapizm kavramından tek başına "rijit" anahtarı kaldırıldı; "ağrılı ve rijit" kaldı (40. satırdaki tablo "rijit" in bırakıldığını belirtmiyordu) | "Arteriyel priapizmde penis rijit değildir" gibi ters ifade iskemik kavramı alıyordu |
+| uro-inmemis-testis | Orşiopeksi zamanlama anahtarları yönlü yapıldı: "12 aydan önce", "on iki aydan önce", "bir yaşından önce", "en geç 18", "en geç on sekiz", "18 aydan önce", "on sekiz aydan önce"; yönsüz "12 ay, bir yaş, 18 ay" kaldırıldı | "18 aydan sonra", "bir yaşından sonra yapılır" gibi yanlış zamanlama doğru sayılıyordu |
+| uro-inmemis-testis | Görüntüleme kavramından "ultrason yapılmaz" kaldırıldı | Alt dize olarak "ultrason yapılmazsa" gibi koşullu cümlelerle eşleşiyordu |
+| uro-renal-hucreli-karsinom | Alt tip kavramından "vhl" ve "von hippel" kaldırıldı; kavram yalnız "berrak hücre / şeffaf hücre / clear cell" ile kazanılır | "En sık alt tip kromofobdur, VHL ile ilişkilidir" diyen yanlış anlatım kavramı alıyordu |

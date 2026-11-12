@@ -104,7 +104,7 @@ terms: [
       ["!Ortolani: çıkık kalçayı yerine oturtma testi, 'klunk'", "ortolani|klunk|clunk|yerine otur"],
       ["Büyük bebekte abdüksiyon kısıtlılığı, Galeazzi, cilt kıvrımı asimetrisi", "abdüksiyon kısıt|abdüksiyonda kısıt|galeazzi|cilt kıvrım|pli asimetri|kıvrım asimetri|bacak boyu fark"],
       ["Görüntüleme: küçük bebekte ultrason (Graf), 4. aydan sonra grafi", "ultrason|usg|ultrasonografi|graf|pelvis grafi|röntgen|asetabular indeks"],
-      ["AAOS 2022: evrensel USG taraması önerilmez, risk faktörü varsa görüntüle; Türkiye'de Sağlık Bakanlığı programıyla tüm bebeklere kalça USG taraması", "evrensel tarama önerilmez|rutin ultrason önerilmez|risk faktörü varsa|seçici tarama|sağlık bakanlığı|ulusal tarama|tarama programı"],
+      ["AAOS 2022: evrensel USG taraması önerilmez, risk faktörü varsa görüntüle; Türkiye'de Sağlık Bakanlığı programıyla tüm bebeklere kalça USG taraması", "evrensel tarama önerilmez|rutin ultrason önerilmez|rutin ultrason taramasını önermiyor|risk faktörü varsa|seçici tarama|sağlık bakanlığı programıyla|bakanlığı tüm bebeklere"],
       ["!6 ayın altında Pavlik bandajı", "pavlik"],
       ["Başarısızlık/geç tanıda kapalı-açık redüksiyon ve pelvipedal alçı; komplikasyon femur başı AVN", "kapalı redüksiyon|açık redüksiyon|pelvipedal|spika|osteotomi|avasküler|avn|femur başı nekroz"]
     ]},
@@ -136,8 +136,8 @@ terms: [
       ["O'Donoghue mutsuz üçlüsü: ÖÇB + MKB + menisküs", "donoghue|mutsuz üçlü|unhappy triad|medial kollateral|mkb"],
       ["Aktif gençte rekonstrüksiyon, otogreft tercih (AAOS 2022)", "rekonstrüksiyon|otogreft|otolog greft|patellar tendon|hamstring|kemik tendon kemik|semitendinozus"],
       ["!Menisküs: eklem aralığı hassasiyeti, kilitlenme; McMurray / Thessaly", "eklem aralığı|eklem çizgisi|kilitlen|takılma|mcmurray|thessaly|apley"],
-      ["Menisküsü koru: kanlanan dış bölgede (kırmızı bölge) onarım", "menisküs onar|menisküsü onar|menisküs dikiş|menisküsü koru|menisküs koru|kırmızı bölge|kırmızı kırmızı|kanlanan"],
-      ["Dejeneratif yırtıkta önce konservatif; menisektomi sonrası artroz riski", "önce konservatif|konservatif tedavi|fizik tedavi|egzersiz|menisektomi sonrası|menisektomiden sonra|osteoartrit|artroz|kireçlen"]
+      ["Menisküsü koru: kanlanan dış bölgede (kırmızı bölge) onarım", "menisküs onar|menisküsü onar|menisküs dikiş|menisküs korunur|menisküsü korunur|menisküs korunmalı|mümkün olduğunca korunur|kırmızı bölge|kırmızı kırmızı|kanlanan"],
+      ["Dejeneratif yırtıkta önce konservatif; menisektomi sonrası artroz riski", "önce konservatif|önce egzersiz|önce fizik tedavi|menisektomi sonrası|menisektomiden sonra"]
     ]},
   { id: "ort-omuz-cikigi", tr: "Omuz çıkığı (glenohumeral dislokasyon)", en: "Shoulder dislocation", cat: "spor", lvl: 2,
     src: {

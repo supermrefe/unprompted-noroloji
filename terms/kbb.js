@@ -38,8 +38,8 @@ terms: [
       ["Tanı: pnömatik otoskopi ve timpanometri (tip B)", "pnömatik|timpanometri|timpanogram|tip b|düz eğri"],
       ["Risk: adenoid hipertrofisi, damak yarığı, Down sendromu, kreş", "adenoid|geniz eti|damak yarığı|yarık damak|down sendrom|kreş"],
       ["!Çoğu kendiliğinden düzelir: izlem (yaklaşık 3 ay)", "kendiliğinden düzel|kendiliğinden geç|spontan|üç ay|3 ay|izlem|bekle gör"],
-      ["İlaç (steroid, antihistaminik, dekonjestan, antibiyotik) önerilmez", "steroid önerilmez|antihistaminik önerilmez|ilaç önerilmez|ilaç tedavisi önerilmez|ilaçların yararı yok|ilaç etkisiz|ilaçlar etkisiz|rutin önerilmiyor|rutin önerilmez|faydası gösterilmemiş|yararı gösterilmemiş"],
-      ["!Kalıcı efüzyon (≥3 ay) + işitme kaybında ventilasyon tüpü; ≥4 yaşta adenoidektomi (tek başına ya da tüple) seçenek", "ventilasyon tüp|tüp tak|timpanostomi|tympanostomy|grommet|adenoidektomi"]
+      ["İlaç (steroid, antihistaminik, dekonjestan, antibiyotik) önerilmez", "steroid önerilmez|antihistaminik önerilmez|ilaç önerilmez|ilaç tedavisi önerilmez|ilaçların yararı yok|ilaç etkisiz|ilaçlar etkisiz|ilaç rutin önerilmez|ilaçlar rutin önerilmez|faydası gösterilmemiş|yararı gösterilmemiş"],
+      ["!Kalıcı efüzyon (≥3 ay) + işitme kaybında ventilasyon tüpü; ≥4 yaşta adenoidektomi (tek başına ya da tüple) seçenek", "efüzyon kalıcıysa|kalıcı efüzyon|üç aydan uzun|3 aydan uzun|dört yaş ve üzeri|4 yaş ve üzeri"]
     ]},
   { id: "kbb-akut-rinosinuzit", tr: "Akut rinosinüzit", en: "Acute rhinosinusitis", cat: "burun", lvl: 1,
     src: {
@@ -49,7 +49,7 @@ terms: [
     },
     c: [
       ["!Burun tıkanıklığı/akıntısı + yüz ağrısı-basıncı ya da koku azalması, 12 haftadan kısa", "burun tıkan|burun akıntı|yüz ağrı|yüzde basınç|yüz basınc|koku kayb|koku azal|12 hafta"],
-      ["!Çoğu viral (soğuk algınlığı); 10 günden kısa sürer", "viral|virüs|soğuk algınlığı|nezle|10 günden kısa|on günden kısa|10 günden az|on günden az"],
+      ["!Çoğu viral (soğuk algınlığı); 10 günden kısa sürer", "çoğunluğu viral|çoğu viral|çoğunlukla viral|soğuk algınlığı|nezle|10 günden kısa|on günden kısa|10 günden az|on günden az"],
       ["!Bakteriyel düşündüren: 10 günü aşan, ikinci kötüleşme (double sickening), ağır tablo", "10 günü aş|10 günden uzun|on günden uzun|on günü geç|10 günü geç|ikinci kötüleş|double sickening|çift kötüleş|tekrar kötüleş|yeniden kötüleş"],
       ["Rutin görüntüleme gerekmez; tanı kliniktir", "görüntüleme gerekmez|görüntüleme gerekmiyor|görüntüleme istemiyoruz|grafi gerekmez|tomografi gerekmez|klinik tanı|tanı klinik"],
       ["Semptomatik: serum fizyolojik yıkama, intranazal steroid, analjezik", "serum fizyolojik|tuzlu su|salin|nazal yıkama|burun yıkama|intranazal steroid|nazal steroid|burun spreyi"],
@@ -257,7 +257,7 @@ terms: [
     c: [
       ["!Erişkinde kalıcı boyun kitlesi aksi kanıtlanana dek malign (metastatik SHK) kabul edilir", "aksi kanıtlanana|malign kabul|malignite|kanser kabul|metastatik|metastaz"],
       ["Malignite riski: sabit, sert, büyüyen, ülsere; sigara-alkol öyküsü; ses kısıklığı, disfaji", "sabit|sert|fikse|büyüyen|ülsere|sigara ve alkol öykü|ses kısık"],
-      ["Rutin antibiyotik verilmez (bakteriyel enfeksiyon bulgusu yoksa)", "rutin antibiyotik|antibiyotik verilmez|antibiyotik vermiyoruz|ampirik antibiyotik verilmez|ampirik antibiyotik önerilmez"],
+      ["Rutin antibiyotik verilmez (bakteriyel enfeksiyon bulgusu yoksa)", "rutin antibiyotik verilmez|rutin antibiyotik önerilmez|antibiyotik verilmez|antibiyotik vermiyoruz|ampirik antibiyotik verilmez|ampirik antibiyotik önerilmez"],
       ["!Tanı: kontrastlı BT/MR ve ince iğne aspirasyonu; açık biyopsi ilk tercih değil", "ince iğne|iia|aspirasyon biyopsi|kontrastlı|açık biyopsi ilk tercih değil|açık biyopsi yerine"],
       ["Primer aranır: üst aerodijestif sistem muayenesi, endoskopi", "aerodijestif|endoskop|laringoskop|primer odak|primer tümör"],
       ["!Tiroglossal kist: orta hatta, dil çıkarılınca/yutkunmakla yukarı hareket eden kitle; en sık konjenital boyun kitlesi", "tiroglossal|orta hat|dil çıkar|dilini çıkar|yutkun|yukarı hareket"],

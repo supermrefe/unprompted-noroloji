@@ -56,7 +56,7 @@ terms: [
       ["Dua HS, King AJ, Joseph A. A new classification of ocular surface burns. Br J Ophthalmol 2001", null]] },
     c: [
       ["!Gerçek oftalmolojik acil: muayeneden önce hemen bol sıvıyla irrigasyon", "irrigasyon|irigasyon|bol su|bol sıvı|serum fizyolojik ile yıka|gözü yıka|gözün yıkan|yıkamaya başla|yıkama hemen|hemen yıka|ringer laktat|muayeneden önce"],
-      ["!Alkali yanık asitten ağır: sabunlaşma ile derin dokulara ilerler", "alkali|kireç|amonyak|sodyum hidroksit|kostik|lavabo açıcı|sabunlaş|saponifikasyon|derine ilerle|derin dokulara"],
+      ["!Alkali yanık asitten ağır: sabunlaşma ile derin dokulara ilerler", "alkali yanıklar asitten|alkali yanık asitten|alkali yanık daha ağır|alkali daha ağır|asitten daha ağır|asitten ağır|sabunlaş|saponifikasyon|derin dokulara ilerler"],
       ["Asit yanığında protein koagülasyonu bariyer oluşturur", "koagülasyon nekroz|protein koagül|proteinleri pıhtılaştır|proteinlerin pıhtılaş|koagülasyon bariyer|asit yüzeyel kalır|asit derine ilerlemez"],
       ["İrrigasyon pH nötrleşene kadar sürer; pH kâğıdıyla kontrol, forniksler temizlenir", "ph nötr|ph normal|ph kağıd|turnusol|nötral ph|ph ölç|forniks|kapak eversiyon|partikül"],
       ["Topikal anestezik ve kapak ekartörü irrigasyonu kolaylaştırır", "topikal anestez|anestezik damla|proparakain|tetrakain|ekartör|blefarostat|morgan lens"],
@@ -85,7 +85,7 @@ terms: [
       ["!Diyabetik makula ödemi: santral görme kaybının en sık nedeni; OCT ile tanı", "diyabetik makula|diyabetik maküla|dmö|dme"],
       ["Tarama: tip 1'de tanıdan 5 yıl sonra, tip 2'de tanı anında; sonra yıllık", "tip 1|tip bir|beş yıl sonra|5 yıl sonra|tip 2|tip iki|tanı anında|tanı konduğu anda"],
       ["Gebelikte retinopati hızlanabilir; gebelik öncesi/erken gebelikte muayene", "gebelik|gebe|hamile"],
-      ["Sistemik kontrol: glisemi, kan basıncı, lipitler; hızlı HbA1c düşüşünde erken kötüleşme olabilir", "glisemik kontrol|kan şekeri kontrol|hba1c|fenofibrat|erken kötüleşme|lipid kontrol|lipit kontrol|glisemi, tansiyon|hızlı glisemi düzel"],
+      ["Sistemik kontrol: glisemi, kan basıncı, lipitler; hızlı HbA1c düşüşünde erken kötüleşme olabilir", "glisemik kontrol|kan şekeri kontrol|hba1c|fenofibrat|erken kötüleşme|lipid kontrol|lipit kontrol|glisemi ve tansiyon|glisemi ve kan basıncı|hızlı glisemi düzel"],
       ["Tedavi: merkezi tutan makula ödeminde intravitreal anti-VEGF; PDR'de panretinal fotokoagülasyon veya anti-VEGF; vitrektomi", "merkezi tutan|merkezi tutulum|santrali tutan|center involving|proliferatif retinopatide|vitrektomi"]
     ]},
 
@@ -207,7 +207,7 @@ terms: [
       ["Chiang MF ve ark. International Classification of Retinopathy of Prematurity, Third Edition. Ophthalmology 2021", "https://doi.org/10.1016/j.ophtha.2021.05.031"]] },
     c: [
       ["!İmmatür retinada anormal vaskülarizasyon; risk düşük doğum ağırlığı, düşük gestasyon yaşı, oksijen", "immatür retina|olgunlaşmamış retina|anormal damarlan|vaskülarizasyon|düşük doğum ağırlığı|gestasyon|gebelik haftası|prematür|oksijen"],
-      ["!Tarama (AAP 2018): doğum ağırlığı ≤1500 g veya gestasyon ≤30 hafta, ayrıca riskli bebekler", "1500|bin beş yüz|30 hafta|otuz hafta|risk grubundaki bebek|rop tarama|tarama muayene"],
+      ["!Tarama (AAP 2018): doğum ağırlığı ≤1500 g veya gestasyon ≤30 hafta, ayrıca riskli bebekler", "1500|bin beş yüz|30 hafta|otuz hafta|risk grubundaki bebek"],
       ["Sınıflama (ICROP3): zon I–III, evre 1–5, artı (plus) hastalık, agresif ROP", "zon|zone|plus|artı hastalık|agresif rop|icrop|demarkasyon"],
       ["!Tedavi: lazer fotokoagülasyon veya intravitreal anti-VEGF", "lazer|fotokoagülasyon|anti vegf|antivegf|bevasizumab|ranibizumab|intravitreal"],
       ["Anti-VEGF sonrası geç nüks nedeniyle uzun izlem", "geç nüks|geç reaktivasyon|reaktivasyon|uzun izlem|uzun süre takip"],

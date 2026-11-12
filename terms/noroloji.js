@@ -38,10 +38,10 @@ terms: [
     },
     c: [
     ["!Geçici fokal defisit, kalıcı infarkt yok", "difüzyon|akut infarkt yok|infarkt olmadan|infarkt olmaz|kalıcı hasar bırakmadan|iz bırakmadan|geçici nörolojik|geçici fokal"],
-    ["!İnme habercisi: erken inme riski yüksek", "inme habercisi|inmenin habercisi|haberci|inme riski|inme geçirme|inme olasılı|inme gelişme|erken inme|uyarı inme"],
+    ["!İnme habercisi: erken inme riski yüksek", "inme habercisi|inmenin habercisi|haberci|inme geçirme|erken inme|uyarı inme"],
     ["ABCD2 risk skoru", "abcd"],
-    ["Etiyoloji: karotis görüntüleme, ritim izlemi", "karotis doppler|karotis görüntüle|karotis darlı|holter|ritim izlem|ekokardiyo|bt anjiyo|bete anjiyo"],
-    ["!Antiplatelet tedavi (gerekirse ikili)", "ikili antiplatelet|klopidogrel|ikili antiagregan|antiplatelet|antiagregan|tikagrelor"],
+    ["Etiyoloji: karotis görüntüleme, ritim izlemi", "karotis doppler|karotis görüntüle|holter|ritim izlem|ekokardiyo|bt anjiyo|bete anjiyo"],
+    ["!Antiplatelet tedavi (gerekirse ikili)", "ikili antiplatelet|klopidogrel|ikili antiagregan|tikagrelor"],
     ["Risk faktörü kontrolü: statin, kan basıncı", "statin|kan basıncı kontrol|risk faktörü kontrol|risk faktörlerini kontrol|sigarayı bırak|sigaranın bırak"]
   ]},
   { id: "migren", tr: "Migren", en: "Migraine", cat: "agr", lvl: 1,
@@ -213,12 +213,12 @@ terms: [
           ["Sciatica. N Engl J Med 2015", "https://doi.org/10.1056/NEJMra1410151"]]
     },
     c: [
-    ["!Sinir kökü basısı, en sık L4–L5 / L5–S1 disk hernisi (L5, S1 kökü)", "disk herni|disk fıtığı|bel fıtığı|l5 s1|l4 l5|kök bası|kökünün bası"],
-    ["!Dermatomal, bacağa yayılan ağrı (siyatalji)", "siyatik|siyatalji|bacağa yayılan|dermatom"],
+    ["!Sinir kökü basısı, en sık L4–L5 / L5–S1 disk hernisi (L5, S1 kökü)", "kök bası|kökünün bası|kökü bası|kökün bası|kök sıkış|kökünün sıkış|l5 ve s1 kök|l5 s1 kök"],
+    ["!Dermatomal, bacağa yayılan ağrı (siyatalji)", "siyatik|tek taraflı siyatalji|bacağa yayılan|dermatom"],
     ["Düz bacak kaldırma (Lasègue) testi", "lasegue|laseg|laseque|düz bacak"],
     ["Kök bulguları: S1 Aşil refleksi, L4 patella, L5 başparmak dorsifleksiyonu", "aşil refleks|patella refleks|başparmağının dorsifleksiyon|başparmak dorsifleksiyon|plantar fleksiyon"],
     ["!Kırmızı bayrak: kauda ekina (idrar retansiyonu, eyer anestezisi)", "kauda|cauda|eyer anestez|eyer tarzı|sfinkter"],
-    ["Çoğu konservatif tedaviyle düzelir; gerekirse MR ve cerrahi", "konservatif|aktif kalma|cerrahi dekompresyon"]
+    ["Çoğu konservatif tedaviyle düzelir; gerekirse MR ve cerrahi", "konservatif|aktif kalma"]
   ]},
 
   /* ====================== ORTA ====================== */

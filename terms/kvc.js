@@ -50,7 +50,7 @@ terms: [
       ["Risk: ileri yaş, erkek, sigara, aile öyküsü", "sigara|tütün|erkek cinsiyet|yaşlı erkek|aile öykü"],
       ["Çoğu asemptomatik; pulsatil kitle, tarama ile saptanır", "asemptomatik|belirti vermez|semptomsuz|pulsatil kitle|nabız atan kitle|tesadüf|insidental"],
       ["!Tarama ve izlem ultrasonla", "ultrason|ultrasonografi|usg|ultrasonla tara|tarama"],
-      ["!Elektif onarım eşiği: erkekte 5,5 cm, kadında 5,0 cm ya da hızlı büyüme/semptom", "5,5|5.5|beş buçuk|55 mm|elli beş|kadında 5|kadınlarda 5|kadında beş|kadınlarda beş|kadında 50 mm|hızlı büyü|yılda 1 cm|yılda bir santim"],
+      ["!Elektif onarım eşiği: erkekte 5,5 cm, kadında 5,0 cm ya da hızlı büyüme/semptom", "erkekte 5,5|erkeklerde 5,5|erkekte 5.5|erkekte beş buçuk|erkeklerde beş buçuk|erkekte 55 mm|kadında 5 cm|kadınlarda 5 cm|kadında 5,0|kadınlarda 5,0|kadında beş santim|kadınlarda beş santim|kadında 50 mm|hızlı büyü|yılda 1 cm|yılda bir santim"],
       ["Onarım: EVAR ya da açık cerrahi (greft interpozisyonu)", "evar|endovasküler anevrizma|endovasküler onarım|açık cerrahi|açık onarım|greft|tüp greft"],
       ["Rüptür: ağrı + hipotansiyon + pulsatil kitle; permisif hipotansiyon ve acil onarım", "rüptür|yırtıl|patla|permisif hipotansiyon|izin verilen hipotansiyon|hipotansif direkt"],
       ["EVAR sonrası endoleak için ömür boyu görüntüleme izlemi", "endoleak|endo leak|endoliks|kaçak|ömür boyu|uzun dönem izlem"]
@@ -107,7 +107,7 @@ terms: [
     c: [
       ["!Kalp takımı (Heart Team) kararı", "kalp takım|kalp ekib|heart team|multidisipliner|kardiyolog ve cerrah"],
       ["!SYNTAX skoru ile anatomik karmaşıklık", "syntax|sintaks|anatomik karmaşık|anatomik kompleks"],
-      ["!Sol ana (orta-yüksek SYNTAX) ya da çok damar hastalığı + diyabet/düşük EF'de KABG tercih", "yüksek syntax|syntax skoru yüksek|kabg tercih|baypas tercih|baypas cerrahisi tercih|cerrahi tercih|cerrahiyi öne çıkar|diyabette kabg|diyabette baypas|diyabette cerrahi|diyabetik hastada baypas|diyabetik hastada kabg|çok damar hastalığında kabg|çok damar hastalığında baypas|üç damar hastalığında baypas|üç damar hastalığında kabg"],
+      ["!Sol ana (orta-yüksek SYNTAX) ya da çok damar hastalığı + diyabet/düşük EF'de KABG tercih", "yüksek syntax|syntax skoru yüksek|cerrahiyi öne çıkar|diyabette kabg|diyabette baypas|diyabette cerrahi|diyabetik hastada baypas|diyabetik hastada kabg|çok damar hastalığında kabg|çok damar hastalığında baypas|üç damar hastalığında baypas|üç damar hastalığında kabg"],
       ["Sol internal mammaryan arter → LAD (en iyi uzun dönem açıklık)", "internal mammar|lima|mammaria|internal torasik|lad|sol ön inen"],
       ["Diğer greftler: safen ven, radiyal arter", "safen ven|vena safena|radiyal arter|radial arter"],
       ["Pompalı (KPB) ya da pompasız (off-pump) teknik", "off pump|pompasız|çalışan kalp|kardiyopulmoner baypas|pompalı|kalp akciğer makine"],

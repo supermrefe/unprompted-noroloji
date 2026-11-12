@@ -106,7 +106,7 @@ terms: [
       ["!Strangülasyon/iskemi ya da peritonit yoksa ameliyatsız tedavi: ağızdan alım kesilir, nazogastrik dekompresyon, sıvı-elektrolit", "nazogastrik|ng tüp|dekompres|ağızdan alım|oral alım|sıvı elektrolit|elektrolit replas|konservatif|ameliyatsız|nonoperatif"],
       ["Suda çözünen kontrast (Gastrografin) tanısal ve tedavi edici", "gastrografin|suda çözünen|kontrast madde|kolona geç"],
       ["!Strangülasyon, peritonit, iskemi ya da başarısız konservatif tedavide cerrahi", "strangül|iskemi|peritonit|adeziyoliz|adezyolizis|laparotomi|cerrahi gerek|ameliyat gerek"],
-      ["Diğer nedenler: fıtık (inkarsere herni), tümör, invajinasyon, ince barsak volvulusu, Crohn darlığı, safra taşı ileusu", "fıtık|herni|tümör|invajinasyon|intussusepsiyon|volvulus|crohn|safra taşı ileus"]
+      ["Diğer nedenler: fıtık (inkarsere herni), tümör, invajinasyon, ince barsak volvulusu, Crohn darlığı, safra taşı ileusu", "fıtık|herni|tümör|invajinasyon|intussusepsiyon|ince barsak volvulus|ince bağırsak volvulus|crohn|safra taşı ileus"]
     ]},
   { id: "gc-peptik-ulser-perforasyonu", tr: "Peptik ülser perforasyonu", en: "Perforated peptic ulcer", cat: "akut", lvl: 2,
     src: {
@@ -200,7 +200,7 @@ terms: [
       ["!Etiyoloji: SMA embolisi (en sık), arteriyel tromboz, venöz tromboz, non-oklüzif (NOMI)", "emboli|tromboz|venöz|non oklüzif|nonoklüzif|nomi|süperior mezenterik|sma"],
       ["!Muayene bulgusuyla orantısız şiddetli karın ağrısı", "orantısız|bulgularla uyumsuz|muayeneyle uyumsuz|şiddetli karın ağrı"],
       ["Risk: atriyal fibrilasyon, ateroskleroz, düşük debi/vazopresör, hiperkoagülabilite", "atriyal fibrilasyon|ateroskleroz|vazopresör|düşük debi|hiperkoagül"],
-      ["Laktat ve D-dimer tanıyı koydurmaz; normal laktat dışlamaz", "dışlamaz|tanı koydurmaz|özgül değil|spesifik değil|nonspesifik|normal laktat"],
+      ["Laktat ve D-dimer tanıyı koydurmaz; normal laktat dışlamaz", "tanı koydurmaz|laktat dışlamaz|laktat iskemiyi dışlamaz|laktat normal olsa|laktat özgül değil|laktat spesifik değil|laktat nonspesifik"],
       ["!Tanıda ilk tercih BT anjiyografi, gecikmeden", "bt anjiyo|anjiyografi|anjiyo|bete anjiyo|tomografik anjiyo"],
       ["Heparinle antikoagülasyon ve resüsitasyon hemen", "heparin|antikoagül"],
       ["!Revaskülarizasyon (endovasküler ya da açık embolektomi) + nekrotik barsak rezeksiyonu", "revaskülarizasyon|embolektomi|endovasküler|stent|trombektomi|rezeksiyon|nekroz|nekrotik"],
@@ -217,7 +217,7 @@ terms: [
       ["!Steril nekrozda girişim gerekmez; enfekte nekroz girişim nedenidir", "steril nekroz|enfekte nekroz|infekte nekroz|enfeksiyon şüphe|gaz kabarc"],
       ["Enfeksiyon ipuçları: klinik kötüleşme, BT'de nekrozda gaz", "klinik kötüleş|bt de gaz|nekroz içinde gaz|gaz görül|koleksiyon içinde gaz|kötüleşen organ yetmez|yeniden ateşlen"],
       ["!Mümkünse girişim geciktirilir, nekrozun duvarlanması beklenir", "geciktir|ertelen|duvarlanma|beklen"],
-      ["!Step-up yaklaşım: önce perkütan ya da endoskopik drenaj, gerekirse minimal invaziv nekrozektomi", "step up|basamak|kademeli|perkütan drenaj|endoskopik drenaj|transgastrik|minimal invaziv nekrozektomi|endoskopik nekrozektomi|vard"],
+      ["!Step-up yaklaşım: önce perkütan ya da endoskopik drenaj, gerekirse minimal invaziv nekrozektomi", "step up|basamak|kademeli|perkütan drenaj|endoskopik drenaj|transgastrik|minimal invaziv nekrozektomi|endoskopik nekrozektomi"],
       ["PANTER: step-up, açık nekrozektomiye göre daha az majör komplikasyon/ölüm", "panter|açık nekrozektomi|majör komplikasyon"],
       ["Diğer cerrahi sorunlar: abdominal kompartman sendromu, kanama/psödoanevrizma", "kompartman|intraabdominal basınç|karın içi basınç|psödoanevrizma|psodoanevrizma"],
       ["Biliyer pankreatitte aynı yatışta kolesistektomi (hafif atakta)", "kolesistektomi|aynı yatış|biliyer pankreatit"]
@@ -262,7 +262,7 @@ terms: [
     c: [
       ["!ASMBS/IFSO 2022: BKİ 35 ve üstünde, eşlik eden hastalıktan bağımsız önerilir", "hastalıktan bağımsız|komorbiditeden bağımsız|komorbidite olsun olmasın|hastalık olsun olmasın|komorbidite aranmaksızın|komorbidite şartı olmadan|hastalık şartı olmadan|hastalık şartı aranmaz|komorbidite şart değil"],
       ["!BKİ 30–34,9 ve metabolik hastalıkta (tip 2 diyabet) düşünülmeli", "30 ile 34|30 34|otuz ile otuz dört|30 ila 34|30 ve 35 arası|30 35 arası"],
-      ["Asyalılarda daha düşük eşikler; 1991 NIH ölçütlerinin yerini aldı", "asya|yerini aldı|1991 ölçütleri güncellen|nih ölçütleri güncellen"],
+      ["Asyalılarda daha düşük eşikler; 1991 NIH ölçütlerinin yerini aldı", "asya kökenli hastalarda eşik|asyalılarda eşik|asyalılarda daha düşük|asya kökenli hastalarda daha düşük|nih ölçütlerinin yerini|1991 ölçütlerinin yerini|1991 ölçütleri güncellen|nih ölçütleri güncellen"],
       ["Başlıca ameliyatlar: sleeve gastrektomi ve Roux-en-Y gastrik bypass", "sleeve|tüp mide|roux|gastrik bypass|bypass|one anastomosis|mini bypass"],
       ["!Sonuç: kalıcı kilo kaybı, diyabet remisyonu, mortalitede azalma", "kilo kayb|remisyon|mortalite|ölüm oran|sağkalım"],
       ["Çok disiplinli değerlendirme (psikiyatri, diyetisyen, endokrin)", "çok disiplin|multidisiplin|psikiyatri|psikolog|diyetisyen"],

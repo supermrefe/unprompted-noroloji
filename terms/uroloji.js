@@ -76,9 +76,9 @@ terms: [
     c: [
       ["!Testisin skrotuma inmemesi; prematürelerde daha sık", "skrotuma inme|skrotumda değil|skrotum boş|inmemiş|kriptorşi|kriptorşidizm|prematüre|preterm"],
       ["!Ele gelen ve gelmeyen testis ayrımı; retraktil testisten ayırt", "ele gelen|ele gelme|palpe edil|palpabl|nonpalpabl|retraktil|kayan testis|anorşi"],
-      ["Sevk öncesi rutin USG/görüntüleme önerilmez", "görüntüleme önerilmez|görüntüleme gerekmez|usg gerekmez|ultrason gerekmez|rutin ultrason önerilmez|rutin görüntüleme önerilmez|ultrason rutin önerilmez|görüntüleme rutin önerilmez|ultrasonun yeri yok|ultrason yapılmaz"],
+      ["Sevk öncesi rutin USG/görüntüleme önerilmez", "görüntüleme önerilmez|görüntüleme gerekmez|usg gerekmez|ultrason gerekmez|rutin ultrason önerilmez|rutin görüntüleme önerilmez|ultrason rutin önerilmez|görüntüleme rutin önerilmez|ultrasonun yeri yok"],
       ["Ele gelmeyen testiste tanısal laparoskopi", "laparoskop|karın içi|intraabdominal|abdominal testis"],
-      ["!Orşiopeksi 12 aydan önce, en geç 18 ayda", "12 ay|on iki ay|bir yaş|18 ay|on sekiz ay"],
+      ["!Orşiopeksi 12 aydan önce, en geç 18 ayda", "12 aydan önce|on iki aydan önce|bir yaşından önce|en geç 18|en geç on sekiz|18 aydan önce|on sekiz aydan önce"],
       ["Uzun dönem riskler: infertilite ve testis kanseri; eşlik eden inguinal herni", "infertil|kısırlık|fertilite|testis kanser|testis tümör|malignite|herni|fıtık|processus vajinalis"],
       ["Bilateral ele gelmeyen testiste cinsel gelişim bozukluğu (DSD) araştırılır", "cinsel gelişim bozuk|dsd|interseks|konjenital adrenal|karyotip|hipospadias"]
     ]},
@@ -117,7 +117,7 @@ terms: [
       ["European Association of Urology Guidelines on Renal Cell Carcinoma: The 2025 Update. Eur Urol 2025", "https://doi.org/10.1016/j.eururo.2025.02.020"],
       ["Adjuvant Pembrolizumab after Nephrectomy in Renal-Cell Carcinoma (KEYNOTE-564). N Engl J Med 2021", "https://doi.org/10.1056/NEJMoa2106391"]] },
     c: [
-      ["!En sık alt tip berrak hücreli; VHL geni ile ilişkili", "berrak hücre|şeffaf hücre|clear cell|vhl|von hippel"],
+      ["!En sık alt tip berrak hücreli; VHL geni ile ilişkili", "berrak hücre|şeffaf hücre|clear cell"],
       ["Çoğu görüntülemede rastlantısal; klasik triad (yan ağrısı, hematüri, kitle) nadir", "rastlantısal|tesadüfen|insidental"],
       ["Paraneoplastik bulgular: polisitemi, hiperkalsemi, Stauffer sendromu", "polisitemi|eritropoetin|stauffer"],
       ["Sol varikosel ve vena kava tümör trombüsü", "varikosel|vena kava|tümör trombüs|renal ven"],
@@ -171,7 +171,7 @@ terms: [
       SRH] },
     c: [
       ["Cinsel uyarı olmadan dört saati aşan istemsiz ereksiyon", "dört saat|4 saat|cinsel uyarı olmadan|uyarı olmaksızın|istemsiz ereksiyon|uzamış ereksiyon"],
-      ["!İskemik (düşük akımlı): ağrılı, rijit; acil", "iskemik priapizm|iskemik yani|düşük akım|low flow|venookluziv|ağrılı ve rijit|rijit"],
+      ["!İskemik (düşük akımlı): ağrılı, rijit; acil", "iskemik priapizm|iskemik yani|düşük akım|low flow|venookluziv|ağrılı ve rijit"],
       ["Arteriyel (yüksek akımlı): ağrısız, genellikle perine travması sonrası", "arteriyel|yüksek akım|high flow|ağrısız|perine travma|arteriyokavernöz|fistül"],
       ["Tekrarlayan (stuttering) priapizm", "stuttering|tekrarlayan priapizm|kekeme"],
       ["!Kavernöz kan gazı (ve Doppler USG) ile ayrım", "kavernöz kan gaz|kan gazı|korpus kan|kavernöz kan"],

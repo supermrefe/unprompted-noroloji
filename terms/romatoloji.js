@@ -84,14 +84,14 @@ terms: [
           ["Couderc M, et al. 2020 French recommendations on the management of septic arthritis in an adult native joint. Joint Bone Spine 2020", "https://doi.org/10.1016/j.jbspin.2020.07.012"]]
     },
     c: [
-      ["!Akut, sıcak, şiş, ağrılı tek eklem (en sık diz) = septik artrit dışlanana dek acil", "monoartrit|tek eklem|sıcak şiş|akut monoartik|ortopedik acil|romatolojik acil"],
-      ["!En sık etken Staphylococcus aureus; genç cinsel aktifte gonokok", "aureus|stafilokok|gonokok|gonore|neisseria"],
+      ["!Akut, sıcak, şiş, ağrılı tek eklem (en sık diz) = septik artrit dışlanana dek acil", "monoartrit|tek eklem|sıcak şiş|akut monoartik|romatolojik acil"],
+      ["!En sık etken Staphylococcus aureus; genç cinsel aktifte gonokok", "cinsel aktif|gonokok|gonore|neisseria"],
       ["Risk: ileri yaş, RA, diyabet, protez eklem, IV ilaç kullanımı, immünsüpresyon", "protez eklem|eklem protez|damar içi madde|iv ilaç|romatoid artrit gibi|altta yatan eklem"],
-      ["!Antibiyotikten önce eklem aspirasyonu: hücre sayımı, Gram boyama, kültür, kristal", "aspirasyon|artrosentez|eklem ponksiyon|eklem sıvısı|sinovyal sıvı|hücre sayı"],
+      ["!Antibiyotikten önce eklem aspirasyonu: hücre sayımı, Gram boyama, kültür, kristal", "artrosentez|eklem ponksiyon|sinovyal sıvı|hücre sayı"],
       ["Sinovyal sıvıda yüksek lökosit, nötrofil hakimiyeti; kristal görülmesi enfeksiyonu dışlamaz", "pürülan|kristal görülmesi|enfeksiyonu dışlamaz|gut ile birlikte"],
-      ["Kan kültürü, CRP/sedimantasyon", "kan kültür|crp|sedimantasyon|gram boya"],
+      ["Kan kültürü, CRP/sedimantasyon", "kan kültür|gram boya"],
       ["!Ampirik IV antibiyotik ve eklem drenajı (iğne, artroskopi ya da açık)", "eklem drenaj|drenajı|lavaj|artroskop|debridman|tekrarlayan iğne aspirasyon"],
-      ["Gecikirse kıkırdak yıkımı, kalıcı hasar ve sepsis", "kıkırdak yıkım|kıkırdak hasar|kalıcı eklem hasar|kalıcı hasar"]
+      ["Gecikirse kıkırdak yıkımı, kalıcı hasar ve sepsis", "kıkırdak yıkım|kıkırdak hasar|kalıcı eklem hasar"]
     ]},
 
   /* ====================== ORTA ====================== */
@@ -169,8 +169,8 @@ terms: [
     c: [
       ["!50 yaş üstünde büyük damar vasküliti; yeni başlayan baş ağrısı, temporal arter hassasiyeti", "50 yaş|elli yaş|yaşlı|temporal arter|şakak|yeni başlayan baş ağrı|saçlı deri hassas"],
       ["Çene kladikasyosu, sistemik bulgular; akut faz (sedimantasyon/CRP) yüksek", "çene kladikasyo|çiğnerken|çene ağrı|sedimantasyon|crp|akut faz"],
-      ["!Görme kaybı riski (AİON): acil, tanı beklenmeden tedavi", "görme kayb|körlük|aion|iskemik optik nöropati|beklemeden|hemen başla|geciktirmeden"],
-      ["!Tanı görüntüleme (temporal arter ultrasonu: halo) ya da temporal arter biyopsisi ile doğrulanır", "halo|ultrason|usg|doppler|biyopsi|pet"],
+      ["!Görme kaybı riski (AİON): acil, tanı beklenmeden tedavi", "aion|iskemik optik nöropati|körlük|beklemeden|tanı beklen|biyopsi beklen|hemen başla|geciktirmeden"],
+      ["!Tanı görüntüleme (temporal arter ultrasonu: halo) ya da temporal arter biyopsisi ile doğrulanır", "halo|arter ultrason|arter usg|arter biyops|biyopsi|pet"],
       ["Yüksek doz glukokortikoid (40–60 mg/gün prednizon eşdeğeri)", "yüksek doz|40 60|kırk altmış|40 ile 60|prednizon|prednizolon|glukokortikoid|kortikosteroid|pulse"],
       ["Steroid koruyucu: tosilizumab, alternatif metotreksat", "tosilizumab|tocilizumab|il 6|metotreksat"],
       ["Polimiyalji romatika: iki taraflı omuz-kalça kuşağı ağrısı ve tutukluğu, düşük doz steroide hızlı yanıt", "polimiyalji|omuz kuşağ|kalça kuşağ|pmr|düşük doz steroid|düşük doz prednizolon"],

@@ -77,13 +77,13 @@ terms: [
           ["WHO guidelines for the pharmacological and radiotherapeutic management of cancer pain in adults and adolescents. World Health Organization 2018", "https://www.ncbi.nlm.nih.gov/books/NBK537492/"]]
     },
     c: [
-      ["!Basamaklı yaklaşım: hafif ağrıda opioid olmayan (parasetamol, NSAİİ), orta ağrıda zayıf opioid, şiddetli ağrıda güçlü opioid", "merdiven|basamak|parasetamol|nsaii|nsaid|steroid olmayan|zayıf opioid|tramadol|kodein"],
-      ["!Şiddetli ağrıda güçlü opioid: oral morfin, oksikodon ya da hidromorfon birinci basamakta eşdeğer (morfin klasik referans)", "morfin|güçlü opioid|oksikodon|fentanil|hidromorfon"],
-      ["!Saatli düzenli doz + atılım (breakthrough) ağrısı için kurtarma dozu", "düzenli doz|düzenli aralık|saatli|saat düzen|kırıcı ağrı için|ağrı olmadan önce|kurtarma doz|atılım ağrı|breakthrough|ek doz"],
+      ["!Basamaklı yaklaşım: hafif ağrıda opioid olmayan (parasetamol, NSAİİ), orta ağrıda zayıf opioid, şiddetli ağrıda güçlü opioid", "merdiven|basamaklı|zayıf opioid|tramadol|kodein"],
+      ["!Şiddetli ağrıda güçlü opioid: oral morfin, oksikodon ya da hidromorfon birinci basamakta eşdeğer (morfin klasik referans)", "ağızdan morfin|oral morfin|oksikodon|hidromorfon"],
+      ["!Saatli düzenli doz + atılım (breakthrough) ağrısı için kurtarma dozu", "düzenli doz|düzenli aralık|saatli düzenli|saat düzen|kırıcı ağrı için|ağrı olmadan önce|kurtarma doz|atılım ağrı|breakthrough|ek doz"],
       ["Mümkünse ağızdan; ağrı skalasıyla değerlendirme (VAS/NRS)", "ağızdan|oral yol|ağrı skala|vas|nrs|sayısal skala|görsel analog"],
       ["Opioid yan etkileri: kabızlık için profilaktik laksatif, bulantı, sedasyon", "kabızlık|konstipasyon|laksatif|bulantı|sedasyon|uyku hali"],
       ["Adjuvanlar: nöropatik ağrıda gabapentinoid/antidepresan; kemik metastazında radyoterapi, bisfosfonat", "adjuvan|nöropatik|gabapentin|pregabalin|duloksetin|amitriptilin|radyoterapi|bisfosfonat|zoledron|denosumab"],
-      ["Opioid dönüşümü ve renal yetmezlikte dikkat; bağımlılık korkusu tedaviyi engellememeli", "rotasyon|dönüşüm|böbrek yetmez|bağımlılık|opiofobi"]
+      ["Opioid dönüşümü ve renal yetmezlikte dikkat; bağımlılık korkusu tedaviyi engellememeli", "opioid rotasyon|opioid dönüşüm|bağımlılık korku|opiofobi"]
     ]},
 
   /* ====================== ORTA ====================== */

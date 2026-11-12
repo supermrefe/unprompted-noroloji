@@ -118,7 +118,7 @@ terms: [
       ["Sisatrakuryum Hofmann eliminasyonu: böbrek-karaciğerden bağımsız", "hofmann|organdan bağımsız|böbrekten bağımsız|karaciğerden bağımsız"],
       ["!Sugammadeks rokuronyum/veküronyumu kapsülleyerek bağlar", "sugammadeks|sugamadeks|sugammadex|kapsül|enkapsül|siklodekstrin"],
       ["Neostigmin asetilkolinesterazı inhibe eder; antikolinerjikle (glikopirolat/atropin) verilir", "neostigmin|asetilkolinesteraz|kolinesteraz inhib|glikopirolat|glikoprolat|atropin"],
-      ["!Kantitatif nöromüsküler izlem; TOF oranı 0,9'a ulaşmadan ekstübe etme (rezidüel blok)", "tof oranı 0|tof oranının 0|0 9|0,9|sıfır virgül dokuz|yüzde doksan|kantitatif"]
+      ["!Kantitatif nöromüsküler izlem; TOF oranı 0,9'a ulaşmadan ekstübe etme (rezidüel blok)", "tof oranı 0,9|tof oranının 0,9|0,9 un üzer|0,9 a ulaş|0,9 un altında ekstübe|sıfır virgül dokuz|yüzde doksan|kantitatif"]
     ]},
   { id: "anes-noroaksiyel-anestezi", tr: "Spinal-epidural anestezi ve postdural ponksiyon baş ağrısı", en: "Neuraxial anesthesia and post-dural puncture headache", cat: "rej", lvl: 2,
     src: {
@@ -227,7 +227,7 @@ terms: [
       ["!DMAH profilaktik dozdan sonra 12 saat, tedavi dozundan sonra 24 saat beklenir", "tedavi dozunda 24|tedavi dozundaysa 24|tedavi dozundan sonra 24|tedavi dozunda yirmi dört|tedavi dozundaysa yirmi dört|terapötik dozda 24|terapötik dozdan sonra 24"],
       ["Kateter çekme zamanı da antikoagülan dozlamasına göre planlanır", "kateter çek|kateteri çek|kateter çekilme|kateterin çıkarıl|kateter çıkar|kateterin çekil|kateter çıkarıl"],
       ["Varfarinde INR normalleşmeli", "varfarin|warfarin|kumadin|coumadin|inr"],
-      ["P2Y12 inhibitörleri (klopidogrel, prasugrel, tikagrelor) blok öncesi ilaca özgü süre kesilir; aspirin/NSAİİ tek başına engel değil", "klopidogrel|prasugrel|tikagrelor|p2y12|aspirin tek başına|engel değil|engel oluşturmaz"],
+      ["P2Y12 inhibitörleri (klopidogrel, prasugrel, tikagrelor) blok öncesi ilaca özgü süre kesilir; aspirin/NSAİİ tek başına engel değil", "ilaca özgü|gün önce kesil|gün kesil|kesilmeli|kesilmesi gerek|aspirin tek başına|nsaii tek başına|nsaii ler tek başına"],
       ["DOAK'larda (rivaroksaban, apiksaban, dabigatran) bekleme süresi ilaca ve böbrek fonksiyonuna göre", "doak|yoak|rivaroksaban|apiksaban|dabigatran|edoksaban|kreatinin klirens|böbrek fonksiyon"],
       ["Blok sonrası nörolojik izlem; şüphede acil MR ve cerrahi dekompresyon", "nörolojik izlem|nörolojik muayene|motor blok|emar|mr|manyetik rezonans|dekompres|laminektomi"]
     ]},

@@ -143,13 +143,13 @@ terms: [
           ["Stevens DL, Bryant AE. Necrotizing Soft-Tissue Infections. N Engl J Med 2017", "https://doi.org/10.1056/NEJMra1600673"]]
     },
     c: [
-      ["!Pürülan olmayan selülit: çoğunlukla beta-hemolitik streptokok; beta-laktam (sefazolin, sefaleksin)", "pürülan olmayan|nonpürülan|streptokok|beta hemolitik|sefazolin|sefaleksin|penisilin|beta laktam"],
-      ["Pürülan enfeksiyon/apse: S. aureus; insizyon-drenaj, gerekirse MRSA'ya etkili ajan", "pürülan|apse|insizyon|drenaj|stafilokok|aureus|mrsa"],
+      ["!Pürülan olmayan selülit: çoğunlukla beta-hemolitik streptokok; beta-laktam (sefazolin, sefaleksin)", "pürülan olmayan|nonpürülan|beta hemolitik|sefaleksin|penisilin|beta laktam"],
+      ["Pürülan enfeksiyon/apse: S. aureus; insizyon-drenaj, gerekirse MRSA'ya etkili ajan", "pürülan enfeksiyon|pürülan selülit|insizyon|apse drenaj"],
       ["Erizipel: keskin sınırlı, kabarık, parlak kırmızı yüzeyel selülit", "erizipel|keskin sınır|net sınır|kabarık"],
       ["!NYDE ipuçları: bulguyla orantısız şiddetli ağrı, hızlı yayılma, bül, krepitasyon, sistemik toksisite", "orantısız|şiddetli ağrı|hızlı yayıl|bül|krepitasyon|cilt altı gaz|nekroz|deri rengi|morarma|toksik görün"],
-      ["Tip 1 polimikrobiyal (diyabet, Fournier), tip 2 A grubu streptokok; gazlı gangren klostridyal", "polimikrobiyal|tip 1|tip 2|fournier|a grubu streptokok|grup a|gazlı gangren|klostrid|vibrio"],
-      ["!Acil cerrahi eksplorasyon ve geniş debridman; görüntüleme cerrahiyi geciktirmemeli", "cerrahi|debridman|eksplorasyon|fasyotomi|ameliyat|amputasyon"],
-      ["Ampirik tedavi: vankomisin + piperasilin-tazobaktam; streptokokal NYDE'de toksin baskısı için klindamisin", "vankomisin|piperasilin|tazobaktam|klindamisin|toksin baskı|toksin üretim"]
+      ["Tip 1 polimikrobiyal (diyabet, Fournier), tip 2 A grubu streptokok; gazlı gangren klostridyal", "tip 1|tip 2|a grubu streptokok|grup a|gazlı gangren|klostrid|vibrio"],
+      ["!Acil cerrahi eksplorasyon ve geniş debridman; görüntüleme cerrahiyi geciktirmemeli", "cerrahi eksplorasyon|debridman|eksplorasyon|fasyotomi|amputasyon"],
+      ["Ampirik tedavi: vankomisin + piperasilin-tazobaktam; streptokokal NYDE'de toksin baskısı için klindamisin", "vankomisin ile piperasilin|vankomisin piperasilin|vankomisin artı piperasilin|toksin baskı|toksin üretim"]
     ]},
   { id: "enf-sitma", tr: "Sıtma", en: "Malaria", cat: "zoo", lvl: 2,
     src: {

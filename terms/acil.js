@@ -96,10 +96,10 @@ terms: [
           ["Kirkpatrick AW et al. Hand-held thoracic sonography for detecting post-traumatic pneumothoraces: the Extended Focused Assessment with Sonography for Trauma (EFAST). J Trauma 2004", "https://pubmed.ncbi.nlm.nih.gov/15345974/"]]
     },
     c: [
-      ["!Yatak başı odaklı ultrasonla serbest sıvı (kan) arama", "ultrason|usg|ultrasonografi|sonografi|serbest sıvı|serbest mayi|yatak başı|pocus"],
+      ["!Yatak başı odaklı ultrasonla serbest sıvı (kan) arama", "odaklı ultrason|odaklı bir ultrason|serbest sıvı|serbest mayi|yatak başı|pocus"],
       ["!Dört pencere: Morison, splenorenal, pelvis, subksifoid perikard", "morison|hepatorenal|splenorenal|perisplenik|pelvik pencere|suprapubik|douglas|subksifoid|subkostal"],
-      ["!eFAST: akciğer kayması kaybıyla pnömotoraks, hemotoraks", "efast|kayma|sliding|akciğer nokta|lung point|barkod|hemotoraks"],
-      ["İnstabil hasta + pozitif FAST: acil laparotomi", "laparotomi|ameliyathane|acil cerrahi|ameliyata"],
+      ["!eFAST: akciğer kayması kaybıyla pnömotoraks, hemotoraks", "efast|plevranın kayma|plevral kayma|akciğer kayma|sliding|akciğer nokta|lung point|barkod|hemotoraks"],
+      ["İnstabil hasta + pozitif FAST: acil laparotomi", "laparotomi|ameliyathane|ameliyata"],
       ["Stabil hastada BT ile ileri görüntüleme", "bt|bete|tomografi"],
       ["Negatif FAST yaralanmayı dışlamaz; özgüllük yüksek, duyarlılık sınırlı; tekrarla", "dışlamaz|ekarte etmez|ekarte ettirmez|duyarlılığı|duyarlılık|özgüllü|tekrarla|seri"],
       ["Perikard tamponadını gösterir", "tamponad|perikardiyal sıvı|perikardiyal efüzyon|perikart"]
@@ -225,12 +225,12 @@ terms: [
           ["Zehirlenme Tanı ve Tedavi Rehberi (Birinci basamağa yönelik). T.C. Sağlık Bakanlığı Halk Sağlığı Genel Müdürlüğü 2025", "https://hsgm.saglik.gov.tr/media/attachments/2025/07/03/zehirlenme-tani-ve-tedavi-rehberi.pdf"]]
     },
     c: [
-      ["!Asetilkolinesteraz inhibisyonu → kolinerjik kriz", "asetilkolinesteraz|kolinesteraz|kolinerjik|asetilkolin birik"],
+      ["!Asetilkolinesteraz inhibisyonu → kolinerjik kriz", "kolinerjik kriz|kolinerjik sendrom|asetilkolin birik"],
       ["Kaynak: tarım ilacı/insektisit (Türkiye'de kırsal, kasıtlı ya da kaza)", "tarım ilac|insektisit|pestisit|böcek ilac|zirai|tarla"],
-      ["!Muskarinik bulgular: miyozis, bronkore, bradikardi, salivasyon, ishal (SLUDGE/DUMBELS)", "bronkore|salya|salivasyon|sludge|dumbels|lakrimasyon|idrar kaçır|aşırı sekresyon|bradikardi"],
-      ["Nikotinik bulgular: fasikülasyon, kas güçsüzlüğü, solunum yetmezliği", "nikotinik|fasikül|kas güçsüz|solunum kas|solunum yetmez"],
-      ["Tanı: plazma (bütiril) ve eritrosit kolinesteraz düzeyi", "plazma kolinesteraz|psödokolinesteraz|eritrosit|bütiril|butiril|kolinesteraz düzey"],
-      ["!Atropin: akciğer sekresyonları kuruyana dek dozu artırarak (ikiye katlayarak) titre et", "atropin|ikiye katla|iki katı|akciğer temiz|sekresyon kuru|kuruyana"],
+      ["!Muskarinik bulgular: miyozis, bronkore, bradikardi, salivasyon, ishal (SLUDGE/DUMBELS)", "bronkore|salya|salivasyon|sludge|dumbels|lakrimasyon|idrar kaçır|aşırı sekresyon"],
+      ["Nikotinik bulgular: fasikülasyon, kas güçsüzlüğü, solunum yetmezliği", "nikotinik|kas güçsüz|solunum kas|solunum yetmez"],
+      ["Tanı: plazma (bütiril) ve eritrosit kolinesteraz düzeyi", "plazma kolinesteraz|eritrosit|bütiril|butiril|kolinesteraz düzey"],
+      ["!Atropin: akciğer sekresyonları kuruyana dek dozu artırarak (ikiye katlayarak) titre et", "atropin titr|ikiye katla|iki katı|akciğer temiz|sekresyon kuru|sekresyonlarının kuru|kuruyana"],
       ["Pralidoksim (oksim) tedavisi", "pralidoksim|oksim"],
       ["!Dekontaminasyon ve sağlık personelinin korunması", "dekontamin|elbise|cilt yıka|cildi yıka|deri yıka|deriyi yıka|vücudu yıka|sabun|eldiven|koruyucu ekipman|personel"],
       ["Ara sendrom ve gecikmiş nöropati", "ara sendrom|intermediate|gecikmiş nöropati|polinöropati"]

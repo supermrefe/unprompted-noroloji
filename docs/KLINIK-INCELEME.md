@@ -709,6 +709,11 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 | gc-bariatrik-cerrahi | BKİ ≥35 kavramı "eşlik eden hastalıktan bağımsız" ifadelerini gerektiren anahtarlara daraltıldı | Eskimiş "BKİ 35 + komorbidite" ölçütü doğru sayılıyordu |
 | gc-bariatrik-cerrahi | BKİ 30–34,9 kavramından çıplak "tip 2 diyabet/diyabetik/metabolik hastalık" kaldırıldı | Eşik belirtmeyen anlatım temel kavramı kazanıyordu |
 | gc-bariatrik-cerrahi | Asya/NIH kavramından çıplak "1991/nih" kaldırıldı; "yerini aldı" eklendi | "1991 NIH ölçütleri geçerli" gibi eskimiş ifade doğru sayılıyordu |
+| gc-akut-mezenter-iskemi | Laktat/D-dimer kavramından çıplak "dışlamaz", "özgül değil", "spesifik değil", "nonspesifik", "normal laktat" kaldırıldı; yerine "laktat dışlamaz", "laktat iskemiyi dışlamaz", "laktat normal olsa", "laktat özgül/spesifik değil", "laktat nonspesifik", "tanı koydurmaz" | "Normal laktat iskemiyi dışlar" gibi ters ifade ve başka testler için söylenen "özgül değil" doğru sayılıyordu |
+| gc-ince-barsak-obstruksiyonu | Çıplak "volvulus" anahtarı "ince barsak volvulus / ince bağırsak volvulus" ile değiştirildi (38. satırdaki "anahtarlar dahil" ancak bu değişiklikle doğru) | Kolon/sigmoid volvulusunu ince barsak tıkanıklığı nedeni sayan yanlış anlatım hâlâ eşleşiyordu |
+| gc-bariatrik-cerrahi | Asya/NIH kavramından çıplak "asya" ve "yerini aldı" kaldırıldı; "asya kökenli hastalarda eşik/daha düşük", "asyalılarda eşik/daha düşük", "nih/1991 ölçütlerinin yerini" eklendi | Herhangi bir "X, Y nin yerini aldı" cümlesi ve eşik belirtmeyen "Asya" kavramı kazanıyordu |
+| gc-pankreatit-nekroz-cerrahisi | Step-up kavramından "vard" anahtarı kaldırıldı | 4 harfli önek eşleşmesiyle "vardır/vardı" gibi her cümleyi yakalıyordu |
+| gc-meme-kitlesi | (Tablo düzeltmesi) Üçlü değerlendirme kavramının son anahtar kümesi: "üçlü değerlendir / üçlü test / triple / üçlü yaklaşım" | 45. satırdaki satır son anahtarları listelemiyordu |
 
 <!-- ortopedi: 21 madde -->
 ## Ortopedi ve travmatoloji
@@ -753,6 +758,9 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 | ort-kemik-tumorleri | Osteosarkom tedavisinden tek başına "kemoterapi" çıkarıldı; "preoperatif kemoterapi|ameliyat öncesi kemoterapi|map" eklendi. | Yalnız postoperatif kemoterapi anlatımını da sayıyordu. |
 | ort-cocuk-septik-artrit | "eklem efüzyon|eklem aspirasyon" ve "oral tedaviye geç" eklendi. | Kör anlatım eş anlamlıları. |
 | ort-perthes | Kötü prognoz kavramından tek başına "prognoz" çıkarıldı, "pilar c" eklendi. | Gevşek eşleşme. |
+| ort-gkd | Tarama kavramının son anahtarları: "evrensel tarama önerilmez|rutin ultrason önerilmez|rutin ultrason taramasını önermiyor|risk faktörü varsa|seçici tarama|sağlık bakanlığı programıyla|bakanlığı tüm bebeklere"; yönsüz "sağlık bakanlığı", "ulusal tarama", "tarama programı" kaldırıldı (38. satırdaki listede "risk faktörü varsa|seçici tarama" da eksikti) | "Sağlık Bakanlığı tarama programı yoktur" gibi ters ifade doğru sayılıyordu |
+| ort-ock-menisku | Menisküs koruma kavramından "menisküs koru/menisküsü koru" kaldırıldı; "menisküs korunur/korunmalı", "menisküsü korunur", "mümkün olduğunca korunur" eklendi | Alt dize eşleşmesiyle "menisküs korunamaz/korunmaz" ters ifadesi kavramı alıyordu |
+| ort-ock-menisku | Dejeneratif yırtık kavramından kalan genel "konservatif tedavi, fizik tedavi, egzersiz, osteoartrit, artroz, kireçlen" kaldırıldı; "önce egzersiz", "önce fizik tedavi" eklendi | "Konservatif tedavi işe yaramaz; artroz gelişmez" gibi ters anlatım kavramı alıyordu |
 
 <!-- uroloji: 19 madde -->
 ## Üroloji
@@ -797,6 +805,10 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 | uro-priapizm | c[1] "iskemik\|ağrılı" yerine "iskemik priapizm\|iskemik yani\|ağrılı ve rijit"; c[4]'ten "doppler" çıkarıldı. | Santral retina arter tıkanıklığı anlatımı priapizmden %64 alıyordu (çapraz eşleşme). |
 | uro-fournier-gangreni | c[7]'ye "yüksek mortalite\|mortalitesi yüksek" eklendi. | Kavramın FGSI dışındaki kısmı için eş anlamlı yoktu. |
 | uro-uriner-inkontinans, uro-fournier-gangreni | Kaynak künyeleri değiştirilmedi, şüphe tablosuna eklendi. | DOI/PMID doğrulanamadı; doğrulanamayan bilgi eklenmedi. |
+| uro-priapizm | İskemik priapizm kavramından tek başına "rijit" anahtarı kaldırıldı; "ağrılı ve rijit" kaldı (40. satırdaki tablo "rijit" in bırakıldığını belirtmiyordu) | "Arteriyel priapizmde penis rijit değildir" gibi ters ifade iskemik kavramı alıyordu |
+| uro-inmemis-testis | Orşiopeksi zamanlama anahtarları yönlü yapıldı: "12 aydan önce", "on iki aydan önce", "bir yaşından önce", "en geç 18", "en geç on sekiz", "18 aydan önce", "on sekiz aydan önce"; yönsüz "12 ay, bir yaş, 18 ay" kaldırıldı | "18 aydan sonra", "bir yaşından sonra yapılır" gibi yanlış zamanlama doğru sayılıyordu |
+| uro-inmemis-testis | Görüntüleme kavramından "ultrason yapılmaz" kaldırıldı | Alt dize olarak "ultrason yapılmazsa" gibi koşullu cümlelerle eşleşiyordu |
+| uro-renal-hucreli-karsinom | Alt tip kavramından "vhl" ve "von hippel" kaldırıldı; kavram yalnız "berrak hücre / şeffaf hücre / clear cell" ile kazanılır | "En sık alt tip kromofobdur, VHL ile ilişkilidir" diyen yanlış anlatım kavramı alıyordu |
 
 <!-- beyin-cerrahisi: 17 madde -->
 ## Beyin cerrahisi
@@ -841,6 +853,10 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 | bc-avm | Başvuru kavramından "nöbet/epilep"; Spetzler-Martin'den "martin/venöz drenaj"; ARUBA'dan "rüptüre olmamış/kanamamış/tıbbi tedavi/konservatif" çıkarıldı; "girişim üstün değil" eklendi | En sık başvuru kanama; gevşek anahtarlar özü içermeden eşleşiyordu |
 | bc-beyin-apsesi | LP kavramına "lomber ponksiyon kitle" eklendi | Kör anlatımda başka kelimelerle söylendi, yakalanmadı |
 | bc-lomber-spinal-stenoz | "ileri yaş/yaşlı", tek başına "kladikasyon", "vasküler", "konservatif" çıkarıldı | Santral retina arter tıkanıklığı anlatımı bu konuda %80 alıyordu (çapraz eşleşme hatası) |
+| bc-epidural-subdural-hematom | SDH eşik anahtarları ölçüye bağlandı: "10 milimetreden/10 mm den/on milimetreden kalın", "kalınlığı 10", "kayması 5/beş", "kayma 5 mm", "5 milimetreyi/5 mm yi/beş milimetreyi geç"; çıplak "5 mm", "5 milimetre", "10 mm" kaldırıldı | Çıplak "5 mm" eşiğin hangi ölçüye (kalınlık mı, orta hat kayması mı) ait olduğunu göstermiyordu; ">5 mm kalınlık" gibi yanlış eşik doğru sayılıyordu |
+| bc-agir-kafa-travmasi | Ağır kafa travması temel kavramından "entübe", "entübasyon", "havayolu" kaldırıldı; kavram yalnız GKS ≤8 ifadeleriyle kazanılır | Eşik söylenmeden ya da yanlış söylense de entübasyon sözcüğüyle kavram kazanılıyordu |
+| bc-anevrizma-tedavisi-vazospazm | ISAT kavramından "isat çalışmasında koil" kaldırıldı; sonuç bildiren anahtarlar (koil daha az/iyi, bağımlılık daha az, her iki yönteme) kaldı | "ISAT çalışmasında koil daha kötü sonuç verdi" gibi ters ifade eşleşiyordu |
+| bc-beyin-apsesi | LP kavramından yönsüz "lomber ponksiyon kitle" kaldırıldı | "Lomber ponksiyon kitle varlığında güvenle yapılabilir" gibi ters ifade doğru sayılıyordu |
 
 <!-- kbb: 21 madde -->
 ## Kulak burun boğaz
@@ -886,6 +902,10 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 | kbb-nazofarenks-kanseri | Tanı kavramında "plazma" yerine "plazma ebv". "çin" ve "mr" ≤3 harf olduğu için tam sözcük eşleşir ("için" ile eşleşmez); değiştirilmedi. | Özgül olmayan anahtar |
 | kbb-hpv-orofarenks-kanseri | Korunma kavramına "aşısı" eklendi. | Kör anlatım: "HPV aşısı" yakalanmadı |
 | kbb-boyun-kitlesi-tiroglossal-kist | "ampirik antibiyotik" → "ampirik antibiyotik verilmez/önerilmez"; "açık biyopsi" → "açık biyopsi ilk tercih değil/açık biyopsi yerine". | Ters ifadeyi ödüllendiriyordu |
+| kbb-boyun-kitlesi-tiroglossal-kist | Antibiyotik kavramından çıplak "rutin antibiyotik" kaldırıldı; "rutin antibiyotik verilmez/önerilmez" eklendi | "Rutin antibiyotik başlanır" gibi ters ifade kavramı alıyordu |
+| kbb-akut-rinosinuzit | Viral kavramından çıplak "viral" ve "virüs" kaldırıldı; "çoğunluğu viral", "çoğu viral", "çoğunlukla viral" eklendi | Süre belirtmeden "viral" sözcüğü kavramı kazandırıyor, 10 gün anahtarlarını etkisiz bırakıyordu |
+| kbb-seroz-otitis-media | İlaç kavramından ilaç adı içermeyen "rutin önerilmiyor/rutin önerilmez" kaldırıldı; "ilaç(lar) rutin önerilmez" eklendi | "Tüp rutin önerilmiyor" gibi cümleler ilaç kavramını kazandırıyordu |
+| kbb-seroz-otitis-media | Tüp/adenoidektomi temel kavramı koşul taşıyan anahtarlara daraltıldı: "efüzyon kalıcıysa", "kalıcı efüzyon", "üç/3 aydan uzun", "dört/4 yaş ve üzeri"; çıplak "ventilasyon tüp, tüp tak, timpanostomi, grommet, adenoidektomi" kaldırıldı | Koşulsuz "adenoidektomi yapılır" anlatımı etiketteki ≥3 ay ve ≥4 yaş koşulunu karşılamadan kavramı alıyordu |
 
 <!-- goz: 18 madde -->
 ## Göz hastalıkları
@@ -925,6 +945,9 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 | goz-retinal-ven-tikanikligi | Sistemik kontrol kavramına "risk faktörleri (mutlaka) kontrol" eklendi | Kör anlatımda eş anlamlı ifade yakalanmadı |
 | goz-prematurite-retinopatisi | Tarama kavramına sayısız ifadeler ("risk grubundaki bebek", "rop tarama", "tarama muayene") eklendi; Türkiye eşiği (TND 2021) doğrulanamadığı için sayı eklenmedi, şüphe tablosunda duruyor | Kör anlatımda sayı vermeden söylenen tarama yakalanmadı |
 | goz-akut-aci-kapanma-glokomu | Değişiklik yok: EGS 6. baskı DOI'si doğrulanamadı; şüphe tablosunda mevcut | Hekim/kaynak kontrolü gerekli |
+| goz-kimyasal-yanik | Alkali kavramından çıplak "alkali", "kireç", "amonyak", "sodyum hidroksit", "kostik", "lavabo açıcı" ve "derine ilerle" kaldırıldı; "alkali yanık(lar) asitten / daha ağır", "asitten (daha) ağır", "derin dokulara ilerler" eklendi; "sabunlaş/saponifikasyon" kaldı | "Asit derine ilerler", "alkali yanık daha hafif" gibi ters ifadeler ve asit kavramının "asit derine ilerlemez" anahtarı alkali kavramını kazandırıyordu |
+| goz-diyabetik-retinopati | Virgüllü "glisemi, tansiyon" anahtarı "glisemi ve tansiyon / glisemi ve kan basıncı" ile değiştirildi | Rastgele, kırılgan eş anlamlı |
+| goz-prematurite-retinopatisi | Tarama eşiği kavramından "rop tarama" ve "tarama muayene" kaldırıldı | Eşik söylemeden, hatta "ROP taraması gerekmez" diyen anlatım temel kavramı alıyordu |
 
 <!-- kvc: 16 madde -->
 ## Kalp ve damar cerrahisi
@@ -959,6 +982,9 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 | kvc-kabg-pki | KABG tercih kavramında tek başına "sol ana", "diyabet", "çok damar", "düşük ef" vb. kaldırıldı; tercih/cerrahi sözcüğüyle birlikte geçen anahtarlar konuldu; etiket "Sol ana (orta-yüksek SYNTAX) ya da çok damar + diyabet/düşük EF'de KABG tercih" oldu. Kalp takımı kavramına "kalp ekib" eklendi. | "Sol anada PKG tercih" gibi ifade doğru sayılıyordu; düşük SYNTAX'lı sol anada PKG de Sınıf I (ESC 2024 KKS). Kör anlatımda "kalp ekibi" yakalanmamıştı. |
 | kvc-mitral-yetersizligi-cerrahisi | İyi anlatımda "erken onarımı birinci sınıf öneriye yükseltti" → "erken onarım önerisini güçlendirdi". Onarım kavramına "kapak tamir", "mitral tamir", "replasman değil" eklendi. | 2025'te Sınıf I'e çıkış doğrulanamadı (2021'de IIa); kör anlatımda "tamir" yakalanmamıştı. |
 | kvc-akut-ekstremite-iskemisi | Değişiklik yok: DOI 10.1016/j.ejvs.2019.09.006 korundu. | Denetçinin önerdiği DOI web'de doğrulanmadı; mevcut DOI bilinen künyeyle (EJVES 2020;59:173-218) uyumlu görünüyor. Hekim/kaynak kontrolü önerilir. |
+| kvc-abdominal-aort-anevrizmasi | Eşik anahtarları cinsiyete ve birime bağlandı: "erkekte/erkeklerde 5,5", "erkekte 5.5", "erkekte/erkeklerde beş buçuk", "erkekte 55 mm", "kadında/kadınlarda 5 cm", "kadında/kadınlarda 5,0", "kadında/kadınlarda beş santim", "kadında 50 mm"; çıplak "5,5, 5.5, beş buçuk, 55 mm, elli beş" ve "kadında/kadınlarda 5, beş" kaldırıldı (28. satır "kadında beş/kadınlarda beş" i listelemiyordu) | "Kadında 5" alt dize olarak "kadında 5,5 cm" ile eşleşiyor; "erkekte 5 cm, kadında 5,5 cm" diyen ters anlatım kavramı alıyordu |
+| kvc-kabg-pki | KABG kavramından bağlamsız "cerrahi tercih", "kabg tercih", "baypas tercih", "baypas cerrahisi tercih" kaldırıldı; hasta grubunu belirten anahtarlar (yüksek SYNTAX, diyabette/çok damar/üç damar hastalığında KABG-baypas, cerrahiyi öne çıkar) kaldı | "Düşük SYNTAX sol anada PKG, cerrahi tercih edilmez" gibi cümleler kavramı alıyordu |
+| kvc-periferik-arter-hastaligi | (Tablo düzeltmesi) ABI kavramının kodda bulunan "0,9 altı" anahtarı 29. satırdaki listede eksikti | Tablo kodla uyumlu hale getirildi |
 
 <!-- anesteziyoloji: 20 madde -->
 ## Anesteziyoloji ve reanimasyon
@@ -1010,6 +1036,8 @@ Not: Bu oturumda web araması kotası dolmuştu ve PubMed/doi.org ağ erişimi k
 | anes-lokal-anestezik-toksisitesi | "nöbet benzodiazepinle", "benzodiazepinle kontrol" eklendi | Kör anlatımda doğru ifade yakalanmadı |
 | anes-noroaksiyel-antikoagulasyon | Etiket "Tienopiridinler" yerine "P2Y12 inhibitörleri"; genel aspirin/NSAİİ/antiagregan anahtarları kaldırılıp "aspirin tek başına", "engel değil", "p2y12" kullanıldı; DMAH anahtarları doz-süreyi birlikte bağlayan "tedavi dozunda 24" türüne daraltıldı; kateter çekme eş anlamlıları eklendi; başlık ve anlatımdan "ASRA 2018" yılı kaldırıldı | Tikagrelor tienopiridin değil; ters ifadeler doğru sayılıyordu; ASRA 2025 olasılığı |
 | anes-multimodal-postoperatif-analjezi | "kurtarıcı", "prosedüre özgü" eş anlamlıları eklendi | Kör anlatımda doğru ifadeler yakalanmadı |
+| anes-noromuskuler-blokerler | TOF kavramından "tof oranı 0", "tof oranının 0" ve yalın "0 9/0,9" kaldırıldı; "tof oranı/oranının 0,9", "0,9 un üzer", "0,9 a ulaş" eklendi | "TOF oranı 0,7 ye ulaşınca ekstübe et" gibi eskimiş eşik alt dize eşleşmesiyle kavramı alıyordu; yalın "0 9" bağlamsızdı |
+| anes-noroaksiyel-antikoagulasyon | P2Y12 kavramından yalın ilaç adları (klopidogrel, prasugrel, tikagrelor, p2y12) ve "engel değil / engel oluşturmaz" kaldırıldı; "ilaca özgü", "gün (önce) kesil", "kesilmeli", "kesilmesi gerek", "aspirin/NSAİİ tek başına" kaldı/eklendi | "Klopidogrel nöroaksiyel bloğa engel değil" gibi tehlikeli ters ifade ve kesme süresi söylemeyen anlatım kavramı alıyordu |
 
 <!-- acil: 30 madde -->
 ## Acil tıp

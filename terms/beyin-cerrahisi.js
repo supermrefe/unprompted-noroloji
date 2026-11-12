@@ -25,7 +25,7 @@ terms: [
       ["!Akut subdural: köprü venleri, BT'de hilal şekli, sütürü geçer", "köprü ven|bridging|hilal|kresent|crescent|orak şekl|sütürü geçer|sütürleri geçer"],
       ["Subdural: yaşlı, antikoagülan, alkolik; altta beyin hasarı, prognoz kötü", "antikoagül|alkolik|beyin atrofi|atrofi|parankim hasar|prognozu daha kötü|prognoz kötü|mortalitesi yüksek|mortalite daha yüksek"],
       ["Epidural >30 cm³ ise GKS'den bağımsız boşaltılır", "30 santimetreküp|30 cm|otuz santimetre|30 mililitre|30 ml|30 santim küp"],
-      ["Subdural >10 mm kalınlık ya da >5 mm orta hat kayması → cerrahi", "10 milimetre|10 mm|on milimetre|5 mm|5 milimetre|beş milimetre"],
+      ["Subdural >10 mm kalınlık ya da >5 mm orta hat kayması → cerrahi", "10 milimetreden kalın|10 mm den kalın|on milimetreden kalın|kalınlığı 10|kayması 5|kayması beş|kayma 5 mm|5 milimetreyi geç|5 mm yi geç|beş milimetreyi geç"],
       ["Acil kraniyotomi ve hematom boşaltımı; anizokoride gecikmeden", "kraniyotomi|kraniotomi|boşalt|evakü|tahliye|dekompres"]
     ]},
   { id: "bc-kafa-ici-basinc-herniasyon", tr: "Kafa içi basınç artışı ve herniasyon sendromları", en: "Raised intracranial pressure and herniation syndromes", cat: "trv", lvl: 1,
@@ -51,7 +51,7 @@ terms: [
           ["Hutchinson PJ ve ark. Trial of decompressive craniectomy for traumatic intracranial hypertension (RESCUEicp). N Engl J Med 2016", "https://pubmed.ncbi.nlm.nih.gov/27602507/"]]
     },
     c: [
-      ["!Ağır kafa travması: GKS 8 ve altı; havayolu güvenliği (entübasyon)", "gks 8|glasgow 8|sekiz ve altı|8 ve altı|8 veya altı|entübe|entübasyon|havayolu"],
+      ["!Ağır kafa travması: GKS 8 ve altı; havayolu güvenliği (entübasyon)", "gks 8|glasgow 8|sekiz ve altı|8 ve altı|8 veya altı"],
       ["!İkincil hasarı önle: hipotansiyon ve hipoksiden kaçın", "ikincil hasar|sekonder hasar|ikincil beyin hasar|sekonder beyin|hipotansiyon|hipoksi"],
       ["Acil BT; kitle lezyonu varsa cerrahi", "bilgisayarlı tomog|tomografi|bete|beyin bt|kranial bt|bt çek"],
       ["!KİB monitörizasyonu; 22 mmHg üzeri tedavi edilir (BTF 4)", "kib monitör|basınç monitör|icp monitör|kafa içi basınç monitör|22 mm|yirmi iki"],
@@ -196,7 +196,7 @@ terms: [
     },
     c: [
       ["!Yeniden kanamayı önlemek için anevrizma olabildiğince erken güvenceye alınır", "yeniden kanama|tekrar kanama|rebleed|re kanama|erken güvence|erken tedavi|olabildiğince erken|en erken"],
-      ["!ISAT: her iki yönteme uygun hastada koil, klipe göre daha az ölüm/bağımlılık", "isat çalışmasında koil|ikisine de uygun|koil daha az|koille daha az|her iki yönteme|bağımlılık daha az|koil daha iyi|koille daha iyi|koilde geç"],
+      ["!ISAT: her iki yönteme uygun hastada koil, klipe göre daha az ölüm/bağımlılık", "ikisine de uygun|koil daha az|koille daha az|her iki yönteme|bağımlılık daha az|koil daha iyi|koille daha iyi|koilde geç"],
       ["Akut hidrosefalide eksternal ventriküler drenaj", "evd|eksternal ventrikül|ventriküler dren|ventrikülostomi"],
       ["!Gecikmiş serebral iskemi/vazospazm: kanamadan günler sonra yeni nörolojik defisit", "vazospazm|vasospazm|gecikmiş serebral iskemi|gecikmiş iskemi|dci|yeni nörolojik defisit"],
       ["Oral nimodipin tüm hastalara", "nimodipin|nimotop"],
@@ -231,7 +231,7 @@ terms: [
       ["Etkenler: streptokok (viridans/milleri), anaeroblar, stafilokok", "streptok|milleri|viridans|anaerob|stafilok"],
       ["!Klinik: baş ağrısı en sık; ateş ve fokal defisit üçlüsü çoğu hastada tam değil", "baş ağrısı|fokal defisit|fokal nörolojik|üçlü|triad"],
       ["!MR'de halkasal kontrast tutan lezyon, difüzyon kısıtlaması (tümörden ayırır)", "halkasal|halka şekl|ring|difüzyon|dwi|kısıtlan"],
-      ["Kitle etkisinde lomber ponksiyon yapılmaz", "lomber ponksiyon yapılmaz|lp yapılmaz|lomber ponksiyon kontrendike|ponksiyon yapılmamalı|lp kontrendike|lomber ponksiyon kitle"],
+      ["Kitle etkisinde lomber ponksiyon yapılmaz", "lomber ponksiyon yapılmaz|lp yapılmaz|lomber ponksiyon kontrendike|ponksiyon yapılmamalı|lp kontrendike"],
       ["!Aspirasyon/eksizyon ile drenaj ve kültür", "aspirasyon|aspire|stereotaktik|drenaj|eksizyon|kültür"],
       ["Ampirik: 3. kuşak sefalosporin + metronidazol; uzun süreli antibiyotik", "seftriakson|sefotaksim|sefalosporin|metronidazol|uzun süreli antibiyot|haftalarca"]
     ]},
