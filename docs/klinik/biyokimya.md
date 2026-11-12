@@ -25,6 +25,7 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; makale tam metinleri
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| biy-vitamin-koenzimleri | "b12 eksikliğinde metilmalonik" → "b12 eksikliğinde metilmalonik asit artar/yüksel" ("hem metilmalonik" kaldı) | Yönsüzdü; "B12 eksikliğinde metilmalonik asit normaldir" puan alıyordu (W4 denetimi) |
 | biy-glikoliz | "Net kazanç" kavramından tek başına "iki atp", "2 atp", "nadh" anahtarları çıkarıldı; yalnız "net 2/iki atp", "net kazanç iki atp" vb. bırakıldı. | Yatırım evresindeki 2 ATP harcamasını ya da herhangi bir NADH anmasını net kazanç sayıyordu. |
 | biy-glukoneogenez | "Çift karbonlu yağ asitleri net glukoz veremez" kavramında yönsüz anahtarlar ("net glukoz", "çift karbonlu", "asetil koa glukoza") olumsuz çok kelimeli anahtarlarla değiştirildi. | Ters (yanlış) ifadeyi doğru sayıyordu. |
 | biy-glukoneogenez | Kas kavramında "kas kana", "kas kana glukoz", "kas glukoz 6 fosfataz" çıkarıldı; "kas kana glukoz veremez", "kasta glukoz 6 fosfataz yok" vb. eklendi. | "Kas kana glukoz verir" ifadesini eşliyordu. |

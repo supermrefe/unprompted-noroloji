@@ -24,6 +24,10 @@
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| ana-koroner-arterler | "inferior derivasyon", "inferior enfarkt" çıkarıldı; "sağ koroner tarafından beslenir", "inferior mi/enfarkt sağ koroner" eklendi | Arter adı geçmeden eşleşiyordu; "inferior enfarkt LAD tıkanmasıyla olur" puan alıyordu (W4 denetimi) |
+| ana-kranial-sinirler | "beyin sapı/beyin sapından/beyinsap" yerine "beyin sapıyla ilişkili", "dışındakiler beyin sap" | "hepsi beyin sapından çıkar" aşırı basitleştirmesi puan alıyordu (W4 denetimi) |
+| ana-rotator-manset | Çıplak "dış/iç rotasyon" ve "rotatör" anahtarları kas adıyla bağlandı ("infraspinatus/teres minör dış rotasyon", "subskapularis iç rotasyon") | Kasların yer değiştirdiği ters ifade puan alıyordu (W4 denetimi) |
+| ana-el-karpal | "en sık çıkan" → "lunat en sık çıkan" | "en sık çıkan karpal kemik skafoiddir" yanlışı puan alıyordu (W4 denetimi) |
 | ana-mediasten | fixtures.good: "çocuklarda timus kalıntısı" → "erişkinde timus kalıntısı ve yağ, çocuklarda büyük timusun alt kısmı" | DOĞRULANMIŞ HATA: timus puberteden sonra involüsyona uğrar |
 | ana-kranial-sinirler | c[0] etiketi ve fixtures.good: "beyin sapından çıkar" → "beyin sapıyla ilişkili; XI'in spinal kökü üst servikal medulladan" | Kesin kural gibi okunan basitleştirme |
 | ana-portosistemik-anastomoz | "pankreas başı arkas" anahtarı kaldırıldı | Birleşme yeri pankreas boynunun arkası |

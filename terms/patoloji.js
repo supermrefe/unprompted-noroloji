@@ -32,7 +32,7 @@ terms: [
       ["!Metaplazi: bir erişkin hücre tipinin yerini başka bir tipe bırakması", "metaplazi|metaplas"],
       ["Barrett özofagusu: skuamözden kolumnar (intestinal) metaplazi", "barrett|kolumnar|columnar|intestinal metaplazi"],
       ["Sigara içicide bronşta skuamöz metaplazi", "skuamöz metaplazi|squamous metaplas|yassı epitel metaplazi|yassı epitele dönüş|bronş epiteli"],
-      ["Adaptasyon geri dönüşümlü; metaplazi displazi ve kansere zemin olabilir", "geri dönüşümlü|geri dönebilir|geri döner|uyaran kalk|uyaran ortadan kalk|displaziye zemin|kansere zemin"]
+      ["Adaptasyon geri dönüşümlü; metaplazi displazi ve kansere zemin olabilir", "genellikle geri dönüşümlü|geri dönüşümlüdür|geri dönebilir|uyaran kalkınca geri|uyaran kalk|uyaran ortadan kalk|displaziye zemin|kansere zemin"]
     ]},
   { id: "pat-hucre-hasari-nekroz", tr: "Hücre hasarı ve nekroz tipleri", en: "Cell injury and patterns of necrosis", cat: "hucre", lvl: 1,
     src: { k: [RB, RU], m: [NCCD,
@@ -95,7 +95,7 @@ terms: [
       ["Makrofaj aktivasyonu: klasik (M1) ve alternatif (M2)", "m1|m2|klasik aktiv|alternatif aktiv|classical activ"],
       ["!Granülom: epiteloid makrofaj kümesi, çevresinde lenfositler", "granülom|granulom|epiteloid|epitheloid"],
       ["Langhans ve yabancı cisim tipi çok çekirdekli dev hücreler", "langhans|dev hücre|giant cell|çok çekirdekli"],
-      ["!Kazeifiye (tüberküloz) ve kazeifiye olmayan (sarkoidoz) granülom", "tüberkülozda kazeifiye|tüberkülozda kazeöz|kazeöz nekroz|kazeifiye nekroz|sarkoidozda kazeifiye olmayan|sarkoidozda nekrozsuz|sarkoidozda non"],
+      ["!Kazeifiye (tüberküloz) ve kazeifiye olmayan (sarkoidoz) granülom", "tüberkülozda kazeifiye granülom|tüberkülozda kazeöz|tüberkülozda ortası kazeöz|sarkoidozda kazeifiye olmayan|sarkoidozda ise kazeifiye olmayan|sarkoidozda nekrozsuz|sarkoidozda non"],
       ["Th1 yanıtı: IL-12, IFN-γ; TNF granülomun sürmesi için gerekli", "il 12|interlökin 12|ifn|interferon gama|interferon gamma|anti tnf"],
       ["Yabancı cisim granülomu (sütür, talk)", "yabancı cisim|foreign body|sütür|talk"]
     ]},
@@ -132,7 +132,7 @@ terms: [
       ["!Onkotik basınç düşüklüğü: hipoalbüminemi (nefrotik sendrom, siroz, malnütrisyon)", "hipoalbümin|kwashiorkor|malnütrisyon|albümin kayb|albümin düş|albümin yapıl"],
       ["Lenfatik tıkanma (lenfödem: cerrahi, radyasyon, filaryazis) ve sodyum retansiyonu", "lenfatik|lenfödem|lymphedema|filarya|sodyum tutul|sodyum retans|tuz tutul"],
       ["Transüda (protein fakir) ve eksüda (protein zengin, inflamatuvar) ayrımı", "transüda|transuda|transudat|eksüda|exudat"],
-      ["Hiperemi aktif (arteriyel), konjesyon pasif (venöz)", "aktif hiperemi|hiperemi aktif|pasif konjesyon|konjesyon pasif|venöz konjesyon|venöz dönüş|venöz akım|arteriyel genişle|arteriyol dilat"],
+      ["Hiperemi aktif (arteriyel), konjesyon pasif (venöz)", "aktif hiperemi|hiperemi aktif|pasif konjesyon|konjesyon pasif|hiperemi arteriyollerin genişle|hiperemi arteriyol dilat|konjesyon ise venöz dönüş|konjesyon venöz dönüş"],
       ["Kronik pasif konjesyon: muskat karaciğer; akciğerde kalp yetmezliği hücreleri (hemosiderin)", "muskat|nutmeg|hemosiderin|kalp yetmezliği hücre|heart failure cell|siderofaj"]
     ]},
   { id: "pat-ateroskleroz-patogenez", tr: "Aterosklerozun patogenezi", en: "Pathogenesis of atherosclerosis", cat: "hem", lvl: 2,
@@ -173,7 +173,7 @@ terms: [
       ["!Knudson iki vuruş hipotezi: her iki allelin kaybı gerekir", "knudson|iki vuruş|two hit|ikinci vuruş|iki alle|her iki alle"],
       ["RB: G1/S kontrol noktası; kalıtsal ve sporadik retinoblastom", "retinoblastom|rb gen|g1 s|g1den s"],
       ["!TP53 genomun bekçisi; Li-Fraumeni sendromu", "p53|tp53|genomun bekçi|guardian|li fraumeni"],
-      ["Heterozigotluk kaybı; APC, BRCA1/2 (DNA onarımı)", "heterozigotluk kaybı|heterozigosite kaybı|loss of heterozygosity|loh|dna onarım"]
+      ["Heterozigotluk kaybı; APC, BRCA1/2 (DNA onarımı)", "heterozigotluk kaybı|heterozigosite kaybı|loss of heterozygosity|loh"]
     ]},
   { id: "pat-amiloidoz", tr: "Amiloidoz", en: "Amyloidosis", cat: "gen", lvl: 3,
     src: { k: [RB, RU], m: [

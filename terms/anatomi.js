@@ -41,7 +41,7 @@ terms: [
       ["LAD: ön duvar ve interventriküler septumun ön 2/3'ü", "septumun ön|ön üçte iki|ön duvar|anterior duvar|septal dal|diyagonal"],
       ["Sağ koroner: sağ ventrikül, SA ve AV düğüm (çoğu kişide)", "sinoatriyal|sa düğüm|sa nod|av düğüm|av nod|atriyoventriküler düğüm|sağ ventrikül"],
       ["!Dominansı PDA'yı veren arter belirler (çoğunlukla sağ)", "dominan|pda|posterior inen|arka inen|posterior interventriküler"],
-      ["İnferior duvar çoğunlukla sağ koroner tarafından beslenir", "inferior duvar|alt duvar|inferior mi|diyafragmatik yüz|inferior derivasyon|inferior enfarkt"],
+      ["İnferior duvar çoğunlukla sağ koroner tarafından beslenir", "inferior duvar|alt duvar|inferior mi|diyafragmatik yüz|sağ koroner tarafından beslenir|inferior mi sağ koroner|inferior enfarkt sağ koroner"],
       ["Koroner akım ağırlıkla diyastolde olur", "diyastol"],
       ["Venöz dönüş: koroner sinüs ile sağ atriyuma", "koroner sinüs|coronary sinus|büyük kardiyak ven"]
     ]},
@@ -64,7 +64,7 @@ terms: [
       SP("Neuroanatomy, Cranial Nerve", "https://www.ncbi.nlm.nih.gov/books/NBK470353/"),
       ["Rhoton AL Jr. The anterior and middle cranial base. Neurosurgery 2002", "https://doi.org/10.1227/01.NEU.0000028087.76279.41"]] },
     c: [
-      ["!On iki çift; I ve II dışındakiler beyin sapıyla ilişkili (XI'in spinal kökü üst servikal medulladan çıkar)", "on iki çift|12 çift|oniki çift|beyin sapı|beyin sapından|beyinsap"],
+      ["!On iki çift; I ve II dışındakiler beyin sapıyla ilişkili (XI'in spinal kökü üst servikal medulladan çıkar)", "on iki çift|12 çift|oniki çift|beyin sapıyla ilişkili|dışındakiler beyin sap"],
       ["Göz hareket sinirleri: III, IV (süperior oblik), VI (lateral rektus)", "okülomotor|okulomotor|troklear|trochlear|abdusens|abducens|süperior oblik|lateral rektus"],
       ["!Trigeminus üç dal (V1, V2, V3); V3 çiğneme kaslarını innerve eder", "trigeminal|trigeminus|oftalmik|maksiller|mandibüler|mandibular|çiğneme kas"],
       ["Fasiyal sinir: mimik kasları, tat (ön 2/3), lakrimal ve tükürük", "fasiyal|fasial|facial|mimik|korda timpani|chorda tympani|ön üçte iki"],
@@ -81,7 +81,7 @@ terms: [
       ["!Dört kas: supraspinatus, infraspinatus, teres minör, subskapularis (SITS)", "sits|dört kas|supraspinatus|infraspinatus|subskapularis|subscapularis"],
       ["!Glenohumeral eklemi stabilize eder (humerus başını glenoide bastırır)", "humerus başını glenoid|glenoide bastır|glenoid boşluğa|dinamik stabiliz|stabilize eder"],
       ["Supraspinatus abdüksiyonu başlatır", "abdüksiyonu başlat|abduksiyonu başlat|ilk derece|ilk on beş derece|ilk 15 derece|başlangıç abdüksiyon|abdüksiyonun başlan"],
-      ["Dış rotasyon: infraspinatus ve teres minör; iç rotasyon: subskapularis", "dış rotasyon|dış rotatör|eksternal rotatör|iç rotasyon|iç rotatör|internal rotatör"],
+      ["Dış rotasyon: infraspinatus ve teres minör; iç rotasyon: subskapularis", "infraspinatus ve teres minör dış rotasyon|teres minör dış rotasyon|infraspinatus dış rotasyon|subskapularis iç rotasyon|subskapularis ise iç rotasyon"],
       ["İnnervasyon: suprascapular sinir (supra/infraspinatus), aksiller (teres minör), subskapular sinirler", "suprask|suprascapular|subskapular sinir|aksiller sinir|aksiler sinir"],
       ["Yapışma: büyük tüberkül (üç kas) ve küçük tüberkül (subskapularis)", "büyük tüberkül|tuberculum majus|greater tuberosity|küçük tüberkül|tuberculum minus|lesser tuberosity"],
       ["!En sık yırtılan/sıkışan: supraspinatus tendonu, subakromiyal alanda", "supraspinatus tendon|subakromiyal|subacromial|akromiyon|akromion|sıkışma|impingement"]
@@ -202,7 +202,7 @@ terms: [
     c: [
       ["!Sekiz karpal kemik, iki sıra (skafoid, lunat, triquetrum, pisiform / trapezium, trapezoid, kapitat, hamat)", "sekiz karpal|8 karpal|iki sıra|skafoid|scaphoid|lunat|trikuetrum|triquetrum|pisiform|trapezium|trapezoid|kapitat|capitate|hamat"],
       ["Skafoid: en sık kırılan; enfiye çukuru hassasiyeti; proksimal kutupta avasküler nekroz riski", "enfiye|anatomic snuff|snuffbox|avasküler nekroz|proksimal kutup"],
-      ["Lunat: en sık çıkan karpal kemik", "lunat çık|lunat dislok|perilunat|en sık çıkan"],
+      ["Lunat: en sık çıkan karpal kemik", "lunat çık|lunat dislok|perilunat|lunat en sık çıkan"],
       ["!Karpal tünel: tavan fleksör retinakulum, içerik median sinir ve dokuz tendon", "karpal tünel|carpal tunnel|fleksör retinakulum|transvers karpal|dokuz tendon|9 tendon"],
       ["!Median sinir: tenar kaslar, lateral iki lumbrikal; palmar kutanöz dal tünel dışından", "median sinir|tenar|lumbrikal|palmar kutan|palmar cutaneous|maymun el|vaiz eli"],
       ["Guyon kanalı: ulnar sinir (pisiform–hamat kancası)", "guyon|ulnar kanal|hamat kanc|hamulus"],

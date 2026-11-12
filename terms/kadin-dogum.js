@@ -40,7 +40,7 @@ terms: [
       ["Patogenez: anormal plasentasyon, spiral arter yeniden şekillenmesinin bozulması, anjiyojenik dengesizlik", "plasentasyon|spiral arter|trofoblast|endotel|sflt|plgf|anjiyojenik|antianjiyojenik"],
       ["!Eklampsi profilaksisi ve tedavisi: magnezyum sülfat", "magnezyum|mgso4|mg so4|sülfat"],
       ["Akut ağır hipertansiyonda labetalol, hidralazin ya da oral nifedipin", "labetalol|hidralazin|nifedipin"],
-      ["!Kesin tedavi doğum; ağır özelliği olmayan preeklampside 37. haftada, ağır özellikli preeklampside ≥34. haftada doğum", "kesin tedavi doğum|tek kesin tedavi|doğurtmak|doğurt|doğumun gerçekleş|37. hafta|37 hafta|otuz yedi"],
+      ["!Kesin tedavi doğum; ağır özelliği olmayan preeklampside 37. haftada, ağır özellikli preeklampside ≥34. haftada doğum", "kesin tedavi doğum|tek kesin tedavi|doğurtmak|doğurt|doğumun gerçekleş|37. haftada doğum|37 haftada doğum|34. haftada doğum|34 haftada doğum"],
       ["Yüksek riskte düşük doz aspirin ile korunma", "aspirin|asetilsalisilik"],
       ["Magnezyum toksisitesi izlemi: derin tendon refleksi, solunum; antidot kalsiyum glukonat", "patella refleks|derin tendon|tendon refleks|kalsiyum glukonat|solunum sayı|idrar çıkış"]
     ]},
@@ -137,7 +137,7 @@ terms: [
       ["Yerleşim: over (endometrioma, çikolata kisti), Douglas, uterosakral bağ, derin infiltratif", "endometrioma|çikolata kist|douglas|uterosakral|derin infiltratif|derin endometriozis|over"],
       ["!Belirtiler: dismenore, disparoni, kronik pelvik ağrı, dişezi/dizüri", "dismenore|ağrılı adet|disparoni|ilişkide ağrı|cinsel ilişki|kronik pelvik ağrı|dişezi|dizüri|ağrılı dışkı"],
       ["İnfertilite ile ilişki", "infertil|kısırlık|gebe kalama|gebelik elde"],
-      ["!ESHRE 2022: tanı için laparoskopi zorunlu değil; muayene ve görüntüleme (TVUSG/MR) ile klinik tanı", "laparoskopi zorunlu değil|laparoskopi şart değil|altın standart değil|klinik tanı|görüntülemeyle tanı|görüntüleme ile tanı|laparoskopisiz tanı|cerrahisiz tanı"],
+      ["!ESHRE 2022: tanı için laparoskopi zorunlu değil; muayene ve görüntüleme (TVUSG/MR) ile klinik tanı", "laparoskopi zorunlu değil|laparoskopi şart değil|altın standart değil|klinik tanı konup|klinik tanı konur|klinik tanı konabilir|görüntülemeyle tanı konur|görüntülemeyle tanı konabilir|görüntüleme ile tanı konur|görüntüleme ile tanı konabilir|laparoskopisiz tanı|cerrahisiz tanı"],
       ["Tedavi: NSAİİ, hormonal tedavi (progestin—dienogest, kombine OK, GnRH analoğu)", "nsaii|nonsteroid|progestin|dienogest|oral kontraseptif|gnrh|levonorgestrel"],
       ["Cerrahi: laparoskopik eksizyon/kistektomi; over rezervi (AMH) korunmalı", "eksizyon|kistektomi|cerrahi|over rezerv|amh"]
     ]},
@@ -152,7 +152,7 @@ terms: [
       ["Transformasyon zonu; CIN/SIL öncü lezyonları", "transformasyon|skuamokolumnar|cin|sil|intraepitelyal|displazi|öncü lezyon|prekanser"],
       ["!Türkiye: 30–65 yaş kadınlara 5 yılda bir HPV-DNA testi (KETEM, aile hekimliği)", "30 65|30 ile 65|otuz altmış beş|5 yılda bir|beş yılda bir|ketem|aile sağlığı merkez|aile hekim"],
       ["!WHO 2021: birincil tarama HPV-DNA, 30 yaşından itibaren 5–10 yılda bir; HIV pozitifte 25 yaş, 3–5 yılda bir", "5 ile 10|5 10 yıl|beş on yıl|30 yaşından|otuz yaşından|hiv|25 yaş|yirmi beş yaş"],
-      ["HPV 16/18 pozitifte doğrudan kolposkopi; diğer yüksek riskli tiplerde sitoloji (Pap smear) ile triyaj", "pap|smear|asc us|lsil|hsil"],
+      ["HPV 16/18 pozitifte doğrudan kolposkopi; diğer yüksek riskli tiplerde sitoloji (Pap smear) ile triyaj", "doğrudan kolposkopi|direkt kolposkopi|16/18 pozitif|16 ve 18 pozitif|diğer yüksek riskli tiplerde"],
       ["Tedavi: ablasyon (termal/kriyo) ya da LEEP/konizasyon", "termal ablasyon|kriyo|leep|lletz|koniza"],
       ["Birincil korunma: HPV aşısı (ergenlik öncesi)", "aşı|vaksin|gardasil"]
     ]},
@@ -183,7 +183,7 @@ terms: [
       ["!Hemoliz, karaciğer enzimlerinde yükselme, düşük trombosit", "hemoliz|karaciğer enzim|transaminaz|ast|düşük trombosit|trombositopeni|trombosit düş"],
       ["Ağır preeklampsinin bir formu; hipertansiyon ve proteinüri olmayabilir", "preeklampsi|hipertansiyon olmayabilir|proteinüri olmayabilir|tansiyon normal"],
       ["!Belirti: sağ üst kadran/epigastrik ağrı, bulantı-kusma, halsizlik", "sağ üst kadran|epigastr|bulantı|kusma|halsiz"],
-      ["Laboratuvar (Tennessee): LDH ≥600, AST ≥70, trombosit ≤100.000; periferik yaymada şistosit", "ldh|laktat dehidrogenaz|600|tennessee|mississippi|şistosit|haptoglobin|yayma|bilirubin"],
+      ["Laboratuvar (Tennessee): LDH ≥600, AST ≥70, trombosit ≤100.000; periferik yaymada şistosit", "ldh|laktat dehidrogenaz|ldh 600 ve üzeri|ldh ≥600|tennessee|mississippi|şistosit|haptoglobin|yayma|bilirubin"],
       ["Komplikasyonlar: DİK, dekolman, akut böbrek hasarı, subkapsüler karaciğer hematomu/rüptürü", "dissemine|intravasküler|dekolman|böbrek hasar|böbrek yetmez|subkapsüler|hematom|karaciğer rüptür"],
       ["!Yönetim: anneyi stabilize et, magnezyum sülfat, antihipertansif; doğum", "magnezyum|antihipertansif|labetalol|doğurt|doğumun gerçekleş|doğum yaptır|stabiliz"],
       ["34. haftadan önce durum izin veriyorsa antenatal steroid", "34 hafta|34. hafta|otuz dört|antenatal steroid|kortikosteroid|betametazon"],

@@ -78,7 +78,7 @@ terms: [
       ["!Potasyum tutucular: aldosteron antagonisti (spironolakton) ve ENaC blokeri (amilorid)", "potasyum tutucu|amilorid|triamteren|enac|epitelyal sodyum kanal"],
       ["Karbonik anhidraz inhibitörü (asetazolamid): proksimal tübül, metabolik asidoz", "karbonik anhidraz|asetazolamid|proksimal tübül|bikarbonat kayb"],
       ["Osmotik diüretik: mannitol", "mannitol|osmotik diüret"],
-      ["Kıvrım ve tiyazid: hipokalemi, metabolik alkaloz; kıvrım kalsiyumu atar, tiyazid tutar", "metabolik alkaloz|kalsiyumu tutar|kalsiyum atılımını azalt|kalsiyum atılımını artır|kalsiyumu atar"],
+      ["Kıvrım ve tiyazid: hipokalemi, metabolik alkaloz; kıvrım kalsiyumu atar, tiyazid tutar", "metabolik alkaloz|tiyazid kalsiyumu tut|tiyazidler kalsiyumu tut|kıvrım kalsiyumu at|kıvrım diüretikleri kalsiyumu at|tiyazid kalsiyum atılımını azalt|kıvrım kalsiyum atılımını artır"],
       ["Potasyum tutucularda hiperkalemi; spironolaktonla jinekomasti", "jinekomasti|antiandrojen"],
       ["Ototoksisite (kıvrım), hiperürisemi ve hiperglisemi (tiyazid)", "ototoks|işitme kaybı riski|hiperürisemi|ürik asit|gut|hiperglisemi"]
     ]},
@@ -105,7 +105,7 @@ terms: [
       ["!CYP3A4 ilaçların en büyük kısmını metabolize eder", "cyp3a4|cyp 3a4|3a4|üç a dört|sitokrom p450|sitokrom p 450|cyp450|cyp 450"],
       ["!İndükleyiciler (rifampisin, karbamazepin, fenitoin, St John's wort) substrat düzeyini düşürür", "indükleyici|indüktör|indüksiyon|indükler|rifampisin|karbamazepin|fenitoin|fenobarbital|sarı kantaron|st john"],
       ["!İnhibitörler (klaritromisin, azol antifungaller, ritonavir, greyfurt suyu) substrat düzeyini artırır", "inhibitör|inhibe eder|klaritromisin|eritromisin|ketokonazol|itrakonazol|flukonazol|ritonavir|greyfurt|amiodaron|simetidin"],
-      ["İnhibisyon hızlı, indüksiyon gecikmeli başlar (enzim sentezi gerekir)", "gecikmeli başlar|indüksiyon gecikmeli|indüksiyon yavaş|günler içinde|enzim sentez|yeni enzim|inhibisyon hızlı|inhibisyon hemen|etkileri hızlı başlar"],
+      ["İnhibisyon hızlı, indüksiyon gecikmeli başlar (enzim sentezi gerekir)", "gecikmeli başlar|indüksiyon gecikmeli|indüksiyon yavaş|enzim sentez|yeni enzim|inhibisyon hızlı|inhibisyon hemen|inhibitörlerin etkisi hızlı"],
       ["Klinik örnekler: varfarin, statin miyopatisi, oral kontraseptif başarısızlığı", "inr bozul|inr değiş|inr yüksel|miyopati|rabdomiyoliz|oral kontraseptif|doğum kontrol"],
       ["Farmakogenetik: CYP2D6 (kodein → morfin), CYP2C19 (klopidogrel aktivasyonu), CYP2C9", "cyp2d6|2d6|kodein|cyp2c19|2c19|klopidogrel|cyp2c9|2c9|farmakogenet|yavaş metabolizör|ultra hızlı"],
       ["P-glikoprotein aracılı etkileşimler (digoksin, DOAK)", "p glikoprotein|pglikoprotein|p gp|digoksin|dabigatran"]
@@ -202,7 +202,7 @@ terms: [
     c: [
       ["!Dar terapötik aralık: etkili ve toksik düzey birbirine yakın", "dar terapötik|dar terapotik|terapötik aralık|terapotik aralık|terapötik pencere|toksik düzey|toksik doz"],
       ["!Örnekler: digoksin, lityum, fenitoin, aminoglikozid, vankomisin, teofilin, siklosporin/takrolimus", "digoksin|lityum|fenitoin|gentamisin|amikasin|aminoglikozid|vankomisin|teofilin|siklosporin|takrolimus|valproat|karbamazepin"],
-      ["!Örnekleme zamanı: kararlı durumda, dozdan önce çukur (trough) düzey (digoksinde dozdan ≥6 saat, lityumda yaklaşık 12 saat sonra)", "çukur düzey|dip düzey|trough|doz öncesi|dozdan önce|dozdan hemen önce"],
+      ["!Örnekleme zamanı: kararlı durumda; çoğu ilaçta dozdan hemen önce çukur (trough) düzey. İstisnalar: digoksinde dağılım bitince (dozdan ≥6 saat sonra), lityumda son dozdan yaklaşık 12 saat sonra", "çukur düzey|dip düzey|trough|doz öncesi|dozdan önce|dozdan hemen önce"],
       ["Lityum böbrekle atılır; tiyazid, ACEİ, NSAİİ ve dehidratasyon düzeyi artırır", "tiyazid|nsaii|nsaid|ace inhibit|dehidratasyon|sodyum kısıtlama|böbrekle atıl"],
       ["Digoksin toksisitesini hipokalemi artırır; antidot digoksin-spesifik Fab", "hipokalemi|digoksin spesifik|fab|digifab|antikor fragman"],
       ["Fenitoin: sıfırıncı derece kinetik ve albümine bağlanma (hipoalbüminemide serbest düzey)", "hipoalbümin|serbest fenitoin|serbest düzey|albümine yoğun"],

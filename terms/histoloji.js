@@ -36,7 +36,7 @@ terms: [
       ["!Bileşenler: hücreler (fibroblast) ve hücre dışı matriks (lifler + temel madde)", "fibroblast|hücre dışı matriks|hücreler arası matriks|ekstrasellüler matriks|extracellular matrix|temel madde|ground substance|proteoglikan|glikozaminoglikan|hiyalüronik"],
       ["!Kollajen yapısı: üçlü sarmal, glisin-X-Y tekrarı, prolin ve lizin hidroksilasyonu (C vitamini)", "üçlü sarmal|üçlü heliks|triple helix|tripl heliks|glisin|hidroksiprolin|hidroksilizin|hidroksilasyon|c vitamini|askorbik|skorbüt"],
       ["!Tip I: kemik, tendon, deri, dentin (en bol); Tip II: hiyalin ve elastik kıkırdak, vitreus", "tip 1|tip bir|tip i kollajen|tip 2|tip iki|tip ii kollajen"],
-      ["Tip III: retiküler lif (lenfoid organ, karaciğer, damar); Tip IV: bazal lamina (ağ yapısı)", "retiküler lif|retikülin|tip iii retiküler|tip 3 retiküler|bazal lamina|bazal membran|tip 4|tip dört|tip iv"],
+      ["Tip III: retiküler lif (lenfoid organ, karaciğer, damar); Tip IV: bazal lamina (ağ yapısı)", "retiküler lif|retikülin|tip iii retiküler|tip 3 retiküler|tip 4|tip dört|tip iv"],
       ["Elastik lif: elastin + fibrillin mikrofibrilleri (Marfan sendromunda fibrillin-1)", "elastin|fibrillin|marfan"],
       ["Gevşek ve sıkı (düzenli/düzensiz) bağ dokusu; tendon sıkı düzenli bağ dokusudur", "gevşek bağ|sıkı bağ|düzenli bağ|düzensiz bağ|sıkı düzenli|areolar"],
       ["Bağ dokusu hücreleri: mast hücresi, makrofaj, plazma hücresi, adiposit", "mast hücre|makrofaj|plazma hücre|adiposit|yağ hücre"],
@@ -82,7 +82,7 @@ terms: [
       ["!Fetal kısım koryon frondozum, maternal kısım desidua bazalis", "koryon frondozum|chorion frondosum|frondozum|desidua bazalis|decidua basalis|desidua"],
       ["!Trofoblast: sitotrofoblast (iç, hücresel) ve sinsityotrofoblast (dış, çok çekirdekli, hCG salgılar)", "trofoblast|sitotrofoblast|sinsityotrofoblast|sinsityo|syncytio|hcg|koryonik gonadotropin"],
       ["Villus gelişimi: primer, sekonder (mezoderm), tersiyer (fetal damar) villuslar", "primer villus|sekonder villus|tersiyer villus|koryon villus|villus|villöz"],
-      ["Plasenta bariyeri: hemokoryal tip; anne ve fetüs kanı karışmaz", "hemokoryal|hemokorial|kanı karışmaz|kanları karışmaz|karışmaz"],
+      ["Plasenta bariyeri: hemokoryal tip; anne ve fetüs kanı karışmaz", "hemokoryal|hemokorial|kanı karışmaz|kanları karışmaz"],
       ["Fetal zarlar: amniyon, koryon, vitellüs kesesi, allantois; amniyon sıvısı", "amniyon|amnion|koryon|vitellüs|yolk|yumurta sarısı|allantois|amniyotik sıvı|amniyon sıvı"],
       ["Göbek kordonu: iki umbilikal arter, bir umbilikal ven, Wharton jölesi", "göbek kordon|umbilikal kordon|umbilikal arter|umbilikal ven|wharton"],
       ["Plasentanın endokrin işlevi: hCG, insan plasental laktojen, progesteron, östrojen", "plasental laktojen|hpl|progesteron|östrojen|östriol"]
@@ -143,7 +143,7 @@ terms: [
           ["Frisdal A, Trainor PA. Development and evolution of the pharyngeal apparatus. Wiley Interdiscip Rev Dev Biol 2014", "https://doi.org/10.1002/wdev.147"]]
     },
     c: [
-      ["!Yapı: ark (mezoderm + nöral krista), cep (endoderm, içte), yarık (ektoderm, dışta)", "farengeal ark|faringeal ark|brankiyal ark|branşiyal ark|pharyngeal arch|farengeal cep|faringeal cep|farengeal yarık|faringeal yarık|endoderm kaplı|ektoderm kaplı|endodermle döşeli|ektodermle döşeli"],
+      ["!Yapı: ark (mezoderm + nöral krista), cep (endoderm, içte), yarık (ektoderm, dışta)", "farengeal ark|faringeal ark|brankiyal ark|branşiyal ark|pharyngeal arch|farengeal cep|faringeal cep|farengeal yarık|faringeal yarık|içte endoderm|dışta ektoderm|cepler endoderm|yarıklar ektoderm|endodermle döşeli cep|ektodermle döşeli yarık"],
       ["!1. ark: trigeminal sinir (V3); Meckel kıkırdağı, malleus, inkus, çiğneme kasları", "birinci ark|1. ark|meckel|malleus|inkus|incus|çiğneme kas|mandibuler sinir|trigeminal"],
       ["2. ark: fasiyal sinir; Reichert kıkırdağı, stapes, stiloid, mimik kasları", "ikinci ark|2. ark|reichert|stapes|stiloid|mimik kas|fasiyal sinir|fasial sinir|facial"],
       ["3. ark: glossofaringeal sinir, stilofaringeus; 4. ve 6. ark: vagus dalları, larinks kıkırdak ve kasları", "üçüncü ark|3. ark|glossofaren|glossofarin|stilofaren|stilofarin|vagus|rekürren|larinks|laringeal"],
@@ -225,7 +225,7 @@ terms: [
       ["Timusta T hücre pozitif (kortekste) ve negatif seleksiyon (medullada, AIRE)", "pozitif seleksiyon|negatif seleksiyon|pozitif seçilim|negatif seçilim|aire|timosit"],
       ["!Lenf düğümü: korteks (B hücre follikülleri, germinal merkez), parakorteks (T hücre, HEV), medulla (kordonlar, sinüsler)", "lenf düğüm|lenf nodu|lenf bezi|parakorteks|parakortikal|germinal merkez|germinal centre|folikül|hev|yüksek endotel|medüller kordon|subkapsüler sinüs"],
       ["Dalak: beyaz pulpa (PALS = T hücre, folikül = B hücre) ve kırmızı pulpa (Billroth kordonları, sinüzoidler)", "beyaz pulpa|kırmızı pulpa|pals|periarteriyolar|billroth|splenik kordon|sinüzoid|marjinal zon|dalak"],
-      ["Dalak: yaşlı eritrosit yıkımı ve kapsüllü bakterilere karşı savunma (marjinal zon)", "yaşlı eritrosit|eritrosit yıkım|kapsüllü bakteri|kapsüllü"],
+      ["Dalak: yaşlı eritrosit yıkımı ve kapsüllü bakterilere karşı savunma (marjinal zon)", "yaşlı eritrosit|eritrosit yıkım|kapsüllü bakteri"],
       ["Tonsiller ve Peyer plakları: kapsülsüz ya da kısmi kapsüllü MALT; M hücreleri", "tonsil|peyer|m hücre|kripta"]
     ]},
   { id: "his-deri-histolojisi", tr: "Deri histolojisi", en: "Skin histology", cat: "organ", lvl: 3,
@@ -241,7 +241,7 @@ terms: [
       ["Dermis: papiller (gevşek) ve retiküler (sıkı düzensiz) tabaka; Meissner ve Paccini cisimcikleri", "dermis|papiller|retiküler tabaka|retiküler dermis|meissner|paccini|pacini|ruffini"],
       ["!Deri ekleri: kıl folikülü, yağ bezi (holokrin), ekrin ve apokrin ter bezleri", "kıl folikül|saç folikül|yağ bez|sebase|holokrin|ekrin|apokrin|ter bez"],
       ["Köken: epidermis yüzey ektodermden, dermis mezodermden, melanosit nöral kristadan", "yüzey ektoderm|ektoderm|mezoderm|nöral krista"],
-      ["Melanin melanozomlarla keratinositlere aktarılır; ırk farkı melanosit sayısından değil melanozom aktivitesinden", "melanozom aktivite|melanozom dağılım|melanozom büyüklü|melanozomların aktivite|melanozomların dağılım|sayısından değil|sayısı değil"]
+      ["Melanin melanozomlarla keratinositlere aktarılır; ırk farkı melanosit sayısından değil melanozom aktivitesinden", "melanosit sayısından değil|melanosit sayısı değil|melanozom aktivitesinden kaynaklan|melanozomların aktivitesinden kaynaklan|melanozom aktivitesine bağlı|melanozomların aktivitesine bağlı"]
     ]}
 ]
 });

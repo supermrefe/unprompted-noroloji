@@ -67,7 +67,7 @@ terms: [
     c: [
       ["!İki yaş altı, en sık RSV ile alt solunum yolu enfeksiyonu", "rsv|respiratuvar sinsityal|respiratuar sinsisyal|sinsityal virüs|iki yaş altı|2 yaş altı|süt çocuğu"],
       ["Klinik: nezle sonrası öksürük, takipne, wheezing, raller, beslenme güçlüğü", "nezle|burun akıntı|takipne|hırıltı|wheezing|vizing|raller|krepitan|beslenme güçlüğü|emmede zorluk"],
-      ["!Tanı klinik; rutin akciğer grafisi ve laboratuvar gerekmez", "tanı klinik|klinik tanı|klinik olarak tanı|rutin grafi|rutin akciğer grafi|grafi gerekmez|grafi çekmiyoruz|rutin laboratuvar"],
+      ["!Tanı klinik; rutin akciğer grafisi ve laboratuvar gerekmez", "tanı klinik|klinik tanı|klinik olarak tanı|rutin grafi gerekmez|rutin grafi çekilmez|rutin akciğer grafisi gerekmez|rutin akciğer grafisi çekilmez|grafi gerekmez|grafi çekmiyoruz|rutin laboratuvar gerekmez|laboratuvar gerekmez"],
       ["!Tedavi destekleyici: oksijen, sıvı/beslenme desteği, burun aspirasyonu", "destek tedavi|destekleyici|oksijen|nazal aspirasyon|burun aspirasyon|sıvı desteği|hidrasyon|nazogastrik"],
       ["Bronkodilatör, adrenalin ve sistemik steroid rutin önerilmez", "bronkodilatör önerilmez|bronkodilatör önerilmiyor|bronkodilatör kullanılmaz|bronkodilatör vermiyoruz|bronkodilatör rutin önerilmez|bronkodilatör rutin kullanılmaz|rutin bronkodilatör verilmez|kortikosteroid ve antibiyotik rutin önerilmez|steroid önerilmez|steroid önerilmiyor|steroid kullanılmaz|steroid vermiyoruz|salbutamol önerilmez|salbutamol önerilmiyor"],
       ["Ağır hastalık riski: prematüre, küçük bebek, konjenital kalp/kronik akciğer hastalığı", "prematür|konjenital kalp|kronik akciğer|bronkopulmoner displazi|apne"],
@@ -232,7 +232,7 @@ terms: [
       ["Tedavi edilmezse: ağır zihinsel yetersizlik, nöbet, küf kokusu, açık renk deri/saç, egzama", "zihinsel yetersiz|zihinsel gerilik olur|mental retard|entelektüel|küf koku|fare koku|açık renk|sarışın|egzama|nöbet"],
       ["Kofaktör (BH4) metabolizma bozukluğu ayırıcı tanıda", "bh4|tetrahidrobiopterin|biopterin|kofaktör"],
       ["!Türkiye Neonatal Tarama Programı: topuk kanı ile tarama (FKU, KH, biyotinidaz, KF, KAH, SMA)", "topuk kanı|yenidoğan tarama|neonatal tarama|tarama program|guthrie|biyotinidaz|biotinidaz"],
-      ["!Tedavi: ömür boyu fenilalanini kısıtlı diyet + fenilalaninsiz amino asit karışımı", "fenilalanin kısıt|fenilalaninden fakir|fenilalaninsiz|özel diyet|protein kısıt|amino asit karışım|özel mama|ömür boyu"],
+      ["!Tedavi: ömür boyu fenilalanini kısıtlı diyet + fenilalaninsiz amino asit karışımı", "fenilalanin kısıt|fenilalaninden fakir|fenilalaninsiz|özel diyet|protein kısıtlı diyet|amino asit karışım|fenilalaninsiz mama|ömür boyu diyet|ömür boyu kısıtlı"],
       ["Sapropterin (BH4 yanıtlı hastalarda), pegvaliaz (erişkin)", "sapropterin|pegvaliaz|kuvan"],
       ["Maternal FKU: gebelik öncesi sıkı kontrol (mikrosefali, kalp defekti riski)", "maternal fku|maternal fenilketon|gebelik öncesi|gebelikte|mikrosefali"]
     ]},

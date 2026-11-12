@@ -32,6 +32,10 @@ Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosy
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| ana-koroner-arterler | "inferior derivasyon", "inferior enfarkt" çıkarıldı; "sağ koroner tarafından beslenir", "inferior mi/enfarkt sağ koroner" eklendi | Arter adı geçmeden eşleşiyordu; "inferior enfarkt LAD tıkanmasıyla olur" puan alıyordu (W4 denetimi) |
+| ana-kranial-sinirler | "beyin sapı/beyin sapından/beyinsap" yerine "beyin sapıyla ilişkili", "dışındakiler beyin sap" | "hepsi beyin sapından çıkar" aşırı basitleştirmesi puan alıyordu (W4 denetimi) |
+| ana-rotator-manset | Çıplak "dış/iç rotasyon" ve "rotatör" anahtarları kas adıyla bağlandı ("infraspinatus/teres minör dış rotasyon", "subskapularis iç rotasyon") | Kasların yer değiştirdiği ters ifade puan alıyordu (W4 denetimi) |
+| ana-el-karpal | "en sık çıkan" → "lunat en sık çıkan" | "en sık çıkan karpal kemik skafoiddir" yanlışı puan alıyordu (W4 denetimi) |
 | ana-mediasten | fixtures.good: "çocuklarda timus kalıntısı" → "erişkinde timus kalıntısı ve yağ, çocuklarda büyük timusun alt kısmı" | DOĞRULANMIŞ HATA: timus puberteden sonra involüsyona uğrar |
 | ana-kranial-sinirler | c[0] etiketi ve fixtures.good: "beyin sapından çıkar" → "beyin sapıyla ilişkili; XI'in spinal kökü üst servikal medulladan" | Kesin kural gibi okunan basitleştirme |
 | ana-portosistemik-anastomoz | "pankreas başı arkas" anahtarı kaldırıldı | Birleşme yeri pankreas boynunun arkası |
@@ -63,6 +67,9 @@ Kaynak dosyalar: `docs/klinik/<branş>.md` (düzenleme oradan yapılır; bu dosy
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| fiz-asit-baz | "dakikalar içinde" çıkarıldı; "akciğer(ler) dakikalar" eklendi | Organ belirtmeden eşleşiyordu; "böbrek bikarbonatı dakikalar içinde düzenler" puan alıyordu (W4 denetimi) |
+| fiz-pacemaker-elektrofizyoloji | "hızlı ileti" çıkarıldı; "purkinje sisteminde ise ileti" eklendi | "AV düğümde hızlı ileti olur" ters ifadesi puan alıyordu (W4 denetimi) |
+| fiz-kalp-dongusu-frank-starling | Çıplak "av kapak" ve "semilunar" yerine "... kapakların/kapaklar kapan" biçimleri | "S2 AV kapakların kapanmasıdır" ya da "AV kapakların açılması" eşleşiyordu (W4 denetimi) |
 | fiz-kalp-dongusu-frank-starling | Kalp sesleri anahtarına "birinci ses/ikinci ses/av kapak" eklendi; debi kavramından "atım hacmi/vuru hacmi" çıkarıldı, "kardiyak debi" eklendi | Kör anlatım: eş anlamlı kaçtı; atım hacmi Frank-Starling kavramıyla çakışıyordu |
 | fiz-kan-basinci-regulasyonu | "sempatik tonus azal" eklendi; çıplak "natriürez" çıkarıldı (natriüretik peptidi yakalıyordu) | Kör anlatım: eş anlamlı + gevşek eşleşme |
 | fiz-oksijen-hemoglobin-egrisi | "düz kısmı/dik kısmı" eklendi | Kör anlatım: eş anlamlı kaçtı |
@@ -101,6 +108,7 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; makale tam metinleri
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| biy-vitamin-koenzimleri | "b12 eksikliğinde metilmalonik" → "b12 eksikliğinde metilmalonik asit artar/yüksel" ("hem metilmalonik" kaldı) | Yönsüzdü; "B12 eksikliğinde metilmalonik asit normaldir" puan alıyordu (W4 denetimi) |
 | biy-glikoliz | "Net kazanç" kavramından tek başına "iki atp", "2 atp", "nadh" anahtarları çıkarıldı; yalnız "net 2/iki atp", "net kazanç iki atp" vb. bırakıldı. | Yatırım evresindeki 2 ATP harcamasını ya da herhangi bir NADH anmasını net kazanç sayıyordu. |
 | biy-glukoneogenez | "Çift karbonlu yağ asitleri net glukoz veremez" kavramında yönsüz anahtarlar ("net glukoz", "çift karbonlu", "asetil koa glukoza") olumsuz çok kelimeli anahtarlarla değiştirildi. | Ters (yanlış) ifadeyi doğru sayıyordu. |
 | biy-glukoneogenez | Kas kavramında "kas kana", "kas kana glukoz", "kas glukoz 6 fosfataz" çıkarıldı; "kas kana glukoz veremez", "kasta glukoz 6 fosfataz yok" vb. eklendi. | "Kas kana glukoz verir" ifadesini eşliyordu. |
@@ -131,6 +139,11 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; makale tam metinleri
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| his-deri-histolojisi | "melanozom aktivite/dağılım/büyüklü", "sayısından değil", "sayısı değil" yerine "melanosit sayısından/sayısı değil", "melanozom(ların) aktivitesinden kaynaklan/aktivitesine bağlı" | Önceki anahtarlar yönsüzdü; "ırk farkı melanozom aktivitesinden değil melanosit sayısındandır" puan alıyordu (W4 denetimi) |
+| his-plasenta-fetal-zarlar | Çıplak "karışmaz" anahtarı gerçekten çıkarıldı (önceki satırın söylediği gibi) | Tablo ile kod uyuşmuyordu; her "karışmaz" geçen cümle eşleşiyordu (W4 denetimi) |
+| his-farengeal-arklar | "endoderm/ektoderm kaplı", "endodermle/ektodermle döşeli" yerine "içte endoderm", "dışta ektoderm", "cepler endoderm", "yarıklar ektoderm", "endodermle döşeli cep", "ektodermle döşeli yarık" | Cep/yarık yer değiştirmiş ters ifade puan alıyordu (W4 denetimi) |
+| his-lenfoid-organlar | Dalak kavramından çıplak "kapsüllü" çıkarıldı ("kapsüllü bakteri" kaldı) | Tonsil cümlesindeki "kısmi kapsüllü" dalak kavramını karşılıyordu (W4 denetimi) |
+| his-bag-dokusu-kollajen | Tip III/IV kavramından "bazal lamina/bazal membran" çıkarıldı | Tip IV kollajen söylenmeden eşleşiyor, epitel kavramıyla çakışıyordu (W4 denetimi) |
 | his-lenfoid-organlar | Mebius & Kraal 2005 bağlantısı 10.1038/nri1669 yapıldı | Doğrulanmış hata: nri1331 başka makaleye gidiyor |
 | his-lenfoid-organlar | İyi anlatım: "Tonsiller kısmi kapsüllü, Peyer plakları kapsülsüz" | Palatin tonsiller kısmi kapsüllüdür |
 | his-kemik-ossifikasyon | Bonewald 2011 bağlantısı DOI 10.1002/jbmr.320 yapıldı | PMID 21254230 şüpheli; DOI makalenin kendi künyesi |
@@ -175,6 +188,9 @@ Not: Bu oturumda ortak web arama kotası paketin ortasında doldu ve doi.org/Pub
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| mik-asi-immunolojisi | Canlı aşı kontrendikasyonunda "gebelikte ve", "immün yetmezlikte" yerine "immün yetmezlikte kontrendike/yapılmaz" | Yönsüzdü; "canlı aşılar gebelikte ve emzirmede güvenle yapılır" puan alıyordu (W4 denetimi) |
+| mik-asi-immunolojisi | Konjuge aşıda "t hücre yardımı" → "t hücre yardımı devreye gir/sağla" | "T hücre yardımı gerektirmez" ters ifadesi eşleşiyordu (W4 denetimi) |
+| mik-sterilizasyon | "dezenfeksiyon sporları" → "dezenfeksiyon sporları garanti etmez", "sporları her zaman ortadan kaldırmaz/öldürmez" | "dezenfeksiyon sporları da öldürür" yanlışı eşleşiyordu (W4 denetimi) |
 | mik-hipersensitivite → mik-immunglobulin-yapisi | Aşırı duyarlılık (Gell-Coombs) konusu çıkarıldı, yerine immünglobulin yapısı ve sınıfları eklendi. | Patolojideki pat-asiri-duyarlilik ile çapraz eşleşme (%73) ve konu tekrarı |
 
 ### Denetim sonrası değişiklikler
@@ -209,12 +225,17 @@ Not: Bu oturumda ortak web arama kotası paketin ortasında doldu ve doi.org/Pub
 | pat-karsinogenez | Her iki makalenin (de Martel, Lancet Glob Health 2020; IARC Monographs Preamble 2019) bağlantısı doğrulanamadı (null); IARC Preamble yılı kontrol edilmeli. Aflatoksin–p53 kodon mutasyonu sayısal olarak yazılmadı. | PubMed; monographs.iarc.who.int |
 | pat-amiloidoz | Merlini & Bellotti, NEJM 2003 ve Buxbaum ve ark., Amyloid 2022 (ISA nomenklatürü) bağlantıları doğrulanamadı (null). Türkiye'de AA amiloidozun önemli nedeni olarak FMF ifadesi genel bilgi; oran verilmedi. | PubMed; ISA nomenklatür sayfası |
 | pat-trinukleotid-tekrar | Orr & Zoghbi, Annu Rev Neurosci 2007 bağlantısı doğrulanamadı (null). Huntington primer (nrdp.2015.5) bağlantısı repo içindeki nöroloji paketinden alındı. Tekrar sayısı eşikleri bilerek yazılmadı. Huntington hastalığı nöroloji paketinde klinik yönüyle de var; burada yalnız mekanizma. | PubMed; Robbins Genetik bölümü |
-| pat-emboli-infarkt | Robbins 11. baskı yılı (2024 sonu çıkış / 2025-2026 telif) denetimde yeniden soruldu; mevcut "(2025)" korundu. | Elsevier ürün sayfası |
+| (tüm konular) | Robbins 11. baskı yılı denetimde yeniden soruldu; ilk satırdaki Elsevier yayın tarihine (30 Mayıs 2025) göre mevcut "(2025)" korundu. | Elsevier ürün sayfası |
 
 ### Denetim sonrası değişiklikler
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| pat-kronik-inflamasyon-granulom | c[5]'ten hastalık adı taşımayan "kazeöz nekroz", "kazeifiye nekroz" ve "tüberkülozda kazeifiye" çıkarıldı; "tüberkülozda kazeifiye granülom", "tüberkülozda ortası kazeöz", "sarkoidozda ise kazeifiye olmayan" eklendi. Aşağıdaki eski satır bu anahtarları yanlışlıkla belirsizlik giderilmiş gibi gösteriyordu. | "sarkoidozda kazeöz nekroz vardır" ve "tüberkülozda kazeifiye olmayan granülom" ters ifadeleri hâlâ eşleşiyordu (W4 denetimi). |
+| pat-odem-konjesyon | c[5]'ten yönsüz "venöz konjesyon/dönüş/akım", "arteriyel genişle", "arteriyol dilat" çıkarıldı; "hiperemi arteriyollerin genişle/arteriyol dilat", "konjesyon (ise) venöz dönüş" eklendi. | Aktif/pasif yer değiştirmiş ters cümle eşleşiyordu; "venöz dönüş" c[1] ile çakışıyordu (W4 denetimi). |
+| pat-hucre-adaptasyonlari | c[6]'da "geri dönüşümlü", "geri döner" yerine "genellikle geri dönüşümlü", "geri dönüşümlüdür", "uyaran kalkınca geri". | "geri dönüşümlü değildir" olumsuz ifadesi eşleşiyordu (W4 denetimi). |
+| pat-onkogen-tumor-baskilayici | c[6]'dan "dna onarım" çıkarıldı. | LOH söylenmeden eşleşiyordu; çıkarılan "apc/brca" ile aynı gevşeklik (W4 denetimi). |
+| (tüm konular) | Kuşku tablosundaki Robbins yılı satırı "pat-emboli-infarkt"ten "(tüm konular)"a taşındı, "2024 sonu çıkış" ifadesi çıkarıldı. | İlk satırdaki 30 Mayıs 2025 yayın tarihiyle çelişiyordu (W4 denetimi). |
 | pat-hucre-adaptasyonlari | c[6] anahtarlarından "reversib", "displazi", "dysplas" çıkarıldı; "geri döner", "uyaran kalk", "displaziye zemin", "kansere zemin" eklendi. | "reversib" "irreversible" içinde geçiyordu; tek başına "displazi" geri dönüşümlülüğü söylemeden kavramı karşılıyordu. |
 | pat-kronik-inflamasyon-granulom | c[5] tek kelimelik "kazeifiye/kazeöz/sarkoidoz" anahtarları ilişkiyi belirten çok kelimeli anahtarlarla değiştirildi ("tüberkülozda kazeifiye", "kazeöz nekroz", "sarkoidozda kazeifiye olmayan" vb.). | Ters ifade (sarkoidozda kazeifiye) doğru sayılıyordu. |
 | pat-odem-konjesyon | c[5] tek başına "hiperemi/konjesyon" anahtarları kaldırıldı; yön belirten anahtarlar ("aktif hiperemi", "pasif konjesyon", "venöz dönüş", "arteriyel genişle" vb.) kullanıldı. | Aktif/pasif yönü ters söyleyen anlatım doğru sayılıyordu. |
@@ -253,6 +274,10 @@ Not: Bu paket yazılırken oturumun web arama kotası dolmuştu ve doi.org/pubme
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| far-diuretikler | Kalsiyum kavramındaki yönsüz "kalsiyumu tutar/atar", "kalsiyum atılımını artır/azalt" anahtarları ilaçla bağlandı ("tiyazid kalsiyumu tut", "kıvrım kalsiyumu at" vb.) | "tiyazid kalsiyumu atar, kıvrım kalsiyumu tutar" ters ifadesi puan alıyordu (W4 denetimi) |
+| far-cyp450-etkilesim | "etkileri hızlı başlar" ve "günler içinde" çıkarıldı; "inhibitörlerin etkisi hızlı" eklendi | İlaç grubu belirtmediği için "indüksiyonun etkileri hızlı başlar" ters ifadesi eşleşiyordu (W4 denetimi) |
+| far-terapotik-ilac-izlemi | c[2] etiketi "çoğu ilaçta dozdan hemen önce çukur düzey; istisnalar digoksin (≥6 saat sonra), lityum (~12 saat sonra)" diye ayrıldı; iyi anlatıma digoksin/lityum zamanlaması eklendi | Etiket aynı cümlede "dozdan önce" ve "dozdan sonra" diyordu; dozdan ≥6 saat sonraki digoksin örneği çukur düzey değildir (W4 denetimi) |
+| far-gebelik-teratojen | İyi anlatımda karbamazepine "daha düşük oranda nöral tüp defekti" geri eklendi | Önceki düzeltme nöral tüp riskini tümden silmişti; risk valproattan düşük olsa da vardır, aşağıdaki satırdaki "eskimiş" gerekçesi bu kısım için geçerli değil (W4 denetimi) |
 | far-kolinerjik-ilaclar | Zayıf anlatımdaki "kolinerjik sistem = parasempatik" cümlesi düzeltildi (ACh ganglion ve nöromüsküler kavşakta da). | Yanıltıcı eşitleme |
 | far-diuretikler | Kalsiyum kavramında yönsüz "hiperkalsiüri", "hipokalsiüri", "kalsiyum atılımı", "kalsiyumu tut" çıkarıldı; yönlü "kalsiyumu tutar/atar", "kalsiyum atılımını artır/azalt" eklendi. | Ters ifadeyi ödüllendirme riski |
 | far-yarilanma-klerens | Formül kavramına "sıfır virgül altı dokuz", "0 69", "t yarı" eklendi. | Kör anlatımda sesli dikte biçimi yakalanmadı |
@@ -1333,8 +1358,10 @@ Not: Bu oturumda web araması kotası dolmuştu ve PubMed/doi.org ağ erişimi k
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| ped-bronsiyolit | Çıplak "rutin grafi", "rutin akciğer grafi", "rutin laboratuvar" kaldırıldı; "rutin grafi gerekmez/çekilmez", "rutin akciğer grafisi gerekmez/çekilmez", "rutin laboratuvar gerekmez", "laboratuvar gerekmez" eklendi. | Alt dize eşleşmesiyle "rutin akciğer grafisi çekilir" ters ifadesini doğru sayıyordu (W4 denetimi). |
+| ped-fenilketonuri | Çıplak "ömür boyu", "özel mama", "protein kısıt" yerine "ömür boyu diyet", "ömür boyu kısıtlı", "fenilalaninsiz mama", "protein kısıtlı diyet" kondu. | Diyetle ilgisi olmayan "ömür boyu ilaç" gibi cümleler eşleşiyordu (W4 denetimi). |
 | ped-febril-konvulsiyon | "rutin eeg" ve "rutin tetkik" anahtarları olumsuz biçimlerle ("rutin eeg gerekmez/önerilmez/istenmez", "rutin tetkik gerekmez/önerilmez") değiştirildi. | Ters ifadeyi ("rutin EEG istenir") doğru sayıyordu. |
-| ped-akut-gastroenterit | "diyet kısıtla" kaldırıldı; "diyet kısıtlanmaz", "kısıtlayıcı diyet önerilmez/uygulanmaz", "beslenmeye erken", "emzirme kesilmez" eklendi. | DOĞRULANMIŞ HATA: ters/eskimiş ifadeyi ödüllendiriyordu (ESPGHAN 2014). |
+| ped-akut-gastroenterit | "diyet kısıtla" kaldırıldı; "diyet kısıtlanmaz", "kısıtlayıcı diyet önerilmez/uygulanmaz", "beslenmeye erken", "emzirme kesilmez", "emzirmeyi kesmiyoruz" eklendi. | DOĞRULANMIŞ HATA: ters/eskimiş ifadeyi ödüllendiriyordu (ESPGHAN 2014). |
 | ped-akut-gastroenterit | "rutin antibiyotik" kaldırıldı; "rutin antibiyotik verilmez/önerilmez", "antibiyotik rutin değil/verilmez", "antidiyareik (ilaç) önerilmez" eklendi. | DOĞRULANMIŞ HATA: "rutin antibiyotik verilir" de eşleşiyordu; kör anlatımdaki eş anlamlı yakalanmıyordu. |
 | ped-akut-gastroenterit | IV sıvı kavramına "intravenöz tedavi", "izotonik" eklendi. | Kör anlatımda başka kelimelerle söylendiği hâlde yakalanmadı. |
 | ped-akut-gastroenterit | Cochrane künyesine yazarlar ve 2002 yılı eklendi; bağlantı https://doi.org/10.1002/14651858.CD002847 yapıldı. | Künyede yıl yoktu, bağlantı "/references" alt sayfasına gidiyordu. |
@@ -1382,6 +1409,10 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| kd-preeklampsi | "37. hafta/37 hafta/otuz yedi" yerine "37./34. haftada doğum" anahtarları | Çıplak "37. hafta" "ağır preeklampside de 37. haftaya kadar beklenir" ters ifadesini de doğru sayıyordu (W4 denetimi) |
+| kd-endometriozis | "klinik tanı", "görüntülemeyle tanı", "görüntüleme ile tanı" yerine "... tanı konur/konabilir/konup" biçimleri | "görüntülemeyle tanı konamaz" ters ifadesi alt dize olarak eşleşiyordu (W4 denetimi) |
+| kd-serviks-tarama | Triyaj kavramının "pap/smear/asc us/lsil/hsil" anahtarları "doğrudan kolposkopi/16/18 pozitif/diğer yüksek riskli tiplerde" ile değiştirildi | Önceki düzeltme yalnız etiketteydi; "tüm HPV pozitiflerde Pap ile triyaj" eskimiş ifadesi puan alıyordu (W4 denetimi) |
+| kd-hellp | Çıplak "600" anahtarı "ldh 600 ve üzeri/ldh ≥600" ile değiştirildi | "LDH 600 altında" gibi ters ifade eşleşiyordu; önceki satır yalnız etiket/anlatımı düzeltmişti (W4 denetimi) |
 | kd-preeklampsi | Doğum zamanlaması etiketi: ağır özelliksizde 37., ağır özellikli preeklampside ≥34. hafta | ACOG PB 222; etiket iki durumu ayırmıyordu |
 | kd-preeklampsi | "20 hafta/20. hafta/yirminci hafta" anahtarları yön bildiren "20. haftadan sonra" vb. ile değiştirildi | "20. haftadan önce" (kronik HT) ters ifadesi de eşleşiyordu |
 | kd-plasenta-previa-dekolman | Doğum şekli kavramında tek başına "sezaryen" yerine "sezaryenle doğ/doğum sezaryen/planlı sezaryen" vb. | "geçirilmiş sezaryen" risk etkeni kavramı karşılıyordu |

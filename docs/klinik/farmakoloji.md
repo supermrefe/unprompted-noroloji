@@ -28,6 +28,10 @@ Not: Bu paket yazılırken oturumun web arama kotası dolmuştu ve doi.org/pubme
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| far-diuretikler | Kalsiyum kavramındaki yönsüz "kalsiyumu tutar/atar", "kalsiyum atılımını artır/azalt" anahtarları ilaçla bağlandı ("tiyazid kalsiyumu tut", "kıvrım kalsiyumu at" vb.) | "tiyazid kalsiyumu atar, kıvrım kalsiyumu tutar" ters ifadesi puan alıyordu (W4 denetimi) |
+| far-cyp450-etkilesim | "etkileri hızlı başlar" ve "günler içinde" çıkarıldı; "inhibitörlerin etkisi hızlı" eklendi | İlaç grubu belirtmediği için "indüksiyonun etkileri hızlı başlar" ters ifadesi eşleşiyordu (W4 denetimi) |
+| far-terapotik-ilac-izlemi | c[2] etiketi "çoğu ilaçta dozdan hemen önce çukur düzey; istisnalar digoksin (≥6 saat sonra), lityum (~12 saat sonra)" diye ayrıldı; iyi anlatıma digoksin/lityum zamanlaması eklendi | Etiket aynı cümlede "dozdan önce" ve "dozdan sonra" diyordu; dozdan ≥6 saat sonraki digoksin örneği çukur düzey değildir (W4 denetimi) |
+| far-gebelik-teratojen | İyi anlatımda karbamazepine "daha düşük oranda nöral tüp defekti" geri eklendi | Önceki düzeltme nöral tüp riskini tümden silmişti; risk valproattan düşük olsa da vardır, aşağıdaki satırdaki "eskimiş" gerekçesi bu kısım için geçerli değil (W4 denetimi) |
 | far-kolinerjik-ilaclar | Zayıf anlatımdaki "kolinerjik sistem = parasempatik" cümlesi düzeltildi (ACh ganglion ve nöromüsküler kavşakta da). | Yanıltıcı eşitleme |
 | far-diuretikler | Kalsiyum kavramında yönsüz "hiperkalsiüri", "hipokalsiüri", "kalsiyum atılımı", "kalsiyumu tut" çıkarıldı; yönlü "kalsiyumu tutar/atar", "kalsiyum atılımını artır/azalt" eklendi. | Ters ifadeyi ödüllendirme riski |
 | far-yarilanma-klerens | Formül kavramına "sıfır virgül altı dokuz", "0 69", "t yarı" eklendi. | Kör anlatımda sesli dikte biçimi yakalanmadı |

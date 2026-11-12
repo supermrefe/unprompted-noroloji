@@ -14,12 +14,17 @@
 | pat-karsinogenez | Her iki makalenin (de Martel, Lancet Glob Health 2020; IARC Monographs Preamble 2019) bağlantısı doğrulanamadı (null); IARC Preamble yılı kontrol edilmeli. Aflatoksin–p53 kodon mutasyonu sayısal olarak yazılmadı. | PubMed; monographs.iarc.who.int |
 | pat-amiloidoz | Merlini & Bellotti, NEJM 2003 ve Buxbaum ve ark., Amyloid 2022 (ISA nomenklatürü) bağlantıları doğrulanamadı (null). Türkiye'de AA amiloidozun önemli nedeni olarak FMF ifadesi genel bilgi; oran verilmedi. | PubMed; ISA nomenklatür sayfası |
 | pat-trinukleotid-tekrar | Orr & Zoghbi, Annu Rev Neurosci 2007 bağlantısı doğrulanamadı (null). Huntington primer (nrdp.2015.5) bağlantısı repo içindeki nöroloji paketinden alındı. Tekrar sayısı eşikleri bilerek yazılmadı. Huntington hastalığı nöroloji paketinde klinik yönüyle de var; burada yalnız mekanizma. | PubMed; Robbins Genetik bölümü |
-| pat-emboli-infarkt | Robbins 11. baskı yılı (2024 sonu çıkış / 2025-2026 telif) denetimde yeniden soruldu; mevcut "(2025)" korundu. | Elsevier ürün sayfası |
+| (tüm konular) | Robbins 11. baskı yılı denetimde yeniden soruldu; ilk satırdaki Elsevier yayın tarihine (30 Mayıs 2025) göre mevcut "(2025)" korundu. | Elsevier ürün sayfası |
 
 ### Denetim sonrası değişiklikler
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| pat-kronik-inflamasyon-granulom | c[5]'ten hastalık adı taşımayan "kazeöz nekroz", "kazeifiye nekroz" ve "tüberkülozda kazeifiye" çıkarıldı; "tüberkülozda kazeifiye granülom", "tüberkülozda ortası kazeöz", "sarkoidozda ise kazeifiye olmayan" eklendi. Aşağıdaki eski satır bu anahtarları yanlışlıkla belirsizlik giderilmiş gibi gösteriyordu. | "sarkoidozda kazeöz nekroz vardır" ve "tüberkülozda kazeifiye olmayan granülom" ters ifadeleri hâlâ eşleşiyordu (W4 denetimi). |
+| pat-odem-konjesyon | c[5]'ten yönsüz "venöz konjesyon/dönüş/akım", "arteriyel genişle", "arteriyol dilat" çıkarıldı; "hiperemi arteriyollerin genişle/arteriyol dilat", "konjesyon (ise) venöz dönüş" eklendi. | Aktif/pasif yer değiştirmiş ters cümle eşleşiyordu; "venöz dönüş" c[1] ile çakışıyordu (W4 denetimi). |
+| pat-hucre-adaptasyonlari | c[6]'da "geri dönüşümlü", "geri döner" yerine "genellikle geri dönüşümlü", "geri dönüşümlüdür", "uyaran kalkınca geri". | "geri dönüşümlü değildir" olumsuz ifadesi eşleşiyordu (W4 denetimi). |
+| pat-onkogen-tumor-baskilayici | c[6]'dan "dna onarım" çıkarıldı. | LOH söylenmeden eşleşiyordu; çıkarılan "apc/brca" ile aynı gevşeklik (W4 denetimi). |
+| (tüm konular) | Kuşku tablosundaki Robbins yılı satırı "pat-emboli-infarkt"ten "(tüm konular)"a taşındı, "2024 sonu çıkış" ifadesi çıkarıldı. | İlk satırdaki 30 Mayıs 2025 yayın tarihiyle çelişiyordu (W4 denetimi). |
 | pat-hucre-adaptasyonlari | c[6] anahtarlarından "reversib", "displazi", "dysplas" çıkarıldı; "geri döner", "uyaran kalk", "displaziye zemin", "kansere zemin" eklendi. | "reversib" "irreversible" içinde geçiyordu; tek başına "displazi" geri dönüşümlülüğü söylemeden kavramı karşılıyordu. |
 | pat-kronik-inflamasyon-granulom | c[5] tek kelimelik "kazeifiye/kazeöz/sarkoidoz" anahtarları ilişkiyi belirten çok kelimeli anahtarlarla değiştirildi ("tüberkülozda kazeifiye", "kazeöz nekroz", "sarkoidozda kazeifiye olmayan" vb.). | Ters ifade (sarkoidozda kazeifiye) doğru sayılıyordu. |
 | pat-odem-konjesyon | c[5] tek başına "hiperemi/konjesyon" anahtarları kaldırıldı; yön belirten anahtarlar ("aktif hiperemi", "pasif konjesyon", "venöz dönüş", "arteriyel genişle" vb.) kullanıldı. | Aktif/pasif yönü ters söyleyen anlatım doğru sayılıyordu. |

@@ -21,6 +21,11 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; makale tam metinleri
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| his-deri-histolojisi | "melanozom aktivite/dağılım/büyüklü", "sayısından değil", "sayısı değil" yerine "melanosit sayısından/sayısı değil", "melanozom(ların) aktivitesinden kaynaklan/aktivitesine bağlı" | Önceki anahtarlar yönsüzdü; "ırk farkı melanozom aktivitesinden değil melanosit sayısındandır" puan alıyordu (W4 denetimi) |
+| his-plasenta-fetal-zarlar | Çıplak "karışmaz" anahtarı gerçekten çıkarıldı (önceki satırın söylediği gibi) | Tablo ile kod uyuşmuyordu; her "karışmaz" geçen cümle eşleşiyordu (W4 denetimi) |
+| his-farengeal-arklar | "endoderm/ektoderm kaplı", "endodermle/ektodermle döşeli" yerine "içte endoderm", "dışta ektoderm", "cepler endoderm", "yarıklar ektoderm", "endodermle döşeli cep", "ektodermle döşeli yarık" | Cep/yarık yer değiştirmiş ters ifade puan alıyordu (W4 denetimi) |
+| his-lenfoid-organlar | Dalak kavramından çıplak "kapsüllü" çıkarıldı ("kapsüllü bakteri" kaldı) | Tonsil cümlesindeki "kısmi kapsüllü" dalak kavramını karşılıyordu (W4 denetimi) |
+| his-bag-dokusu-kollajen | Tip III/IV kavramından "bazal lamina/bazal membran" çıkarıldı | Tip IV kollajen söylenmeden eşleşiyor, epitel kavramıyla çakışıyordu (W4 denetimi) |
 | his-lenfoid-organlar | Mebius & Kraal 2005 bağlantısı 10.1038/nri1669 yapıldı | Doğrulanmış hata: nri1331 başka makaleye gidiyor |
 | his-lenfoid-organlar | İyi anlatım: "Tonsiller kısmi kapsüllü, Peyer plakları kapsülsüz" | Palatin tonsiller kısmi kapsüllüdür |
 | his-kemik-ossifikasyon | Bonewald 2011 bağlantısı DOI 10.1002/jbmr.320 yapıldı | PMID 21254230 şüpheli; DOI makalenin kendi künyesi |

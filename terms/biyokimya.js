@@ -258,7 +258,7 @@ terms: [
       ["!Tiamin pirofosfat: pirüvat dehidrogenaz, alfa-ketoglutarat dehidrogenaz, dallı zincirli keto asit dehidrogenaz ve transketolaz kofaktörü", "tiamin pirofosfat|tiamin|tpp|transketolaz|ketoglutarat dehidrogenaz"],
       ["Tiamin eksikliği: beriberi, Wernicke-Korsakoff; glukozdan önce tiamin verilir", "beriberi|beri beri|wernicke|korsakoff|glukozdan önce"],
       ["!B12 iki enzimin kofaktörü: metilmalonil-KoA mutaz ve metiyonin sentaz", "metilmalonil koa mutaz|mutaz|metiyonin sentaz|metionin sentaz"],
-      ["!B12 eksikliğinde metilmalonik asit ve homosistein, folat eksikliğinde yalnız homosistein artar", "b12 eksikliğinde metilmalonik|b12 eksikliğinde hem metilmalonik|folat eksikliğinde metilmalonik asit normal|folat eksikliğinde ise yalnız homosistein|folat eksikliğinde yalnız homosistein|folat eksikliğinde sadece homosistein"],
+      ["!B12 eksikliğinde metilmalonik asit ve homosistein, folat eksikliğinde yalnız homosistein artar", "b12 eksikliğinde metilmalonik asit artar|b12 eksikliğinde metilmalonik asit yüksel|b12 eksikliğinde hem metilmalonik|folat eksikliğinde metilmalonik asit normal|folat eksikliğinde ise yalnız homosistein|folat eksikliğinde yalnız homosistein|folat eksikliğinde sadece homosistein"],
       ["Folat (tetrahidrofolat) tek karbon taşır; timidilat sentezi için gerekli, metotreksat DHFR'yi inhibe eder", "tetrahidrofolat|thf|tek karbon|timidilat|metotreksat|dihidrofolat redüktaz|dhfr"],
       ["Metil-folat tuzağı: B12 yokluğunda folat metil formda kalır", "folat tuzağı|metil folat|metil tuzağı|metiltetrahidrofolat"],
       ["!Niasin NAD/NADP'ye katılır, triptofandan yapılabilir; eksikliği pellagra (dermatit, ishal, demans)", "niasin|nikotinik|nad|pellagra|triptofan"],

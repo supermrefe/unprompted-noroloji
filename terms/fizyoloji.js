@@ -36,7 +36,7 @@ terms: [
     c: [
       ["!İzovolümetrik kasılma ve izovolümetrik gevşeme evreleri", "izovolümetrik|izovolumetrik|izometrik kasılma|izometrik gevşeme|tüm kapaklar kapalı|bütün kapaklar kapalı"],
       ["Ejeksiyon ve dolum evreleri (hızlı dolum, atriyal kasılma)", "ejeksiyon evre|ejeksiyon faz|atılım evre|hızlı dolum|yavaş dolum|diastaz|atriyal kasılma|atriyum kasılma"],
-      ["Kalp sesleri: S1 AV kapakların, S2 semilunar kapakların kapanması", "birinci kalp ses|ikinci kalp ses|birinci ses|ikinci ses|s1|s2|semilunar|av kapak|atriyoventriküler kapak"],
+      ["Kalp sesleri: S1 AV kapakların, S2 semilunar kapakların kapanması", "birinci kalp ses|ikinci kalp ses|birinci ses|ikinci ses|s1|s2|semilunar kapaklar kapan|semilunar kapakların kapan|av kapakların kapan|av kapaklar kapan|atriyoventriküler kapakların kapan"],
       ["!Frank-Starling: diyastol sonu hacim (önyük) arttıkça atım hacmi artar", "frank starling|starling yasa|starling kanun|önyük|preload|diyastol sonu hacim|end diyastolik hacim|gerilme arttıkça"],
       ["Sarkomer boyu ve aktin-miyozin örtüşmesi / kalsiyum duyarlılığı", "sarkomer|aktin miyozin|örtüşme|kalsiyum duyarlılı"],
       ["!Kalp debisi = atım hacmi × kalp hızı; ard yük ve kontraktilite", "kalp debisi|kardiyak output|kardiyak debi|kontraktilite|ard yük|art yük|afterload"],
@@ -131,7 +131,7 @@ terms: [
       ["!Bikarbonat-karbonik asit tamponu ve Henderson-Hasselbalch denklemi", "henderson|hasselbalch|bikarbonat tampon|karbonik asit|tampon sistem"],
       ["Karbonik anhidraz: CO2 + H2O ⇌ H2CO3", "karbonik anhidraz"],
       ["Diğer tamponlar: hemoglobin, fosfat, proteinler", "hemoglobin tampon|fosfat tampon|protein tampon|hücre içi tampon"],
-      ["!Akciğer CO2'yi (dakikalar), böbrek bikarbonatı (günler) düzenler", "solunumsal kompanzasyon|solunum kompanzasyon|akciğer co2|co2 atılım|hiperventilasyon|hipoventilasyon|renal kompanzasyon|böbrek kompanzasyon|ventilasyonla dakikalar|dakikalar içinde"],
+      ["!Akciğer CO2'yi (dakikalar), böbrek bikarbonatı (günler) düzenler", "solunumsal kompanzasyon|solunum kompanzasyon|akciğer co2|co2 atılım|hiperventilasyon|hipoventilasyon|renal kompanzasyon|böbrek kompanzasyon|ventilasyonla dakikalar|akciğer dakikalar|akciğerler dakikalar"],
       ["!Böbrek: filtre bikarbonatın geri emilimi ve yeni bikarbonat üretimi", "bikarbonat geri emil|bikarbonatı geri emer|yeni bikarbonat"],
       ["Asit atılımı: titre edilebilir asit ve amonyum", "titre edilebilir|titrasyon asit|amonyum|amonyak"],
       ["Anyon açığı: Na - (Cl + HCO3)", "anyon açığ|anyon gap|anion gap"]
@@ -162,7 +162,7 @@ terms: [
       ["Ventrikül miyositi: faz 0 hızlı Na+, faz 2 plato (Ca2+ girişi)", "faz 0|faz sıfır|plato|faz 2|faz iki"],
       ["Kalsiyum saati: sarkoplazmik retikulum Ca2+ salınımı ve Na+/Ca2+ değiştirici", "kalsiyum saat|calcium clock|sodyum kalsiyum değiştir|ncx"],
       ["!Otonom etki: sempatik (β1, cAMP) hızlandırır, vagus (ACh, K+ kanalı) yavaşlatır", "beta 1|beta bir|β1|camp|siklik amp|vagal|vagus|asetilkolin|parasempatik"],
-      ["AV düğümde ileti gecikmesi; His-Purkinje hızlı ileti", "ileti gecikme|av gecikme|düğümde gecik|iletiyi gecikt|hızlı ileti|purkinje hızlı"]
+      ["AV düğümde ileti gecikmesi; His-Purkinje hızlı ileti", "ileti gecikme|av gecikme|düğümde gecik|iletiyi gecikt|purkinje hızlı|purkinje sisteminde ise ileti"]
     ]},
   { id: "fiz-sinaptik-iletim", tr: "Sinaptik iletim", en: "Synaptic transmission", cat: "hucre", lvl: 3,
     src: { k: [GH, GA], m: [

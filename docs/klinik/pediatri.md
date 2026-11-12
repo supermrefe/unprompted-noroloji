@@ -31,8 +31,10 @@
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| ped-bronsiyolit | Çıplak "rutin grafi", "rutin akciğer grafi", "rutin laboratuvar" kaldırıldı; "rutin grafi gerekmez/çekilmez", "rutin akciğer grafisi gerekmez/çekilmez", "rutin laboratuvar gerekmez", "laboratuvar gerekmez" eklendi. | Alt dize eşleşmesiyle "rutin akciğer grafisi çekilir" ters ifadesini doğru sayıyordu (W4 denetimi). |
+| ped-fenilketonuri | Çıplak "ömür boyu", "özel mama", "protein kısıt" yerine "ömür boyu diyet", "ömür boyu kısıtlı", "fenilalaninsiz mama", "protein kısıtlı diyet" kondu. | Diyetle ilgisi olmayan "ömür boyu ilaç" gibi cümleler eşleşiyordu (W4 denetimi). |
 | ped-febril-konvulsiyon | "rutin eeg" ve "rutin tetkik" anahtarları olumsuz biçimlerle ("rutin eeg gerekmez/önerilmez/istenmez", "rutin tetkik gerekmez/önerilmez") değiştirildi. | Ters ifadeyi ("rutin EEG istenir") doğru sayıyordu. |
-| ped-akut-gastroenterit | "diyet kısıtla" kaldırıldı; "diyet kısıtlanmaz", "kısıtlayıcı diyet önerilmez/uygulanmaz", "beslenmeye erken", "emzirme kesilmez" eklendi. | DOĞRULANMIŞ HATA: ters/eskimiş ifadeyi ödüllendiriyordu (ESPGHAN 2014). |
+| ped-akut-gastroenterit | "diyet kısıtla" kaldırıldı; "diyet kısıtlanmaz", "kısıtlayıcı diyet önerilmez/uygulanmaz", "beslenmeye erken", "emzirme kesilmez", "emzirmeyi kesmiyoruz" eklendi. | DOĞRULANMIŞ HATA: ters/eskimiş ifadeyi ödüllendiriyordu (ESPGHAN 2014). |
 | ped-akut-gastroenterit | "rutin antibiyotik" kaldırıldı; "rutin antibiyotik verilmez/önerilmez", "antibiyotik rutin değil/verilmez", "antidiyareik (ilaç) önerilmez" eklendi. | DOĞRULANMIŞ HATA: "rutin antibiyotik verilir" de eşleşiyordu; kör anlatımdaki eş anlamlı yakalanmıyordu. |
 | ped-akut-gastroenterit | IV sıvı kavramına "intravenöz tedavi", "izotonik" eklendi. | Kör anlatımda başka kelimelerle söylendiği hâlde yakalanmadı. |
 | ped-akut-gastroenterit | Cochrane künyesine yazarlar ve 2002 yılı eklendi; bağlantı https://doi.org/10.1002/14651858.CD002847 yapıldı. | Künyede yıl yoktu, bağlantı "/references" alt sayfasına gidiyordu. |

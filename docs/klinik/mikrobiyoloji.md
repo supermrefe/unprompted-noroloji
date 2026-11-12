@@ -26,6 +26,9 @@ Not: Bu oturumda ortak web arama kotası paketin ortasında doldu ve doi.org/Pub
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| mik-asi-immunolojisi | Canlı aşı kontrendikasyonunda "gebelikte ve", "immün yetmezlikte" yerine "immün yetmezlikte kontrendike/yapılmaz" | Yönsüzdü; "canlı aşılar gebelikte ve emzirmede güvenle yapılır" puan alıyordu (W4 denetimi) |
+| mik-asi-immunolojisi | Konjuge aşıda "t hücre yardımı" → "t hücre yardımı devreye gir/sağla" | "T hücre yardımı gerektirmez" ters ifadesi eşleşiyordu (W4 denetimi) |
+| mik-sterilizasyon | "dezenfeksiyon sporları" → "dezenfeksiyon sporları garanti etmez", "sporları her zaman ortadan kaldırmaz/öldürmez" | "dezenfeksiyon sporları da öldürür" yanlışı eşleşiyordu (W4 denetimi) |
 | mik-hipersensitivite → mik-immunglobulin-yapisi | Aşırı duyarlılık (Gell-Coombs) konusu çıkarıldı, yerine immünglobulin yapısı ve sınıfları eklendi. | Patolojideki pat-asiri-duyarlilik ile çapraz eşleşme (%73) ve konu tekrarı |
 
 ### Denetim sonrası değişiklikler

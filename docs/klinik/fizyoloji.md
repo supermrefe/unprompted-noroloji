@@ -19,6 +19,9 @@
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| fiz-asit-baz | "dakikalar içinde" çıkarıldı; "akciğer(ler) dakikalar" eklendi | Organ belirtmeden eşleşiyordu; "böbrek bikarbonatı dakikalar içinde düzenler" puan alıyordu (W4 denetimi) |
+| fiz-pacemaker-elektrofizyoloji | "hızlı ileti" çıkarıldı; "purkinje sisteminde ise ileti" eklendi | "AV düğümde hızlı ileti olur" ters ifadesi puan alıyordu (W4 denetimi) |
+| fiz-kalp-dongusu-frank-starling | Çıplak "av kapak" ve "semilunar" yerine "... kapakların/kapaklar kapan" biçimleri | "S2 AV kapakların kapanmasıdır" ya da "AV kapakların açılması" eşleşiyordu (W4 denetimi) |
 | fiz-kalp-dongusu-frank-starling | Kalp sesleri anahtarına "birinci ses/ikinci ses/av kapak" eklendi; debi kavramından "atım hacmi/vuru hacmi" çıkarıldı, "kardiyak debi" eklendi | Kör anlatım: eş anlamlı kaçtı; atım hacmi Frank-Starling kavramıyla çakışıyordu |
 | fiz-kan-basinci-regulasyonu | "sempatik tonus azal" eklendi; çıplak "natriürez" çıkarıldı (natriüretik peptidi yakalıyordu) | Kör anlatım: eş anlamlı + gevşek eşleşme |
 | fiz-oksijen-hemoglobin-egrisi | "düz kısmı/dik kısmı" eklendi | Kör anlatım: eş anlamlı kaçtı |

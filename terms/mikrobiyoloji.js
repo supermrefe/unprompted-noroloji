@@ -62,7 +62,7 @@ terms: [
       ["Rutala WA, Weber DJ, HICPAC. Guideline for Disinfection and Sterilization in Healthcare Facilities, 2008 (2019 güncellemesi). CDC", "https://www.cdc.gov/infectioncontrol/guidelines/disinfection/"],
       ["Rutala WA, Weber DJ. Disinfection and sterilization in health care facilities: an overview and current issues. Infect Dis Clin North Am 2016", null]] },
     c: [
-      ["!Sterilizasyon sporlar dahil tüm mikroorganizmaları yok eder; dezenfeksiyon sporları garanti etmez", "spor dahil|sporlar dahil|sporları da|tüm mikroorganizma|bütün mikroorganizma|dezenfeksiyon sporları"],
+      ["!Sterilizasyon sporlar dahil tüm mikroorganizmaları yok eder; dezenfeksiyon sporları garanti etmez", "spor dahil|sporlar dahil|sporları da|tüm mikroorganizma|bütün mikroorganizma|dezenfeksiyon sporları garanti etmez|sporları her zaman ortadan kaldırmaz|sporları her zaman öldürmez"],
       ["!Otoklav: basınçlı doymuş buhar (121 °C)", "otoklav|basınçlı buhar|doymuş buhar|buharla steril|121"],
       ["Kuru ısı (Pastör fırını) cam ve metal için", "kuru ısı|pastör fırın|kuru hava|sıcak hava"],
       ["Isıya duyarlı aletlerde etilen oksit ve hidrojen peroksit plazma", "etilen oksit|hidrojen peroksit plazma|gaz plazma|plazma steril|ısıya duyarlı"],
@@ -166,8 +166,8 @@ terms: [
       ["T.C. Sağlık Bakanlığı. Çocukluk Dönemi Aşı Takvimi (2020). Halk Sağlığı Genel Müdürlüğü", "https://hsgm.saglik.gov.tr/depo/birimler/asi-ile-onlenebilir-hastaliklar-db/dokumanlar/2020_Asi_Takvimi.pdf"]] },
     c: [
       ["!Canlı attenüe ve inaktive/alt birim aşılar", "canlı attenüe|canlı aşı|zayıflatıl|inaktive|ölü aşı|subünite|alt birim"],
-      ["!Canlı aşılar ağır immünsüpresyon ve gebelikte kontrendike", "immünsüpres|immunsupres|bağışıklığı baskılan|gebelikte yapılmaz|gebelikte kontrendike|gebelikte ve|immün yetmezlikte|gebelere yapılmaz"],
-      ["!Konjuge aşı: polisakkarit proteine bağlanınca T hücre bağımlı yanıt", "konjuge|konjugat|taşıyıcı protein|t hücre bağımlı|t hücreye bağımlı|t hücre yardımı"],
+      ["!Canlı aşılar ağır immünsüpresyon ve gebelikte kontrendike", "immünsüpres|immunsupres|bağışıklığı baskılan|gebelikte yapılmaz|gebelikte kontrendike|immün yetmezlikte kontrendike|immün yetmezlikte yapılmaz|gebelere yapılmaz"],
+      ["!Konjuge aşı: polisakkarit proteine bağlanınca T hücre bağımlı yanıt", "konjuge|konjugat|taşıyıcı protein|t hücre bağımlı|t hücreye bağımlı|t hücre yardımı devreye gir|t hücre yardımı sağla"],
       ["!Bellek hücreleri: ikincil yanıt daha hızlı, güçlü ve IgG ağırlıklı; rapel doz", "bellek|hafıza hücre|memory|ikincil yanıt|sekonder yanıt|rapel|booster"],
       ["Toksoid aşılar: tetanoz, difteri", "toksoid"],
       ["Adjuvan (alüminyum tuzları) doğal bağışıklığı uyarır", "adjuvan|alüminyum|alum"],

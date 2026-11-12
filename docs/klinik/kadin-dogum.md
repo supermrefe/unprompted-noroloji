@@ -29,6 +29,10 @@ Not: Doğrulamalar web arama sonuç özetleriyle yapıldı; kılavuz tam metinle
 
 | Konu id | Değişiklik | Gerekçe |
 |---|---|---|
+| kd-preeklampsi | "37. hafta/37 hafta/otuz yedi" yerine "37./34. haftada doğum" anahtarları | Çıplak "37. hafta" "ağır preeklampside de 37. haftaya kadar beklenir" ters ifadesini de doğru sayıyordu (W4 denetimi) |
+| kd-endometriozis | "klinik tanı", "görüntülemeyle tanı", "görüntüleme ile tanı" yerine "... tanı konur/konabilir/konup" biçimleri | "görüntülemeyle tanı konamaz" ters ifadesi alt dize olarak eşleşiyordu (W4 denetimi) |
+| kd-serviks-tarama | Triyaj kavramının "pap/smear/asc us/lsil/hsil" anahtarları "doğrudan kolposkopi/16/18 pozitif/diğer yüksek riskli tiplerde" ile değiştirildi | Önceki düzeltme yalnız etiketteydi; "tüm HPV pozitiflerde Pap ile triyaj" eskimiş ifadesi puan alıyordu (W4 denetimi) |
+| kd-hellp | Çıplak "600" anahtarı "ldh 600 ve üzeri/ldh ≥600" ile değiştirildi | "LDH 600 altında" gibi ters ifade eşleşiyordu; önceki satır yalnız etiket/anlatımı düzeltmişti (W4 denetimi) |
 | kd-preeklampsi | Doğum zamanlaması etiketi: ağır özelliksizde 37., ağır özellikli preeklampside ≥34. hafta | ACOG PB 222; etiket iki durumu ayırmıyordu |
 | kd-preeklampsi | "20 hafta/20. hafta/yirminci hafta" anahtarları yön bildiren "20. haftadan sonra" vb. ile değiştirildi | "20. haftadan önce" (kronik HT) ters ifadesi de eşleşiyordu |
 | kd-plasenta-previa-dekolman | Doğum şekli kavramında tek başına "sezaryen" yerine "sezaryenle doğ/doğum sezaryen/planlı sezaryen" vb. | "geçirilmiş sezaryen" risk etkeni kavramı karşılıyordu |
