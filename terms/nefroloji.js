@@ -157,8 +157,8 @@ terms: [
       ["!Profilaksi: kontrendikasyon yoksa IV izotonik sıvı (serum fizyolojik)", "izotonik|serum fizyolojik|normal salin|izotonik salin|hidrasyon|intravenöz sıvı|iv sıvı|damardan sıvı"],
       ["N-asetilsistein ve bikarbonatın üstünlüğü gösterilemedi (PRESERVE)", "preserve|asetilsisteinin yararı|asetilsistein önerilmez|asetilsistein yarar|nac önerilmez|nac yarar|bikarbonatın üstün|bikarbonatın yararı|bikarbonat üstün|yararı gösterilemedi|faydası gösterilemedi|üstünlüğü gösterilemedi"],
       ["Kreatinin artışı 2–3 günde zirve yapar, çoğunlukla 1–3 haftada döner (ESUR)", "2 3 gün|iki üç gün|2 3 günde|iki üç günde|1 3 hafta|bir üç hafta|bir ile üç hafta|1 ile 3 hafta"],
-      ["Tek böbrek tek başına risk değil; kontrast nedeniyle diyaliz başlatılmaz ya da değiştirilmez", "tek böbrek|soliter böbrek|diyaliz başlatılmaz|diyaliz programı|diyaliz zamanlaması|diyalizi değiştir|diyalize başlanmaz"],
-      ["Tanısal eşiğin altına doz düşürülmez; endike tetkik geciktirilmez", "tanısal eşik|tanısal doğruluk|esirge|geciktirilmemeli|geciktirmemek|vazgeçilmemeli|vazgeçmemek"],
+      ["Tek böbrek tek başına risk değil; kontrast nedeniyle diyaliz başlatılmaz ya da değiştirilmez", "tek böbrek|soliter böbrek|diyaliz başlatılmaz|diyaliz programı|diyaliz zamanlaması|diyalizi değiştir|diyalize başlanmaz|tek böbreği|ek diyaliz|diyaliz seansı"],
+      ["Tanısal eşiğin altına doz düşürülmez; endike tetkik geciktirilmez", "tanısal eşik|tanısal doğruluk|esirge|geciktirilmemeli|geciktirmemek|vazgeçilmemeli|vazgeçmemek|geciktirilmez|ertelenmemeli|ertelenmez|tanı kalitesi|tanısal kalite"],
       ["Onaylı dozda gadolinyum AKI ile ilişkili değil (ESUR)", "gadolinyum"]
     ]},
   { id: "nef-minimal-degisiklik", tr: "Minimal değişiklik hastalığı", en: "Minimal change disease", cat: "glom", lvl: 2,

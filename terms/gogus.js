@@ -113,12 +113,12 @@ terms: [
       ["Crouser ED ve ark. Diagnosis and Detection of Sarcoidosis. An Official American Thoracic Society Clinical Practice Guideline. Am J Respir Crit Care Med 2020", "https://doi.org/10.1164/rccm.202002-0251ST"],
       ["Baughman RP ve ark. ERS clinical practice guidelines on treatment of sarcoidosis. Eur Respir J 2021", "https://doi.org/10.1183/13993003.04079-2020"]] },
     c: [
-      ["!Nekrotizan olmayan (kazeifiye olmayan) granülom; çok sistemli, nedeni bilinmiyor", "nekrotizan olmayan|kazeifikasyon göstermeyen|nekroz olmayan|kazeifiye olmayan|kazeöz olmayan|kazeifikasyon olmayan|kazeifikasyonsuz|non kazeifiye|nonkazeifiye"],
+      ["!Nekrotizan olmayan (kazeifiye olmayan) granülom; çok sistemli, nedeni bilinmiyor", "nekrotizan olmayan|kazeifikasyon göstermeyen|nekroz olmayan|kazeifiye olmayan|kazeöz olmayan|kazeifikasyon olmayan|kazeifikasyonsuz|non kazeifiye|nonkazeifiye|nekroz içermeyen|nekrozsuz granülom"],
       ["!Bilateral hiler lenfadenopati; Scadding evreleri", "bilateral hiler|iki taraflı hiler|hiler lenfadenopati|hiler lap|hiler lenf|scadding|skading"],
       ["Löfgren sendromu: eritema nodozum + bilateral hiler LAP + ayak bileği artriti, iyi prognoz", "löfgren|lofgren|eritema nodozum|erythema nodosum|ayak bileği"],
       ["!Tanı: uyumlu klinik-radyoloji + biyopside granülom + diğer nedenlerin dışlanması (EBUS)", "ebus|endobronşiyal ultrason|transbronşiyal|biyopside granülom|doku biyopsi|lenf nodu biyopsi|diğer nedenler dışla|diğer nedenlerin dışlan|diğer granülomatöz nedenler|tüberküloz ve mantar|tüberkülozu dışla|lenfomayı dışla"],
       ["Hiperkalsemi (granülomda 1-alfa hidroksilaz); başlangıçta serum kalsiyumu", "hiperkalsemi|kalsiyum|1 alfa hidroksilaz|bir alfa hidroksilaz|kalsitriol|hiperkalsiüri"],
-      ["ACE düzeyi tek başına tanı koydurmaz", "ace tek başına|ace tanı koydurmaz|ace düzeyi tanı koydurmaz|ace tanısal değil|ace güvenilir değil|ace özgül değil|ace özgüllüğü|ace ile tanı konmaz|ace ile tanı konamaz|ace tanıda yeterli değil"],
+      ["ACE düzeyi tek başına tanı koydurmaz", "ace tek başına|ace tanı koydurmaz|ace düzeyi tanı koydurmaz|ace tanısal değil|ace güvenilir değil|ace özgül değil|ace özgüllüğü|ace ile tanı konmaz|ace ile tanı konamaz|ace tanıda yeterli değil|ace yüksekliği tanı koydurmaz|ace yüksekliği tek başına|tek başına tanı için yeterli değil"],
       ["Akciğer dışı tutulum taraması: göz (üveit), kalp (EKG), deri", "üveit|göz muayene|kardiyak sarkoid|kalp tutulum|ekg|lupus pernio|cilt tutulum|deri tutulum|nörosarkoid"],
       ["!Tedavi: semptomatik/organ tehdidi varsa; ilk seçenek glukokortikoid, sonra metotreksat, anti-TNF", "kortikosteroid|glukokortikoid|prednizolon|prednizon|metotreksat|infliksimab|anti tnf"]
     ]},

@@ -42,3 +42,4 @@
 | psi-opioid-kullanim-bozuklugu | "süresiz", "uzun süreli" → "süresiz sürdürülebilir", "uzun süreli idame" | "uzun süreli detoks" ile eşleşiyordu |
 | psi-intihar-riski | Ölçek kavramında "tek başına kullanılmaz" → "ölçek kullanılmaz"; sorma, önceki girişim, plan, güvenlik planı, yatış kavramlarına doğal eş anlamlılar eklendi | Ölçeğe bağlı değildi; kör anlatım %45 alıyordu |
 | psi-alkol-yoksunlugu | İyi anlatımdan Korsakoff cümlesi çıkarıldı | noroloji/wernicke konusuyla çapraz eşleşme (%60) |
+| psi-intihar-riski | Sorma kavramına "doğrudan/açıkça sormak", "doğrudan/açıkça sorulmalı"; önceki girişim kavramına "geçmişteki intihar/girişim"; ölçek kavramına "skala tek başına", "skalaları tek başına" eklendi | 3 harfli "sor" parçası "sormak"ı yakalamıyordu; doğru anlatımlar temel kavramları kaçırıyordu |

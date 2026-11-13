@@ -50,3 +50,4 @@
 | gog-astim | SABA kavramında yönsüz anahtarlar ('önerilm', 'tek başına/yalnız kısa etkili beta') 'önerilmez/kullanılmaz' biçimlerine daraltıldı | 'önerilmektedir' gibi ters ifadeler eşleşiyordu |
 | gog-toplum-kokenli-pnomoni | Yinelenen 'ağır pnömonide hidrokortizon' anahtarı kaldırıldı | Tekrar |
 | gog-tuberkuloz | Standart tedavi kavramından tek başına "rifampisin" anahtarı çıkarıldı (izoniazid, pirazinamid, etambutol, HRZE vb. kaldı) | Xpert'in rifampisin direncini anlatan mik-mikobakteriler anlatımı tedavi kavramını alıp %67 çapraz eşleşiyordu |
+| gog-sarkoidoz | Granülom kavramına "nekroz içermeyen/nekrozsuz granülom"; ACE kavramına "ace yüksekliği tanı koydurmaz/tek başına", "tek başına tanı için yeterli değil" anahtarları eklendi | Bağımsız doğru anlatım %58; "kazeöz nekroz içermeyen granülom" ve "ACE yüksekliği tanı koydurmaz" ifadeleri kaçıyordu |

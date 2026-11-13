@@ -36,3 +36,4 @@
 | (tüm konular) | Brenner & Rector yılı değiştirilmedi; şüphe tablosuna eklendi. | Denetçi iddiası doğrulanmamış bilgi; önceki kaynak kontrolü 2026 gösteriyor. |
 | nef-iga-nefropatisi | Destekleyici tedavi etiketi: sparsentan ACEi/ARB yerine geçer, SGLT2i eklenir | KDIGO 2025 ile uyum |
 | nef-nefrotik-nefritik | Nefritik kavramında tek başına "hematüri" → "glomerüler hematüri" | Biyopsi endikasyonu olarak "belirgin hematüri" geçen ped-nefrotik-sendrom anlatımı %73 çapraz eşleşiyordu |
+| nef-kontrast-aki | Tek böbrek/diyaliz kavramına "tek böbreği", "ek diyaliz", "diyaliz seansı"; doz/tetkik kavramına "geciktirilmez", "ertelenmemeli/ertelenmez", "tanı kalitesi/tanısal kalite" eklendi | Bağımsız doğru anlatım %55; çekimli biçimler ("tek böbreği olmak", "tetkik geciktirilmez") eşleşmiyordu |

@@ -162,11 +162,11 @@ terms: [
       ["Turecki G, Brent DA. Suicide and suicidal behaviour. Lancet 2016", "https://doi.org/10.1016/S0140-6736(15)00234-2"],
       ["Self-harm: assessment, management and preventing recurrence (NG225). NICE 2022", null]] },
     c: [
-      ["!İntihar düşüncesini doğrudan sormak riski artırmaz", "doğrudan sor|açıkça sor|direkt sor|sormak riski artırmaz|sormak artırmaz|fikir vermez|sormaktan çekinme|sorgulanmalı|intihar düşüncesi sorulmalı|intihar düşüncesini sor|sormak tetiklemez|aklına sokmaz"],
-      ["!En güçlü risk etkeni: önceki intihar girişimi", "önceki girişim|önceki intihar|daha önce intihar|geçmiş girişim|girişim öykü|geçirilmiş girişim|önceden girişim|daha önceki girişim|eski girişim"],
+      ["!İntihar düşüncesini doğrudan sormak riski artırmaz", "doğrudan sor|açıkça sor|direkt sor|sormak riski artırmaz|sormak artırmaz|fikir vermez|sormaktan çekinme|sorgulanmalı|intihar düşüncesi sorulmalı|intihar düşüncesini sor|sormak tetiklemez|aklına sokmaz|doğrudan sormak|açıkça sormak|doğrudan sorulmalı|açıkça sorulmalı"],
+      ["!En güçlü risk etkeni: önceki intihar girişimi", "önceki girişim|önceki intihar|daha önce intihar|geçmiş girişim|girişim öykü|geçirilmiş girişim|önceden girişim|daha önceki girişim|eski girişim|geçmişteki intihar|geçmişteki girişim"],
       ["Diğer risk etkenleri: psikiyatrik bozukluk, madde, erkek cinsiyet, yaşlılık, yalnızlık, aile öyküsü, umutsuzluk", "depresyon|madde kullan|alkol|erkek cinsiyet|yaşlı|yalnız|bekar|aile öykü|umutsuz|kronik ağrı|işsiz"],
       ["Plan, niyet, hazırlık ve araca erişim sorgulanır", "intihar plan|planı var|plan yap|planı olup|planı sor|somut plan|niyet|yöntem|hazırlık|araca erişim|veda mektub"],
-      ["Risk ölçekleri tek başına intiharı öngörmek için kullanılmaz (NICE)", "ölçek tek başına|ölçekler tek başına|ölçek kullanılmaz|tek başına karar verdirmez|öngörü değeri düşük|öngörü değeri sınırlı|risk sınıflaması kullanılmaz|klinik yargı esas|düşük risk paradoks"],
+      ["Risk ölçekleri tek başına intiharı öngörmek için kullanılmaz (NICE)", "ölçek tek başına|ölçekler tek başına|ölçek kullanılmaz|skala tek başına|skalaları tek başına|tek başına karar verdirmez|öngörü değeri düşük|öngörü değeri sınırlı|risk sınıflaması kullanılmaz|klinik yargı esas|düşük risk paradoks"],
       ["!Güvenlik planı ve ölümcül araçların kısıtlanması", "güvenlik plan|araç kısıtla|araçları kısıtla|ilaçları kaldır|ilaçları uzaklaştır|silah|ateşli silah|araçlara erişimi kısıtla|erişimin kısıtlan|kriz plan|ölümcül araç|ortamı güvenli"],
       ["Yüksek riskte hastaneye yatış/gözetim; taburculuk sonrası erken izlem", "hastaneye yatır|yatırılarak|yakın gözetim|gözlem altında|taburcu|erken izlem|erken kontrol|yatarak tedavi|hastaneye yatış|yatış endikasyon|sürekli gözetim|psikiyatri servis"],
       ["İntihar riskini azaltan ilaçlar: lityum (duygudurum), klozapin (şizofreni)", "lityum|klozapin"]

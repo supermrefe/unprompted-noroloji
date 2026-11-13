@@ -392,6 +392,7 @@ Not: Bu paket yazılırken oturumun web arama kotası dolmuştu ve doi.org/pubme
 | gog-astim | SABA kavramında yönsüz anahtarlar ('önerilm', 'tek başına/yalnız kısa etkili beta') 'önerilmez/kullanılmaz' biçimlerine daraltıldı | 'önerilmektedir' gibi ters ifadeler eşleşiyordu |
 | gog-toplum-kokenli-pnomoni | Yinelenen 'ağır pnömonide hidrokortizon' anahtarı kaldırıldı | Tekrar |
 | gog-tuberkuloz | Standart tedavi kavramından tek başına "rifampisin" anahtarı çıkarıldı (izoniazid, pirazinamid, etambutol, HRZE vb. kaldı) | Xpert'in rifampisin direncini anlatan mik-mikobakteriler anlatımı tedavi kavramını alıp %67 çapraz eşleşiyordu |
+| gog-sarkoidoz | Granülom kavramına "nekroz içermeyen/nekrozsuz granülom"; ACE kavramına "ace yüksekliği tanı koydurmaz/tek başına", "tek başına tanı için yeterli değil" anahtarları eklendi | Bağımsız doğru anlatım %58; "kazeöz nekroz içermeyen granülom" ve "ACE yüksekliği tanı koydurmaz" ifadeleri kaçıyordu |
 
 <!-- gastroenteroloji: 25 madde -->
 ## Gastroenteroloji ve hepatoloji
@@ -488,6 +489,7 @@ Not: Bu paket yazılırken oturumun web arama kotası dolmuştu ve doi.org/pubme
 | (tüm konular) | Brenner & Rector yılı değiştirilmedi; şüphe tablosuna eklendi. | Denetçi iddiası doğrulanmamış bilgi; önceki kaynak kontrolü 2026 gösteriyor. |
 | nef-iga-nefropatisi | Destekleyici tedavi etiketi: sparsentan ACEi/ARB yerine geçer, SGLT2i eklenir | KDIGO 2025 ile uyum |
 | nef-nefrotik-nefritik | Nefritik kavramında tek başına "hematüri" → "glomerüler hematüri" | Biyopsi endikasyonu olarak "belirgin hematüri" geçen ped-nefrotik-sendrom anlatımı %73 çapraz eşleşiyordu |
+| nef-kontrast-aki | Tek böbrek/diyaliz kavramına "tek böbreği", "ek diyaliz", "diyaliz seansı"; doz/tetkik kavramına "geciktirilmez", "ertelenmemeli/ertelenmez", "tanı kalitesi/tanısal kalite" eklendi | Bağımsız doğru anlatım %55; çekimli biçimler ("tek böbreği olmak", "tetkik geciktirilmez") eşleşmiyordu |
 
 <!-- endokrinoloji: 21 madde -->
 ## Endokrinoloji
@@ -870,6 +872,7 @@ Konu id'leri, `subs`, seviyeler ve konu sayısı (42) değişmedi. Tüm konulara
 | psi-opioid-kullanim-bozuklugu | "süresiz", "uzun süreli" → "süresiz sürdürülebilir", "uzun süreli idame" | "uzun süreli detoks" ile eşleşiyordu |
 | psi-intihar-riski | Ölçek kavramında "tek başına kullanılmaz" → "ölçek kullanılmaz"; sorma, önceki girişim, plan, güvenlik planı, yatış kavramlarına doğal eş anlamlılar eklendi | Ölçeğe bağlı değildi; kör anlatım %45 alıyordu |
 | psi-alkol-yoksunlugu | İyi anlatımdan Korsakoff cümlesi çıkarıldı | noroloji/wernicke konusuyla çapraz eşleşme (%60) |
+| psi-intihar-riski | Sorma kavramına "doğrudan/açıkça sormak", "doğrudan/açıkça sorulmalı"; önceki girişim kavramına "geçmişteki intihar/girişim"; ölçek kavramına "skala tek başına", "skalaları tek başına" eklendi | 3 harfli "sor" parçası "sormak"ı yakalamıyordu; doğru anlatımlar temel kavramları kaçırıyordu |
 
 <!-- dermatoloji: 18 madde -->
 ## Dermatoloji
