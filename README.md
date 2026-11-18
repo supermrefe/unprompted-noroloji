@@ -26,6 +26,10 @@ Telefonda Chrome'dan açıp "Ana ekrana ekle" dersen uygulama gibi kurulur (PWA)
 - `styles.css`, `index.html`: arayüz.
 - `sw.js`, `manifest.webmanifest`, `icons/`: PWA (çevrimdışı açılış, ana ekrana ekleme).
 
+## Günün 3'lüsü nasıl seçilir
+
+Her seviyeden (Kolay/Orta/Zor) seçili branşlardaki hiç çalışılmamış konulardan biri gelir. Vadesi gelen tekrarlar günün setine girmez, "Tekrar kuyruğu" kartında durur. Yeni konu kalmayınca dünün seti ve son 2 günde çalışılanlar dışlanır, en uzun süredir çalışılmayanlardan seçilir; böylece geçilemeyen bir konu her gün geri dönmez.
+
 ## Puanlama nasıl çalışır
 
 Her konuda 6–8 kavram var. "Temel" işaretli kavramlar iki kat sayılır. Anlatımında kavramın anahtar kelimelerinden biri geçerse kavram yakalanmış sayılır. Türkçe ekler, büyük-küçük harf ve ş/ı/ğ gibi karakter farkları yok sayılır, uzun terimlerde 1–2 harflik tanıma hatası tolere edilir. Dikte bir kısaltmayı ya da uzun terimi bölerse ("ABCD2" → "abc'deki 2", "IVIG" → "IV IG") parçalar birleştirilerek tanınır. Varsayılan geçme eşiği %60, ayarlardan değiştirilebilir.

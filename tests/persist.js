@@ -40,8 +40,12 @@ const OLD = '42b5d9d';
   await page.goto(S.url);
   await page.waitForFunction(() => window.__upn && window.__upn.ready);
   const after = await page.evaluate(() => Object.fromEntries(Object.keys(localStorage).filter(k => k.startsWith('upn:')).map(k => [k, localStorage.getItem(k)])));
-  for (const k of ['upn:prog', 'upn:hist', 'upn:xp', 'upn:streak', 'upn:notes:migren', 'upn:daily', 'upn:settings'])
+  for (const k of ['upn:prog', 'upn:hist', 'upn:xp', 'upn:streak', 'upn:notes:migren', 'upn:settings'])
     check(after[k] === before[k], `${k} aynen korundu`);
+  // Günün 3'lüsü: seçim kuralı v2'de değişti. Cevaplanmış bir set aynen kalmalı; hiç cevaplanmamış eski set bir kez yeniden kurulabilir.
+  const dB = JSON.parse(before['upn:daily']), dA = JSON.parse(after['upn:daily']);
+  if (Object.keys(dB.done || {}).length) check(JSON.stringify(dA.ids) === JSON.stringify(dB.ids) && JSON.stringify(dA.done) === JSON.stringify(dB.done), 'cevaplanmış günlük set aynen korundu');
+  else check(dA.v === 2 && dA.date === dB.date && dA.ids.length === 3, 'cevaplanmamış eski günlük set bugüne yeniden kuruldu (v2)');
   check(await page.textContent('#m-xp') === oldHead.xp, `XP başlıkta aynı: ${oldHead.xp}`);
   check(await page.textContent('#m-streak') === oldHead.streak, `seri başlıkta aynı: ${oldHead.streak}`);
   const prog = JSON.parse(after['upn:prog']).migren;

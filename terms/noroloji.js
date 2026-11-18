@@ -37,12 +37,12 @@ terms: [
           ["Definition and evaluation of transient ischemic attack (AHA/ASA scientific statement). Stroke 2009", "https://doi.org/10.1161/STROKEAHA.108.192218"]]
     },
     c: [
-    ["!Geçici fokal defisit, kalıcı infarkt yok", "difüzyon|akut infarkt yok|infarkt olmadan|infarkt olmaz|kalıcı hasar bırakmadan|iz bırakmadan|geçici nörolojik|geçici fokal"],
-    ["!İnme habercisi: erken inme riski yüksek", "inme habercisi|inmenin habercisi|haberci|inme geçirme|erken inme|uyarı inme"],
+    ["!Geçici fokal defisit, kalıcı infarkt yok", "difüzyon|akut infarkt yok|infarkt olmadan|infarkt olmaz|kalıcı hasar bırakmadan|iz bırakmadan|geçici nörolojik|geçici fokal|24 saati geçmeyen|yirmi dört saati geçmeyen|24 saatten kısa|yirmi dört saatten kısa|bir saat içinde geçer|bir saat içerisinde geçer|bir saatten kısa|mr de herhangi bir şey görmeyi|mr da bir şey görmeyi"],
+    ["!İnme habercisi: erken inme riski yüksek", "inme habercisi|inmenin habercisi|haberci|inme geçirme|erken inme|uyarı inme|önümüzdeki günlerde inme|önümüzdeki günlerde atak|atak geçirme olasılı|inme olasılı"],
     ["ABCD2 risk skoru", "abcd"],
     ["Etiyoloji: karotis görüntüleme, ritim izlemi", "karotis doppler|karotis görüntüle|holter|ritim izlem|ekokardiyo|bt anjiyo|bete anjiyo"],
-    ["!Antiplatelet tedavi (gerekirse ikili)", "ikili antiplatelet|klopidogrel|ikili antiagregan|tikagrelor"],
-    ["Risk faktörü kontrolü: statin, kan basıncı", "statin|kan basıncı kontrol|risk faktörü kontrol|risk faktörlerini kontrol|sigarayı bırak|sigaranın bırak"]
+    ["!Antiplatelet tedavi (gerekirse ikili)", "ikili antiplatelet|klopidogrel|ikili antiagregan|tikagrelor|aspirin|asetilsalisilik|antiplatelet|antiagregan|antitrombosit"],
+    ["Risk faktörü kontrolü: statin, kan basıncı", "statin|kan basıncı kontrol|risk faktörü kontrol|risk faktörlerini kontrol|sigarayı bırak|sigaranın bırak|risk faktörleri iskemik inme"]
   ]},
   { id: "migren", tr: "Migren", en: "Migraine", cat: "agr", lvl: 1,
     src: {
@@ -133,7 +133,7 @@ terms: [
     ["Tanı: bilişsel test, MR atrofisi, amiloid/tau biyobelirteçleri (PET, BOS, plazma p-tau217)", "mmse|moca|mini mental|p tau|ptau|amiloid pet|tau pet|fdg pet|biyobelirteç|biyomarker|hipokampal atrofi|hipokampus atrofi|temporal atrofi|mr da atrofi|bos ta amiloid|amiloid düşük|tau yüksek|hipometabolizma"],
     ["Tedavi: kolinesteraz inhibitörü, memantin; erken evrede anti-amiloid antikorlar (ARIA riski)", "donepezil|galantamin|memantin|lekanemab|lecanemab|donanemab|anti amiloid|aria"]
   ]},
-  { id: "glasgow-koma-skalasi", tr: "Glasgow Koma Skalası", en: "Glasgow Coma Scale", cat: "lok", lvl: 1,
+  { id: "glasgow-koma-skalasi", alt: ["glasgow koma"], tr: "Glasgow Koma Skalası", en: "Glasgow Coma Scale", cat: "lok", lvl: 1,
     src: {
       k: ["Plum and Posner's Diagnosis and Treatment of Stupor and Coma, 5. baskı (2019)", "Adams and Victor's Principles of Neurology, 12. baskı (2023)"],
       m: [["Assessment of coma and impaired consciousness. A practical scale. Lancet 1974", "https://doi.org/10.1016/S0140-6736(74)91639-0"],
@@ -214,7 +214,7 @@ terms: [
     },
     c: [
     ["!Sinir kökü basısı, en sık L4–L5 / L5–S1 disk hernisi (L5, S1 kökü)", "kök bası|kökünün bası|kökü bası|kökün bası|kök sıkış|kökünün sıkış|l5 ve s1 kök|l5 s1 kök"],
-    ["!Dermatomal, bacağa yayılan ağrı (siyatalji)", "siyatik|tek taraflı siyatalji|bacağa yayılan|dermatom"],
+    ["!Dermatomal, bacağa yayılan ağrı (siyatalji)", "siyatik|siatik|tek taraflı siyatalji|bacağa yayılan|dermatom"],
     ["Düz bacak kaldırma (Lasègue) testi", "lasegue|laseg|laseque|düz bacak"],
     ["Kök bulguları: S1 Aşil refleksi, L4 patella, L5 başparmak dorsifleksiyonu", "aşil refleks|patella refleks|başparmağının dorsifleksiyon|başparmak dorsifleksiyon|plantar fleksiyon"],
     ["!Kırmızı bayrak: kauda ekina (idrar retansiyonu, eyer anestezisi)", "kauda|cauda|eyer anestez|eyer tarzı|sfinkter"],
@@ -344,7 +344,7 @@ terms: [
     ["Korsakoff sendromuna ilerleme: amnezi, konfabulasyon", "korsakoff|konfabul"],
     ["Tedavi: yüksek doz IV tiamin", "intravenöz tiamin|iv tiamin|parenteral tiamin|yüksek doz tiamin|yüksek doz intravenöz|parenteral tedavi"]
   ]},
-  { id: "huntington", tr: "Huntington hastalığı", en: "Huntington disease", cat: "har", lvl: 2,
+  { id: "huntington", alt: ["huntington"], tr: "Huntington hastalığı", en: "Huntington disease", cat: "har", lvl: 2,
     src: {
       k: ["Jankovic, Hallett, Okun, Comella, Fahn — Principles and Practice of Movement Disorders, 3. baskı (2021)", "Adams and Victor's Principles of Neurology, 12. baskı (2023)"],
       m: [["Huntington disease (Primer). Nat Rev Dis Primers 2015", "https://doi.org/10.1038/nrdp.2015.5"],
@@ -369,7 +369,7 @@ terms: [
     ["!Ventrikül genişlemesi, normal açılış basıncı", "açılış basıncı|ventrikül genişle|ventriküllerde orantısız|ventriküler genişle"],
     ["Görüntüleme: Evans indeksi > 0,3, DESH", "evans|desh|0 3"],
     ["Tap testi / lomber drenajla düzelme", "tap test|lomber drenaj|hacimli bos|bos boşaltım"],
-    ["!Tedavi: ventrikülo-peritoneal şant", "şant|ventrikülo|peritoneal"],
+    ["!Tedavi: ventrikülo-peritoneal şant", "=şant|şantla|şantta|şantın|şanttır|ventrikülo|peritoneal"],
     ["Geri döndürülebilir demans nedeni", "geri döndürül|tedavi edilebilir demans|reversibl|geri dönüşlü"]
   ]},
   { id: "kume-bas-agrisi", tr: "Küme baş ağrısı", en: "Cluster headache", cat: "agr", lvl: 2,
@@ -402,7 +402,7 @@ terms: [
     ["Tanı: EMG'de yaygın denervasyon", "denervasyon|el escorial|gold coast"],
     ["Tedavi: riluzol; SOD1 mutasyonunda tofersen; NIV, PEG, multidisipliner bakım", "riluzol|tofersen|edaravon|peg|gastrostomi|noninvaziv ventilasyon|niv"]
   ]},
-  { id: "lewy-demans", tr: "Lewy cisimcikli demans", en: "Dementia with Lewy bodies", cat: "bil", lvl: 2,
+  { id: "lewy-demans", alt: ["lewy demans"], tr: "Lewy cisimcikli demans", en: "Dementia with Lewy bodies", cat: "bil", lvl: 2,
     src: {
       k: ["Adams and Victor's Principles of Neurology, 12. baskı (2023)", "Bradley and Daroff's Neurology in Clinical Practice, 8. baskı (2022)"],
       m: [["Diagnosis and management of dementia with Lewy bodies: Fourth consensus report of the DLB Consortium. Neurology 2017", "https://doi.org/10.1212/WNL.0000000000004058"],
@@ -449,7 +449,7 @@ terms: [
     ["Deri biyopsisi: granüler osmiyofilik materyal (GOM)", "osmiyofilik|gom|deri biyopsi"],
     ["Spesifik tedavi yok; vasküler risk kontrolü", "spesifik bir tedavi|spesifik tedavi|vasküler risk"]
   ]},
-  { id: "anti-nmda", tr: "Anti-NMDA reseptör ensefaliti", en: "Anti-NMDA receptor encephalitis", cat: "imm", lvl: 3,
+  { id: "anti-nmda", alt: ["anti nmda"], tr: "Anti-NMDA reseptör ensefaliti", en: "Anti-NMDA receptor encephalitis", cat: "imm", lvl: 3,
     src: {
       k: ["Adams and Victor's Principles of Neurology, 12. baskı (2023)", "Bradley and Daroff's Neurology in Clinical Practice, 8. baskı (2022)"],
       m: [["A clinical approach to diagnosis of autoimmune encephalitis. Lancet Neurol 2016", "https://doi.org/10.1016/S1474-4422(15)00401-9"],
@@ -554,7 +554,7 @@ terms: [
     ["BOS'ta albüminositolojik disosiasyon", "albüminositolojik|albumino|disosiasyon|dissosiasyon"],
     ["İyi prognoz; gerekirse IVIG/plazmaferez", "kendiliğinden iyileş|kendiliğinden düzel|prognoz genellikle iyi|prognoz genelde iyi|prognozu genelde iyi|prognoz çok iyi|iyi prognoz|prognozu iyi"]
   ]},
-  { id: "nmosd", tr: "Nöromiyelitis optika spektrum bozukluğu", en: "Neuromyelitis optica spectrum disorder", cat: "imm", lvl: 3,
+  { id: "nmosd", alt: ["nöromiyelitis optika"], tr: "Nöromiyelitis optika spektrum bozukluğu", en: "Neuromyelitis optica spectrum disorder", cat: "imm", lvl: 3,
     src: {
       k: ["Adams and Victor's Principles of Neurology, 12. baskı (2023)", "Bradley and Daroff's Neurology in Clinical Practice, 8. baskı (2022)"],
       m: [["International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. Neurology 2015", "https://doi.org/10.1212/WNL.0000000000001729"],

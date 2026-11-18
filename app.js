@@ -107,25 +107,37 @@ function rankOf(x) { let r = RANKS[0][1]; for (const [min, n] of RANKS) if (x >=
 function streakNow() { const today = dayKey(); return streak.last && dayDiff(streak.last, today) <= 1 ? streak.count : 0; }
 
 /* ---------- günün 3'lüsü ---------- */
-function pickForDaily(lvl, exclude) {
+function pickForDaily(lvl, exclude, prevIds = []) {
   const today = dayKey();
   let pool = POOL.filter(t => t.lvl === lvl && !exclude.includes(t.id));
   if (!pool.length) pool = TERMS.filter(t => t.lvl === lvl && !exclude.includes(t.id));
-  const due = pool.filter(t => prog[t.id] && prog[t.id].due <= today).sort((a, b) => prog[a.id].due.localeCompare(prog[b.id].due));
-  if (due.length) return due[0].id;
+  // Günün 3'lüsü yeni konu getirir; vadesi gelen tekrarlar "Tekrar kuyruğu" kartında durur.
+  // Önceden en eski vadeli tekrar slotu alıyordu: geçilemeyen ya da hiç cevaplanmayan bir konu (ör. TİA) her gün ilk sıraya oturuyordu.
   const fresh = pool.filter(t => !prog[t.id]);
   if (fresh.length) return rand(fresh).id;
-  return pool.slice().sort((a, b) => (prog[a.id].best - prog[b.id].best))[0].id;
+  // Yeni konu kalmadıysa: dünün setini ve son 2 günde çalışılanları dışla, en uzun süredir
+  // çalışılmayan yarıdan rastgele seç. Böylece hiçbir konu (geçilemeyen ya da hep geçilen) sürekli geri dönmez.
+  const recent = addDays(today, -2);
+  let cand = pool.filter(t => !prevIds.includes(t.id) && !((prog[t.id].lastDay || '') >= recent));
+  if (!cand.length) cand = pool.filter(t => !prevIds.includes(t.id));
+  if (!cand.length) cand = pool;
+  cand = cand.slice().sort((a, b) => (prog[a.id].lastDay || '').localeCompare(prog[b.id].lastDay || ''));
+  return rand(cand.slice(0, Math.max(1, Math.ceil(cand.length / 2)))).id;
 }
-function ensureDaily() {
+// skipId: gece yarısını geçen bir cevap yeni seti kurarken o konu yeniden seçilmesin.
+function ensureDaily(skipId) {
   const today = dayKey();
   let d = store.get('daily', null);
   const selKey = sel.join(',');
   const untouched = d && d.done && d.revealed && !Object.keys(d.done).length && !Object.keys(d.revealed).length;
-  if (!d || d.date !== today || !Array.isArray(d.ids) || d.ids.length !== 3 || d.ids.some(id => !BY_ID[id]) || (untouched && (d.sel ?? '') !== selKey)) {
+  // v2: seçim kuralı değişti; bugünün seti eski kuralla kurulduysa, hiçbirine cevap verilmediyse ve
+  // setten yarım kalmış bir oturum yoksa yeniden kur.
+  const stale = d && d.v !== 2 && d.done && !Object.keys(d.done).length && !(S && S.src === 'daily' && Array.isArray(d.ids) && d.ids.includes(S.id));
+  if (!d || stale || d.date !== today || !Array.isArray(d.ids) || d.ids.length !== 3 || d.ids.some(id => !BY_ID[id]) || (untouched && (d.sel ?? '') !== selKey)) {
+    const prev = d && Array.isArray(d.ids) ? d.ids : [];
     const ids = [];
-    for (const l of [1, 2, 3]) ids.push(pickForDaily(l, ids));
-    d = { date: today, ids, revealed: {}, done: {}, sel: selKey };
+    for (const l of [1, 2, 3]) ids.push(pickForDaily(l, skipId ? ids.concat(skipId) : ids, prev));
+    d = { v: 2, date: today, ids, revealed: {}, done: {}, sel: selKey };
     store.set('daily', d);
   }
   daily = d;
@@ -134,8 +146,9 @@ function ensureDaily() {
 /* ================================================================
    Görünüm yönetimi
    ================================================================ */
+let revealTok = 0;
 function show(v) {
-  view = v;
+  view = v; revealTok++;
   $$('.view').forEach(el => { el.hidden = el.id !== 'v-' + v; });
   window.scrollTo({ top: 0 });
   if (v === 'explain') startExplainLoop(); else stopExplainLoop();
@@ -317,16 +330,25 @@ function doRoll() {
 }
 function revealDaily(i) {
   const id = daily.ids[i]; const t = BY_ID[id];
-  if (daily.revealed[id] || daily.done[id] != null) { startResearch(id, 'daily'); return; }
+  if (S && S.id === id) {   // "Devam et": süreyi sıfırlamadan kaldığı yerden
+    if (!daily.revealed[id]) { daily.revealed[id] = true; store.set('daily', daily); }
+    resumeSession(); return;
+  }
+  if (daily.revealed[id] || daily.done[id] != null) { noteDropped(id); startResearch(id, 'daily'); return; }
   const li = $(`.slot[data-slot="${i}"]`);
-  if (!li) { startResearch(id, 'daily'); return; }
+  if (!li) { noteDropped(id); startResearch(id, 'daily'); return; }
+  // Zar dönerken kullanıcı başka bir şey açarsa (show() sayacı artırır) gecikmeli başlatma iptal olur.
+  const tok = ++revealTok;
   const btn = li.querySelector('button'); if (btn) btn.disabled = true;
   const termBox = li.querySelector('.slot-term'); termBox.classList.remove('hidden-term');
   li.querySelector('.slot-sub').textContent = 'zar dönüyor…';
   spinReel(null, li.querySelector('.st'), POOL.filter(x => x.lvl === t.lvl), t, () => {
     li.querySelector('.slot-sub').textContent = catName(t);
     daily.revealed[id] = true; store.set('daily', daily);
-    setTimeout(() => startResearch(id, 'daily'), reduceMotion ? 0 : 750);
+    setTimeout(() => {
+      if (tok !== revealTok || view !== 'home') return;
+      noteDropped(id); startResearch(id, 'daily');
+    }, reduceMotion ? 0 : 750);
   });
 }
 
@@ -338,6 +360,8 @@ function remainingMs() { if (!S || S.phase !== 'research') return 0; return S.pa
 function startResearch(id, src, minutes) {
   const t = BY_ID[id];
   const min = minutes || LEVELS[t.lvl].min;
+  if (R.running) stopRecording(true);   // ekran dışında süren kayıt ve açık mikrofon kalmasın
+  releaseStream();
   S = { id, src, phase: 'research', endAt: Date.now() + min * 60000, total: min * 60000, paused: false, remain: 0 };
   saveS();
   if (src === 'daily') { daily.revealed[id] = true; store.set('daily', daily); }
@@ -488,7 +512,7 @@ class Listener {
 /* ================================================================
    Anlatım: kayıt, EEG izi, kamera
    ================================================================ */
-const R = { stream: null, hasVideo: false, ac: null, an: null, tbuf: null, rec: null, chunks: [], mime: '', listener: null, running: false, t0: 0, endT: 0, raf: 0, frame: 0, eeg: [] };
+const R = { req: 0, pend: null, starting: 0, startTok: 0, gen: 0, stream: null, hasVideo: false, ac: null, an: null, tbuf: null, rec: null, chunks: [], mime: '', listener: null, running: false, t0: 0, endT: 0, raf: 0, frame: 0, eeg: [] };
 
 function renderExplain() {
   const t = BY_ID[S.id];
@@ -504,9 +528,12 @@ function renderExplain() {
   $('#rec-time').textContent = fmtShort(speakMs());
   $('#rec-ring').style.strokeDashoffset = 339.3;
   $('#rec-btn').classList.remove('on'); $('#rec-btn').setAttribute('aria-label', 'Kaydı başlat');
-  $('#rec-btn').disabled = false;
+  $('#rec-btn').disabled = !!R.starting;
+  $$('#mode-seg button').forEach(x => { x.disabled = !!R.starting || R.running; });
   setRecStatus(`Hazır olduğunda kayda bas. ${speakLabel()}n var.`);
   pending = null;
+  R.listener = null;   // önceki konunun dökümü yazılı cevap kutusuna taşınmasın
+  R.gen++;             // bitmekte olan eski bir kayıt bu ekrana sonuç yazmasın
   const w = [];
   if (!window.isSecureContext || !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) w.push('Mikrofon için siteyi http://localhost ya da https adresinden aç. Şimdilik yazarak cevaplayabilirsin.');
   else if (!SR) w.push('Bu tarayıcı konuşmayı yazıya çeviremiyor (Chrome, Edge ya da Safari kullan). Yine de kaydedebilir, sonra anlattığını yazabilirsin.');
@@ -525,20 +552,32 @@ function setMode(mode, initial) {
       setRecStatus('Kameraya izin verilmedi. Sadece ses moduna geçtim.');
       setMode('audio');
     });
-  } else if (R.hasVideo || initial) {
-    releaseStream();
+  } else if (R.hasVideo || initial || (R.pend && R.pend.video)) {
+    releaseStream();   // bekleyen kamera isteği de iptal: ses modunda kamera açık kalmasın
   }
 }
+// İstekler sıraya alınır: aynı tür istek beklerken yenisi açılmaz, eskimiş bir istek (mod değişti, ekran kapandı)
+// gelen akışı kapatır. Önceden üst üste istekler kamerayı/mikrofonu açık bırakabiliyordu.
 async function getStream(video) {
   if (R.stream && R.hasVideo === video && R.stream.getTracks().every(t => t.readyState === 'live')) return R.stream;
-  releaseStream();
-  const s = await navigator.mediaDevices.getUserMedia({
+  if (R.pend && R.pend.video === video) return R.pend.p;
+  const st = R.starting; releaseStream(); R.starting = st;   // kendi başlatmamızın kilidini bırakma
+  const req = ++R.req;
+  const stale = () => req !== R.req || view !== 'explain';
+  const p = navigator.mediaDevices.getUserMedia({
     audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true },
     video: video ? { facingMode: 'user', width: { ideal: 1280 }, height: { ideal: 720 } } : false
-  });
-  if (view !== 'explain') { s.getTracks().forEach(t => t.stop()); throw new Error('left'); }
+  }).then(s => openStream(s, video, stale), e => { throw stale() ? new Error('left') : e; });
+  R.pend = { video, p };
+  try { return await p; } finally { if (R.pend && R.pend.p === p) R.pend = null; }
+}
+async function openStream(s, video, stale) {
+  if (stale()) { s.getTracks().forEach(t => t.stop()); throw new Error('left'); }
   R.stream = s; R.hasVideo = video;
-  if (video) { const v = $('#cam-video'); v.srcObject = s; try { await v.play(); } catch { /* sessiz */ } }
+  if (video) {
+    const v = $('#cam-video'); v.srcObject = s; try { await v.play(); } catch { /* sessiz */ }
+    if (stale()) { s.getTracks().forEach(t => t.stop()); throw new Error('left'); }   // play() beklerken bırakıldı
+  }
   try {
     R.ac = new (window.AudioContext || window.webkitAudioContext)();
     const src = R.ac.createMediaStreamSource(s);
@@ -548,6 +587,7 @@ async function getStream(video) {
   return s;
 }
 function releaseStream() {
+  R.req++; R.pend = null; R.starting = false;   // bekleyen istek gelince kendini kapatsın; yeni kayıt başlatılabilsin
   if (R.stream) R.stream.getTracks().forEach(t => t.stop());
   R.stream = null; R.hasVideo = false;
   try { R.ac && R.ac.close(); } catch { /* yok say */ }
@@ -575,8 +615,25 @@ function showTyped(label) {
   ta.focus();
 }
 
+// Çift dokunma iki kayıt başlatıp birini sahipsiz bırakıyordu (mikrofon açık kalıyordu): başlarken kilitle.
 async function startRecording() {
-  if (R.running) return;
+  if (R.running || R.starting) return;
+  const tok = R.starting = ++R.startTok;   // releaseStream kilidi bırakırsa eski başlatma yenisinin kilidine dokunmaz
+  $('#rec-btn').disabled = true;
+  $$('#mode-seg button').forEach(x => { x.disabled = true; });   // başlarken mod değişmesin
+  try { await beginRecording(); }
+  finally {
+    if (R.starting === tok) R.starting = false;
+    if (view === 'explain' && !R.starting) {
+      $('#rec-btn').disabled = false;
+      if (!R.running) {
+        $$('#mode-seg button').forEach(x => { x.disabled = false; });
+        if (/açılıyor/.test($('#rec-status').textContent)) setRecStatus(`Hazır olduğunda kayda bas. ${speakLabel()}n var.`);
+      }
+    }
+  }
+}
+async function beginRecording() {
   if (!window.isSecureContext || !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
     showTyped('Mikrofon bu adreste açılamıyor. Anlattığını yaz:');
     return;
@@ -591,6 +648,7 @@ async function startRecording() {
     return;
   }
   if (R.ac && R.ac.state === 'suspended') { try { await R.ac.resume(); } catch { /* yok say */ } }
+  if (view !== 'explain' || !R.stream) return;   // beklerken ekrandan çıkıldı
 
   let recStream = R.stream;
   if (video) {
@@ -632,25 +690,33 @@ async function stopRecording(abort = false) {
   $$('#mode-seg button').forEach(x => { x.disabled = false; });
   if (!abort) setRecStatus('Kayıt bitti, değerlendiriliyor…');
 
+  // Bu kaydın parçalarını şimdi yakala: beklerken ekrandan çıkılıp yeni kayıt başlarsa R.* artık onlarındır.
+  const rec = R.rec, lis = R.listener, chunks = R.chunks, mime = R.mime, gen = R.gen;
   const recDone = new Promise(res => {
-    if (!R.rec || R.rec.state === 'inactive') return res();
-    R.rec.onstop = () => res();
-    try { R.rec.stop(); } catch { res(); }
+    if (!rec || rec.state === 'inactive') return res();
+    rec.onstop = () => res();
+    try { rec.stop(); } catch { res(); }
   });
-  const srDone = R.listener ? R.listener.stop() : Promise.resolve();
+  const srDone = lis ? lis.stop() : Promise.resolve();
   await Promise.all([recDone, srDone]);
 
   let media = null;
-  if (R.chunks.length) {
-    const type = (R.mime || 'audio/webm').split(';')[0];
-    const blob = new Blob(R.chunks, { type });
+  if (chunks.length) {
+    const type = (mime || 'audio/webm').split(';')[0];
+    const blob = new Blob(chunks, { type });
     media = { url: URL.createObjectURL(blob), type, video: type.startsWith('video'), ext: type.includes('mp4') ? 'mp4' : type.includes('ogg') ? 'ogg' : 'webm' };
+  }
+  // "değerlendiriliyor" sırasında Ana sayfa'ya basıldıysa (ya da ekran yeniden açıldıysa) sonucu kaydetme, kullanıcıyı çekme.
+  if (abort || view !== 'explain' || gen !== R.gen) {
+    if (media) URL.revokeObjectURL(media.url);
+    // Aynı ekranda iptal (ör. pagehide sonrası geri gelme): düğmeyi yeniden kullanılabilir bırak.
+    if (view === 'explain' && gen === R.gen) { b.disabled = false; R.chunks = []; setRecStatus(`Hazır olduğunda kayda bas. ${speakLabel()}n var.`); }
+    return;
   }
   R.chunks = [];
   b.disabled = false;
-  if (abort) { if (media) URL.revokeObjectURL(media.url); return; }
 
-  const text = R.listener ? R.listener.text(true) : '';
+  const text = lis ? lis.text(true) : '';
   if (!text.trim()) {
     if (pending && pending.media) URL.revokeObjectURL(pending.media.url);
     pending = { ms, media };
@@ -759,6 +825,7 @@ function stopExplainLoop() { if (R.raf) cancelAnimationFrame(R.raf); R.raf = 0; 
    ================================================================ */
 function applyAttempt(r) {
   const today = dayKey(), t = BY_ID[r.id];
+  if (daily && daily.date !== today) ensureDaily(r.id);   // gece yarısı geçtiyse puanı dünün setine yazma
   const snap = { id: r.id, prevProg: prog[r.id] ? { ...prog[r.id] } : null, prevXp: xp, prevStreak: { ...streak }, prevDaily: JSON.parse(JSON.stringify(daily)) };
   const p = prog[r.id] ? { ...prog[r.id] } : { box: 0, due: today, best: 0, n: 0, last: 0 };
   p.n++; p.last = r.score; p.best = Math.max(p.best, r.score);
@@ -919,16 +986,16 @@ document.addEventListener('click', e => {
   if (!el) return;
   if (el.dataset.act === 'home') { goHome(); return; }
   if (el.dataset.daily != null) { revealDaily(Number(el.dataset.daily)); return; }
-  if (el.dataset.term) { startResearch(el.dataset.term, 'map'); return; }
-  if (el.dataset.due) { startResearch(el.dataset.due, 'review'); return; }
+  if (el.dataset.term) { openTopic(el.dataset.term, 'map'); return; }
+  if (el.dataset.due) { openTopic(el.dataset.due, 'review'); return; }
   if (el.dataset.next && last) {
     const k = el.dataset.next;
     if (k === 'again') { S = { id: last.id, src: last.src, phase: 'explain', timeUp: false }; saveS(); renderExplain(); show('explain'); }
     else if (k === 'more') startResearch(last.id, last.src, 3);
     else if (k === 'daily') {
+      show('home'); renderHome();   // önce (gerekirse yeni günün) setini kur, sonra açık slotu bul
       const i = daily.ids.findIndex(id => daily.done[id] == null);
-      show('home'); renderHome();
-      if (i >= 0) { $('#daily').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' }); setTimeout(() => revealDaily(i), 350); }
+      if (i >= 0) { $('#daily').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' }); setTimeout(() => { if (view === 'home') revealDaily(i); }, 350); }
     } else if (k === 'roll') {
       show('home'); renderHome();
       $('#roll-card').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
@@ -986,11 +1053,19 @@ brDlg.addEventListener('close', () => {
 });
 $('#btn-roll').addEventListener('click', doRoll);
 $('#btn-go').addEventListener('click', () => { if (rolled) startResearch(rolled, 'free'); });
-$('#resume-go').addEventListener('click', () => {
+function resumeSession() {
   if (!S) return;
   if (S.phase === 'research') { renderResearch(); show('research'); scheduleEnd(); tickResearch(); }
   else { renderExplain(); show('explain'); }
-});
+}
+// Haritadan ya da tekrar kuyruğundan konu açma: aynı konu yarımsa devam et, başka konu yarımsa bırakıldığını söyle.
+function openTopic(id, src) {
+  if (S && S.id === id) { resumeSession(); return; }
+  noteDropped(id);
+  startResearch(id, src);
+}
+function noteDropped(id) { if (S && S.id !== id && BY_ID[S.id]) toast(`Yarım kalan “${BY_ID[S.id].tr}” bırakıldı.`); }
+$('#resume-go').addEventListener('click', resumeSession);
 $('#resume-drop').addEventListener('click', () => { S = null; saveS(); clearTimeout(endTimer); renderHome(); toast('Yarım kalan konu bırakıldı.'); });
 
 $('#r-pause').addEventListener('click', () => {
@@ -1063,8 +1138,16 @@ $('#reset-yes').addEventListener('click', () => {
 
 /* ---------- açılış ---------- */
 tickTimer = setInterval(tickResearch, 250);
-document.addEventListener('visibilitychange', () => { if (!document.hidden) tickResearch(); });
-window.addEventListener('pagehide', () => { if (R.running) stopRecording(true); });
+// Telefonda uygulama arka planda gece yarısını geçerse geri dönünce dünün seti görünmesin.
+function onReturn() {
+  if (document.hidden) return;
+  tickResearch();
+  if (view === 'home' && daily && daily.date !== dayKey()) renderHome();
+}
+document.addEventListener('visibilitychange', onReturn);
+window.addEventListener('pageshow', onReturn);
+window.addEventListener('focus', onReturn);
+window.addEventListener('pagehide', () => { if (R.running) stopRecording(true); releaseStream(); });
 
 renderHome();
 if (S && S.phase === 'research' && (S.paused || remainingMs() > 0)) {
